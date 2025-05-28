@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+		<link rel="stylesheet" href="css/calendar.css" type="text/css">
+
+		<script type="text/javascript">
+		
+		function deleteEvent(eid, m, y) {
+			var msg = "Are you sure you want to delete this event?";
+
+			if (confirm(msg)) {
+				document.location = "browse_events.php?delete=" + eid + "&month=" + m + "&year=" + y + "&from=cal";
+			} else {
+				return;
+			}
+		}
+
+		function popup(gg, x, y) {
+			flyout=window.open(gg, "flyout", "resizable=no, scrollbars=yes,width="+x+", height="+y+", top=100, left=150")
+		}
+		
+		</script>
+
+		<title>GraveAddiction.com Calendar Of Events</title>
+</head>
+<body>
+<table class="b_table" width="100%">
+	<tr>
+		<td colspan="2" class="box_title">
+			<b>The Psycho Path</b>
+		</td>
+	</tr>
+	<tr>
+		<td class="box" width="20%">
+			Date:
+		</td>
+		<td class="box_value">
+			9-29-2006
+		</td>
+	</tr>
+	<tr>
+		<td class="box">
+			Time:
+		</td>
+		<td class="box_value">
+			08:00-12:00
+		</td>
+	</tr>
+	<tr>
+		<td class="box">
+			Location:
+		</td>
+		<td class="box_value">
+			520 Stringtown Road in Xenia
+		</td>
+	</tr>
+	<tr>
+		<td class="box">
+			Contact:
+		</td>
+		<td class="box_value">
+			Phone: 937-376-4358 <a href="mailto: ">()</a>
+		</td>
+	</tr>
+	<tr>
+		<td class="box">
+			Link:
+		</td>
+		<td class="box_value">
+			<a href="http://bluejacketdrama.com">http://bluejacketdrama.com</a>
+		</td>
+	</tr>
+</table>
+
+<table border="0" width="100%">
+	<tr>
+		<td class="box_value">
+			First Frontier Inc. keeps the frights coming with its 19th annual Haunted Trail, Fridays and Saturdays, September 29 through October 28. The Psycho Path is a haunted trail that takes you in, around and under the Blue Jacket stage. The event also features the Freak Show Deluxe—a carnival-style sideshow presented live on stage three shows a night and the pitch black maze. Don’t be surprised if you sleep with the light on and the covers over your head.
+<br><br>
+Psycho Path runs evenings from 8 PM to 12 Am—so it will be plenty dark. General Admission is $10, Freak show Deluxe is $5; Maze of Madness is $3; or purchase the Package of Death—all three attractions—is $15. An RIP Pass that allows you to bypass the zombies standing in line is $20. Children under 12 will not be admitted without an adult.
+<br><br>
+The Blue Jacket outdoor stage is located at 520 Stringtown Road in Xenia, Ohio about 25 minutes from downtown Dayton and 60 minutes from downtown Columbus. For more information go to <a href="http://bluejacketdrama.com" target="_blank">bluejacketdrama.com</a>
+		</td>
+	</tr>
+</table>
+
+<br>
+
+<table border="0" width="100%">
+	<tr>
+		<td class="box_value" align="right">
+			[<a href="javascript:window.print()">Print</a>] - [<a href="javascript:self.close()">Close window</a>]
+		</td>
+	</tr>
+</table>
+
+<br><br>
+
+<center class="copyright">
+	Powered by <a class="cp" href="http://indom.sourceforge.net">Datenator v0.2.4</a>
+</center>
+
+</body>
+</html>

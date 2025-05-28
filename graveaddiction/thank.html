@@ -1,0 +1,96 @@
+<html>
+
+<head>
+
+<meta name="description" content="Grave Addiction's contact form confirmation">
+<meta name="keywords" content="grave, addiction, cemetery, contact, e-mail, webmaster, update">
+<title>Thanks for your e-mail!</title>
+
+<style type="text/css"> 
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Thank You!</u></font><font size="2"><br><br><img src="divide.jpg"></font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<br><br>
+<form name="redirect">
+<center>
+<font size="2" face="verdana">Thanks for your e-mail!  Your message was submitted successfully, and you can expect to hear from me within two weeks.
+<br><br>You will be redirected to Grave Addiction's Homepage in 10 seconds, or if the script does not work, <a href="http://www.graveaddiction.com">click here</a>.<br><br><br><br>
+<form>
+<input type="text" size="3" name="redirect2">
+</form>
+seconds</font>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+</center>
+
+<script>
+<!--
+
+/*
+Count down then redirect script
+By JavaScript Kit (http://javascriptkit.com)
+Over 400+ free scripts here!
+*/
+
+//change below target URL to your own
+var targetURL="http://www.graveaddiction.com"
+//change the second to start counting down from
+var countdownfrom=10
+
+
+var currentsecond=document.redirect.redirect2.value=countdownfrom+1
+function countredirect(){
+if (currentsecond!=1){
+currentsecond-=1
+document.redirect.redirect2.value=currentsecond
+}
+else{
+window.location=targetURL
+return
+}
+setTimeout("countredirect()",1000)
+}
+
+countredirect()
+//-->
+</script>
+</td></tr>  
+</table>
+</body>
+</html>

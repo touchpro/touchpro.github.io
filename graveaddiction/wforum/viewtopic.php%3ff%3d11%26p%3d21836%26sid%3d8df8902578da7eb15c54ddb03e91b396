@@ -1,0 +1,1519 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="en-gb" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Grave Addiction Message Board &bull; View topic - Question: Ghost related movies?</title>
+
+<link rel="stylesheet" href="./styles/subsilver2/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+   if (!name)
+   {
+      name = '_popup';
+   }
+
+   window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+   return false;
+}
+
+function jumpto()
+{
+   var page = prompt('Enter the page number you wish to go to:', '4');
+   var perpage = '25';
+   var base_url = './viewtopic.php?f=11&amp;t=53';
+
+   if (page !== null && !isNaN(page) && page > 0)
+   {
+      document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+   }
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+   popup(url, 760, 570, '_usersearch');
+   return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+   var parent = document.getElementById(id);
+   if (!parent)
+   {
+      eval('parent = document.' + id);
+   }
+
+   if (!parent)
+   {
+      return;
+   }
+
+   var rb = parent.getElementsByTagName('input');
+   
+   for (var r = 0; r < rb.length; r++)
+   {
+      if (rb[r].name.substr(0, name.length) == name)
+      {
+         rb[r].checked = state;
+      }
+   }
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+   <div id="logodesc">
+      <table width="100%" cellspacing="0">
+      <tr>
+         <td><a href="./index.php"><img src="./styles/subsilver2/imageset/site_logo2.jpg" alt="" title="" /></a><br><br><span class="gen">A place for fellow taphophiles and ghost hunters to chat!</span></td>
+
+      </tr>
+      </table>
+   </div>
+
+   <div id="menubar">
+      <table width="100%" cellspacing="0">
+      <tr>
+         <td class="genmed">
+            <a href="./ucp.php?mode=login"><img src="./styles/subsilver2/theme/images/icon_mini_login.gif" width="12" height="13" alt="*" /> Login</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/subsilver2/theme/images/icon_mini_register.gif" width="12" height="13" alt="*" /> Register</a>
+                        </td>
+         <td class="genmed" align="right">
+            <a href="./faq.php"><img src="./styles/subsilver2/theme/images/icon_mini_faq.gif" width="12" height="13" alt="*" /> FAQ</a>
+            &nbsp; &nbsp;<a href="./search.php"><img src="./styles/subsilver2/theme/images/icon_mini_search.gif" width="12" height="13" alt="*" /> Search</a>         </td>
+      </tr>
+      </table>
+   </div>
+
+   <div id="datebar">
+      <table width="100%" cellspacing="0">
+      <tr>
+         <td class="gensmall"></td>
+         <td class="gensmall" align="right">It is currently Sun Dec 26, 2010 1:22 am<br /></td>
+      </tr>
+      </table>
+   </div>
+
+</div>
+
+<div id="wrapcentre">
+
+      <p class="searchbar">
+      <span style="float: left;"><a href="./search.php?search_id=unanswered">View unanswered posts</a> | <a href="./search.php?search_id=active_topics">View active topics</a></span>
+         </p>
+   
+   <br style="clear: both;" />
+
+   <table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Board index</a> &#187; <a href="./viewforum.php?f=30">Ghost Hunting</a> &#187; <a href="./viewforum.php?f=11">Recommended Books And Movies</a></p>
+			<p class="datetime">All times are UTC - 5 hours </p>
+		</td>
+	</tr>
+	</table>
+   <br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=11&amp;t=53&amp;start=75">Question: Ghost related movies?</a></h2>
+
+	<p class="moderators">Moderators: <a href="./memberlist.php?mode=viewprofile&amp;u=2" style="color: #AA0000;" class="username-coloured">graveaddiction</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=72">Mynx</a></p>
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=11"><img src="./styles/subsilver2/imageset/en/button_topic_new.gif" alt="Post new topic" title="Post new topic" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=11&amp;t=53"><img src="./styles/subsilver2/imageset/en/button_topic_reply.gif" alt="Reply to topic" title="Reply to topic" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>4</strong> of <strong>4</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 95 posts ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Click to jump to page…">Go to page</a> <a href="./viewtopic.php?f=11&amp;t=53&amp;start=50">Previous</a>&nbsp;&nbsp;<a href="./viewtopic.php?f=11&amp;t=53">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=11&amp;t=53&amp;start=25">2</a><span class="page-sep">, </span><a href="./viewtopic.php?f=11&amp;t=53&amp;start=50">3</a><span class="page-sep">, </span><strong>4</strong></b></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=11&amp;t=53&amp;start=75&amp;view=print" title="Print view">Print view</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=11&amp;t=53&amp;view=previous">Previous topic</a> | <a href="./viewtopic.php?f=11&amp;t=53&amp;view=next">Next topic</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Author</th>
+			<th>Message</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p9530"></a>
+				<b class="postauthor">civilwarbuff2</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=9530#p9530"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Tue Jul 04, 2006 9:38 am&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=88.gif" width="81" height="141" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Tue Feb 28, 2006 4:57 pm<br /><b>Posts:</b> 79<br /><b>Location:</b> Batavia, Ohio				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">holy pooooooooooooooo run for your livesssssssssssssssssssssss.ahhhh! that was a knee slapper.hahahaha!</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=88"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p9532"></a>
+				<b class="postauthor">Phantom55</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=9532#p9532"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Tue Jul 04, 2006 10:38 am&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=145.gif" width="100" height="100" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Fri Jun 30, 2006 7:17 pm<br /><b>Posts:</b> 28<br /><b>Location:</b> Canada				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Lol</div>
+
+											<span class="postbody"><br />_________________<br />Im not scared of the dark. 
+<br />*bump* 
+<br />Holy poo!       
+<br />What was that!?</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=145"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p9545"></a>
+				<b class="postauthor" style="color: #AA0000">graveaddiction</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=9545#p9545"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Tue Jul 04, 2006 5:09 pm&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Site Admin</td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=2_1206670613.jpg" width="125" height="126" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Sat Apr 23, 2005 6:00 pm<br /><b>Posts:</b> 4741<br /><b>Location:</b> Columbus, Ohio				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">I agree with Civilwarbuff, your signature is great!</div>
+
+											<span class="postbody"><br />_________________<br /><span style="color: #004080"><span style="font-weight: bold">Beth *Removed for Privacy*, Webmaster and Forum Admin</span></span><br /><br /><span style="font-style: italic"><span style="font-size: 85%; line-height: normal"><span style="color: #800080">Avatar photo taken October 28, 2007 at Mount Auburn Cemetery in Cambridge, Massachusetts.</span></span></span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p9555"></a>
+				<b class="postauthor">Phantom55</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=9555#p9555"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Tue Jul 04, 2006 7:57 pm&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=145.gif" width="100" height="100" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Fri Jun 30, 2006 7:17 pm<br /><b>Posts:</b> 28<br /><b>Location:</b> Canada				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">thank you!</div>
+
+											<span class="postbody"><br />_________________<br />Im not scared of the dark. 
+<br />*bump* 
+<br />Holy poo!       
+<br />What was that!?</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=145"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p9578"></a>
+				<b class="postauthor">grimshawl</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=9578#p9578"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Wed Jul 05, 2006 8:10 am&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=114.jpg" width="100" height="98" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Mon Apr 24, 2006 11:34 am<br /><b>Posts:</b> 981<br /><b>Location:</b> Heath Ohio				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Anyone else had the misfortune to see a movie named Cemetery Gates? I nominate it as one of the worst Horror films I've seen this year, I rented it because of I'm a horror buff and the Cemetery part caught my eye, also because I like good movies and also some bad/ cheesey movies about equally, well anyway the back of the box had a plot only a cheesey movie fan could like, as a mad scientests experimented upon tasmanian devil gets loose near a cemetery where some college kids are filming a zombie movie, but the movie itself is just bad in a bad way with a horrible looking Devil costume, few zombies and one of the poorest scripts/dialog I've seen in a while. I breifly got my hopes up when I saw the guy who playes Reggie from the Phantasm movies was the mad scientest but even that didnt redeem this movie. so two thumbs down.</div>
+
+											<span class="postbody"><br />_________________<br />Remember friends as you pass by<br />  As you are now so once was I<br />   As I am now so you must be<br />  Prepare thyself and follow me<br /><!-- m --><a class="postlink" href="http://lostandfoundohio.com">http://lostandfoundohio.com</a><!-- m --></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=114"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p9593"></a>
+				<b class="postauthor" style="color: #AA0000">graveaddiction</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=9593#p9593"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Wed Jul 05, 2006 10:56 am&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Site Admin</td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=2_1206670613.jpg" width="125" height="126" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Sat Apr 23, 2005 6:00 pm<br /><b>Posts:</b> 4741<br /><b>Location:</b> Columbus, Ohio				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">I hadn't even heard of that movie...but now I know to stay away from it so I don't waste my time!   <img src="./images/smilies/icon_biggrin.gif" alt=":D" title="Very Happy" /></div>
+
+											<span class="postbody"><br />_________________<br /><span style="color: #004080"><span style="font-weight: bold">Beth *Removed for Privacy*, Webmaster and Forum Admin</span></span><br /><br /><span style="font-style: italic"><span style="font-size: 85%; line-height: normal"><span style="color: #800080">Avatar photo taken October 28, 2007 at Mount Auburn Cemetery in Cambridge, Massachusetts.</span></span></span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p9608"></a>
+				<b class="postauthor">civilwarbuff2</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=9608#p9608"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Wed Jul 05, 2006 5:30 pm&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=88.gif" width="81" height="141" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Tue Feb 28, 2006 4:57 pm<br /><b>Posts:</b> 79<br /><b>Location:</b> Batavia, Ohio				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">i personally like a scary movie with a plot.thats a plus.the people in it make a difference too.but im for a psychological scary.rather than the blood and guts.........i guess im getting older.its been done over and over with the slasher films.i dont like those.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=88"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p9703"></a>
+				<b class="postauthor">Beefy</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=9703#p9703"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Mon Jul 10, 2006 4:36 am&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=14_1234551021.png" width="125" height="125" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Tue May 03, 2005 3:17 pm<br /><b>Posts:</b> 2247<br /><b>Location:</b> Cincinnati, OH				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle">grimshawl wrote:</div><div class="quotecontent">Anyone else had the misfortune to see a movie named Cemetery Gates? I nominate it as one of the worst Horror films I've seen this year, I rented it because of I'm a horror buff and the Cemetery part caught my eye, also because I like good movies and also some bad/ cheesey movies about equally, well anyway the back of the box had a plot only a cheesey movie fan could like, as a mad scientests experimented upon tasmanian devil gets loose near a cemetery where some college kids are filming a zombie movie, but the movie itself is just bad in a bad way with a horrible looking Devil costume, few zombies and one of the poorest scripts/dialog I've seen in a while. I breifly got my hopes up when I saw the guy who playes Reggie from the Phantasm movies was the mad scientest but even that didnt redeem this movie. so two thumbs down.</div>I can't wait to see this one!</div>
+
+											<span class="postbody"><br />_________________<br /><a href="http://wormholecomics.com" class="postlink">www.WormHoleComics.com</a><br />Order my new book, No Parking! <a href="http://www.lulu.com/content/2702190" class="postlink">Click here!</a></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=14"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p11823"></a>
+				<b class="postauthor">alisclan</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=11823#p11823"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Wed Sep 27, 2006 9:38 am&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Tue May 09, 2006 2:50 pm<br /><b>Posts:</b> 93				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Another movie to stay away from is Alone in the Dark, think it has Tara Ried in it. Horrid movie. LOL</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=119"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p11837"></a>
+				<b class="postauthor">Brian</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=11837#p11837"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Wed Sep 27, 2006 12:45 pm&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Tue Sep 05, 2006 4:13 pm<br /><b>Posts:</b> 66<br /><b>Location:</b> Medway, Ohio				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">I almost hate to say this, but the ORIGINAL 13 Ghosts and House On Haunted Hill are two of my favorite ghost movies. Pretty cheesy, indeed but also pretty scary for that era.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=179"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p11855"></a>
+				<b class="postauthor">civilwarbuff2</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> ghost movies</div><div style="float: right;"><a href="./viewtopic.php?p=11855#p11855"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Wed Sep 27, 2006 4:38 pm&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=88.gif" width="81" height="141" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Tue Feb 28, 2006 4:57 pm<br /><b>Posts:</b> 79<br /><b>Location:</b> Batavia, Ohio				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">the original 13 ghosts had the scary lady from the wizard of oz if im not mistaken.the lady that played the wicked witch of the west.i have the original house on haunted hill with vincent price.i love all of his movies.the movie called &quot;the haunting&quot; with julie harris is another good one. it was made in the 60s i think those have more psychological scary...than the blood and guts.let you believe what was there...</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=88"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p14821"></a>
+				<b class="postauthor">Van Helsing</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Good old Horror</div><div style="float: right;"><a href="./viewtopic.php?p=14821#p14821"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Sat Feb 10, 2007 11:03 am&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=278.gif" width="49" height="47" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Fri Feb 09, 2007 8:05 am<br /><b>Posts:</b> 112<br /><b>Location:</b> England/Barbados				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Hi All,
+<br />
+<br />Mausoleum is great old horror film if you find it give it a watch one of my favourites. But then I love all the old Horror movies the best. I think Beth might like it as it has graveyards in it.
+<br />
+<br />1 not to watch is Children shouldn't play with dead things watch this if you want a laugh as it's terrible.
+<br />
+<br />Van Helsing</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=278"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p14828"></a>
+				<b class="postauthor">civilwarbuff2</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=14828#p14828"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Sat Feb 10, 2007 5:04 pm&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=88.gif" width="81" height="141" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Tue Feb 28, 2006 4:57 pm<br /><b>Posts:</b> 79<br /><b>Location:</b> Batavia, Ohio				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">hey your icon is that suppose to be where the ghost is walking down the steps?just curious.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=88"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p14855"></a>
+				<b class="postauthor" style="color: #AA0000">graveaddiction</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=14855#p14855"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Mon Feb 12, 2007 8:00 am&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Site Admin</td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=2_1206670613.jpg" width="125" height="126" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Sat Apr 23, 2005 6:00 pm<br /><b>Posts:</b> 4741<br /><b>Location:</b> Columbus, Ohio				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Van Helsing asked if I would post the full size version of his avatar.  Here's the photo he sent me:
+<br />
+<br /><img src="http://www.graveaddiction.com/miscpic/mboard/brownlady2.jpg" alt="Image" /></div>
+
+											<span class="postbody"><br />_________________<br /><span style="color: #004080"><span style="font-weight: bold">Beth *Removed for Privacy*, Webmaster and Forum Admin</span></span><br /><br /><span style="font-style: italic"><span style="font-size: 85%; line-height: normal"><span style="color: #800080">Avatar photo taken October 28, 2007 at Mount Auburn Cemetery in Cambridge, Massachusetts.</span></span></span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p14872"></a>
+				<b class="postauthor">civilwarbuff2</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=14872#p14872"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Mon Feb 12, 2007 4:09 pm&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=88.gif" width="81" height="141" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Tue Feb 28, 2006 4:57 pm<br /><b>Posts:</b> 79<br /><b>Location:</b> Batavia, Ohio				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">hey beth thats  not the full version is it?</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=88"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p14874"></a>
+				<b class="postauthor" style="color: #AA0000">graveaddiction</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=14874#p14874"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Mon Feb 12, 2007 5:25 pm&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Site Admin</td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=2_1206670613.jpg" width="125" height="126" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Sat Apr 23, 2005 6:00 pm<br /><b>Posts:</b> 4741<br /><b>Location:</b> Columbus, Ohio				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">I don't think so, but that's the file he sent...</div>
+
+											<span class="postbody"><br />_________________<br /><span style="color: #004080"><span style="font-weight: bold">Beth *Removed for Privacy*, Webmaster and Forum Admin</span></span><br /><br /><span style="font-style: italic"><span style="font-size: 85%; line-height: normal"><span style="color: #800080">Avatar photo taken October 28, 2007 at Mount Auburn Cemetery in Cambridge, Massachusetts.</span></span></span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p14882"></a>
+				<b class="postauthor">Van Helsing</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=14882#p14882"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Mon Feb 12, 2007 8:53 pm&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=278.gif" width="49" height="47" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Fri Feb 09, 2007 8:05 am<br /><b>Posts:</b> 112<br /><b>Location:</b> England/Barbados				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Will send full picture with 2moro and a few extra sorry sent the wrong one</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=278"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p14913"></a>
+				<b class="postauthor" style="color: #AA0000">graveaddiction</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> </div><div style="float: right;"><a href="./viewtopic.php?p=14913#p14913"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Wed Feb 14, 2007 11:47 am&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Site Admin</td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=2_1206670613.jpg" width="125" height="126" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Sat Apr 23, 2005 6:00 pm<br /><b>Posts:</b> 4741<br /><b>Location:</b> Columbus, Ohio				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">No problem!  I'll post it again   <img src="./images/smilies/icon_biggrin.gif" alt=":D" title="Very Happy" /></div>
+
+											<span class="postbody"><br />_________________<br /><span style="color: #004080"><span style="font-weight: bold">Beth *Removed for Privacy*, Webmaster and Forum Admin</span></span><br /><br /><span style="font-style: italic"><span style="font-size: 85%; line-height: normal"><span style="color: #800080">Avatar photo taken October 28, 2007 at Mount Auburn Cemetery in Cambridge, Massachusetts.</span></span></span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p21821"></a>
+				<b class="postauthor">astridst.claire</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Question: Ghost related movies?</div><div style="float: right;"><a href="./viewtopic.php?p=21821#p21821"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Sat Jan 23, 2010 3:56 am&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Sat Jan 23, 2010 2:54 am<br /><b>Posts:</b> 6				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-weight: bold">I agree, The Haunting, with Julie Harris and Russ Tamblyne is one of the best. When that door started to &quot; breathe&quot; , that really creeped me out.</span> Rose Red is very good also. I just couldn't get into the Bell twit. White Noise was just plain stupid, alot more could have been done with it. <br /><br />Has anyone caught the tv show Paranormal Cops ? It's based out of Chicago, ILL. I think it is on A&amp;E. Wed. nights. <br />I love the CW era, why don't they do any ghost stories based on places like Gettysberg ? There has to be alot of material there for that.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=755"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p21836"></a>
+				<b class="postauthor" style="color: #AA0000">N-A</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Question: Ghost related movies?</div><div style="float: right;"><a href="./viewtopic.php?p=21836#p21836"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Post" title="Post" /></a><b>Posted:</b> Thu Jan 28, 2010 2:24 pm&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="./styles/subsilver2/imageset/en/icon_user_offline.gif" alt="Offline" title="Offline" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Message Board Admin</td>
+				</tr>
+							<tr>
+					<td><img src="./download/file.php?avatar=48.jpg" width="145" height="99" alt="User avatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Joined:</b> Sat Oct 22, 2005 9:20 pm<br /><b>Posts:</b> 1799<br /><b>Location:</b> New Albany, Ohio				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">I have been watching Paranormal Cops. The police investigation style they employ brings yet another twist to paranormal TV shows. I'm a big fan of the City of Chicago so that provides me a level of interest in the locations they investigate but it's so early in the series I haven't really developed an opinion on the show itself yet.</div>
+
+											<span class="postbody"><br />_________________<br /><!-- m --><a class="postlink" href="http://www.tmbroadwater.com">http://www.tmbroadwater.com</a><!-- m --><br />&quot;What we learn from history is that people don't learn from history&quot; - Warren Buffett</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=48"><img src="./styles/subsilver2/imageset/en/icon_user_profile.gif" alt="Profile" title="Profile" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=11&amp;t=53&amp;start=75"><span class="gensmall">Display posts from previous:</span> <select name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select>&nbsp;<span class="gensmall">Sort by</span> <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select>&nbsp;<input class="btnlite" type="submit" value="Go" name="sort" /></form></td>
+	</tr>
+	</table>
+	
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=11"><img src="./styles/subsilver2/imageset/en/button_topic_new.gif" alt="Post new topic" title="Post new topic" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=11&amp;t=53"><img src="./styles/subsilver2/imageset/en/button_topic_reply.gif" alt="Reply to topic" title="Reply to topic" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>4</strong> of <strong>4</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 95 posts ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Click to jump to page…">Go to page</a> <a href="./viewtopic.php?f=11&amp;t=53&amp;start=50">Previous</a>&nbsp;&nbsp;<a href="./viewtopic.php?f=11&amp;t=53">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=11&amp;t=53&amp;start=25">2</a><span class="page-sep">, </span><a href="./viewtopic.php?f=11&amp;t=53&amp;start=50">3</a><span class="page-sep">, </span><strong>4</strong></b></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Board index</a> &#187; <a href="./viewforum.php?f=30">Ghost Hunting</a> &#187; <a href="./viewforum.php?f=11">Recommended Books And Movies</a></p>
+			<p class="datetime">All times are UTC - 5 hours </p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Who is online</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Users browsing this forum: No registered users and 2 guests</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">You <strong>cannot</strong> post new topics in this forum<br />You <strong>cannot</strong> reply to topics in this forum<br />You <strong>cannot</strong> edit your posts in this forum<br />You <strong>cannot</strong> delete your posts in this forum<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=53"><span class="gensmall">Search for:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Go" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Jump to:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Select a forum</option>
+		<option value="-1">------------------</option>			<option value="28">Introductions</option>
+					<option value="1">&nbsp; &nbsp;New To The Message Board?</option>
+					<option value="29">Cemetery Photography and Discussion</option>
+					<option value="2">&nbsp; &nbsp;General Discussion</option>
+					<option value="3">&nbsp; &nbsp;Favorite Season For Photography</option>
+					<option value="4">&nbsp; &nbsp;Camera Types</option>
+					<option value="5">&nbsp; &nbsp;Interesting Cemeteries To Visit</option>
+					<option value="37">&nbsp; &nbsp;Cemetery Restoration</option>
+					<option value="30">Ghost Hunting</option>
+					<option value="6">&nbsp; &nbsp;General Discussion</option>
+					<option value="7">&nbsp; &nbsp;Advice</option>
+					<option value="8">&nbsp; &nbsp;Your Stories</option>
+					<option value="9">&nbsp; &nbsp;Haunted Places</option>
+					<option value="10">&nbsp; &nbsp;Organized Ghost Hunts</option>
+					<option value="11" selected="selected">&nbsp; &nbsp;Recommended Books And Movies</option>
+					<option value="27">&nbsp; &nbsp;Recommended Video Games</option>
+					<option value="31">Urban Exploration</option>
+					<option value="12">&nbsp; &nbsp;General Discussion</option>
+					<option value="13">&nbsp; &nbsp;Tips And Tricks</option>
+					<option value="14">&nbsp; &nbsp;Interesting Locations To Visit</option>
+					<option value="32">Ouija Boards</option>
+					<option value="15">&nbsp; &nbsp;Questions?</option>
+					<option value="16">&nbsp; &nbsp;Your Stories</option>
+					<option value="20">&nbsp; &nbsp;Ouija Meet Ups</option>
+					<option value="24">&nbsp; &nbsp;General Discussion</option>
+					<option value="33">Genealogy Requests</option>
+					<option value="17">&nbsp; &nbsp;Gravestone Photo Request</option>
+					<option value="18">&nbsp; &nbsp;Cemetery Locations</option>
+					<option value="26">&nbsp; &nbsp;General Discussion</option>
+					<option value="34">States/Countries Other Than Ohio</option>
+					<option value="21">&nbsp; &nbsp;Cemeteries In Other States/Countries</option>
+					<option value="22">&nbsp; &nbsp;UE Locations In Other States/Countries</option>
+					<option value="23">&nbsp; &nbsp;Haunted Places In Other States/Countries</option>
+					<option value="35">Myths and Legends</option>
+					<option value="25">&nbsp; &nbsp;General Discussion</option>
+					<option value="36">Open Discussion</option>
+					<option value="19">&nbsp; &nbsp;Anything Goes!</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Go" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+<img src="./cron.php?cron_type=tidy_cache" width="1" height="1" alt="cron" /></div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+		<span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	</span>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,257 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Amrine Cemetery in Marysville, Ohio">
+<meta name="keywords" content="Amrine, Cemetery, Marysville, Union, County, Paris, Township, haunted, Ohio, graveyard, spooky, desolate">
+<title>Amrine Cemetery</title>
+
+<style type="text/css">
+body {
+scrollbar-arrow-color: #999999;
+scrollbar-base-color: #000000;
+scrollbar-dark-shadow-color: #000000;
+scrollbar-track-color: #000000;
+scrollbar-face-color: #000000;
+scrollbar-shadow-color: #000000;
+scrollbar-highlight-color: #999999;
+scrollbar-3d-light-color: #000000;
+}
+
+a:link {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:active {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight:
+
+none; color: #333333; }
+
+</style>
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center">
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Amrine Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Marysville, Ohio</font>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">
+<p align="left"><font size="2" face="verdana"><br><br>
+
+<b>Click on any of the titles in the option box below to view the photo:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="23" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./amrine/amrine1.jpg" selected>Cemetery sign</option>
+<option value="./amrine/amrine15.jpg">Drapery carving</option>
+<option value="./amrine/amrine17.jpg">Repaired gravestone</option>
+<option value="./amrine/amrine21.jpg">Lamb on gravestone</option>
+<option value="./amrine/amrine25.jpg">Weeping willow carving</option>
+<option value="./amrine/amrine28.jpg">Broken gravestones</option>
+<option value="./amrine/amrine29.jpg">Broken gravestone under tree</option>
+<option value="./amrine/amrine30.jpg">Rows of gravestones</option>
+<option value="./amrine/amrine33.jpg">Revolutionary War veteran</option>
+<option value="./amrine/amrine34.jpg">Abraham Amrine</option>
+<option value="./amrine/amrine35.jpg">Weeping willow carving</option>
+<option value="./amrine/amrine38.jpg">Open book carving</option>
+<option value="./amrine/amrine3.jpg">Historical marker</option>
+<option value="./amrine/amrine4.jpg">Back of historical marker</option>
+<option value="./amrine/amrine6.jpg">Flowers on grave</option>
+<option value="./amrine/amrine8.jpg">Gravestone by fence</option>
+<option value="./amrine/amrine9.jpg">Lamb on gravestone</option>
+<option value="./amrine/amrine11.jpg">Broken gravestone</option>
+<option value="./amrine/amrine12.jpg">Broken bud carving</option>
+<option value="./amrine/amrine14.jpg">Repaired gravestone</option>
+<option value="./amrine/amrine16.jpg">Rose carving</option>
+<option value="./amrine/amrine18.jpg">Dove carving</option>
+<option value="./amrine/amrine26.jpg">Tall gravestone</option>
+<option value="./amrine/amrine27.jpg">Revolutionary War veteran</option>
+<option value="./amrine/amrine31.jpg">Sandstone monument</option>
+<option value="./amrine/amrine32.jpg">Replacement marker</option>
+<option value="./amrine/amrine36.jpg">Henrietta Amerine</option>
+<option value="./amrine/amrine39.jpg">Lamb on gravestone</option>
+<option value="./amrine/amrine2.jpg">Veteran's memorial</option>
+<option value="./amrine/amrine40.jpg">Back of veteran's memorial</option>
+<option value="./amrine/amrine5.jpg">View from entrance</option>
+<option value="./amrine/amrine7.jpg">Open book carving</option>
+<option value="./amrine/amrine10.jpg">Repaired gravestone</option>
+<option value="./amrine/amrine13.jpg">Civil War veteran</option>
+<option value="./amrine/amrine19.jpg">Lamb on gravestone</option>
+<option value="./amrine/amrine20.jpg">Rows of gravestones</option>
+<option value="./amrine/amrine22.jpg">Revolutionary War veteran</option>
+<option value="./amrine/amrine23.jpg">Peter Hall</option>
+<option value="./amrine/amrine24.jpg">James Marshall</option>
+<option value="./amrine/amrine37.jpg">Adrian Amrine</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]="AMRINE CEMETERY<br>The Amrine Cemetery holds the remains of the Amrine family, as<br>well as other pioneer families, including the Reed, Stanley, Westlake,<br>Wolford, and Wood families.  Veterans of the Revolutionary War,<br>the War of 1812, and the Civil War are also buried here.  The<br>Amrine Methodist Church, founded by the family, once stood adjacent<br>to the cemetery and also served as a school.  When closed, it was<br>sold and moved to a nearby farm.  The local militia held musters at<br>Amrine's mill in the mid-1800's.  A covered bridge, circa 1885, built<br>by Reuben L. Partridge (1823-1900) of Marysville once crossed the<br>creek on Amrine Mill Road.  It was destroyed by an accident in<br>1938, but the abutments remain."
+description[13]="AMRINE SETTLEMENT<br>The first permanent settlement in the Marysville area, was founded<br>in 1817 by Revolutionary War veteran Abraham Amrine (1761-1849)<br> and his sons.  The Amrines emigrated from Switzerland to Pennsylvania<br>in the early 1700s and, after living in Belmont County, Ohio for<br>16 years, Abraham purchased 1000 acres here along Mill Creek<br>circa 1817, paying $2 an acre.  When Paris Township was organized<br>in 1821, the township officers were elected in Amrine's home on<br>Newton Pike (now Raymond Road).  All seven of his sons, John,<br>Andrew, Moses, Frederick, Jeremiah, Abraham, Jr., and Henry<br>settled here.  Andrew was a Justice of the Peace and leader in<br>the church.  Near this site, Henry built a sawmill in 1822 and a <br>gristmill in 1825, which were operated by the family for more than<br>50 years."
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+description[26]=""
+description[27]=""
+description[28]=""
+description[29]=""
+description[30]=""
+description[31]=""
+description[32]=""
+description[33]=""
+description[34]=""
+description[35]=""
+description[36]=""
+description[37]=""
+description[38]=""
+description[39]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Amrine Cemetery is located at the end of Township Road 143, east of Raymond Road, outside Marysville, Ohio (Paris Township, Union County).   The coordinates are 40&deg; 14' 59.04&quot; N, 83&deg; 23' 35.63&quot; W.
+<br><br>
+Amrine Cemetery was established in 1817, and it is no longer active.  The cemetery was closed for new burials in 1915.  There are many old gravestones, and most are in good condition.  The township does a great job of maintaining the cemetery grounds.
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!--
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option>
+<option value="symbol.html">Gravestone Symbolism</option>
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option>
+<option value="sources.html">Sources</option>
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>
+</table>
+</body>
+</html>

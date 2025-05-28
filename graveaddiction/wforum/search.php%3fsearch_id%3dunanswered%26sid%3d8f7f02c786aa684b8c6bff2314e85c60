@@ -1,0 +1,1109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="en-gb" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Grave Addiction Message Board &bull; View unanswered posts</title>
+
+<link rel="stylesheet" href="./styles/subsilver2/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+   if (!name)
+   {
+      name = '_popup';
+   }
+
+   window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+   return false;
+}
+
+function jumpto()
+{
+   var page = prompt('Enter the page number you wish to go to:', '1');
+   var perpage = '50';
+   var base_url = './search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=topics&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;search_id=unanswered';
+
+   if (page !== null && !isNaN(page) && page > 0)
+   {
+      document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+   }
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+   popup(url, 760, 570, '_usersearch');
+   return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+   var parent = document.getElementById(id);
+   if (!parent)
+   {
+      eval('parent = document.' + id);
+   }
+
+   if (!parent)
+   {
+      return;
+   }
+
+   var rb = parent.getElementsByTagName('input');
+   
+   for (var r = 0; r < rb.length; r++)
+   {
+      if (rb[r].name.substr(0, name.length) == name)
+      {
+         rb[r].checked = state;
+      }
+   }
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+   <div id="logodesc">
+      <table width="100%" cellspacing="0">
+      <tr>
+         <td><a href="./index.php?sid=8f7f02c786aa684b8c6bff2314e85c60"><img src="./styles/subsilver2/imageset/site_logo2.jpg" alt="" title="" /></a><br><br><span class="gen">A place for fellow taphophiles and ghost hunters to chat!</span></td>
+
+      </tr>
+      </table>
+   </div>
+
+   <div id="menubar">
+      <table width="100%" cellspacing="0">
+      <tr>
+         <td class="genmed">
+            <a href="./ucp.php?mode=login&amp;sid=8f7f02c786aa684b8c6bff2314e85c60"><img src="./styles/subsilver2/theme/images/icon_mini_login.gif" width="12" height="13" alt="*" /> Login</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register&amp;sid=8f7f02c786aa684b8c6bff2314e85c60"><img src="./styles/subsilver2/theme/images/icon_mini_register.gif" width="12" height="13" alt="*" /> Register</a>
+                        </td>
+         <td class="genmed" align="right">
+            <a href="./faq.php?sid=8f7f02c786aa684b8c6bff2314e85c60"><img src="./styles/subsilver2/theme/images/icon_mini_faq.gif" width="12" height="13" alt="*" /> FAQ</a>
+            &nbsp; &nbsp;<a href="./search.php?sid=8f7f02c786aa684b8c6bff2314e85c60"><img src="./styles/subsilver2/theme/images/icon_mini_search.gif" width="12" height="13" alt="*" /> Search</a>         </td>
+      </tr>
+      </table>
+   </div>
+
+   <div id="datebar">
+      <table width="100%" cellspacing="0">
+      <tr>
+         <td class="gensmall"></td>
+         <td class="gensmall" align="right">It is currently Thu May 26, 2011 1:37 pm<br /></td>
+      </tr>
+      </table>
+   </div>
+
+</div>
+
+<div id="wrapcentre">
+
+      <p class="searchbar">
+      <span style="float: left;"><a href="./search.php?search_id=unanswered&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">View unanswered posts</a> | <a href="./search.php?search_id=active_topics&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">View active topics</a></span>
+         </p>
+   
+   <br style="clear: both;" />
+
+   <table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php?sid=8f7f02c786aa684b8c6bff2314e85c60">Board index</a></p>
+			<p class="datetime">All times are UTC - 5 hours </p>
+		</td>
+	</tr>
+	</table>
+   <br />
+<form method="post" action="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=topics&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;search_id=unanswered">
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td colspan="2"><span class="titles">View unanswered posts</span><br /></td>
+</tr>
+<tr>
+	<td class="genmed"></td>
+	<td align="right"></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<th width="4%" nowrap="nowrap">&nbsp;</th>
+		<th colspan="2" nowrap="nowrap">&nbsp;Topics&nbsp;</th>
+		<th nowrap="nowrap">&nbsp;Author&nbsp;</th>
+		<th nowrap="nowrap">&nbsp;Replies&nbsp;</th>
+		<th nowrap="nowrap">&nbsp;Views&nbsp;</th>
+		<th nowrap="nowrap">&nbsp;Last post&nbsp;</th>
+	</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=21&amp;t=2518&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Western State Hospital (KY)</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=21&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Cemeteries In Other States/Countries</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=844&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">squad546</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">3</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Wed May 25, 2011 1:07 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=844&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">squad546</a>					<a href="./viewtopic.php?f=21&amp;t=2518&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22268#p22268"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=2&amp;t=2516&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Ouija Stories?</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=2&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">General Discussion</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=885&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">glitterific</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">13</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Fri May 06, 2011 7:28 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=885&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">glitterific</a>					<a href="./viewtopic.php?f=2&amp;t=2516&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22262#p22262"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=2&amp;t=2515&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">looking for people who want to share their motivation</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=2&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">General Discussion</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=881&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">gioia2011</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">20</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Thu Apr 21, 2011 8:21 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=881&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">gioia2011</a>					<a href="./viewtopic.php?f=2&amp;t=2515&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22243#p22243"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=2&amp;t=2507&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Shameful 'Ghost Hunter's</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=2&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">General Discussion</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=169&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">dagr8tim</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">46</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Tue Mar 29, 2011 7:41 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=169&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">dagr8tim</a>					<a href="./viewtopic.php?f=2&amp;t=2507&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22227#p22227"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=19&amp;t=2505&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Hail</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=19&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Anything Goes!</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" style="color: #AA0000;" class="username-coloured">N-A</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">15</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Thu Mar 24, 2011 11:28 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=48&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" style="color: #AA0000;" class="username-coloured">N-A</a>					<a href="./viewtopic.php?f=19&amp;t=2505&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22221#p22221"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=5&amp;t=2504&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Manteno State Hospital</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=5&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Interesting Cemeteries To Visit</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=844&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">squad546</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">48</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Wed Mar 16, 2011 12:44 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=844&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">squad546</a>					<a href="./viewtopic.php?f=5&amp;t=2504&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22210#p22210"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=5&amp;t=2499&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">(Salem Witch Memorial) Burying Point Cemetery, Salem, Mass.</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=5&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Interesting Cemeteries To Visit</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=856&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">MaineGhostGirl16</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">70</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Sat Jan 08, 2011 9:36 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=856&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">MaineGhostGirl16</a>					<a href="./viewtopic.php?f=5&amp;t=2499&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22169#p22169"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=9&amp;t=2498&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">&quot;The White Lady,&quot; Haunted Family Home in Livermore, Maine.</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=9&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Haunted Places</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=856&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">MaineGhostGirl16</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">48</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Thu Jan 06, 2011 5:20 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=856&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">MaineGhostGirl16</a>					<a href="./viewtopic.php?f=9&amp;t=2498&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22168#p22168"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=5&amp;t=2497&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">South Side Cemetery in York, Maine, USA.</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=5&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Interesting Cemeteries To Visit</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=856&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">MaineGhostGirl16</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">28</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Thu Jan 06, 2011 4:58 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=856&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">MaineGhostGirl16</a>					<a href="./viewtopic.php?f=5&amp;t=2497&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22167#p22167"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=19&amp;t=2493&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Grave Robbers Steal 400 Urns From Cemetery (Houston)</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=19&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Anything Goes!</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=84&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">OhioMoose</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">32</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Wed Dec 15, 2010 7:50 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=84&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">OhioMoose</a>					<a href="./viewtopic.php?f=19&amp;t=2493&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22154#p22154"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=1&amp;t=2479&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">New to the site and looking for tips on the Ouija board.</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=1&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">New To The Message Board?</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=835&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">XxFeelingSmallxX</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">29</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Mon Nov 01, 2010 1:16 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=835&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">XxFeelingSmallxX</a>					<a href="./viewtopic.php?f=1&amp;t=2479&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22103#p22103"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=5&amp;t=2476&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">15 Important Cemeteries (Photos)</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=5&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Interesting Cemeteries To Visit</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=84&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">OhioMoose</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">68</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Wed Oct 27, 2010 9:14 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=84&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">OhioMoose</a>					<a href="./viewtopic.php?f=5&amp;t=2476&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22097#p22097"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=15&amp;t=2475&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Help me contact a friend</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=15&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Questions?</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=832&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Adele</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">106</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Tue Oct 26, 2010 11:41 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=832&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Adele</a>					<a href="./viewtopic.php?f=15&amp;t=2475&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22096#p22096"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=15&amp;t=2469&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Letters vanishing.</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=15&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Questions?</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=820&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Pantaloons</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">74</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Sat Oct 02, 2010 3:33 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=820&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Pantaloons</a>					<a href="./viewtopic.php?f=15&amp;t=2469&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22065#p22065"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=4&amp;t=2464&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">opinion</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=4&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Camera Types</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=813&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">futurejelly</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">53</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Thu Sep 16, 2010 1:35 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=813&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">futurejelly</a>					<a href="./viewtopic.php?f=4&amp;t=2464&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22055#p22055"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=19&amp;t=2461&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">paranormal team accepting applicants now</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=19&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Anything Goes!</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">45</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Wed Sep 01, 2010 11:16 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a>					<a href="./viewtopic.php?f=19&amp;t=2461&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22049#p22049"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=25&amp;t=2459&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">The Jersey Devils Birthplace!!!!</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=25&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">General Discussion</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=805&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Suarez113</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">96</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Thu Aug 26, 2010 10:15 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=805&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Suarez113</a>					<a href="./viewtopic.php?f=25&amp;t=2459&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22044#p22044"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=16&amp;t=2458&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">New Ouija story</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=16&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Your Stories</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=679&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">johnnymapalo</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">253</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Tue Aug 17, 2010 1:42 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=679&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">johnnymapalo</a>					<a href="./viewtopic.php?f=16&amp;t=2458&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22041#p22041"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=16&amp;t=2455&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">switching spirits</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=16&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Your Stories</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=799&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">rebe</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">98</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Thu Jul 29, 2010 10:33 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=799&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">rebe</a>					<a href="./viewtopic.php?f=16&amp;t=2455&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22026#p22026"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=1&amp;t=2454&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Hi! New from Louisville KY</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=1&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">New To The Message Board?</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=798&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">WabiSabi</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">48</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Sun Jul 25, 2010 9:24 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=798&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">WabiSabi</a>					<a href="./viewtopic.php?f=1&amp;t=2454&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22024#p22024"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=6&amp;t=2453&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Ghost Hunting Gear to Get Rid of</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=6&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">General Discussion</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=265&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">bsphi</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">83</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Sat Jul 24, 2010 7:37 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=265&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">bsphi</a>					<a href="./viewtopic.php?f=6&amp;t=2453&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22023#p22023"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=14&amp;t=2450&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Cincinnati Subway</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=14&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Interesting Locations To Visit</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=796&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Urban_Explorer</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">80</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Thu Jul 22, 2010 6:55 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=796&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Urban_Explorer</a>					<a href="./viewtopic.php?f=14&amp;t=2450&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22018#p22018"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=6&amp;t=2449&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Elizabeth's grave evp</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=6&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">General Discussion</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=754&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">dellgriff</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">67</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Wed Jul 21, 2010 6:47 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=754&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">dellgriff</a>					<a href="./viewtopic.php?f=6&amp;t=2449&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22013#p22013"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=16&amp;t=2448&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">One of out best experience's</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=16&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Your Stories</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=768&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">cenafan12321</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">129</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Wed Jul 14, 2010 1:02 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=768&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">cenafan12321</a>					<a href="./viewtopic.php?f=16&amp;t=2448&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=22008#p22008"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=10&amp;t=2447&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Prospect Place June 19th</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=10&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Organized Ghost Hunts</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=265&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">bsphi</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">84</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Wed Jun 09, 2010 12:27 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=265&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">bsphi</a>					<a href="./viewtopic.php?f=10&amp;t=2447&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21983#p21983"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=23&amp;t=2443&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Old House Woods, Mathews County Virginia</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=23&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Haunted Places In Other States/Countries</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=784&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Nenochtoo</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">162</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Thu May 27, 2010 5:28 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=784&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Nenochtoo</a>					<a href="./viewtopic.php?f=23&amp;t=2443&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21970#p21970"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=10&amp;t=2439&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Historic and Haunted Ghost Tours--Huntington, WV</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=10&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Organized Ghost Hunts</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=403&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">TheresaRHPS</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">94</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Fri May 21, 2010 1:07 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=403&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">TheresaRHPS</a>					<a href="./viewtopic.php?f=10&amp;t=2439&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21958#p21958"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=2&amp;t=2438&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Article from the Toledo Blade regarding two cemeteries</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=2&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">General Discussion</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=243&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Carson</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">57</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Thu May 20, 2010 12:35 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=243&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Carson</a>					<a href="./viewtopic.php?f=2&amp;t=2438&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21957#p21957"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=8&amp;t=2436&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">So it's that time of year again.</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=8&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Your Stories</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=316&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Kremmen</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">73</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Thu May 06, 2010 2:56 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=316&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Kremmen</a>					<a href="./viewtopic.php?f=8&amp;t=2436&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21943#p21943"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=19&amp;t=2435&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Greenlawn Abbey 2010</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=19&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Anything Goes!</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=774&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">cemeterygirl</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">60</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Wed Apr 28, 2010 12:17 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=774&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">cemeterygirl</a>					<a href="./viewtopic.php?f=19&amp;t=2435&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21939#p21939"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=5&amp;t=2434&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">b sntre</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=5&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Interesting Cemeteries To Visit</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=770&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">hollycolorado</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">69</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Wed Apr 14, 2010 2:58 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=770&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">hollycolorado</a>					<a href="./viewtopic.php?f=5&amp;t=2434&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21925#p21925"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=5&amp;t=2431&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Unity Presbyterian Cemetery, Somerset OH</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=5&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Interesting Cemeteries To Visit</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=562&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Wallydraigle</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">72</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Mon Apr 05, 2010 12:31 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=562&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Wallydraigle</a>					<a href="./viewtopic.php?f=5&amp;t=2431&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21919#p21919"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=15&amp;t=2429&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Playing</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=15&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Questions?</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=765&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">tknicol</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">88</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Sat Mar 27, 2010 9:02 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=765&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">tknicol</a>					<a href="./viewtopic.php?f=15&amp;t=2429&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21913#p21913"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=15&amp;t=2428&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">True Ouija Board Possession!!!</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=15&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Questions?</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=679&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">johnnymapalo</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">123</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Tue Mar 23, 2010 7:51 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=679&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">johnnymapalo</a>					<a href="./viewtopic.php?f=15&amp;t=2428&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21910#p21910"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=1&amp;t=2419&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Screaming Into the Night!!</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=1&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">New To The Message Board?</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=758&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Lady_Hawk</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">68</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Fri Feb 12, 2010 11:42 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=758&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Lady_Hawk</a>					<a href="./viewtopic.php?f=1&amp;t=2419&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21853#p21853"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=19&amp;t=2417&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Back into Hell at Bobby Mackeys movie showing Sat Feb 6th</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=19&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Anything Goes!</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">57</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Mon Feb 01, 2010 10:22 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a>					<a href="./viewtopic.php?f=19&amp;t=2417&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21843#p21843"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=6&amp;t=2408&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Looking for New Member of Tech Crew for paranormal Team</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=6&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">General Discussion</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">96</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Fri Jan 08, 2010 10:08 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a>					<a href="./viewtopic.php?f=6&amp;t=2408&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21794#p21794"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=10&amp;t=2405&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Bryn Du Mansion open for Paranormal Investigations</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=10&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Organized Ghost Hunts</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">73</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Tue Jan 05, 2010 11:15 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a>					<a href="./viewtopic.php?f=10&amp;t=2405&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21786#p21786"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=19&amp;t=2400&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Merry Christmas everyone</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=19&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Anything Goes!</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">50</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Fri Dec 25, 2009 11:04 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a>					<a href="./viewtopic.php?f=19&amp;t=2400&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21777#p21777"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=8&amp;t=2397&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Ghost in the woods</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=8&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Your Stories</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=742&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">ghostgirl1998</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">101</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Wed Dec 16, 2009 11:23 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=742&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">ghostgirl1998</a>					<a href="./viewtopic.php?f=8&amp;t=2397&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21767#p21767"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=20&amp;t=2392&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Central Texas</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=20&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Ouija Meet Ups</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=303&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Rheavon</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">243</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Wed Nov 11, 2009 6:20 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=303&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Rheavon</a>					<a href="./viewtopic.php?f=20&amp;t=2392&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21750#p21750"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=15&amp;t=2391&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Talking to ithea</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=15&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Questions?</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=732&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">baphometboogie</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">128</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Tue Nov 03, 2009 4:55 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=732&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">baphometboogie</a>					<a href="./viewtopic.php?f=15&amp;t=2391&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21744#p21744"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=15&amp;t=2389&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Spirits with stronger willpower = Stronger Spirits?</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=15&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Questions?</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=733&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Graysun</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">128</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Mon Nov 02, 2009 8:26 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=733&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Graysun</a>					<a href="./viewtopic.php?f=15&amp;t=2389&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21737#p21737"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=19&amp;t=2382&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Haunted House for sale, a skeptics tale</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=19&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Anything Goes!</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">100</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Mon Oct 26, 2009 1:41 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a>					<a href="./viewtopic.php?f=19&amp;t=2382&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21713#p21713"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=19&amp;t=2381&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">I was interviewed for a tv spot about the Twin City Opera</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=19&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Anything Goes!</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">108</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Mon Oct 26, 2009 9:32 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a>					<a href="./viewtopic.php?f=19&amp;t=2381&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21709#p21709"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=1&amp;t=2379&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">roderer grave site</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=1&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">New To The Message Board?</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=726&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">greg.r</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">66</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Sun Oct 25, 2009 1:24 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=726&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">greg.r</a>					<a href="./viewtopic.php?f=1&amp;t=2379&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21703#p21703"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=11&amp;t=2378&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">&quot;Talk of the Devil&quot;</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=11&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Recommended Books And Movies</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=725&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Vege</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">152</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Fri Oct 23, 2009 4:16 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=725&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Vege</a>					<a href="./viewtopic.php?f=11&amp;t=2378&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21696#p21696"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=1&amp;t=2374&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">The Bagley House-Mt.Perry OH</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=1&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">New To The Message Board?</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=723&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">jbookless</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">57</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Thu Oct 22, 2009 7:37 pm</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=723&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">jbookless</a>					<a href="./viewtopic.php?f=1&amp;t=2374&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21679#p21679"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=19&amp;t=2371&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Lost and Found Ohio Jack O Lantern pic contest</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=19&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Anything Goes!</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">105</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Tue Oct 20, 2009 9:14 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">grimshawl</a>					<a href="./viewtopic.php?f=19&amp;t=2371&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21668#p21668"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+			<tr valign="middle">
+			<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+			<td class="row1" width="25" align="center">
+						</td>
+			<td class="row1">
+								 <a href="./viewtopic.php?f=24&amp;t=2369&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" class="topictitle">Mourning in the Afternoon</a>
+									<p class="gensmall">in <a href="./viewforum.php?f=24&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">General Discussion</a></p>
+							</td>
+			<td class="row2" width="100" align="center"><p class="topicauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=415&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Sky Pilot</a></p></td>
+			<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+			<td class="row2" width="50" align="center"><p class="topicdetails">128</p></td>
+			<td class="row1" width="120" align="center">
+				<p class="topicdetails">Sat Oct 17, 2009 6:39 am</p>
+				<p class="topicdetails"><a href="./memberlist.php?mode=viewprofile&amp;u=415&amp;sid=8f7f02c786aa684b8c6bff2314e85c60">Sky Pilot</a>					<a href="./viewtopic.php?f=24&amp;t=2369&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;p=21662#p21662"><img src="./styles/subsilver2/imageset/icon_topic_latest.gif" width="18" height="9" alt="View the latest post" title="View the latest post" /></a>
+				</p>
+			</td>
+		</tr>
+		<tr>
+		<td class="cat" colspan="7" valign="middle" align="center"><span class="gensmall">Display posts from previous:</span> <select name="st" id="st"><option value="0" selected="selected">All results</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select>&nbsp;<span class="gensmall">Sort by:</span> <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="f">Forum</option><option value="i">Topic title</option><option value="s">Post subject</option></select> <select name="sd" id="sd"><option value="a">Ascending</option><option value="d" selected="selected">Descending</option></select>&nbsp;<input class="btnlite" type="submit" value="Go" name="sort" /></td>
+	</tr>
+	</table>
+
+
+</form>
+
+<div class="gensmall" style="float: left;"><span class="nav">Page <strong>1</strong> of <strong>4</strong></span> [ Search found 190 matches ]</div>
+<div class="nav" style="float: right;"><b><a href="#" onclick="jumpto(); return false;" title="Click to jump to page…">Go to page</a> <strong>1</strong><span class="page-sep">, </span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=topics&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;search_id=unanswered&amp;start=50">2</a><span class="page-sep">, </span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=topics&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;search_id=unanswered&amp;start=100">3</a><span class="page-sep">, </span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=topics&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;search_id=unanswered&amp;start=150">4</a> &nbsp;<a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=topics&amp;sid=8f7f02c786aa684b8c6bff2314e85c60&amp;search_id=unanswered&amp;start=50">Next</a></b></div>
+
+<br clear="all" /><br />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php?sid=8f7f02c786aa684b8c6bff2314e85c60">Board index</a></p>
+			<p class="datetime">All times are UTC - 5 hours </p>
+		</td>
+	</tr>
+	</table>
+<br clear="all" />
+
+<div align="right">	<form method="post" name="jumpbox" action="./viewforum.php?sid=8f7f02c786aa684b8c6bff2314e85c60" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Jump to:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Select a forum</option>
+		<option value="-1">------------------</option>			<option value="28">Introductions</option>
+					<option value="1">&nbsp; &nbsp;New To The Message Board?</option>
+					<option value="29">Cemetery Photography and Discussion</option>
+					<option value="2">&nbsp; &nbsp;General Discussion</option>
+					<option value="3">&nbsp; &nbsp;Favorite Season For Photography</option>
+					<option value="4">&nbsp; &nbsp;Camera Types</option>
+					<option value="5">&nbsp; &nbsp;Interesting Cemeteries To Visit</option>
+					<option value="37">&nbsp; &nbsp;Cemetery Restoration</option>
+					<option value="30">Ghost Hunting</option>
+					<option value="6">&nbsp; &nbsp;General Discussion</option>
+					<option value="7">&nbsp; &nbsp;Advice</option>
+					<option value="8">&nbsp; &nbsp;Your Stories</option>
+					<option value="9">&nbsp; &nbsp;Haunted Places</option>
+					<option value="10">&nbsp; &nbsp;Organized Ghost Hunts</option>
+					<option value="11">&nbsp; &nbsp;Recommended Books And Movies</option>
+					<option value="27">&nbsp; &nbsp;Recommended Video Games</option>
+					<option value="31">Urban Exploration</option>
+					<option value="12">&nbsp; &nbsp;General Discussion</option>
+					<option value="13">&nbsp; &nbsp;Tips And Tricks</option>
+					<option value="14">&nbsp; &nbsp;Interesting Locations To Visit</option>
+					<option value="32">Ouija Boards</option>
+					<option value="15">&nbsp; &nbsp;Questions?</option>
+					<option value="16">&nbsp; &nbsp;Your Stories</option>
+					<option value="20">&nbsp; &nbsp;Ouija Meet Ups</option>
+					<option value="24">&nbsp; &nbsp;General Discussion</option>
+					<option value="33">Genealogy Requests</option>
+					<option value="17">&nbsp; &nbsp;Gravestone Photo Request</option>
+					<option value="18">&nbsp; &nbsp;Cemetery Locations</option>
+					<option value="26">&nbsp; &nbsp;General Discussion</option>
+					<option value="34">States/Countries Other Than Ohio</option>
+					<option value="21">&nbsp; &nbsp;Cemeteries In Other States/Countries</option>
+					<option value="22">&nbsp; &nbsp;UE Locations In Other States/Countries</option>
+					<option value="23">&nbsp; &nbsp;Haunted Places In Other States/Countries</option>
+					<option value="35">Myths and Legends</option>
+					<option value="25">&nbsp; &nbsp;General Discussion</option>
+					<option value="36">Open Discussion</option>
+					<option value="19">&nbsp; &nbsp;Anything Goes!</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Go" /></td>
+	</tr>
+	</table>
+
+	</form>
+</div>
+
+<img src="./cron.php?cron_type=tidy_cache&amp;sid=8f7f02c786aa684b8c6bff2314e85c60" width="1" height="1" alt="cron" /></div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+		<span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	</span>
+</div>
+
+</body>
+</html>

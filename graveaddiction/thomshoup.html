@@ -1,0 +1,240 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Thompson-Shoup Cemetery in Radnor, Ohio">
+<meta name="keywords" content="Thompson, Shoup, Thompson-Shoup, cemetery, haunted, Radnor, Prospect, Delaware, County, Township, Ohio, graveyard, spooky, gravestone, headstone, footstone, monument, willow, carver, carvings, carving, symbol, symbolism">
+<title>Thompson-Shoup Cemetery</title>
+
+<style type="text/css">
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Thompson-Shoup Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Radnor, Ohio</font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+<b>Click on any of the titles in the option box below to view the photo:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="29" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./thomshoup/thomshoup17.jpg" selected>Looking towards road</option>
+<option value="./thomshoup/thomshoup21.jpg">Eagle, shield, and flags</option>
+<option value="./thomshoup/thomshoup7.jpg">Girl with lamb carving</option>
+<option value="./thomshoup/thomshoup8.jpg">Another girl with lamb</option>
+<option value="./thomshoup/thomshoup9.jpg">Closer shot of carving</option>
+<option value="./thomshoup/thomshoup22.jpg">Willow carving</option>
+<option value="./thomshoup/thomshoup23.jpg">Closer shot of willow</option>
+<option value="./thomshoup/thomshoup24.jpg">Willow and star carvings</option>
+<option value="./thomshoup/thomshoup26.jpg">Small white bronze obelisk</option>
+<option value="./thomshoup/thomshoup27.jpg">Verse on monument</option>
+<option value="./thomshoup/thomshoup3.jpg">Dove on gravestone</option>
+<option value="./thomshoup/thomshoup6.jpg">Small white bronze monument</option>
+<option value="./thomshoup/thomshoup10.jpg">Draped urn on gravestone</option>
+<option value="./thomshoup/thomshoup11.jpg">Tall white bronze monument</option>
+<option value="./thomshoup/thomshoup12.jpg">Interesting verse</option>
+<option value="./thomshoup/thomshoup13.jpg">Lamb carving</option>
+<option value="./thomshoup/thomshoup15.jpg">Treestone</option>
+<option value="./thomshoup/thomshoup16.jpg">Infant daughter</option>
+<option value="./thomshoup/thomshoup28.jpg">Gravestone near road</option>
+<option value="./thomshoup/thomshoup30.jpg">White bronze monument</option>
+<option value="./thomshoup/thomshoup31.jpg">Wooden marker</option>
+<option value="./thomshoup/thomshoup1.jpg">Lamb on gravestone</option>
+<option value="./thomshoup/thomshoup2.jpg">Closer shot of lamb</option>
+<option value="./thomshoup/thomshoup4.jpg">Rows of gravestones</option>
+<option value="./thomshoup/thomshoup5.jpg">Lamb carving</option>
+<option value="./thomshoup/thomshoup14.jpg">Open book carving</option>
+<option value="./thomshoup/thomshoup18.jpg">Mossy gravestone</option>
+<option value="./thomshoup/thomshoup19.jpg">Ivy carvings</option>
+<option value="./thomshoup/thomshoup20.jpg">Sunburst carving</option>
+<option value="./thomshoup/thomshoup25.jpg">Lamb on gravestone</option>
+<option value="./thomshoup/thomshoup29.jpg">Ada Pentoney</option>
+<option value="./thomshoup/thomshoup32.jpg">Interesting shaped zinc marker</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+description[26]=""
+description[27]=""
+description[28]=""
+description[29]=""
+description[30]=""
+description[31]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Thompson-Shoup Cemetery is located on the east side of OH-257, a &frac12; mile north of Radnor Road, outside Radnor, Ohio (Thompson Township, Delaware County).  The coordinates are 40&deg; 23' 27.85&quot; N, 83&deg; 11' 37.82&quot; W.
+<br><br>
+Thompson-Shoup Cemetery is still active.  The oldest gravestones are on the south side, and most are in good condition.  However, like any old cemetery, some of the oldest gravestones have been damaged and are weathered.  There are also several interesting white bronze monuments.  The cemetery is very well maintained.
+<br><br>
+Many thanks to Rolf R. for taking me to this cemetery!
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

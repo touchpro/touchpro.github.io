@@ -1,0 +1,234 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Saint Joseph Cemetery (Old), Somerset, Ohio">
+<meta name="keywords" content="Saint, St, Joseph, Catholic, cemetery, haunted, Somerset, Ohio, graveyard, Dominican, Order, spooky">
+<title>Saint Joseph Cemetery (Old)</title>
+
+<style type="text/css">
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Saint Joseph Cemetery (Old)</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Somerset, Ohio</font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+<b>Click on any of the titles in the option box below to view the picture:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="10" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./stjoeold/stjoeold2.jpg" selected>Cattle in background</option>
+<option value="./stjoeold/stjoeold11.jpg">Ornate gravestone</option> 
+<option value="./stjoeold/stjoeold1.jpg">Historical marker</option>
+<option value="./stjoeold/stjoeold15.jpg">Gravestones behind church</option>
+<option value="./stjoeold/stjoeold20.jpg">Stacked gravestones</option>
+<option value="./stjoeold/stjoeold25.jpg">Broken gravestones</option> 
+<option value="./stjoeold/stjoeold27.jpg">Mausoleum</option>
+<option value="./stjoeold/stjoeold26.jpg">Epitaph on mausoleum</option>
+<option value="./stjoeold/stjoeold28.jpg">Looking towards back</option> 
+<option value="./stjoeold/stjoeold5.jpg">Looking north</option>
+<option value="./stjoeold/stjoeold9.jpg">Tall gravestone</option>
+<option value="./stjoeold/stjoeold10.jpg">Rows of worn gravestones</option> 
+<option value="./stjoeold/stjoeold13.jpg">Ornate gravestone</option>
+<option value="./stjoeold/stjoeold14.jpg">Stacked gravestones</option>
+<option value="./stjoeold/stjoeold16.jpg">Interesting epitaph</option> 
+<option value="./stjoeold/stjoeold19.jpg">Looking towards back</option>
+<option value="./stjoeold/stjoeold21.jpg">Irish native</option>
+<option value="./stjoeold/stjoeold30.jpg">Gravestones behind church</option> 
+<option value="./stjoeold/stjoeold4.jpg">Interesting epitaph</option> 
+<option value="./stjoeold/stjoeold7.jpg">Looking south</option>
+<option value="./stjoeold/stjoeold8.jpg">Gravestones at back</option> 
+<option value="./stjoeold/stjoeold17.jpg">Broken gravestone</option>
+<option value="./stjoeold/stjoeold18.jpg">Gravestone with crucifix</option> 
+<option value="./stjoeold/stjoeold23.jpg">Rows of old gravestones</option>
+<option value="./stjoeold/stjoeold31.jpg">First Benefactors</option>
+<option value="./stjoeold/stjoeold33.jpg">Church</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- © Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Saint Joseph Catholic Cemetery (Old) is located on OH-383 in Somerset, Ohio.  It is located behind Saint Joseph Catholic church.  The <a href="stjoenew.html">newer section</a> of the cemetery is located further down the road, but you can see it from the old cemetery.
+<br><br>
+Saint Joseph Cemetery (Old) is no longer in use.  There are many interesting, very old gravestones in the cemetery.  While there are still many gravestones still standing, there are also three big stacks of broken gravestones.  The cemetery is extremely well taken care of, and for such an old cemetery it's still in great condition!
+<br><br>
+Other interesting websites with info about this cemetery (and more photos):
+<br>
+<ul>
+<li><a href="http://www.op-stjoseph.org/dominican/somerset/default.htm" target="_blank">Saint Joseph Catholic Church</a>
+<li><a href="http://www.jackson8.com/StJosephChurch.html" target="_blank">Saint Joseph Cemetery Photos</a>
+</ul>
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option> 
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

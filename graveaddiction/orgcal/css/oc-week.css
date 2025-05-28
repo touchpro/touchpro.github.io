@@ -1,0 +1,44 @@
+/*
+* Week View Styles
+*
+* Here we define specific styles for the week view,
+* as well as override any default styles (oc-main.css) as needed.
+*
+* Styles listed here with empty brackets {} should be left as placeholders
+* for styles that may be of interest to override in this view.
+*/
+
+table.week {
+	border-collapse: collapse;
+	background-color: #efefef;
+	width: 98%;
+}
+td.week {
+	border: 1px solid black;
+	width: 14%;
+	vertical-align: top;
+	padding: 0px;
+}
+
+.weekHeader {
+	font-weight: bold;	
+	text-align: center;
+	background-color: #ffffff;	
+	font-size: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.colHeader {}
+
+/* the separator row between events */
+.esep {
+	height: 1px;
+	background-color: #6699cc;
+	color: #6699cc;
+	padding: 0px;
+}
+/* event link, normally the event name/time is used for the link text */
+a.event {}
+a.event:hover {}
+a.next, a.previous { color: #6699cc; font-weight: bold; }
+a.next:hover, a.previous:hover { color: #6699cc; font-weight: bold; }

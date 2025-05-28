@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Grave Addiction Calendar: Noteworthy Events</title>
+<link rel="stylesheet" href="css/oc-main.css" type="text/css" />
+<link rel="stylesheet" href="css/oc-month.css" type="text/css" />
+<script type="text/javascript" src="js/overlib400/overlib.js"></script>
+</head>
+<body>
+<!-- div for overLib -->
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+<div class="center title">Grave Addiction Calendar by OrgCal v0.1</div>
+
+<div class="center">
+<table class="month border" cellspacing="0" cellpadding="0">
+<tr> <td class="monthHeader"><a href="/orgcal/view.php?date=20050101" class="previous">&lt;</a></td><td colspan="5" class="monthHeader">February 2005</td><td class="monthHeader"><a href="/orgcal/view.php?date=20050301" class="next">&gt;</a></td> </tr><tr><td class="colHeader">Sun</td><td class="colHeader">Mon</td><td class="colHeader">Tue</td><td class="colHeader">Wed</td><td class="colHeader">Thu</td><td class="colHeader">Fri</td><td class="colHeader">Sat</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050201" class="dayNum">1</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050202" class="dayNum">2</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050203" class="dayNum">3</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050204" class="dayNum">4</a></td> </tr> </table></td>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050205" class="dayNum">5</a></td> </tr> </table></td>
+</tr>
+<tr>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"><a href="view.php?view=week&amp;date=20050206" class="weekNum">(week 06)</a></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050206" class="dayNum">6</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050207" class="dayNum">7</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050208" class="dayNum">8</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050209" class="dayNum">9</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050210" class="dayNum">10</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050211" class="dayNum">11</a></td> </tr> </table></td>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050212" class="dayNum">12</a></td> </tr> </table></td>
+</tr>
+<tr>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"><a href="view.php?view=week&amp;date=20050213" class="weekNum">(week 07)</a></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050213" class="dayNum">13</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050214" class="dayNum">14</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050215" class="dayNum">15</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050216" class="dayNum">16</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050217" class="dayNum">17</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050218" class="dayNum">18</a></td> </tr> </table></td>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050219" class="dayNum">19</a></td> </tr> </table></td>
+</tr>
+<tr>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"><a href="view.php?view=week&amp;date=20050220" class="weekNum">(week 08)</a></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050220" class="dayNum">20</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050221" class="dayNum">21</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050222" class="dayNum">22</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050223" class="dayNum">23</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050224" class="dayNum">24</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050225" class="dayNum">25</a></td> </tr> </table></td>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050226" class="dayNum">26</a></td> </tr> </table></td>
+</tr>
+<tr>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"><a href="view.php?view=week&amp;date=20050227" class="weekNum">(week 09)</a></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050227" class="dayNum">27</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20050228" class="dayNum">28</a></td> </tr> </table></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table> </div><br />
+<div class='center'> <form name='navForm' action='/orgcal/view.php' method='get' style='margin:0px'> <table class='form border2'> <tr>
+<input type='hidden' name='view' value='' />
+<input type='hidden' name='date' value='20050201' /><td class='inputTitle'>Month:</td> <td><select name="mPick"><option value="20040501">May - 2004</option><option value="20040601">Jun - 2004</option><option value="20040701">Jul - 2004</option><option value="20040801">Aug - 2004</option><option value="20040901">Sep - 2004</option><option value="20041001">Oct - 2004</option><option value="20041101">Nov - 2004</option><option value="20041201">Dec - 2004</option><option value="20050101">Jan - 2005</option><option value="20050201" selected="selected">Feb - 2005</option><option value="20050301">Mar - 2005</option><option value="20050401">Apr - 2005</option><option value="20050501">May - 2005</option><option value="20050601">Jun - 2005</option><option value="20050701">Jul - 2005</option><option value="20050801">Aug - 2005</option><option value="20050901">Sep - 2005</option><option value="20051001">Oct - 2005</option><option value="20051101">Nov - 2005</option><option value="20051201">Dec - 2005</option><option value="20060101">Jan - 2006</option><option value="20060201">Feb - 2006</option><option value="20060301">Mar - 2006</option><option value="20060401">Apr - 2006</option><option value="20060501">May - 2006</option><option value="20060601">Jun - 2006</option><option value="20060701">Jul - 2006</option><option value="20060801">Aug - 2006</option></select> <input type='button' value='go' onclick="document.navForm.view.value='month'; document.navForm.date.value=document.navForm.mPick.options[document.navForm.mPick.selectedIndex].value; document.navForm.submit();" /></td><td class='inputTitle'>Week:</td> <td><select name="wPick"><option value="20050102">Jan 02 - Jan 08</option><option value="20050109">Jan 09 - Jan 15</option><option value="20050116">Jan 16 - Jan 22</option><option value="20050123">Jan 23 - Jan 29</option><option value="20050130" selected="selected">Jan 30 - Feb 05</option><option value="20050206">Feb 06 - Feb 12</option><option value="20050213">Feb 13 - Feb 19</option><option value="20050220">Feb 20 - Feb 26</option><option value="20050227">Feb 27 - Mar 05</option><option value="20050306">Mar 06 - Mar 12</option><option value="20050313">Mar 13 - Mar 19</option><option value="20050320">Mar 20 - Mar 26</option><option value="20050327">Mar 27 - Apr 02</option></select> <input type='button' value='go' onclick="document.navForm.view.value='week'; document.navForm.date.value=document.navForm.wPick.options[document.navForm.wPick.selectedIndex].value; document.navForm.submit();" /></td></tr> </table> </form> </div><br />
+<div class='center'> <table class='user border2'>
+<tr> <td id='userBoxTitle'>User Actions:</td>
+<td class='center'><a href='user.php?action=login'>Login</a></td></tr> </table> </div>
+
+
+<div class='center'><table><tr> <td style='font-family: Verdana, Arial, sans-serif; font-size: 10px;'><a href='http://kevin.tridubdesign.com' target='_blank' style='color: blue; text-decoration:underline;'>OrgCal</a> &copy; 2004 <a href='http://kevin.tridubdesign.com' target='_blank' style='color: blue; text-decoration:underline;'>Kevin Southworth</a></td> </tr> </table> </div>
+</body>
+</html>

@@ -1,0 +1,999 @@
+<html>
+<head>
+<title>Guestbook</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="guestbook, php, script, mySQL, free, advance">
+<style type="text/css">
+<!--
+.font1 {  font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: red }
+.font2 {  font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 10px; color: red }
+.font3 { font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt; color: red; font-weight: bold}
+.select {  font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 9pt}
+.input {  font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 9pt}
+-->
+</style>
+<script language="JavaScript">
+<!--
+function gb_picture(Image,imgWidth,imgHeight) {
+    var border = 24;
+    var img = Image;
+    var features;
+    var w;
+    var h;
+    winWidth = (imgWidth<100) ? 100 : imgWidth+border;
+    winHeight = (imgHeight<100) ? 100 : imgHeight+border;
+    if (imgWidth+border > screen.width) {
+        winWidth = screen.width-10;
+        w = (screen.width - winWidth)/2;
+        features = "scrollbars=yes";      
+    } else {
+        w = (screen.width - (imgWidth+border))/2;
+    }
+    if (imgHeight+border > screen.height) {
+        winHeight = screen.height-60;
+        h = 0;
+        features = "scrollbars=yes";      
+    } else {
+        h = (screen.height - (imgHeight+border))/2 - 20;
+    }
+    winName = (img.indexOf("t_") == -1) ? img.substr(4,(img.length-8)) : img.substr(6,(img.length-10));
+    features = features+',toolbar=no,width='+winWidth+',height='+winHeight+',top='+h+',left='+w;
+    theURL = 'http://www.graveaddiction.com/picture.php?img='+Image;
+    popup = window.open(theURL,winName,features);
+    popup.focus();  
+}
+//-->
+</script>
+</head>
+<body bgcolor="#000000" link="#FFFFFF" vlink="#FFFFFF">
+<form method="post" action="index.php">
+ <table border="0" cellspacing="0" cellpadding="2" align="center" width="95%">
+  <tr>
+    <td width="56%"><img src="http://www.graveaddiction.com/img/gbook.gif"><br><a href="http://www.graveaddiction.com/index.html">Click here to return to Grave Addiction</a></td>
+    <td width="44%" align="right" class="font2"><a href="http://www.graveaddiction.com/guestbook/addentry.php"><img src="http://www.graveaddiction.com/img/signing.gif" border="0"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+    </td>
+   </tr>
+   <tr>
+     <td width="56%" class="font2">Friday, November 7, 2003 12:00<br>Thank you for stopping by my site. Here you can leave your mark.</td>
+     <td width="44%" valign="bottom" align="right">
+
+<!--Start JumpMenu -->
+
+<select name="entry" class="select">
+<option value="0" selected>Guestbook</option>
+<option value="3">176-200</option>
+<option value="28">151-175</option>
+<option value="53">126-150</option>
+<option value="78">101-125</option>
+<option value="103">76-100</option>
+<option value="128">51-75</option>
+<option value="153">26-50</option>
+<option value="178">1-25</option>
+</select>
+<input type="submit" value="Go" class="input">
+
+<!--End JumpMenu -->
+
+      </td>
+    </tr>
+  </table>
+  
+<!--Start Top Navigation -->
+
+  <table width="95%" border="0" cellspacing="0" cellpadding="2" align="center">
+    <tr valign="bottom">
+      <td class="font2"><img src="http://www.graveaddiction.com/img/point3.gif" width="9" height="9">Total Records:
+       <b><font color="#DD0000">203</font></b>&nbsp;&nbsp;&nbsp;Records Viewed Per Page: <b><font color="#DD0000">25</font></b></td>
+      <td align="right" class="font2">&nbsp;   <img src="http://www.graveaddiction.com/img/back.gif" width="16" height="14"><a href="index.php?entry=125">Previous Page</a>
+   &nbsp;&nbsp;<a href="index.php?entry=175">Next Page</a><img src="http://www.graveaddiction.com/img/next.gif" width="16" height="14">
+
+      </td>
+   </tr>
+  </table>
+
+<!--End Top Navigation -->
+
+
+  <table border="0" cellspacing="1" cellpadding="5" align="center" width="95%" bgcolor="#000000">
+    <tr bgcolor="#000000">
+      <td width="32%"><font size="2" face="Arial, Verdana, Helvetica, sans-serif" color="#000000"><b>Name</b></font></td>
+      <td width="68%"><font size="2" face="Arial, Verdana, Helvetica, sans-serif" color="#000000"><b>Comments</b></font></td>
+    </tr>
+
+<!--Start Guestbook Entries -->
+
+<tr bgcolor="#E8E8E8">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>53)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/3.0 (Liberate DTV 1.2)">&nbsp;
+        <a href="http://www.geocities.com/petescavern/" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>pete</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">peter.devo-butler@cwctv.net</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>england</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Saturday, April 12, 2003 19:27&nbsp;
+     <a href="comment.php?gb_id=62"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:peter.devo-butler@cwctv.net"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     Hi Beth..well i can totally relate to your love of cemeteries and haunted places..your photography is beautiful. come visit me? <img src="http://www.graveaddiction.com/img/smilies/flash.gif" width="15" height="15">
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#F7F7F7">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>52)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 5.22; Mac_PowerPC)">&nbsp;
+        <a href="http://www.leonardmarino.com/" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Leonard Marino</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">whap@leonardmarino.com</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>New York</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Saturday, April 12, 2003 18:07&nbsp;
+     <a href="comment.php?gb_id=61"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:whap@leonardmarino.com"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     This was, without a doubt, one of the coolest sites I've ever seen. I started out just curious but ended up reading it from top to bottom. I have an interest in these things, although I never say! <br />
+ I have a good story for this site: You should take your investigating crew / cameras down to New Orleans - the single most interesting graveyard I ever saw was during an unauthorized visit there. Out of morbid curiosity I broke into the fenced off yard in the middle of the bad side of town (This is a TRUE story). It was VERY OLD. Some of the headstones dated as far back as 1850's! As I walked through, I noticed the stench was AWFUL. I quickly found out why the city had fenced it off so thoroughly. To my absolute disbelief, I found the ground had ERODED AWAY (as I am told happens frequently in swampy areas) and many graves had been seriously damaged. I later read that they were having problems with swamps creeping into yards and washing caskets out of place, so they stopped having below ground graves a long time ago in Orleans. The most amazing thing I saw was a crypt (they were mostly above ground crypts, since Louisiana is a swampy) that had been cracked open by erosion. . . I could see right in. I will never forget the AMAZING view of an actual exposed wood casket, rotted through on one side. I couldn't make anything out in there, but I dared not get any closer. The most disgusting event of my life followed! When I got a little closer, I leaned on the wall and jarred it loose. .. it fell off and onto the ground making a SERIOUSLY LOUD noise & shaking everything. AT LEAST 800 COCKROACHES CAME STREAMING OUT OF THE OPEN CRYPT AND COVERED EVERYTHING IN SITE (including me, dammit)!!! I have never been so horrified in my entire life!! I could actually smell some poor dead person!! I've never run so fast in my life (screaming like a little girl, no less)! I highly recommend this horror filled, full-body experience to anyone who visits there (plan to not eat for a week, however). Remember to bring a camera!
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#E8E8E8">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>51)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Hotbar 3.0)">&nbsp;
+        
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Sam</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">indrid_cold_04@hotmail.com</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>IL</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Saturday, April 12, 2003 10:49&nbsp;
+     <a href="comment.php?gb_id=60"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:indrid_cold_04@hotmail.com"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     hey beth thought your site is very cool. Really liked the mothman stuff. i think you should go back and check out the domes sometime. i live in IL. so i doubt that i will make it to west virginia anytime soon. well just wanted to say that your site is great keep it up.
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#F7F7F7">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>50)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0; YComp 5.0.2.6; Hotb">&nbsp;
+        
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Megan</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">sporty_girl312@yahoo.com</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>-</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Friday, April 11, 2003 00:49&nbsp;
+     <a href="comment.php?gb_id=59"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:sporty_girl312@yahoo.com"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     <img src="http://www.graveaddiction.com/img/smilies/flash.gif" width="15" height="15"> i think ur website is really really cool hope to see more neat things buh bye <img src="http://www.graveaddiction.com/img/smilies/a5.gif" width="15" height="15">
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#E8E8E8">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>49)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)">&nbsp;
+        <a href="http://www.ourchurch.com/member/r/RobertBaral" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>BROTHER ROBERT'S CHRISTIAN CRUSADE!</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"></td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>USA USA USA!!!</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Tuesday, April 8, 2003 18:00&nbsp;
+     <a href="comment.php?gb_id=56"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     
+    </div>
+    <hr size="1"><div align="left">
+     Howdy, howdy, howdy! Your website seems to focus alot on places haunted by spirits & demons. If you are saved in JESUS with Christian Power - The One True Religion - you need not fear these things! If you need to have your soul saved at The Cross, you are sure lucky that I dropped in to post this, eh? Come on over <img src="http://www.graveaddiction.com/img/smilies/a1.gif" width="15" height="15"> <img src="http://www.graveaddiction.com/img/smilies/a1.gif" width="15" height="15"> <img src="http://www.graveaddiction.com/img/smilies/a1.gif" width="15" height="15"> <img src="http://www.graveaddiction.com/img/smilies/a1.gif" width="15" height="15"> <img src="http://www.graveaddiction.com/img/smilies/a1.gif" width="15" height="15"> <img src="http://www.graveaddiction.com/img/smilies/a1.gif" width="15" height="15"> "There is nothing so vile and abominable in the eyes of Heaven as the abortionist and the homosexual; the first because he destroys the Divine spark of human life, the second because he perverts it." - R W Baral. Scientific fact based and Biblical Truth based essays on abortion, homosexuality, education and politics on today's hot issues! Y'all come on over 'n' visit, ye hear? <img src="http://www.graveaddiction.com/img/smilies/a1.gif" width="15" height="15">
+   </div>
+   <table width="90%" border="0" cellspacing="0" align="center">
+ <tr>
+  <td>
+   <hr size="1"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">Beth:<br>
+   <b>*********From Beth, the Webmaster*********</b><br><br />
+Oh wonderful...another guestbook entry from "Brother Robert". For those of you who haven't read my comment to his last post here, I'm leaving his entry in here ONLY because I don't believe in censorship. However I <b>DON'T</b> agree with ANYTHING he says! The man is a very sick individual!</font>
+  </td>
+ </tr>
+</table>
+
+ </td>
+</tr>
+<tr bgcolor="#F7F7F7">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>48)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90)">&nbsp;
+        <a href="http://www.geocities.com/bitch142//Ghost.html" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Wendy</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"></td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>Phila, PA</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Tuesday, April 8, 2003 11:55&nbsp;
+     <a href="comment.php?gb_id=55"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     
+    </div>
+    <hr size="1"><div align="left">
+     Your page is realy neat I like it
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#E8E8E8">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>47)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Q312461; Hotbar 4.2">&nbsp;
+        <a href="http://www.warrenshalloween.5u.com" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Warren</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">wabak11@yahoo.com</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>Iowa</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Tuesday, April 8, 2003 11:18&nbsp;
+     <a href="comment.php?gb_id=54"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:wabak11@yahoo.com"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     Hi Beth, <br />
+Cool site, I enjoyed the pictures and the stories! I like graveyards and haunted places myself <img src="http://www.graveaddiction.com/img/smilies/a10.gif" width="15" height="15"> ! Keep up the good work, I'll stop back and visit again.
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#F7F7F7">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>46)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)">&nbsp;
+        
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Max Stout</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"></td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>-</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Tuesday, April 8, 2003 08:49&nbsp;
+     <a href="comment.php?gb_id=53"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     
+    </div>
+    <hr size="1"><div align="left">
+     Hell again,<br />
+I was reading further in your site. You mention the Johnston Park/Bridge in Lancaster, Ohio. The story goes that there were a couple deaths reported on the bridge back in the 1800's, but I see no mention of hauntings. I am courious if you know more about hauntings on this bridge. Were there reported hauntings?<br />
+<br />
+Oh yeah... I really like this guestbook. I did check the host site. Am I correct that your guestbook free? It seems that there is a download. I think I may try to get one like yours.<br />
+<br />
+Max
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#E8E8E8">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>45)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)">&nbsp;
+        <a href="http://www.geocities.com/utherworld" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Jd</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"></td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>-</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Tuesday, April 8, 2003 07:41&nbsp;
+     <a href="comment.php?gb_id=52"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     
+    </div>
+    <hr size="1"><div align="left">
+     You signed my bargain-basement guestbook awhile ago. Today, I upgraded. Please feel free to ensure your entry was not damaged in the move.
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#F7F7F7">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>44)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)">&nbsp;
+        <a href="http://maxstout.netfirms.com/NB/nbm6.html" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        <a href="aim:goim?screenname=mstout1956&message=Hello"><img src="http://www.graveaddiction.com/img/aim.gif" width="13" height="16" border="0" alt="Instant Messenger"></a>&nbsp;
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Max Stout</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">godisaconcept2003@yahoo.com</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>Troy, New York</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Tuesday, April 8, 2003 05:08&nbsp;
+     <a href="comment.php?gb_id=51"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:godisaconcept2003@yahoo.com"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     Beth,<br />
+<br />
+Thank you for your entry in my guestbook. Actually, I had visited your website several days before you signed my guestbook. I was so amazed by your website, I decided to wait until later to post my comments. I see that you read my page in regard to Robert Baral. That being said, you know that I mention on the page how much I enjoy visiting personal websites. Because of the chain reaction caused by Baral’s stupid post in my guestbook, I was able to find some outstanding websites. I originally found your website in Serafine’s guestbook after she posted in mine. I have been reading websites through this chain reaction for over a week now. Of all the websites that I have read, I would have to say, I am dead serious (excuse the pun) that I like your website the most overall. You are definitely NOT! A lazy person, when it comes to building websites. A lot of people copy, and paste photos on their pages, which is unlike you. Your photos it seems you took yourself, which is why I emphasize, I enjoy (Personal) websites. I too am fascinated with cemeteries. I grew up in the State of WA. There is I little town there called Dayton (the other Dayton) that has an abandoned cemetery. It is overgrown with weeds, and brush. Half of the headstones are toppled, and many of the markers are made of wood.<br />
+There is a wheat field next to the cemetery, which is believed to have plowed over parts of it. (something to think about the next time you buy a loaf of bread he he)<br />
+For really, really, real, I love your website. By the way, I also love Ohio, and the Columbus area. The summer of 2001, I lived in Marysville, Ohio. I really miss it there.<br />
+Best wishes,<br />
+Max <img src="http://www.graveaddiction.com/img/smilies/a1.gif" width="15" height="15">
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#E8E8E8">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>43)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; .NET CLR 1.0.3705)">&nbsp;
+        <a href="http://www.geocities.com/etencounters" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Ken A.</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"></td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>-</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Saturday, April 5, 2003 08:48&nbsp;
+     <a href="comment.php?gb_id=49"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     
+    </div>
+    <hr size="1"><div align="left">
+     Thanks for your comments. I enjoyed your pictures.<br />
+<br />
+About Mothman, I'll probably add him later, but I haven't seen a lot to connect him to UFOs.
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#F7F7F7">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>42)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Q312461; (R1 1.3); .NET">&nbsp;
+        <a href="http://www.countessbloodshalloweenhorror.com" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Countess Blood</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">CountessBlood@countessbloodshalloweenhorror.com</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>Fangsville,WA</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Friday, April 4, 2003 05:23&nbsp;
+     <a href="comment.php?gb_id=48"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:CountessBlood@countessbloodshalloweenhorror.com"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     Greetings Beth;<br />
+Lovely place you have here! I just love your cemetery photos...very nice!<br />
+Thank you for stopping by and signing the crypt book. I will be back to check on your new additions from time to time and say hi!<br />
+Yours Eternally Dead,<br />
+Countess Blood
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#E8E8E8">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>41)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 5.0; Windows 95; DigExt; YComp 5.0.2.4)">&nbsp;
+        
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Brian Connolly</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"></td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>Hartford, WV</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Thursday, April 3, 2003 17:09&nbsp;
+     <a href="comment.php?gb_id=47"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     
+    </div>
+    <hr size="1"><div align="left">
+     I work at Lakin State Hospital. I visited the site of Lakin Hosp. where Jeremy C., Jeremy L., and Angie took pictures of the buildings and of the building across the road, great pics. However, the smaller building (across the road) is to the right and in front of the newest part of Lakin Hosp.(where I work as a Nurses Aide, and my grandmother as cook for the past 23yrs.) the new buildings are in fact the nuring home. It connects to the old kitchen (which has been renovated but still looks old)and below the kitchen is the basement where laundry and storage are for the 150+ resident home. The basement was used long,long ago for shock therapy and also a mortuary. I have to go down there sometimes for blankets, towels, washcloths,etc. when we run out on the units (where residents rooms are). I have many stories about this place, but I wanted to tell a little about the big,old building across the road. The summer of 2002 my wife (my fiance at the time), our friend Michael, and I went into the building at approx. 2 a.m. The night was very calm outside, no wind, full moon, very warm outside, perfect night for energy. We went in and the building was loud, you could hear the energy in the walls, floors, and ceilings. Unlike the photos, the building now is slowly falling to pieces. A few places on the 2nd and attic floors are beginning to fall through, so if ya visit be very careful. Any how, I had never been in before so I was skeptical about all of the stories I've heard about the place. But I found out the hard way. The place felt very erie like someone following you or watching you. This building was also an orphanage home for african american boys after the assylum. we found a closet on the main floor containing files of the children who were there, The files had some info. about the boys plus a few pages of finger prints. We kept a few documents and asked our ouija board, but that's another story. All throughout the place you could feel the warm outside air but there were several places of cold spots. Those were the places where it felt most erie. We ventured upstairs, but there wasn't a whole lot up there a few chairs but that was it. We went on to the attic but, couldn't get the big steel door open. After prying on it for about 15 min. I got it open, but when we got inside the door it slammed shut!!! We freaked and it felt like something didn't want us there. I got the door open and we got out quick. We got outside and looked back at the house, and I found an old concrete staircase outside to the basement. From the top looking down you could see an old fullsize mattress at the bottom, so we went down. We got to the bottom and the door was open, the only thing we could see was an old baby bassinet that was the only thing in there that was white, but we didn't dare go in. We left immediately. The following day we told a few other friends about our experience so they decided to see for themselves, but the baby carriage wasn't seen and no one else recollected a baby bassinet when they had been there before for at least the past 5 yrs. The house is big a erie at night that's for sure, but I'll never go back in. I can tell you lots more stories about Lakin that I have learned from elderly, parents, and locals that may be fictional or nonfictional, also stories about TNT area. But I'll leave you this right now. However, any questions u can e-mail me at dannie@citynet.net anytime. I know plenty of good stuff about the Mason Co.,Lakin Hosp., and TNT area. Why shouldn't I, I grew up here and I have always explored things. C-ya.2
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#F7F7F7">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>40)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)">&nbsp;
+        
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Shannon</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"></td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>-</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Thursday, April 3, 2003 14:58&nbsp;
+     <a href="comment.php?gb_id=46"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     
+    </div>
+    <hr size="1"><div align="left">
+     Nevermind, I just answered my own question by looking around your site some more.
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#E8E8E8">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>39)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)">&nbsp;
+        <a href="http://motorpsycho.diaryland.com" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        <a href="aim:goim?screenname=FizzgigFroud&message=Hello"><img src="http://www.graveaddiction.com/img/aim.gif" width="13" height="16" border="0" alt="Instant Messenger"></a>&nbsp;
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Shannon</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">Shan1235@hotmail.com</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>MN</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Thursday, April 3, 2003 14:56&nbsp;
+     <a href="comment.php?gb_id=45"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:Shan1235@hotmail.com"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     Thanks for visiting my site, I've enjoyed surfing around yours as well. Have you ever seen or felt the presence of any spirits while roaming graveyards/haunted places?
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#F7F7F7">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>38)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; OneDisc.com, Inc.;">&nbsp;
+        <a href="http://www.vertigo1.com" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Vertigo</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">vertigo@libcom.com</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>Pittsburgh PA.</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Thursday, April 3, 2003 14:53&nbsp;
+     <a href="comment.php?gb_id=44"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:vertigo@libcom.com"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     <img src="http://www.graveaddiction.com/img/smilies/cool.gif" width="16" height="16"> I love your site, very cool! <img src="http://www.graveaddiction.com/img/smilies/cool.gif" width="16" height="16">
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#E8E8E8">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>37)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; MSN 6.1; MSNbMSFT;">&nbsp;
+        <a href="http://www.geocities.com/sweetnpsycotic" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        <a href="aim:goim?screenname=psycoticnunz&message=Hello"><img src="http://www.graveaddiction.com/img/aim.gif" width="13" height="16" border="0" alt="Instant Messenger"></a>&nbsp;
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>DeadJane</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">DeadJane@msn.com</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>Upstate NY</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Wednesday, April 2, 2003 10:09&nbsp;
+     <a href="comment.php?gb_id=43"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:DeadJane@msn.com"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     <img src="http://www.graveaddiction.com/img/smilies/cool.gif" width="16" height="16"> Nice site, I love the pics.<br />
+come check out the Darkness Within
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#F7F7F7">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>36)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Q312461; .NET CLR 1">&nbsp;
+        
+        <a href="http://wwp.icq.com/scripts/contact.dll?msgto=151268681"><img src="http://www.graveaddiction.com/img/icq.gif" width="15" height="16" border="0" alt="Send ICQ Message"></a>&nbsp;
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Debbie Moyer</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">fortheloveofpooh@msn.com</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>Daytona Beach Florida</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Wednesday, April 2, 2003 04:07&nbsp;
+     <a href="comment.php?gb_id=42"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:fortheloveofpooh@msn.com"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     Your web site is very intresting. My Father and Mother are buried at the Basil Cemetery in Balitmore.. When I go back home to visit, that is one of the first places that I go. But I won't go there during the day. I like to go there at night,<br />
+The only reason that I do that is cause when i was a child my mother took me there almost every weekend. My mother and Father are not my only family that is buried there most of my Mothers side its
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#E8E8E8">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>35)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)">&nbsp;
+        <a href="http://www.geocities.com/utherworld" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Jd aka the Timeshredder</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"></td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>-</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Tuesday, April 1, 2003 08:57&nbsp;
+     <a href="comment.php?gb_id=41"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     
+    </div>
+    <hr size="1"><div align="left">
+     You know, Robert Baral serves a positive purpose in life. Thanks to his endless annoying spamming of other people's guestbooks, his own guestbook has become an excellent guide the Web. I visit it regularly to see which person he's p.o.'d lately and if any of them sound worth visiting. I shall be returning to this remarkable site later to read more.
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#F7F7F7">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>34)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Q312461; .NET CLR 1">&nbsp;
+        <a href="http://www.croppys.com" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Chris</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">chris@croppys.com</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>United Kingdom</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Tuesday, April 1, 2003 07:05&nbsp;
+     <a href="comment.php?gb_id=40"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:chris@croppys.com"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     Peace and Oneness from croppys.
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#E8E8E8">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>33)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; AOL 8.0; Windows NT 5.1)">&nbsp;
+        
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>MrBodangle</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">MrBodangle@aol.com</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>Lima Ohio</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Tuesday, April 1, 2003 04:11&nbsp;
+     <a href="comment.php?gb_id=39"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:MrBodangle@aol.com"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     I found your site very interesting and also very entertaining.
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#F7F7F7">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>32)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)">&nbsp;
+        
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Don</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">doncoates05201@yahoo.com</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>Vermont</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Monday, March 31, 2003 06:52&nbsp;
+     <a href="comment.php?gb_id=38"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:doncoates05201@yahoo.com"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     Hi Beth - I see that you too have been hatespammed by Robert Baral. He lives here in southern Vermont and has recently taken to calling himself Brother Robert, although we still like to call him Bobbie. Bobbie's a sick little man who's life has been on a downward spiral over the past few years. His family life is over and he's detested throughout the community for his extremely hateful views. He's actually advocated the murder of gays; he links at his hatesite to others who advocate the state sanctioned murder of gay people; he has affiliations with neo-Nazis and other racist organizations, and on one occasion sought the aid of neo-Nazis in a fight he had picked with a rabbi near here; he's offered support to other religious extremists that have been convicted of illegally entering this country to meet with other religious terrorists - you get the idea.<br />
+<br />
+On behalf of all real Vermonters, I offer sincere regrets that our hateful neighbor has hatespammed your lovely site.
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#E8E8E8">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>31)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Hotbar 4.2.8.0; MSN">&nbsp;
+        
+        
+        <a href="aim:goim?screenname=Logrei00&message=Hello"><img src="http://www.graveaddiction.com/img/aim.gif" width="13" height="16" border="0" alt="Instant Messenger"></a>&nbsp;
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>scarecrow</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">rionchohan@hotmail.com</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>Tejas</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Saturday, March 29, 2003 12:03&nbsp;
+     <a href="comment.php?gb_id=37"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:rionchohan@hotmail.com"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     This is scarecrow from Monstamorgue. I really enjoy your site. Thanx for stopping by!
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#F7F7F7">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>30)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)">&nbsp;
+        <a href="http://au.geocities.com/mentally_sane03/thewo" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        <a href="aim:goim?screenname=buffyrox18&message=Hello"><img src="http://www.graveaddiction.com/img/aim.gif" width="13" height="16" border="0" alt="Instant Messenger"></a>&nbsp;
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Greggy</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">mentally_sane03@hotmail.com</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>Australia</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Saturday, March 29, 2003 10:48&nbsp;
+     <a href="comment.php?gb_id=36"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:mentally_sane03@hotmail.com"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     hello, hey cool site. Love the pics n the colours! feel free to check out my site sometime, laterz <img src="http://www.graveaddiction.com/img/smilies/a5.gif" width="15" height="15">
+   </div>
+   
+ </td>
+</tr>
+<tr bgcolor="#E8E8E8">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>29)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)">&nbsp;
+        <a href="http://www.geocities.com/serafinegibbons2001/nikolaibukharin" target="_blank"><img src="http://www.graveaddiction.com/img/home.gif" width="16" height="16" border="0" alt="View Web Page"></a>&nbsp;
+
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Serafine Gibbons</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"></td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>Canada</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Friday, March 28, 2003 05:07&nbsp;
+     <a href="comment.php?gb_id=35"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     
+    </div>
+    <hr size="1"><div align="left">
+     Hello, Beth. I'm an Internet cyber-friend of Hector Marroquin, and I saw your message on his guestbook. I like your site. It's very interesting to visit sites of people who are interested in ghosts. I myself like some movies about ghosts, like the movie "ghost" with Patrick Swaze (I can't spell his name). Anyhoo, keep up the good work on your site. You have a nice guestbook as well. Too bad Robert Baral felt like he had to contaminate it with his disgusting opinions. He has signed several entries on my guestbook as well. I keep them there, though, because I do not believe in censorship and I believe that every one should have the right to have their own opinions and to express them. I think his site is scary though. His beliefs are as old as fossils in my opinion. Anyhoo, bye for now, take care, have fun with your site, and happy building.
+   </div>
+   
+ </td>
+</tr>
+
+
+<!--End Guestbook Entries -->
+
+ </table>
+
+<!--Start Bottom Navigation -->
+
+ <table width="95%" border="0" cellspacing="0" cellpadding="2" align="center">
+  <tr valign="top">
+   <td class="font2"><img src="http://www.graveaddiction.com/img/point2.gif" width="9" height="9">HTML code is enabled </td>
+   <td align="right" class="font2">&nbsp;   <img src="http://www.graveaddiction.com/img/back.gif" width="16" height="14"><a href="index.php?entry=125">Previous Page</a>
+   &nbsp;&nbsp;<a href="index.php?entry=175">Next Page</a><img src="http://www.graveaddiction.com/img/next.gif" width="16" height="14">
+</td>
+  </tr>
+ </table>
+</form> 
+<!--End Bottom Navigation -->
+
+<center><b><font face="Arial, Helvetica, sans-serif" color="#CCCCCC" size="1">Powered by <a href="http://www.proxy2.de" target="_blank"><font color="#CCCCCC" size="1">Advanced Guestbook 2.3.1</font></a></font></b></center>
+</body>
+</html>

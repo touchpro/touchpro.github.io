@@ -1,0 +1,106 @@
+/*
+* The base stylesheet for OrgCal
+*/
+
+body { font-family: Verdana, Arial, sans-serif; }
+img { border: none; }
+input, select, textarea {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
+}
+
+.center { text-align: center; }
+.left { text-align: left; }
+.right { text-align: right; }
+.top { vertical-align: top; }
+.center table { 
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+/* BASIC TABLE STYLES */
+table {
+	font-size: 11px;
+}
+td {
+	padding: 2px;
+}
+table.form, tr.rowA, tr.rowB, table.user {
+	background-color: #efefef;
+	padding: 4px;
+}
+table.border {
+	border: 2px solid black;
+}
+table.border2 {
+	border: 1px solid gray;
+}
+#userBoxTitle { font-weight: bold; }
+#userLoginTitle { font-size: 12px; font-weight: bold; background-color: #6699cc; }
+.title {
+	color: gray;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 6px;
+}
+.title1 { font-size: 12px; font-weight: bold; background-color: #6699cc; }
+
+td.inputTitle, td.input {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+td.inputTitle {
+	font-weight: bold;
+	text-align: right;
+	padding-right: 4px;
+}
+td.input { }
+/* styles for alternating rows */
+tr.rowA { padding: 0px; }
+tr.rowB { padding: 0px; background-color: #cccccc; }
+
+/* Default column header (Sun,Mon,...) */
+.colHeader {
+	font-weight: bold;	
+	text-align: center;
+	background-color: #6699cc;
+	border: 1px solid black;
+}
+
+/* BASIC LINK STYLES */
+
+/* default next, previous links in the views */
+a.next, a.previous {
+	color: blue;
+	text-decoration: none;
+}
+a.next:hover, a.previous:hover {
+	color: blue;
+	text-decoration: underline;
+}
+/* event link, normally the event name/time is used for the link text */
+a.event {
+	color: black;
+	text-decoration: none;
+}
+a.event:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+/* OverLib STYLES */
+.olCaption {
+	color: black;
+	font-weight: bold;
+	background-color: #6699cc;
+}
+.olContent {
+	background-color: #efefef;
+}
+.olOuterBorder {
+	background-color: #006699;
+}
+.olInnerBorder {
+	border-top: 1px solid #006699;
+}

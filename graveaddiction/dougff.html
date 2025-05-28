@@ -1,0 +1,240 @@
+<html>
+<head>
+
+<meta name="description" content="Doug Speer's submitted photos from Fort Fremont in Beaufort, South Carolina">
+<meta name="keywords" content="Fort, Fremont, Freemont, Abandoned, military, old, haunted, historical, Doug, Speer, ghost, South, Carolina, Beaufort">
+<title>Fort Fremont in Beaufort, South Carolina - Submitted by Doug Speer</title>
+
+<style type="text/css"> 
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000;
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Fort Fremont</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Beaufort, South Carolina</font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+<b>Click on any of the titles in the option box below to view the photo:<br><br>Photos taken by Doug Speer</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="18" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./submissions/dougff2.jpg" selected>Fort Freemont</option>
+<option value="./submissions/dougff8.jpg">Entrance</option> 
+<option value="./submissions/dougff1.jpg">Path to Fort</option>
+<option value="./submissions/dougff3.jpg">Walking towards fort</option>
+<option value="./submissions/dougff4.jpg">Entrance</option>
+<option value="./submissions/dougff5.jpg">Spray painted walls</option>
+<option value="./submissions/dougff6.jpg">Entrances</option>
+<option value="./submissions/dougff7.jpg">Fort through trees</option>
+<option value="./submissions/dougff9.jpg">Stairs on fort</option>
+<option value="./submissions/dougff10.jpg">Rusty rails</option>
+<option value="./submissions/dougff11.jpg">Inside hallway</option>
+<option value="./submissions/dougff12.jpg">Opening in wall</option>
+<option value="./submissions/dougff13.jpg">Rust stains on wall</option>
+<option value="./submissions/dougff14.jpg">Entrance</option>
+<option value="./submissions/dougff15.jpg">Outside of fort</option>
+<option value="./submissions/dougff16.jpg">Dark entrance</option>
+<option value="./submissions/dougff17.jpg">Stairs on fort</option>
+<option value="./submissions/dougff18.jpg">Looking down stairs</option>
+<option value="./submissions/dougff19.jpg">Room filled with junk</option>
+<option value="./submissions/dougff20.jpg">Stairs at night</option>
+<option value="./submissions/dougff21.jpg">Dark, dirty room</option>
+<option value="./submissions/dougff22.jpg">Metal gate</option>
+<option value="./submissions/dougff23.jpg">Looking down from top</option>
+<option value="./submissions/dougff24.jpg">Graffiti on walls</option>
+<option value="./submissions/dougff25.jpg">Spray painted hallway</option>
+<option value="./submissions/dougff26.jpg">Indentation on roof</option>
+<option value="./submissions/dougff27.jpg">Climbing up stairs</option>
+<option value="./submissions/dougff28.jpg">Broken wall</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""   
+description[3]=""  
+description[4]=""  
+description[5]=""  
+description[6]=""  
+description[7]=""  
+description[8]=""  
+description[9]=""  
+description[10]=""  
+description[11]=""  
+description[12]=""  
+description[13]=""  
+description[14]=""  
+description[15]=""  
+description[16]=""  
+description[17]=""  
+description[18]=""  
+description[19]="" 
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+description[26]=""  
+description[27]="" 
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">In June 2008, I received the following e-mail from Aaron S., a website visitor, with lots of information about Fort Fremont:
+<br><br>
+<blockquote><i>Located at the southwestern tip of St. Helena Island in Beaufort County, Fort Fremont was constructed in 1899 to defend Port Royal Sound and the Naval Station located at Parris Island (which became the Marine Corps Recruit Training Depot in 1906).
+<br><br>
+The original site was developed in 1875 and included a wharf extending into Port Royal Sound, as well as a clapboard hospital structure to support the Parris Island Naval Base. At the onset of the Spanish-American war, the wooden hospital was demolished and replaced with a concrete building and the existing fortifications. The first battery (un-named or unknown) was emplaced by 1898. Battery Jessup and Battery Fornance were added in 1899. The hospital section includes a square, two-story colonial revival structure, subsequently incorporated into part of a private residence. Earthen bulwarks protect the harbor side of the masonry buildings that rest on a granite foundation. The roof is designed to collect rainwater for storage in a large cistern. An extensive duct system is used to ventilate the structure.
+<br><br>
+The design, known as &quot;Endicott Batteries&quot; after William C. Endicott, Secretary of War under Grover Cleveland, was constructed as part of a modern coastal defense system and accommodated disappearing guns of 8, 10, 12, and 16 inch diameters, and 10 and 12 inch mortars. Fort Fremont mounted 10" disappearing guns and a rapid-fire battery.
+<br><br>
+At its peak, the fort covered 70 acres and included a hospital, barracks, stables, guardhouses, commissary, and numerous support buildings. Garrisoned by approximately 110 men and officers of the 116th Coast Artillery, the fort was never involved in military action and the batteries were decommissioned in 1901. Only two batteries and the hospital building remain.</i></blockquote>
+<br>
+I believe Aaron received the info from <a href="http://www.sciway.net/hist/fort-fremont-st-helena-island.html" target="_blank">this site</a>.
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!--
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option>
+<option value="symbol.html">Gravestone Symbolism</option>
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option>
+<option value="sources.html">Sources</option>
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>
+</table>
+</body>
+</html>

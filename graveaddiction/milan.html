@@ -1,0 +1,239 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to the Milan Cemetery in Milan, Ohio">
+<meta name="keywords" content="Milan, Saint, Anthony, St, Cemetery, Erie, County, Township, haunted, Ohio, graveyard, spooky, desolate, old, gravestone, tombstone, headstone, monument, footstone, carving, symbol, symbolism, Abbott, crypt, tomb, mausoleum">
+<title>Milan Cemetery</title>
+
+<style type="text/css">
+body {
+scrollbar-arrow-color: #999999;
+scrollbar-base-color: #000000;
+scrollbar-dark-shadow-color: #000000;
+scrollbar-track-color: #000000;
+scrollbar-face-color: #000000;
+scrollbar-shadow-color: #000000;
+scrollbar-highlight-color: #999999;
+scrollbar-3d-light-color: #000000;
+}
+
+a:link {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:active {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight:
+
+none; color: #333333; }
+
+</style>
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center">
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Milan Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Milan, Ohio</font>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">
+<p align="left"><font size="2" face="verdana"><br><br>
+
+<b>Click on any of the titles in the option box below to view the photo:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="23" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./milan/milan30.jpg" selected>Rows of gravestones</option>
+<option value="./milan/milan1.jpg">Abbott gravestone</option>
+<option value="./milan/milan3.jpg">Closer shot of Abbott gravestone</option>
+<option value="./milan/milan2.jpg">Abbott tomb</option>
+<option value="./milan/milan4.jpg">Approaching tomb</option>
+<option value="./milan/milan5.jpg">Sealed door</option>
+<option value="./milan/milan15.jpg">Elmer</option>
+<option value="./milan/milan16.jpg">Dove carving</option>
+<option value="./milan/milan17.jpg">Large gravestone</option>
+<option value="./milan/milan18.jpg">Draped urn carving</option>
+<option value="./milan/milan19.jpg">Looking towards back</option>
+<option value="./milan/milan21.jpg">Ann Maria</option>
+<option value="./milan/milan22.jpg">Obelisk</option>
+<option value="./milan/milan23.jpg">Tall gravestone</option>
+<option value="./milan/milan24.jpg">Pointing to heaven</option>
+<option value="./milan/milan25.jpg">Draped cross</option>
+<option value="./milan/milan27.jpg">Willow and urn carving</option>
+<option value="./milan/milan28.jpg">Closer shot of carving</option>
+<option value="./milan/milan29.jpg">Ralph Lockwood</option>
+<option value="./milan/milan6.jpg">Elevated gravestone</option>
+<option value="./milan/milan7.jpg">Shield carving</option>
+<option value="./milan/milan8.jpg">Ship carving</option>
+<option value="./milan/milan9.jpg">Closer shot of carving</option>
+<option value="./milan/milan10.jpg">Gravestone by tree</option>
+<option value="./milan/milan11.jpg">Cross shaped gravestone</option>
+<option value="./milan/milan12.jpg">Tall gravestone</option>
+<option value="./milan/milan13.jpg">Masonic symbol</option>
+<option value="./milan/milan14.jpg">Rows of gravestones</option>
+<option value="./milan/milan20.jpg">More rows of gravestones</option>
+<option value="./milan/milan26.jpg">Scroll and stacked rocks</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+description[26]=""
+description[27]=""
+description[28]=""
+description[29]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">The Milan Cemetery is located at the intersection of Edison Drive and Berlin Street in Milan, Ohio (Milan Township, Erie County).  The coordinates are 41&deg; 17' 40.46&quot; N, 82&deg; 35' 47.6&quot; W.
+<br><br>
+Milan Cemetery is adjacent to <a href="stanthony.html">Saint Anthony Cemetery</a>, and it is still active.  There are many old gravestones, and although several have been damaged, most are in good condition.  The cemetery is very well maintained.
+<br><br>
+The Abbott Tomb in the Milan Cemetery is supposedly haunted by the ghosts of Mr. and Mrs. Abbott.  The legend states that the spirits inside the tomb do not like to be disturbed.  If someone invades their privacy by knocking on the crypt door, the ghosts will emerge and chase them away.
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!--
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option>
+<option value="symbol.html">Gravestone Symbolism</option>
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option>
+<option value="sources.html">Sources</option>
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>
+</table>
+</body>
+</html>

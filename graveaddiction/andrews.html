@@ -1,0 +1,229 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Andrews Cemetery in Beverly, Ohio">
+<meta name="keywords" content="Andrews, Cemetery, Beverly, Morgan, County, Center, Township, haunted, Ohio, graveyard, spooky, desolate, old, gravestone, tombstone, headstone, monument, footstone, carving, symbol, symbolism">
+<title>Andrews Cemetery</title>
+
+<style type="text/css">
+body {
+scrollbar-arrow-color: #999999;
+scrollbar-base-color: #000000;
+scrollbar-dark-shadow-color: #000000;
+scrollbar-track-color: #000000;
+scrollbar-face-color: #000000;
+scrollbar-shadow-color: #000000;
+scrollbar-highlight-color: #999999;
+scrollbar-3d-light-color: #000000;
+}
+
+a:link {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:active {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight:
+
+none; color: #333333; }
+
+</style>
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center">
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Andrews Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Beverly, Ohio</font>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">
+<p align="left"><font size="2" face="verdana"><br><br>
+
+<b>Click on any of the titles in the option box below to view the photo:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="23" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./andrews/andrews1.jpg" selected>Cemetery sign</option>
+<option value="./andrews/andrews14.jpg">Looking towards power plant</option>
+<option value="./andrews/andrews3.jpg">Rose carving</option>
+<option value="./andrews/andrews4.jpg">Veteran's gravestone</option>
+<option value="./andrews/andrews5.jpg">Rows of gravestones</option>
+<option value="./andrews/andrews6.jpg">Pointing to heaven</option>
+<option value="./andrews/andrews7.jpg">Broken bud carving</option>
+<option value="./andrews/andrews8.jpg">Tall gravestone</option>
+<option value="./andrews/andrews9.jpg">Twin sisters</option>
+<option value="./andrews/andrews12.jpg">Pointing to heaven</option>
+<option value="./andrews/andrews13.jpg">Mossy gravestone</option>
+<option value="./andrews/andrews15.jpg">Chain link carvings</option>
+<option value="./andrews/andrews16.jpg">Open book and drapery carvings</option>
+<option value="./andrews/andrews17.jpg">Jas. Craig</option>
+<option value="./andrews/andrews18.jpg">Sandstone monument</option>
+<option value="./andrews/andrews22.jpg">Looking towards power plant</option>
+<option value="./andrews/andrews23.jpg">Closed books</option>
+<option value="./andrews/andrews26.jpg">Obelisk</option>
+<option value="./andrews/andrews27.jpg">Rows of gravestones</option>
+<option value="./andrews/andrews2.jpg">Weathered gravestone</option>
+<option value="./andrews/andrews10.jpg">Open and closed books</option>
+<option value="./andrews/andrews11.jpg">Tall gravestone</option>
+<option value="./andrews/andrews19.jpg">Damaged gravestone</option>
+<option value="./andrews/andrews20.jpg">Weathered gravestone</option>
+<option value="./andrews/andrews21.jpg">Open book carving</option>
+<option value="./andrews/andrews24.jpg">Rose carving</option>
+<option value="./andrews/andrews25.jpg">Weeping willow carving</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+description[26]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Andrews Cemetery is located near the intersection of OH-60 and Hackney Road outside Beverly, Ohio (Center Township, Morgan County).  The coordinates are 39&deg; 35' 44.29&quot; N, 81&deg; 41' 33.32&quot; W.
+<br><br>
+Andrews Cemetery is no longer active.  It is located across the Muskingum River from the AEP Power Plant.  Most of the gravestones are in great condition, although a few of the older stones have been damaged.  The cemetery is very well maintained.
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!--
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="symbol.html">Gravestone Symbolism</option>
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option>
+<option value="sources.html">Sources</option>
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>
+</table>
+</body>
+</html>

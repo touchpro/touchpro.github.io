@@ -1,0 +1,202 @@
+<html>
+<head>
+<title>Interested in exploring?</title>
+<style type="text/css"> 
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Group Exploration</u></font><font size="2"><br><br><img src="divide.jpg"></font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="4" face="verdana">
+<br><br>
+<form action="dynaform.php" method="POST">
+<input type='hidden' name='rec_mailto' value='graveaddiction@gmail.com'>
+<input type='hidden' name='rec_subject' value='Interested in group exploration'>
+<input type='hidden' name='rec_thanks' value='thank.html'>
+<input type="hidden" name="ip" value="<?php echo $ipi ?>" />
+<input type="hidden" name="httpref" value="<?php echo $httprefi ?>" />
+<input type="hidden" name="httpagent" value="<?php echo $httpagenti ?>" />
+<b>Interested on going on a group exploration with Beth?  Read on for details!</b></font></p>
+<br><br>
+<p align="left"><font size="2" face="arial">Several people have mentioned that they would like to get a group of people who are interested in visiting cemeteries/haunted places together for a group exploration.  I think this sounds like fun, so I've decided to go ahead and see if enough people are interested.  If there are, I'll go ahead and plan something.
+<br><br>
+If you're seriously interested AND you're at least 18 years old, please fill out the form below:
+<br><br>
+<font size="2" face="verdana"><i>All fields are required.</i><br><br>
+<font size="2">
+
+
+Your Name: 
+<br><br>
+<INPUT TYPE="TEXT" NAME="r_name" SIZE="50">
+<br><br>
+
+Your Email:
+<br><br>
+<INPUT TYPE="TEXT" NAME="r_email" SIZE="50">
+<br><br>
+
+
+Your Age:
+<br><br>
+<INPUT TYPE="TEXT" NAME="r_age" SIZE="3">
+<br><br>
+
+
+Where you're from (city and state - even though I'm assuming you're from Ohio!):
+<br><br>
+<INPUT TYPE="TEXT" NAME="r_location" SIZE="75">
+              <br><br>
+
+What is the best time of the day for you to go?:
+<br><br>
+<select name="r_time" size="1">
+      <option value="morning" selected>Morning (6AM-Noon)</option>
+                <option value="day">Day (Noon-6PM)</option>
+                <option value="night">Night (6PM-Midnight)</option>
+                </select>
+             <br><br>
+
+
+Which days are better for you?:
+<br><br>
+<select name="r_day" size="1">
+      <option value="weekend" selected>Weekends (Friday evening - Sunday evening)</option>
+                <option value="weekday">Weekday (Monday - Friday afternoon)</option>
+                </select>
+             <br><br>
+
+Where would you like to go (these are just a couple ideas I thought of)?
+<br><br>
+<select name="r_where" size="1">
+      <option value="egrave" selected>Elisabeth's Grave</option>
+                <option value="mjgrave">Mary Jane's Grave</option>
+                <option value="lakin">Lakin State Hospital</option>
+                <option value="jcity">Junction City Prison</option>
+                <option value="tnt">TNT Area (Mothman sitings)</option>
+                <option value="hayes">Fort Hayes</option>
+                <option value="wooly">Woollyburger Cemetery</option>
+                <option value="stonewall">Stonewall Cemetery</option>
+                <option value="otterbein">Otterbein Cemetery</option>
+
+                </select>
+             <br><br>
+
+Any additional locations you'd like to suggest?
+<br><br>
+<textarea NAME="location" rows="3" cols="75"> </textarea>
+              <br><br>
+              
+Any comments?
+<br><br>
+<textarea NAME="comment" rows="3" cols="75"> </textarea>
+              <br><br>
+
+<input type="submit">&nbsp; &nbsp; <input type="reset">
+
+
+<input type=hidden name="redirect" value="http://www.graveaddiction.com/thank.html">
+
+<p align="center"><font size="3" face="verdana"><b><br><br>
+If you have any problems with the form, please <a href="mailto:removedforprivacy">e-mail me</a> the answers to the questions above.
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+  <select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option> 
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="explore.html">Group Exploration</option> 
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

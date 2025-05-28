@@ -1,0 +1,1036 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="en-gb" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Grave Addiction Message Board &bull; View forum - General Discussion</title>
+
+<link rel="stylesheet" href="./styles/subsilver2/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+   if (!name)
+   {
+      name = '_popup';
+   }
+
+   window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+   return false;
+}
+
+function jumpto()
+{
+   var page = prompt('Enter the page number you wish to go to:', '1');
+   var perpage = '50';
+   var base_url = './viewforum.php?f=12';
+
+   if (page !== null && !isNaN(page) && page > 0)
+   {
+      document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+   }
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+   popup(url, 760, 570, '_usersearch');
+   return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+   var parent = document.getElementById(id);
+   if (!parent)
+   {
+      eval('parent = document.' + id);
+   }
+
+   if (!parent)
+   {
+      return;
+   }
+
+   var rb = parent.getElementsByTagName('input');
+   
+   for (var r = 0; r < rb.length; r++)
+   {
+      if (rb[r].name.substr(0, name.length) == name)
+      {
+         rb[r].checked = state;
+      }
+   }
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+   <div id="logodesc">
+      <table width="100%" cellspacing="0">
+      <tr>
+         <td><a href="./index.php"><img src="./styles/subsilver2/imageset/site_logo2.jpg" alt="" title="" /></a><br><br><span class="gen">A place for fellow taphophiles and ghost hunters to chat!</span></td>
+
+      </tr>
+      </table>
+   </div>
+
+   <div id="menubar">
+      <table width="100%" cellspacing="0">
+      <tr>
+         <td class="genmed">
+                     </td>
+         <td class="genmed" align="right">
+            <a href="./faq.php"><img src="./styles/subsilver2/theme/images/icon_mini_faq.gif" width="12" height="13" alt="*" /> FAQ</a>
+                     </td>
+      </tr>
+      </table>
+   </div>
+
+   <div id="datebar">
+      <table width="100%" cellspacing="0">
+      <tr>
+         <td class="gensmall">Last visit was: Sun Dec 04, 2011 9:34 am</td>
+         <td class="gensmall" align="right">It is currently Sun Dec 04, 2011 9:34 am<br /></td>
+      </tr>
+      </table>
+   </div>
+
+</div>
+
+<div id="wrapcentre">
+
+   
+   <br style="clear: both;" />
+
+   <table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Board index</a> &#187; <a href="./viewforum.php?f=31">Urban Exploration</a> &#187; <a href="./viewforum.php?f=12">General Discussion</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</table>
+   <br />	<div id="pageheader">
+		<h2><a class="titles" href="./viewforum.php?f=12&amp;start=0">General Discussion</a></h2>
+
+					<p class="moderators">Moderators: <span style="color: #AA0000;" class="username-coloured">graveaddiction</span>, <span style="color: #AA0000;" class="username-coloured">WVOz1970</span>, GraveHopper</p>
+			</div>
+
+	<br clear="all" /><br />
+
+<div id="pagecontent">
+
+		<table width="100%" cellspacing="1">
+		<tr>
+							<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> of <strong>2</strong><br /></td>
+				<td class="gensmall" nowrap="nowrap">&nbsp;[ 55 topics ]&nbsp;</td>
+				<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Click to jump to page…">Go to page</a> <strong>1</strong><span class="page-sep">, </span><a href="./viewforum.php?f=12&amp;start=50">2</a> &nbsp;<a href="./viewforum.php?f=12&amp;start=50">Next</a></b></td>
+					</tr>
+		</table>
+			<table class="tablebg" width="100%" cellspacing="1">
+		<tr>
+			<td class="cat" colspan="6">
+				<table width="100%" cellspacing="0">
+				<tr class="nav">
+					<td valign="middle">&nbsp;</td>
+					<td align="right" valign="middle">&nbsp;</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+							<th colspan="2">&nbsp;Topics&nbsp;</th>
+						<th>&nbsp;Author&nbsp;</th>
+			<th>&nbsp;Replies&nbsp;</th>
+			<th>&nbsp;Views&nbsp;</th>
+			<th>&nbsp;Last post&nbsp;</th>
+		</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Thu Nov 03, 2011 1:11 am" href="./viewtopic.php?f=12&amp;t=2567" class="topictitle">Asylum Suitcases, Found And Photographed</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">OhioMoose</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">1</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">34</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sat Nov 05, 2011 4:37 am</p>
+					<p class="topicdetails">squad546											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sat Nov 20, 2010 6:14 am" href="./viewtopic.php?f=12&amp;t=2483" class="topictitle">Kentucky State Hospital</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">squad546</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">265</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sat Dec 04, 2010 5:34 am</p>
+					<p class="topicdetails">squad546											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sun Sep 19, 2010 8:30 am" href="./viewtopic.php?f=12&amp;t=2465" class="topictitle">Schrader Road Tunnel Chillicothe Ohio</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">dellgriff</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">1</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">157</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sun Sep 19, 2010 8:38 am</p>
+					<p class="topicdetails">dellgriff											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read_hot.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Wed Nov 08, 2006 8:51 am" href="./viewtopic.php?f=12&amp;t=1083" class="topictitle">Belmont County exploration</a>
+											<p class="gensmall"> [ <img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Go to page" title="Go to page" />Go to page: <a href="./viewtopic.php?f=12&amp;t=1083&amp;start=0">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=12&amp;t=1083&amp;start=25">2</a> ] </p>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Justin</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">42</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">7698</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu May 20, 2010 4:07 am</p>
+					<p class="topicdetails">derektspnorthernky											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Aug 25, 2008 12:20 pm" href="./viewtopic.php?f=12&amp;t=2078" class="topictitle">lima TB hospital and lima trade center</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimripper</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">3</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">615</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu May 20, 2010 4:04 am</p>
+					<p class="topicdetails">derektspnorthernky											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read_hot.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Jan 01, 2007 6:21 pm" href="./viewtopic.php?f=12&amp;t=1218" class="topictitle">Anyone been out exploring lately?</a>
+											<p class="gensmall"> [ <img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Go to page" title="Go to page" />Go to page: <a href="./viewtopic.php?f=12&amp;t=1218&amp;start=0">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=12&amp;t=1218&amp;start=25">2</a><span class="page-sep">, </span><a href="./viewtopic.php?f=12&amp;t=1218&amp;start=50">3</a> ] </p>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">69</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">9045</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Oct 23, 2009 7:28 pm</p>
+					<p class="topicdetails">jbookless											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Dec 28, 2007 3:21 pm" href="./viewtopic.php?f=12&amp;t=1883" class="topictitle">What happened to Forgottenoh.com?</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Pants_Vader</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">15</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">2394</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Nov 13, 2008 3:49 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Tue Oct 14, 2008 6:24 am" href="./viewtopic.php?f=12&amp;t=2108" class="topictitle">Sunnyside School - Apple Grove, WV</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">joshfromwv</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">1</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">287</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Nov 13, 2008 3:48 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Tue Jul 25, 2006 8:00 pm" href="./viewtopic.php?f=12&amp;t=754" class="topictitle">Long road trips to nowhere.</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">17</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">3747</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Nov 13, 2008 3:46 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Jul 18, 2008 2:26 pm" href="./viewtopic.php?f=12&amp;t=2043" class="topictitle">The revival of   Hotel of Doom</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">1</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">545</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Oct 09, 2008 5:24 am</p>
+					<p class="topicdetails">joshfromwv											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Tue Apr 29, 2008 2:31 am" href="./viewtopic.php?f=12&amp;t=1980" class="topictitle">Ohio map of haunts</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Scylla</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">17</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">2046</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Oct 09, 2008 5:14 am</p>
+					<p class="topicdetails">joshfromwv											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Aug 11, 2006 4:53 pm" href="./viewtopic.php?f=12&amp;t=803" class="topictitle">Abandoned Farmhouse near Frazeysburg</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">5</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1648</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Oct 09, 2008 5:05 am</p>
+					<p class="topicdetails">joshfromwv											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Wed May 07, 2008 2:40 pm" href="./viewtopic.php?f=12&amp;t=1991" class="topictitle">Franklin County Infirmary</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">dagr8tim</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">3</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">664</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed May 07, 2008 10:31 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Nov 16, 2007 1:56 am" href="./viewtopic.php?f=12&amp;t=1851" class="topictitle">Finally got almost all of my explorations pics up!</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">10</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1418</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed Apr 30, 2008 7:09 pm</p>
+					<p class="topicdetails">dagr8tim											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Tue Apr 29, 2008 1:06 pm" href="./viewtopic.php?f=12&amp;t=1982" class="topictitle">1905 Survey Maps</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">dagr8tim</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">3</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">619</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed Apr 30, 2008 2:40 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">WVOz1970</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Mar 10, 2008 5:34 pm" href="./viewtopic.php?f=12&amp;t=1939" class="topictitle">about Moxahalla Park</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">mountainmouse</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">1</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">552</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Mar 28, 2008 12:46 am</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Jan 14, 2008 3:10 am" href="./viewtopic.php?f=12&amp;t=1900" class="topictitle">City Center mall photos?</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">shutterbug</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">666</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Tue Jan 15, 2008 3:39 pm</p>
+					<p class="topicdetails">shutterbug											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Wed Jan 02, 2008 6:50 pm" href="./viewtopic.php?f=12&amp;t=1888" class="topictitle">Abandoned World War 2 aircraft plant to be resort</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">669</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Jan 04, 2008 5:29 pm</p>
+					<p class="topicdetails">BloodRed											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Nov 05, 2007 2:36 pm" href="./viewtopic.php?f=12&amp;t=1847" class="topictitle">Went exploring with Vannah this weekend.</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">7</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1242</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Tue Nov 13, 2007 5:08 am</p>
+					<p class="topicdetails">Vannah Von Terror											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Oct 08, 2007 3:34 am" href="./viewtopic.php?f=12&amp;t=1794" class="topictitle">Akron and surrounding counties.</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Jakebert</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">678</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Mon Oct 08, 2007 1:02 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">WVOz1970</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sun Jun 24, 2007 10:36 pm" href="./viewtopic.php?f=12&amp;t=1591" class="topictitle">Abandonded houses, buildings and diners</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Carson</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">8</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1508</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed Oct 03, 2007 8:27 am</p>
+					<p class="topicdetails">Vannah Von Terror											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Tue Aug 21, 2007 5:05 pm" href="./viewtopic.php?f=12&amp;t=1707" class="topictitle">Site Outing</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">dagr8tim</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">6</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1197</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Aug 23, 2007 12:58 pm</p>
+					<p class="topicdetails">corupt											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Tue Jul 24, 2007 3:33 am" href="./viewtopic.php?f=12&amp;t=1662" class="topictitle">Hello</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">hoffmanhouse</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">12</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1805</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Aug 09, 2007 2:47 am</p>
+					<p class="topicdetails">grimshawl											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Aug 03, 2007 3:00 am" href="./viewtopic.php?f=12&amp;t=1676" class="topictitle">Grimshawl, ever see this house?</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">jmarie1210</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">6</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1210</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Mon Aug 06, 2007 4:45 am</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Jul 31, 2006 11:10 pm" href="./viewtopic.php?f=12&amp;t=777" class="topictitle">The Lake Erie Mirage</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><span style="color: #AA0000;" class="username-coloured">N-A</span></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">7</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1992</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed Jul 25, 2007 3:33 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">N-A</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sun Jul 22, 2007 2:10 pm" href="./viewtopic.php?f=12&amp;t=1655" class="topictitle">16-Year-Old Dies on Abandoned Mine Visit</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">OhioMoose</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">4</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">974</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Mon Jul 23, 2007 2:41 pm</p>
+					<p class="topicdetails">OhioMoose											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Wed May 23, 2007 6:17 pm" href="./viewtopic.php?f=12&amp;t=1538" class="topictitle">Haughton Elevator Factory</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Robin</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">6</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1311</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Jul 12, 2007 5:31 pm</p>
+					<p class="topicdetails">Robin											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri May 25, 2007 5:59 pm" href="./viewtopic.php?f=12&amp;t=1544" class="topictitle">Rockwood Asylum</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Robin</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">4</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1134</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Jun 07, 2007 4:38 pm</p>
+					<p class="topicdetails">BloodRed											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Thu Apr 26, 2007 2:11 pm" href="./viewtopic.php?f=12&amp;t=1480" class="topictitle">A couple places I visited recently</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">9</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1743</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu May 24, 2007 2:43 am</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read_hot.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sat May 27, 2006 5:05 am" href="./viewtopic.php?f=12&amp;t=543" class="topictitle">OLD US 35 abondoned house near W.C.H.</a>
+											<p class="gensmall"> [ <img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Go to page" title="Go to page" />Go to page: <a href="./viewtopic.php?f=12&amp;t=543&amp;start=0">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=12&amp;t=543&amp;start=25">2</a> ] </p>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">alisclan</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">25</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">5487</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Tue Apr 10, 2007 5:09 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Thu Apr 05, 2007 7:49 pm" href="./viewtopic.php?f=12&amp;t=1422" class="topictitle">New Google Maps Feature</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">dagr8tim</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">890</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Mon Apr 09, 2007 11:44 am</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Feb 16, 2007 4:23 am" href="./viewtopic.php?f=12&amp;t=1319" class="topictitle">New Urban Explorer's Forum for All UE/RE's in the Northeast!</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">physgraf</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">1</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">823</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Feb 16, 2007 11:58 am</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Wed Jan 17, 2007 3:27 pm" href="./viewtopic.php?f=12&amp;t=1238" class="topictitle">Niagara Falls Tunnel Exploration</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><span style="color: #AA0000;" class="username-coloured">N-A</span></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">3</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1128</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Mon Jan 22, 2007 11:41 am</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Wed Dec 20, 2006 9:41 pm" href="./viewtopic.php?f=12&amp;t=1195" class="topictitle">Abandoned and Little-Known Airfields Web Site</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">OhioMoose</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">1</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">909</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sat Dec 23, 2006 3:12 am</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Dec 18, 2006 7:59 pm" href="./viewtopic.php?f=12&amp;t=1190" class="topictitle">Abondoned building north of Marion</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">dagr8tim</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">6</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1630</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed Dec 20, 2006 1:27 pm</p>
+					<p class="topicdetails">blucobra											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Thu Dec 14, 2006 12:30 pm" href="./viewtopic.php?f=12&amp;t=1186" class="topictitle">Article about abandoned buildings/UE</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">1</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">956</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Dec 14, 2006 3:31 pm</p>
+					<p class="topicdetails">grimshawl											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Apr 24, 2006 8:02 pm" href="./viewtopic.php?f=12&amp;t=451" class="topictitle">Moonville Tunnel?</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Spike</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">14</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">3494</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Nov 30, 2006 5:56 am</p>
+					<p class="topicdetails">rbatina											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sun Nov 12, 2006 5:16 pm" href="./viewtopic.php?f=12&amp;t=1106" class="topictitle">Petroglyphic Rocks in Barnesville Ohio</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Justin</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">912</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sun Nov 12, 2006 5:16 pm</p>
+					<p class="topicdetails">Justin											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read_hot.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Aug 28, 2006 12:34 pm" href="./viewtopic.php?f=12&amp;t=848" class="topictitle">Lost Town of Egypt</a>
+											<p class="gensmall"> [ <img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Go to page" title="Go to page" />Go to page: <a href="./viewtopic.php?f=12&amp;t=848&amp;start=0">1</a> ... <a href="./viewtopic.php?f=12&amp;t=848&amp;start=75">4</a><span class="page-sep">, </span><a href="./viewtopic.php?f=12&amp;t=848&amp;start=100">5</a><span class="page-sep">, </span><a href="./viewtopic.php?f=12&amp;t=848&amp;start=125">6</a> ] </p>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">lovemetal666</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">126</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">18078</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sun Nov 12, 2006 2:53 am</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sun Oct 22, 2006 5:06 pm" href="./viewtopic.php?f=12&amp;t=1027" class="topictitle">Egypt Valley Revisted</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">dagr8tim</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">12</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">2733</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed Nov 08, 2006 5:43 am</p>
+					<p class="topicdetails">Justin											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Wed Oct 25, 2006 4:48 pm" href="./viewtopic.php?f=12&amp;t=1035" class="topictitle">Lakin Colored Boys School</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">RC*Byrd</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">5</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1530</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Oct 26, 2006 4:23 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Oct 13, 2006 9:49 pm" href="./viewtopic.php?f=12&amp;t=997" class="topictitle">Cool London Subway Site</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">dagr8tim</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">4</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1370</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sun Oct 15, 2006 7:51 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">N-A</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Oct 02, 2006 7:02 pm" href="./viewtopic.php?f=12&amp;t=961" class="topictitle">Spotted several Abandoned houses near Otsego Ohio</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1117</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Mon Oct 02, 2006 8:18 pm</p>
+					<p class="topicdetails">grimshawl											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Thu Sep 28, 2006 1:55 pm" href="./viewtopic.php?f=12&amp;t=951" class="topictitle">In need of guidance....please</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">lovemetal666</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">10</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">2317</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sat Sep 30, 2006 1:28 pm</p>
+					<p class="topicdetails">lovemetal666											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Jul 07, 2006 4:56 pm" href="./viewtopic.php?f=12&amp;t=702" class="topictitle">What would be your ultimate exploration.</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">22</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">5112</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Sep 14, 2006 1:02 pm</p>
+					<p class="topicdetails">shutterbug											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Wed Aug 30, 2006 2:47 pm" href="./viewtopic.php?f=12&amp;t=862" class="topictitle">Columbus Coated Fabrics - NEWS</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">3</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1279</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed Aug 30, 2006 3:46 pm</p>
+					<p class="topicdetails">grimshawl											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sun Jul 02, 2006 1:40 pm" href="./viewtopic.php?f=12&amp;t=677" class="topictitle">EVP's and Ghost Activity</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Phantom55</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">5</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1805</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed Jul 05, 2006 1:28 am</p>
+					<p class="topicdetails">Phantom55											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Jun 16, 2006 7:56 pm" href="./viewtopic.php?f=12&amp;t=627" class="topictitle">any new exploring by anybody lately?</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">15</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">3954</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Jun 30, 2006 6:49 pm</p>
+					<p class="topicdetails">grimshawl											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Tue Jun 20, 2006 2:56 pm" href="./viewtopic.php?f=12&amp;t=636" class="topictitle">How is everyone?</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">lovemetal666</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">12</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">3296</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Jun 22, 2006 1:55 am</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read_hot.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon May 15, 2006 1:37 pm" href="./viewtopic.php?f=12&amp;t=511" class="topictitle">The Corner House</a>
+											<p class="gensmall"> [ <img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Go to page" title="Go to page" />Go to page: <a href="./viewtopic.php?f=12&amp;t=511&amp;start=0">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=12&amp;t=511&amp;start=25">2</a> ] </p>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">31</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">7430</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Mon Jun 05, 2006 4:38 am</p>
+					<p class="topicdetails">insurgent											</p>
+				</td>
+			</tr>
+
+				</table>
+			<table width="100%" cellspacing="1">
+		<tr>
+							<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> of <strong>2</strong><br /></td>
+				<td class="gensmall" nowrap="nowrap">&nbsp;[ 55 topics ]&nbsp;</td>
+				<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Click to jump to page…">Go to page</a> <strong>1</strong><span class="page-sep">, </span><a href="./viewforum.php?f=12&amp;start=50">2</a> &nbsp;<a href="./viewforum.php?f=12&amp;start=50">Next</a></b></td>
+					</tr>
+		</table>
+	
+		<br clear="all" />
+</div>
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Board index</a> &#187; <a href="./viewforum.php?f=31">Urban Exploration</a> &#187; <a href="./viewforum.php?f=12">General Discussion</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Who is online</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Users browsing this forum: <span style="color: #9E8DA7;" class="username-coloured">Alexa [Bot]</span> and 0 guests</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Jump to:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Select a forum</option>
+		<option value="-1">------------------</option>			<option value="28">Introductions</option>
+					<option value="1">&nbsp; &nbsp;New To The Message Board?</option>
+					<option value="29">Cemetery Photography and Discussion</option>
+					<option value="2">&nbsp; &nbsp;General Discussion</option>
+					<option value="3">&nbsp; &nbsp;Favorite Season For Photography</option>
+					<option value="4">&nbsp; &nbsp;Camera Types</option>
+					<option value="5">&nbsp; &nbsp;Interesting Cemeteries To Visit</option>
+					<option value="37">&nbsp; &nbsp;Cemetery Restoration</option>
+					<option value="30">Ghost Hunting</option>
+					<option value="6">&nbsp; &nbsp;General Discussion</option>
+					<option value="7">&nbsp; &nbsp;Advice</option>
+					<option value="8">&nbsp; &nbsp;Your Stories</option>
+					<option value="9">&nbsp; &nbsp;Haunted Places</option>
+					<option value="10">&nbsp; &nbsp;Organized Ghost Hunts</option>
+					<option value="11">&nbsp; &nbsp;Recommended Books And Movies</option>
+					<option value="27">&nbsp; &nbsp;Recommended Video Games</option>
+					<option value="31">Urban Exploration</option>
+					<option value="12" selected="selected">&nbsp; &nbsp;General Discussion</option>
+					<option value="13">&nbsp; &nbsp;Tips And Tricks</option>
+					<option value="14">&nbsp; &nbsp;Interesting Locations To Visit</option>
+					<option value="32">Ouija Boards</option>
+					<option value="15">&nbsp; &nbsp;Questions?</option>
+					<option value="16">&nbsp; &nbsp;Your Stories</option>
+					<option value="20">&nbsp; &nbsp;Ouija Meet Ups</option>
+					<option value="24">&nbsp; &nbsp;General Discussion</option>
+					<option value="33">Genealogy Requests</option>
+					<option value="17">&nbsp; &nbsp;Gravestone Photo Request</option>
+					<option value="18">&nbsp; &nbsp;Cemetery Locations</option>
+					<option value="26">&nbsp; &nbsp;General Discussion</option>
+					<option value="34">States/Countries Other Than Ohio</option>
+					<option value="21">&nbsp; &nbsp;Cemeteries In Other States/Countries</option>
+					<option value="22">&nbsp; &nbsp;UE Locations In Other States/Countries</option>
+					<option value="23">&nbsp; &nbsp;Haunted Places In Other States/Countries</option>
+					<option value="35">Myths and Legends</option>
+					<option value="25">&nbsp; &nbsp;General Discussion</option>
+					<option value="36">Open Discussion</option>
+					<option value="19">&nbsp; &nbsp;Anything Goes!</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Go" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+		<span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	</span>
+</div>
+
+</body>
+</html>

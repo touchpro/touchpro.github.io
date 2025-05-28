@@ -1,0 +1,233 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Tontogany Cemetery in Tontogany, Ohio">
+<meta name="keywords" content="Tontogany, Cemetery, old, haunted, Wood, County, Ohio, graveyard, spooky">
+<title>Tontogany Cemetery</title>
+
+<style type="text/css">
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Tontogany Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Tontogany, Ohio</font>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+
+<b>Click on any of the titles in the option box below to view the picture:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="15" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./tontog/tontog14.jpg" selected>Rows of old gravestones</option>
+<option value="./tontog/tontog5.jpg">Gravestones under trees</option>     
+<option value="./tontog/tontog22.jpg">Looking towards back</option> 
+<option value="./tontog/tontog10.jpg">Looking towards front</option> 
+<option value="./tontog/tontog16.jpg">Two children</option> 
+<option value="./tontog/tontog19.jpg">Leaning gravestone</option> 
+<option value="./tontog/tontog23.jpg">Civil War veteran</option> 
+<option value="./tontog/tontog13.jpg">Repaired gravestone</option> 
+<option value="./tontog/tontog21.jpg">Closer shot of repaired gravestone</option> 
+<option value="./tontog/tontog24.jpg">Mother</option> 
+<option value="./tontog/tontog1.jpg">Sunken gravestone</option> 
+<option value="./tontog/tontog3.jpg">Looking towards back</option>
+<option value="./tontog/tontog4.jpg">Flowers on grave</option> 
+<option value="./tontog/tontog6.jpg">Veteran's grave</option> 
+<option value="./tontog/tontog7.jpg">Broken gravestone</option> 
+<option value="./tontog/tontog8.jpg">Civil War veteran</option> 
+<option value="./tontog/tontog9.jpg">Weeping willow carving</option> 
+<option value="./tontog/tontog11.jpg">Another broken gravestone</option> 
+<option value="./tontog/tontog12.jpg">Pointing to heaven</option> 
+<option value="./tontog/tontog15.jpg">Sunken gravestone</option> 
+<option value="./tontog/tontog17.jpg">Old sandstone marker</option> 
+<option value="./tontog/tontog20.jpg">Gravestones under trees</option> 
+<option value="./tontog/tontog2.jpg">North end of cemetery</option> 
+<option value="./tontog/tontog18.jpg">Obelisk under tree</option> 
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]="" 
+description[6]=""
+description[7]=""  
+description[8]=""
+description[9]="" 
+description[10]=""
+description[11]=""
+description[12]=""   
+description[13]="" 
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]="" 
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Tontogany Cemetery is located at the southeast corner of Tontogany Creek Road and Opperman Road in Tontogany, Ohio (Washington Township, Wood County).  The coordinates are 41&deg; 25' 46.3&quot; N, 83&deg; 44' 33.24&quot; W.
+<br><br>  
+Tontogany Cemetery is rather large and it is still active.  It was established in 1834, the oldest section is on the south side.  It is extremely well taken care of, there are only a handful of broken gravestones and the grounds are very well maintained.  
+<br><br>
+I didn't think Tontogany Cemetery looked very creepy, but I've read several reports of it being haunted.  People have claimed to see strange blinking lights and floating orbs, as well as a mysterious blue light in the cemetery's storage shed.  The storage shed door also opens and closes on it's own with no logical explanation.  Some have even claimed to see shadowy figures near a few of the graves.
+<br><br>
+In April 2006 I received an e-mail from Bonnie with more information about the hauntings at this cemetery:
+<br><br>
+<blockquote>&quot;Tontogany Cemetery is supposedly haunted by a crying baby.  I don't have anymore info, other than when I was in high school [1982] that was the place to go. As you walk in, the stones were reported to have names of people that you know.  A classmate's name did show up on one of the stones, and the crying baby sound is present at night. I went to a funeral there in 1988 and I felt uncomfortable. There is supposed to be a haunted barn in that area used for devil worship...but again, high school stories.&quot;</blockquote>
+<br>
+A very big &quot;thank you&quot; to Mike McMaster for taking me to this cemetery!!
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option> 
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

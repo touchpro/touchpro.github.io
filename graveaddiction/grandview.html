@@ -1,0 +1,261 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Grandview Cemetery, Chillicothe, Ohio">
+<meta name="keywords" content="Grandview, Cemetery, old, haunted, Chillicothe, Ohio, graveyard, spooky">
+<title>Grandview Cemetery</title>
+
+<style type="text/css">
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Grandview Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Chillicothe, Ohio</font>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+
+<b>Click on any of the titles in the option box below to view the photo:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="15" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./grandview/grandview27.jpg" selected>View from top of hill</option>
+<option value="./grandview/grandview22.jpg">Zoomed in on downtown</option>  
+<option value="./grandview/grandview24.jpg">Zoomed in even closer</option> 
+<option value="./grandview/grandview28.jpg">Veteran's memorial</option> 
+<option value="./grandview/grandview29.jpg">Nathaniel Massie</option> 
+<option value="./grandview/grandview7.jpg">Revolutionary War veteran</option> 
+<option value="./grandview/grandview6.jpg">Member of George Washington's staff</option> 
+<option value="./grandview/grandview18.jpg">Gravestone with statue</option> 
+<option value="./grandview/grandview17.jpg">Closer shot of statue</option> 
+<option value="./grandview/grandview13.jpg">Joshua W. Sill</option> 
+<option value="./grandview/grandview14.jpg">Plaque on Sill's gravestone</option> 
+<option value="./grandview/grandview15.jpg">Confederate soldier Charles Mason</option> 
+<option value="./grandview/grandview16.jpg">Epitaph on Charles Mason's grave</option>
+<option value="./grandview/grandview8.jpg">Hills in distance</option> 
+<option value="./grandview/grandview9.jpg">William Allen</option>  
+<option value="./grandview/grandview10.jpg">Duncan McArthur</option> 
+<option value="./grandview/grandview2.jpg">Looking down hill</option> 
+<option value="./grandview/grandview3.jpg">Row of close gravestones</option>    
+<option value="./grandview/grandview5.jpg">Looking across road</option>  
+<option value="./grandview/grandview12.jpg">Gravestones at edge of hill</option> 
+<option value="./grandview/grandview19.jpg">Trunk shaped gravestone</option> 
+<option value="./grandview/grandview20.jpg">Civil War veteran</option> 
+<option value="./grandview/grandview26.jpg">Large marble pillars</option> 
+<option value="./grandview/grandview1.jpg">Infant's grave</option> 
+<option value="./grandview/grandview4.jpg">Civil War veteran</option> 
+<option value="./grandview/grandview11.jpg">Old section</option> 
+<option value="./grandview/grandview21.jpg">Looking towards back</option> 
+<option value="./grandview/grandview23.jpg">Large mausoleum</option> 
+<option value="./grandview/grandview25.jpg">Looking inside mausoleum</option>    
+<option value="./grandview/grandview30.jpg">Zinc gravestone</option> 
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]="" 
+description[6]=""
+description[7]=""   
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]="" 
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]="" 
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+description[26]=""
+description[27]=""
+description[28]=""
+description[29]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Grandview Cemetery is located at the south end of Brookside Avenue, about 800 feet west of Bellevue Avenue, in Chillicothe, Ohio (Scioto Township, Ross County).  The coordinates are 39&deg; 19' 28.83&quot; N, 82&deg; 59' 12&quot; W.
+<br><br>  
+Grandview Cemetery is enormous!  It is still an active cemetery, but there are many sections of old gravestones to look at.  The cemetery's name is accurate too...there is a beautiful view of Chillicothe from the top of the cemetery.  I bet it's extremely beautiful in the fall.
+<br><br><br>
+<center><img src="./histimg/grandvcem.jpg" alt="antique postcard"><br><br><i>Antique postcard, postmarked September 17, 1907</i></center>
+<br><br>
+There are many well known politicians, soldiers, etc. buried in the cemetery.  Here's a list of a few famous people buried in Grandview Cemetery (there are many more, I recommend looking up the cemetery on <a href="http://www.findagrave.com" target="_blank">Findagrave.com</a>):  
+<br>
+<ul>  
+<li><u>William Allen</u> - 31st governor of Ohio.  Also a United States senator.<br><br>
+<li><u>William Creighton, Jr.</u> - Designer of the Great Seal of Ohio and Ohio's first Secretary of State.<br><br>
+<li><u>Edwin H. Davis</u> - A well known scientist who gathered the largest collection of prehistoric Indian collections in the United States.<br><br>
+<li><u>Nathaniel Massie</u> - Founder of Chillicothe, Ohio's first capital.  He was also a Revolutionary War soldier.<br><br>
+<li><u>Duncan McArthur</u> - Founder of Greenfield, Ohio and U.S. Congressman.<br><br>
+<li><u>Frederick H. Rehwinkel</u> - President of the American Dental Society in 1877.<br><br>  
+<li><u>Felix Renick</u> - Began the importation of short-horn cattle into the west.<br><br>
+<li><u>Joshua W. Sill</u> - The youngest Brigadier General in the U.S. Army.<br><br>
+<li><u>James Strode Swearinger</u> - Founder of Fort Dearborn, Illinois, which later became the city of Chicago.<br><br>
+<li><u>Edward Tiffin</u> - First Ohio Governor.<br><br>
+<li><u>George H. Tyler</u> - One of Broadway's most famous producers in the late 19th century.<br><br>
+<li><u>Thomas Woodrow</u> - Uncle of United States President Woodrow Wilson.<br><br>
+<li><u>Thomas Worthington</u> - Sixth Ohio governor.  Also a United States senator.  Known as the &quot;Father of the Ohio-Erie Canal&quot;.
+</ul>
+<br>
+Like most large, active cemeteries the grounds are very well taken care of.  There are hardly any broken gravestones.
+<br><br>
+A huge thank you to Mike Hill for taking me to this cemetery and pointing out some of the famous gravestones!
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option> 
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

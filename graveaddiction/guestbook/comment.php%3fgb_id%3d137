@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>Guestbook</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="guestbook, php, script, mySQL, free, advance">
+<style type="text/css">
+<!--
+.font1 {  font-family: Verdana, Helvetica, sans-serif; font-size: 11px; color: #333333 }
+.font2 {  font-family: Verdana, Helvetica, sans-serif; font-size: 10px; color: #333333 }
+.font3 { font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt; color: #333333; font-weight: bold}
+.select {  font-family: Verdana, Helvetica, sans-serif; font-size: 9pt}
+.input {  font-family: Verdana, Helvetica, sans-serif; font-size: 9pt}
+-->
+</style>
+<script language="JavaScript">
+<!--
+function gb_picture(Image,imgWidth,imgHeight) {
+    var border = 24;
+    var img = Image;
+    var features;
+    var w;
+    var h;
+    winWidth = (imgWidth<100) ? 100 : imgWidth+border;
+    winHeight = (imgHeight<100) ? 100 : imgHeight+border;
+    if (imgWidth+border > screen.width) {
+        winWidth = screen.width-10;
+        w = (screen.width - winWidth)/2;
+        features = "scrollbars=yes";      
+    } else {
+        w = (screen.width - (imgWidth+border))/2;
+    }
+    if (imgHeight+border > screen.height) {
+        winHeight = screen.height-60;
+        h = 0;
+        features = "scrollbars=yes";      
+    } else {
+        h = (screen.height - (imgHeight+border))/2 - 20;
+    }
+    winName = (img.indexOf("t_") == -1) ? img.substr(4,(img.length-8)) : img.substr(6,(img.length-10));
+    features = features+',toolbar=no,width='+winWidth+',height='+winHeight+',top='+h+',left='+w;
+    theURL = 'http://www.graveaddiction.com/picture.php?img='+Image;
+    popup = window.open(theURL,winName,features);
+    popup.focus();  
+}
+//-->
+</script>
+</head>
+<body bgcolor="#000000" link="#990000" vlink="#990000">
+<script language="JavaScript">
+<!--
+var flag=0;
+function SetFlag() {
+  flag=1;
+}
+//-->
+</script>
+<table border="0" cellspacing="0" cellpadding="2" align="center" width="95%">
+   <tr>
+    <td height="45"><b><font size="4" face="Verdana, Helvetica, sans-serif" color="#333333">Guestbook</font></b></td>
+    <td height="45">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="45%" valign="bottom" class="font2">Write a comment for this guestbook entry.</td>
+    <td width="55%" align="right" valign="bottom" class="font2"> <b><img src="http://www.graveaddiction.com/img/return.gif" width="10" height="10">
+     <a href="index.php">Back to Guestbook</a> | <img src="http://www.graveaddiction.com/img/lock.gif" width="9" height="11"> <a href="admin.php">Administration</a></b></td>
+  </tr>
+</table>
+<form method="post" action="comment.php" onsubmit="return SetFlag()">
+  <table border="0" cellspacing="1" cellpadding="4" width="95%" align="center" bgcolor="#000000">
+    <tr>
+     <td colspan="2" bgcolor="#333333"><b><font size="2" face="Verdana, Helvetica, sans-serif" color="#FFFFFF">Sign the Guestbook:</font></b></td>
+    </tr>
+
+<tr bgcolor="#E8E8E8">
+ <td width="32%" valign="top">
+   <table border="0" cellspacing="0" cellpadding="2">
+     <tr>
+       <td class="font2" valign="top" width="8%"><b>137)</b></td>
+       <td width="92%"> <img src="http://www.graveaddiction.com/guestbook/img/ip.gif" alt="IP logged">&nbsp;&nbsp;<img src="http://www.graveaddiction.com/guestbook/img/browser.gif" width="16" height="16" alt="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; FunWebProducts; .NE">&nbsp;
+        
+        
+        
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1"><b>Todd Matthews</b>&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font1">JTMatthews@TwLakes.net</td>
+     </tr>
+     <tr>
+       <td colspan="2" class="font2">Location:<br>Livingston, Tennessee</td>
+     </tr>
+    </table>
+  </td>
+  <td width="68%" class="font1" valign="top"> 
+    <div align="left" class="font3"><img src="http://www.graveaddiction.com/guestbook/img/post.gif" width="9" height="9">Monday, July 5, 2004 22:13&nbsp;
+     <a href="#"><img src="http://www.graveaddiction.com/guestbook/img/edit.gif" width="18" height="13" border="0" alt="Write a comment"></a>
+     <a href="mailto:JTMatthews@TwLakes.net"><img src="http://www.graveaddiction.com/img/email.gif" width="15" height="15" alt="Send E-mail" border="0"></a>
+    </div>
+    <hr size="1"><div align="left">
+     http://www.rootsweb.com/~kymadiso/research/memory/memory01.htm<br />
+ <br />
+The Mystery of Madison Man<br />
+<br />
+<br />
+By Doug Moe<br />
+Madison - Wisconsin Capital Times<br />
+June 30, 2004<br />
+<br />
+LAST FRIDAY, at the very back of a small cemetery in Kentucky, seven people placed in cement a tombstone on a grave that for 11 years had been without one.<br />
+<br />
+On the tombstone is written: &quot;Madison Man - 1993.&quot;<br />
+<br />
+It was, Todd Matthews was saying Tuesday, a nice moment. But Matthews, 34, wants more. He has an obsession with identifying anonymous corpses, and he thinks someone here may know something about the man whose body was found on Thanksgiving Day, 1993, in Kentucky.<br />
+<br />
+The cause of death was asphyxiation. A plastic bag had been secured over the dead man's head with a belt. The bag was from a Madison grocery store - Capitol Centre Foods.<br />
+<br />
+For Matthews, this started two years ago when he was contacted by a young Kentucky woman named Ahlashia Thomas. Thomas had become interested in the unidentified corpse and, in doing research, had come across the name of Matthews, a Tennessee man of increasing prominence in the sometimes strange world of missing persons and the nameless dead.<br />
+<br />
+Matthews traveled to Kentucky to meet Thomas and learn more about the case. He contacted his friend, Dr. Emily Craig, the forensic medical examiner for the state of Kentucky, who pulled what records there were while a new sketch of the dead man was made and circulated.<br />
+<br />
+The Capitol Centre Foods bag found at the scene was not the only &quot;Madison&quot; connection to the dead man, whom Matthews took to calling &quot;Madison Man.&quot; The body was found in Madison County, Ky. It was clad in a blue down vest manufactured by Horizon Sportswear in Madison Heights, Mich.<br />
+<br />
+But the link to this Madison - the grocery bag at the crime scene - is the most compelling. I say crime scene although the Kentucky authorities have not ruled out suicide, though tying a plastic bag around your head is not, I should think, a common suicide method.<br />
+<br />
+&quot;Somebody in your area may know something,&quot; Matthews said. &quot;I have seen it happen before.&quot;<br />
+<br />
+He sure has. Matthews can tell you that there are more than 5,500 unidentified bodies registered with the National Crime Information Center, an FBI clearinghouse in West Virginia. There are more than 101,000 missing persons. &quot;And those numbers are very low,&quot; Matthews said, because so many go unreported.<br />
+<br />
+It didn't have to happen this way for Matthews. He thinks about that sometimes, and how his life might have been different if in 1988 he hadn't begun dating a girl named Lori Riddle, whom he eventually married.<br />
+<br />
+At some point during their courtship, Lori told Matthews that her father, Wilbur Riddle, had two decades previously found the corpse of a young woman in a canvas sack dumped near a highway in Scott County, Ky. The identity of the corpse was never determined.<br />
+<br />
+Matthews couldn't get the image of the woman out of his mind. Looking into the case, he found that she had been given the nickname &quot;Tent Girl&quot; since the sack in which she was discovered is commonly used to store tents.<br />
+<br />
+When the Internet came online, Matthews intensified his research and at one point came across an Arkansas woman, Rosemary Westbrook, who was searching for an older sister who had disappeared in 1968.<br />
+<br />
+Matthews encouraged Westbrook to send photos of her sister to Emily Craig, the Kentucky medical examiner. In 1998, the Tent Girl's remains were exhumed and a DNA sample obtained. The Tent Girl proved to be Westbrook's sister, Barbara Ann. www.TentGirl.com<br />
+<br />
+Matthews next created a Web site, The Lost and The Found, and, working with the NCIC and the Doe Network, has in the past five years helped identify more than 20 nameless corpses.<br />
+<br />
+He'd like to add Madison Man to that list. These nameless souls haunt him. It wasn't too long ago that Matthews was at his grandfather's old farm, getting ready for a photo shoot Wired magazine had scheduled for a profile on him, when he spotted an unused tombstone, a stone originally meant for a family member who was provided with a military stone. He thought of the grave he had recently visited in Kentucky marked only by a small aluminum plaque.<br />
+<br />
+Last week, accompanied by his wife and two young sons, Matthews went to Kentucky and with Ahlashia Thomas and her family erected the tombstone for Madison Man, who was 30-35 years old when he died in 1993, about 5 feet, 7 inches tall and weighed around 150 pounds.<br />
+<br />
+Did he bring that Capitol Centre Foods bag from Madison to Madison County, Ky.? Or did his killer bring it? One thing Todd Matthews has learned over the years is that somewhere, somebody knows.<br />
+<br />
+ <br />
+<br />
+Check out this web-site for additional information---<br />
+<br />
+www.MadisonMan.us
+   </div>
+   
+ </td>
+</tr>
+
+
+    <tr bgcolor="#E8E8E8">
+      <td width="32%" class="font1"><img src="http://www.graveaddiction.com/img/edit.gif" width="18" height="13">Comments:</td>
+      <td><textarea name="comment" cols="32" rows="6"></textarea></td>
+    </tr>
+    <tr bgcolor="#E8E8E8">
+      <td width="32%" class="font1">Name:</td>
+      <td><input type="text" name="gb_user" size="35" maxlength="25"></td>
+    </tr>
+    
+
+
+    <tr bgcolor="#E8E8E8">
+      <td width="32%">&nbsp;</td>
+      <td>
+        <input type="submit" name="action" value="Submit" class="input" onclick="if(flag==1) return false;">
+        <input type="reset" value="Reset" class="input">
+        <input type="hidden" name="gb_id" value="137">
+        <input type="hidden" name="gb_comment" value="1">
+      </td>
+    </tr>
+  </table>
+</form>
+
+<center><b><font face="Arial, Helvetica, sans-serif" color="#CCCCCC" size="1">Powered by <a href="http://www.proxy2.de" target="_blank"><font color="#CCCCCC" size="1">Advanced Guestbook 2.3.1</font></a></font></b></center>
+</body>
+</html>

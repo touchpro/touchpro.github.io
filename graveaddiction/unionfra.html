@@ -1,0 +1,233 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Union Cemetery in Columbus, Ohio">
+<meta name="keywords" content="Union, Amaranth, Abbey, cemetery, Columbus, Franklin, County, Clinton, Township, haunted, Ohio, graveyard, spooky, old, desolate">
+<title>Union Cemetery</title>
+
+<style type="text/css">
+body {
+scrollbar-arrow-color: #999999;
+scrollbar-base-color: #000000;
+scrollbar-dark-shadow-color: #000000;
+scrollbar-track-color: #000000;
+scrollbar-face-color: #000000;
+scrollbar-shadow-color: #000000;
+scrollbar-highlight-color: #999999;
+scrollbar-3d-light-color: #000000;
+}
+
+a:link {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:active {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight:
+
+none; color: #333333; }
+
+</style>
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center">
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Union Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Columbus, Ohio</font>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">
+<p align="left"><font size="2" face="verdana"><br><br>
+
+<b>Click on any of the titles in the option box below to view the photo:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="20" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./unionfra/unionfra25.jpg" selected>Looking towards old office</option>
+<option value="./unionfra/unionfra24.jpg">Large gravestone with statue</option>
+<option value="./unionfra/unionfra23.jpg">Zoomed in on statue</option>
+<option value="./unionfra/unionfra22.jpg">Closer shot of statue</option>
+<option value="./unionfra/unionfra1.jpg">Foreign epitaph</option>
+<option value="./unionfra/unionfra8.jpg">Sleeping child statue</option>
+<option value="./unionfra/unionfra11.jpg">Medal of Honor recepient</option>
+<option value="./unionfra/unionfra10.jpg">Closer shot of Parsons grave</option>
+<option value="./unionfra/unionfra19.jpg">Looking towards road</option>
+<option value="./unionfra/unionfra2.jpg">Another sleeping child statue</option>
+<option value="./unionfra/unionfra17.jpg">Interesting shaped gravestone</option>
+<option value="./unionfra/unionfra4.jpg">Infant</option>
+<option value="./unionfra/unionfra7.jpg">Sphere on gravestone</option>
+<option value="./unionfra/unionfra9.jpg">Spanish American War veteran</option>
+<option value="./unionfra/unionfra12.jpg">Very weathered gravestone</option>
+<option value="./unionfra/unionfra13.jpg">Lamb statue on grave</option>
+<option value="./unionfra/unionfra16.jpg">Weeping willow carving</option>
+<option value="./unionfra/unionfra20.jpg">Flower carving</option>
+<option value="./unionfra/unionfra3.jpg">Glass pieces in gravestone</option>
+<option value="./unionfra/unionfra5.jpg">Scroll carving</option>
+<option value="./unionfra/unionfra6.jpg">Broken gravestone</option>
+<option value="./unionfra/unionfra14.jpg">Bench shaped gravestone</option>
+<option value="./unionfra/unionfra15.jpg">Lamb carving</option>
+<option value="./unionfra/unionfra18.jpg">Matching gravestones</option>
+<option value="./unionfra/unionfra21.jpg">Veteran's grave</option>
+<option value="./unionfra/unionfra26.jpg">Father</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Union Cemetery is located on both sides of Olentangy River Road in Columbus, Ohio (Clinton Township, Franklin County).  The coordinates are 40&deg; 1' 38.56&quot; N, 83&deg; 1' 54.8&quot; W.
+<br><br>
+Union Cemetery was established in 1806, and it is still active.  It is very well maintained by the Union Cemetery Association.  The oldest section is located closest to Ackerman Road, on the east side of Olentangy River Road.  The newer section, established in 1946, is located further north on Olentangy River Road, on the west side of the road.  <a href="amaranth.html">Amaranth Abbey</a> was acquired by the Union Cemetery Association in February 2006.
+<br><br>
+I received the following e-mail from Lisa McDonald regarding Union Cemetery in August 2008:
+<br><br>
+<blockquote><i>I am very familiar with this cemetery - many famous locals are buried here, along with our beloved Woody Hayes, the former Ohio State Buckeye coach.  It could be that he's restless and unhappy about the last two National Championship games in which the Buckeyes were blown out both games.  I am being very serious.  His grave is visited so much that security is assigned to move people along if they hang out by his grave too much.  During football season there are always Buckeyes on his tombstone, along with the sponsor of the National Championship game of that year (For example, for the 2002 Fiesta Bowl sponsored by Doritos, which OSU won, there were bags and BAGS of Doritos on his grave).  Nothing on his tombstone indicates that he is Woody - locals just know where he is.</i></blockquote>
+<br>
+For more information, please see the cemetery's official website: <a href="http://www.union-cemetery.com" target="_blank">Union Cemetery Association</a>.
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!--
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="symbol.html">Gravestone Symbolism</option>
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option>
+<option value="sources.html">Sources</option>
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>
+</table>
+</body>
+</html>

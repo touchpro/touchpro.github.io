@@ -1,0 +1,298 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Myrtle Hill Cemetery in Valley City, Ohio">
+<meta name="keywords" content="Myrtle, Hill, Cemetery, old, haunted, Valley, City, Ohio, graveyard, spooky">
+<title>Myrtle Hill Cemetery</title>
+
+<style type="text/css">
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Myrtle Hill Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Valley City, Ohio</font>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+<b>Click on any of the titles in the option box below to view the photo:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="20" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./myrtle/myrtle8.jpg" selected>Cemetery sign</option> 
+<option value="./myrtle/myrtle7.jpg">Cemetery sign on wall</option>    
+<option value="./myrtle/myrtle5.jpg">The supposed Witch's Ball</option>  
+<option value="./myrtle/myrtle6.jpg">Another view of Stoskopf grave</option>
+<option value="./myrtle/myrtle16.jpg">Rows of gravestones</option>   
+<option value="./myrtle/myrtle17.jpg">Fenced section</option>  
+<option value="./myrtle/myrtle22.jpg">Overgrown gravestone</option>  
+<option value="./myrtle/myrtle25.jpg">Lamb on gravestone</option>  
+<option value="./myrtle/myrtle23.jpg">Double headstone</option>  
+<option value="./myrtle/myrtle18.jpg">Gravestone under tree</option>  
+<option value="./myrtle/myrtle9.jpg">Cracked gravestone</option>  
+<option value="./myrtle/myrtle13.jpg">Civil War veteran</option>  
+<option value="./myrtle/myrtle14.jpg">Daughter</option>  
+<option value="./myrtle/myrtle15.jpg">Gravestones under tree</option>  
+<option value="./myrtle/myrtle20.jpg">Vines growing on grave</option>  
+<option value="./myrtle/myrtle21.jpg">Broken gravestone</option>  
+<option value="./myrtle/myrtle1.jpg">Rows of gravestones</option>  
+<option value="./myrtle/myrtle2.jpg">Large broken gravestone</option>  
+<option value="./myrtle/myrtle3.jpg">Clasped hands</option>  
+<option value="./myrtle/myrtle4.jpg">Civil War veteran</option>  
+<option value="./myrtle/myrtle10.jpg">Weathered gravestone</option>  
+<option value="./myrtle/myrtle11.jpg">Broken pillar carving</option>  
+<option value="./myrtle/myrtle12.jpg">Fallen gravestone</option>  
+<option value="./myrtle/myrtle19.jpg">Tall gravestone</option>  
+<option value="./myrtle/myrtle24.jpg">Looking up hill</option>  
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]="" 
+description[6]=""
+description[7]=""  
+description[8]=""
+description[9]="" 
+description[10]=""
+description[11]=""
+description[12]=""   
+description[13]="" 
+description[14]=""   
+description[15]=""
+description[16]=""
+description[17]=""  
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Myrtle Hill Cemetery is located on the south side of Myrtle Hill Road, east of OH-252, outside Valley City, Ohio (Liverpool Township, Medina County).  The coordinates are 41&deg; 15' 18.79&quot; N, 81&deg; 55' 23.27&quot; W.  
+<br><br> 
+Myrtle Hill Cemetery, which is also known as Hardscrabble Cemetery, was established in 1822 and is still active.  The oldest section is located towards the west side.  There are many rows of old gravestones, and most are in great shape.  It is very well taken care of.  
+<br><br>
+Myrtle Hill Cemetery is the location of the &quot;Witch's Ball&quot;.  There is a large ball-shaped gravestone there that supposedly belonged to a witch.  Legend has it that the witch poisoned her family's well and threw their dead bodies down it.  She was caught, and she spent the rest of her life in a nearby mental hospital.  Another version of the story claims she was killed when it was discovered that she was a witch.  Either way, she ends up buried beneath the ball-shaped gravestone.  Today people claim that the gravestone feels hot in the winter and cold in the summer.  Many also believe no snow, rain, or leaves fall on the gravestone.  
+<br><br>
+Do I think the grave is really haunted?  Probably not...it's an unusual gravestone, and they always have some kind of creepy story attached to them simply because they do look different.  Also, I heard from the great-grandson of the person buried there, and it turns out it's not even a woman buried there!  I visited the cemetery on a hot September day, and the gravestone felt really hot - not cold like the legend claims.  Is it still worth visiting the cemetery even if the stories about the &quot;witch's ball&quot; are false?  Most definitely!  It's a very interesting cemetery with many old gravestones.  And who knows, maybe I was just unlucky and you will experience some paranormal activity there.  Just remember to be respectful - no littering or vandalizing gravestones!  
+<br><br>
+But wait!  In October 2005 I received an e-mail from my friend Mark Jordan about this possible haunting.  VERY interesting stuff...
+<blockquote><i>I was reading on the website about that supposed Witch's Ball in the Myrtle Hill cemetery in Hardscrabble, near Valley City, and I think I can shed some light on the story. You mentioned that someone had
+contacted you and pointed out that a relative of theirs was buried there and that it wasn't even a woman. Well, I think this is a fascinating example of a local legend that can be unwrapped and traced back to its roots. The story actually does has very definite roots in Hardscrabble, because there was a mad poisoner there! She wasn't actually a witch, but she was insane and this all happened in the 1920's. I recognized the roots of the story, which I read in John Stark Bellamy's excellent book entitled <i>The Maniac in the Bushes</i>. Bellamy used to be a librarian in Cleveland who enjoyed scanning old newspapers for true crime stories, and has put out five books of such stories from northeast Ohio (He swears the fifth will be the last, as he's now retired to upstate New York). Anyway, 'Chapter 9' of this book is entitled &quot;Medina's Not-So-Merry Widow&quot;, and it is about a woman named Martha Wise (maiden name Hasel). 
+<br><br>
+Martha had always been an odd girl, known throughout Hardscrabble as a hypochondriac and a big fan of funerals (the only outpouring of emotion that she had). She had been odd and morbid as a child, apparently suffering from recurrent attacks of epilepsy, and later she had a bout of meningitis that made her even worse. She got married, but her husband was cruel, sending her out to work in the fields the morning after she gave birth to one of their children. In 1923, her husband abruptly died. Around the same time, barns in the area began going up in flames at night. It was coincidentally noted that Martha Wise had gotten worse after her husband's death, and was often discovered out walking in the middle of the night, and she might just as soon bark at you as talk to you. But  still, no one put all the pieces of the puzzle together. 
+<br><br>
+Martha started having single men stay at her house, sharing the charity that her family and others gave the widow. She started talking about marriage. The Hasel family put their foot down and told Martha to stop living with strange men while she was taking charity from them. Martha ranted and raved at first, but then she seemed to accept the situation. Then, at Thanksgiving of 1924, many of her relatives became ill after the dinner. Her mother died. Local authorities regarded it as an unfortunate outbreak of influenza or food poisoning. On New Year's it happened again. Two more family members died, and a total of fourteen got violently ill. The local coroner did some investigating and testing, and in March he blew the story wide open: Martha Wise was a
+mad poisoner who had killed three people with poison, and permanently crippled several other family members with arsenic. He later realized that she had poisoned her late husband, and had also been the pyromaniac burning barns around Hardscrabble. The well connection you mention in the legend that has been passed down probably comes from the fact that Martha Wise put the arsenic in the bucket of drinking water in the kitchen. It was revealed during the trial that she had told her own children not to drink the water when they went over for the holiday dinner. What was even scarier was that she had purchased 960 grains of arsenic from the druggist in Elyria. Only a few dozen grains had been used thus far in her poisonings. She had enough arsenic to kill everyone in Hardscrabble and then some. 
+<br><br>
+As the newspaper reports of the time portray it, Martha's  trial was a pathetic affair, and there was little doubt of her guilt (Since Martha signed for the arsenic when she bought it, it seems pretty clear that her confession was sincere
+and not just the product of a deluded mind, although it is very interesting to note that her sister-in-law committed suicide during Martha's trial, allegedly because she had become delusional that SHE had committed the poisonings). But despite clear evidence of Martha's troubled past, she was found guilty instead of innocent by reason of insanity. Perhaps the jury was afraid she'd be released again soon if she was sent to the asylum, so they found her guilty but recommended mercy, so that she was sent to the women's prison in Marysville on a life sentence. She settled down in there and lived a fairly quiet life, although she did complain at times that the people she had killed would come to her some nights, pointing their fingers at her. She applied for parole at first, but lost interest over the years. She was unexpectedly granted parole in the mid-1960's when she was eighty and didn't even want it, but they couldn't find anyone who would take her (her children all refused, and the halfway house they contacted withdrew their offer to take Martha become they served food to the public and didn't want to risk the bad publicity of having a poisoner living on site). So she was returned to Marysville where she lived until 1971 when she was around ninety. 
+<br><br>
+So that is the story of the mad poisoner of Hardscrabble, and I think it is the source of the legend. But Martha Wise herself, according to Bellamy, is buried at the Marysville prison. Many of her victims, though, may well be in the Myrtle Hill cemetery. I think this was a rare opportunity to catch a dimly remembered local happening growing into a  legend by becoming attached to the unusual tombstone. I think we've just caught the making of an urban legend! (Or I guess a rural legend, in this case....).</i></blockquote>
+<br>
+I do think Mark could be right...Many thanks to him for sharing this information with me to post on the site!
+<br><br>
+In April 2006 I received an e-mail from James A. about his experience at the cemetery:
+<br><br>
+<blockquote><i>I have been to this cemetery on several occassions, and have experienced firsthand some of the &quot;myths.&quot;   The one that stays with me the most happened just last summer. I visited the cemetery again and the ball on top of the witch's grave was absolutely COLD...the temp outside was somewhere around 85-90 degrees.  Everything else felt warm or hot to the touch, except her stone.
+<br><br>
+Several many years ago we got lucky and had a full moon on Halloween night.  I stopped by to visit again, and was rather alarmed that this granite stone seemed to be glowing!  Not too sure what that was about, but it made me a little uneasy.</i></blockquote>
+<br>
+In June 2006 I received an e-mail from Keith about his creepy experience at the cemetery:
+<br><br>
+<blockquote><i>A couple of friends and I decided we would go to the cemetery on the night of 6-12-06 because we were bored.  Well, we touched the ball and it was cold, but it was probably because it was night time and it was like 55 degrees.  However, when we first got out of the car, we heard some weird shuffling of leaves...like an animal was in the grass and got frightened and ran away.  Like the pussies we are, we ran also, then stayed in the car for a little bit.  Finally we got out and touched the ball. No biggie.  But on the way there and back, the weirdest things happened.....
+<br><br>
+After we turn right on 252 from 303, right after that sign with the twisty road sign, a big, and I mean BIG, dense patch of fog just came out of nowhere!  It was really thick and I didn't even realize it was up ahead...it just appeared and I slammed on my brakes.  I knew that I wasn't seeing things because my friends saw it also.  Then a black cat was on the side of the street just staring at us.  On the way back home, we passed that cloud again, and once agaain we saw the black cat.   It crossed the street and stared at us again.  So we decided to be badasses and go back and stop in the patch of fog to see what would happen.  Well, we drive back and drive a little slow so we can stop in time...the patch of fog was gone, and literally it was only like 3 minutes or less when we turned back.  It was not windy outside. So that smoke or whatever it was could not have blown away. That was really weird.
+<br><br>
+We passed through the twisty roads a couple more times and did not see the fog anymore, nor the black cat.  But on the way back it seemed like really weird things happened, such as a bird almost hitting my car twice, and almost running over a racoon...usually this doesn't happen. I'm not saying this could be connected to what we experienced at the cemetery, but I'm just saying I had a really weird night.  I can't even stop thinking about it!  Anyway, it was something to do that night.  We plan on visiting this site again in the future...</i></blockquote>
+<br>
+In September 2006 I received an e-mail from Brandon about his interesting experience at the cemetery:
+<br><br>
+<blockquote><i>My friend Marc, Nikki, and myself all went down to Myrtle Hill Cemetery today and we expected nothing. We wanted to see the witches ball (of course). I would simply like to add to what Keith said when I say that I too saw the fog. I don't know why but we all saw it...clearly, it was fog. We drove straight through it, and as we looked back it vanished. You make the call as to what it was. Another thing I would like to add is that there truly is a well in Hardscrabble. Go to &quot;The Jump'n Frog&quot; - it's in the cellar (a guy showed me around the place.) Martha Wise poisoned it. Its an honest to God HUGE well. At least 100 feet deep.</i></blockquote>
+<br>
+In October 2006 I received an e-mail from Julie about her interesting experience at Myrtle Hill cemetery:
+<br><br>
+<blockquote><i>I would like to share a silly little story about our experience at Myrtle Hill Cemetery on this October afternoon.
+<br><br>
+My husband and I (both &quot;30 something&quot; adults) thought it would be neat to take our 11 year old son to see the historic and legendary &quot;witches ball&quot; at Myrtle Hill Cemetery.  As teenagers,  we both had trips to Myrtle Hill with friends to check out and touch the ball on cold October nights when we were feeling fearless...so we thought as responsible adults, we would take our son during the day and legally peruse the grounds, see and touch the ball, talk about the legend, and just see some history by checking out all the interesting headstones.
+<br><br>
+Nothing out of the ordinary happened, and we just had a nice family afternoon taking in some local history.  After about an hour in the cemetery, it was time to go and we got back into our car and headed off the grounds.
+<br><br>
+As we were pulling out onto Myrtle Hill road, our car just stalled, halfway between the road and the drive of the cemetery...Now mind you, we have a 2004 Trailblazer that has never before stalled...ever.
+<br><br>
+I'm not saying this wasn't simply a coincidence, it probably was, but my husband and I both thought it was pretty peculiar and thought it was worth telling you about.</i></blockquote>
+<br>
+In January 2008 I received an e-mail from Joe about his interesting experience at Myrtle Hill cemetery:
+<br><br>
+<blockquote><i>I went with four friends to this cemetery back in 1979. The thing that we experienced was a light shining from the center of the ball. It followed us no matter what side you were on. There was no moon out that night, or lights to reflect on the ball. We were near the ball one time and herd a noise. One of the girls heard a noise. She yelled that she saw a person standing there nearby. It was around midnight, approximately back in the summer of 1979. I was sixteen years old, and my friends were a bit younger. We ran to the car and took off driving fast. Only to find out we were on a endless road that just went in circles. However, we were very close to the ball. We felt like we were in a time warp or a different dimension. We even got stuck in what seemed to be a ditch. I put the car in gear, reverse and forward many times before we broke loose of the ditch the car was stuck in. We were all screaming in the car. Then we kept driving and finally broke out of that unknown area we were in. When we hit the highway we were all scared. I never went back there after all these years. I stumbled on this website and find it fascinating that someone else experiences something funny and not normal there. I would like to ask the other visitors if they had any similar experiences. Please <a href="mailto:removedforprivacy">e-mail Beth</a> if you have so she can forward me your response.
+<br><br>
+Also, when we got back we found some things in the glove box that we new were in the trunk. We were all amazed how it got from one location the other.</i></blockquote>
+<br>
+In January 2012 I received an e-mail from Kristen S. about Myrtle Hill cemetery:
+<br><br>
+<blockquote><i>The story posted by Mr. Jordan containing the excerpts from &quot;The Maniac in the Bushes&quot; book is the correct account the murders that took place in Liverpool Township (aka Valley City, Ohio). The legend that developed from Martha Wise's crimes makes for fun and interesting ghost stories, but it has also lead to much vandalism at the cemetery. The huge granite sphere is often rolled off of it's base, which requires heavy equipment to remount, and is very disrespectful to the family buried there. The oldest section of the cemetery contains many interesting headstones of the important founders of the township as well as their descendants. Many of these have been broken or stolen. Recently, in 2010, the headstone of Justus Warner, one of the first settlers of Liverpool Township, was stolen. Myrtle Hill was the first cemetery in our town. It is also &quot;still in use&quot;, that is, it is and in the future will be, the final resting place for many of our town citizens. Feel free to visit this beautiful and historic site, but please be respectful and leave it as you found it. Treat the the markers and the grounds as though your own family is buried there, because many members of ours are.</i></blockquote>
+<br>
+I also received an e-mail from John H. about the cemetery in January 2012:
+<br><br>
+<blockquote><i>
+The cemetery is a short walk through the woods in my backyard, as a kid and even an adult my brother and all our friends would make the walk across the creek and through the old farmers field, and then up the hill to the south end of the cemetery. I have been there many times, and as far as the whole witch's ball story goes, it's just a regular grave.  There is nothing significant about it, it just looks creepy. I worked for an old farmer growing up, and he was born and raised in Valley City. He also told me the story was a myth.
+<br><br>
+With that being said, I have had interesting experiences at the cemetery. One time I was walking behind the &quot;bathhouse&quot; and down the hill. My friends and I discovered a 60 pound black lab dead next to a dear carcass with its head missing, thought that was kind of interesting.
+<br><br>
+I can confirm, however, the Martha Wise story. When my father moved us to Valley City in the 1990's we had bought our land from an old farmer whose family had farmed in Valley City for generations.  Anyway, he told us that a woman had burned a nearby house down a short walk down the road, and when we went to check it out nothing was left but a big hole in the ground (very creepy). Also, he told us the location of where she had lived which is on a farm on Grafton Road not too far from the cemetery. My dad said he told him &quot;she would cry the loudest&quot; at the funerals.
+<br><br>
+Now that I stumbled across your site I'm very tempted to go talk to the old farmer and dig up some more info on Martha.  He lives literally in my backyard. Anyway, like I said the whole witch's ball is a myth, but the crazed arsenic poisoner is indeed very real.</i></blockquote>
+<br>
+
+If you have a story about Myrtle Hill Cemetery, feel free to <a href="mailto:removedforprivacy">e-mail me</a> and I'll include it on the site!
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

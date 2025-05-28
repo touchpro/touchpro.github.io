@@ -1,0 +1,219 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Job's Cemetery, Pickerington, Ohio">
+<meta name="keywords" content="Job, Job's, Hiob, Hiob's, German, Lutheran, Reformed, Evangelical, old, cemetery, haunted, Pickerington, Canal, Winchester, Ohio, graveyard, spooky">
+<title>Job's Cemetery</title>
+
+<style type="text/css">
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Job's Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Pickerington, Ohio</font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+
+<b>Click on any of the titles in the option box below to view the photo:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="15" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./jobs/jobs23.jpg" selected>Cemetery from road</option>
+<option value="./jobs/jobs21.jpg">Cemetery sign</option>   
+<option value="./jobs/jobs19.jpg">Church cornerstone</option> 
+<option value="./jobs/jobs20.jpg">Looking through entrance</option> 
+<option value="./jobs/jobs1.jpg">Gravestones by fence</option> 
+<option value="./jobs/jobs3.jpg">Looking west</option> 
+<option value="./jobs/jobs8.jpg">Child's gravestone with lamb</option> 
+<option value="./jobs/jobs11.jpg">Infant's grave</option> 
+<option value="./jobs/jobs15.jpg">Civil War veteran</option> 
+<option value="./jobs/jobs9.jpg">German epitaph</option> 
+<option value="./jobs/jobs10.jpg">Broken gravestones</option> 
+<option value="./jobs/jobs14.jpg">Infant's gravestone</option> 
+<option value="./jobs/jobs16.jpg">Epitaph on child's grave</option> 
+<option value="./jobs/jobs22.jpg">Beautiful flower carvings</option> 
+<option value="./jobs/jobs5.jpg">Interesting epitaph</option> 
+<option value="./jobs/jobs6.jpg">Pointing to heaven</option> 
+<option value="./jobs/jobs12.jpg">Another interesting epitaph</option> 
+<option value="./jobs/jobs13.jpg">Propped up gravestones</option> 
+<option value="./jobs/jobs17.jpg">Looking towards back</option> 
+<option value="./jobs/jobs18.jpg">Badly broken gravestone</option> 
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""  
+description[12]="" 
+description[13]=""   
+description[14]=""  
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Job's Cemetery is located on the west side of Amanda-Northern Road, about &frac14; mile south of Busey Road, outside Pickerington, Ohio (Violet Township, Fairfield County).  The coordinates are 39&deg; 51' 16.63&quot; N, 82&deg; 45' 28.54&quot; W.
+<br><br>
+Saint Job's (or Saint Hiob's) German Reformed and Evangelical Lutheran Church used to stand next to this cemetery, but it was destroyed many years ago.  The cemetery still remains, but it's not the easiest to find since a new housing development is being built around it.  Also, Amanda Northern Road is now closed at Busey, so you'll have to walk at least &frac14; mile to get to it.  But let me assure you, it's definitely worth the walk!  
+<br><br>
+Job's Cemetery is very well taken care of, although there are quite a few broken gravestones due to age and weathering.  You can still see the old church's cornerstone at the front of the cemetery.  There are plenty of old, interesting gravestones to look at too.
+<br><br>
+A big thanks to my friend and coworker Heather Theado for telling me about this cemetery!  Since Amanda-Northern Road is closed, I probably wouldn't have tried to find this cemetery had she not told me it was there and still accessible.  I really do appreciate her help!
+</font></p>
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option> 
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

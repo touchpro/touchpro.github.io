@@ -1,0 +1,268 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Wagnor-Triplett Cemetery, New Albany, Ohio">
+<meta name="keywords" content="Wagnor, Triplett, Wagnor-Triplett, Cemetery, old, haunted, Franklin, County, New, Albany, Ohio, graveyard, spooky">
+<title>Wagnor-Triplett Cemetery</title>
+
+<style type="text/css">
+body {
+scrollbar-arrow-color: #999999;
+scrollbar-base-color: #000000;
+scrollbar-dark-shadow-color: #000000;
+scrollbar-track-color: #000000;
+scrollbar-face-color: #000000;
+scrollbar-shadow-color: #000000;
+scrollbar-highlight-color: #999999;
+scrollbar-3d-light-color: #000000;
+}
+
+a:link {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:active {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight:
+
+none; color: #333333; }
+
+</style>
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center">
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Wagnor-Triplett Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>New Albany, Ohio</font>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">
+<p align="left"><font size="2" face="verdana"><br><br>
+
+<b>Click on any of the titles in the option box below to view the photo:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="15" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./wagnor/wagnor15.jpg" selected>Historical Marker</option>
+<option value="./wagnor/wagnor14.jpg">Back of Historical Marker</option>
+<option value="./wagnor/wagnor17.jpg">Looking east</option>
+<option value="./wagnor/wagnor24.jpg">Stacks of broken gravestones</option>
+<option value="./wagnor/wagnor1.jpg">Gravestone with dove carving</option>
+<option value="./wagnor/wagnor13.jpg">Rows of gravestones</option>
+<option value="./wagnor/wagnor21.jpg">Stack of broken gravestones</option>
+<option value="./wagnor/wagnor25.jpg">Gravestone under tree</option>
+<option value="./wagnor/wagnor26.jpg">War of 1812 veteran</option>
+<option value="./wagnor/wagnor10.jpg">Weathered gravestone</option>
+<option value="./wagnor/wagnor16.jpg">Broken Civil War veteran's grave</option>
+<option value="./wagnor/wagnor20.jpg">Gravestone with rose carving</option>
+<option value="./wagnor/wagnor2.jpg">Gravestones under tree</option>
+<option value="./wagnor/wagnor3.jpg">Broken gravestone</option>
+<option value="./wagnor/wagnor4.jpg">Gravestone with urn carving</option>
+<option value="./wagnor/wagnor5.jpg">Gravestone near fence</option>
+<option value="./wagnor/wagnor6.jpg">Broken gravestones</option>
+<option value="./wagnor/wagnor7.jpg">Looking west</option>
+<option value="./wagnor/wagnor8.jpg">Gravestone propped on another</option>
+<option value="./wagnor/wagnor9.jpg">Weathered gravestone</option>
+<option value="./wagnor/wagnor11.jpg">Tall gravestone</option>
+<option value="./wagnor/wagnor12.jpg">Looking towards back</option>
+<option value="./wagnor/wagnor18.jpg">Rows of gravestones</option>
+<option value="./wagnor/wagnor19.jpg">Rebecca Frampton</option>
+<option value="./wagnor/wagnor28.jpg">Broken gravestone</option>
+<option value="./wagnor/wagnor22.jpg">Footstone</option>
+<option value="./wagnor/wagnor23.jpg">Gravestone piece with Bible carving</option>
+<option value="./wagnor/wagnor27.jpg">Sunken gravestone</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+description[26]=""
+description[27]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Wagnor-Triplett Cemetery is located on the north side of Central College Road, approximately one mile west of US-62, outside New Albany, Ohio (Plain Township, Franklin County).  The coordinates are 40&deg; 5' 51.82&quot; N, 82&deg; 48' 9&quot; W.
+<br><br>
+Wagnor-Triplett Cemetery was established in 1812, and it is no longer active.  The township does an excellent job of maintaining the grounds, but the majority of the gravestones have been badly damaged over the years.  There is an Ohio Historical Marker at the front of the cemetery that provides a lot of information - I have copied the text below:
+<br><br>
+<center>
+<blockquote><b>WAGNOR CEMETERY</b><br>
+PIONEER BURIAL GROUND & SITE OF<br>
+FIRST SCHOOL IN PLAIN TOWNSHIP<br>
+<br>
+In 1820, Mark Evans, John Davis, and Jacob<br>
+Waggoner acquired from Daniel Triplett an 18-rod-<br>
+square parcel (approximately two acres) at this<br>
+location on which to build the first school in Plain<br>
+Township.  Education was not publicly funded at<br>
+the time and the first teacher, Jacob Smith, &quot;kept&quot;<br>
+school for $1.50 per scholar.  The fact that part<br>
+of the school lot became a cemetery suggests that<br>
+the log building was also used for church services,<br>
+as was a log school a mile and a half east of here<br>
+on Central College Road.<br>
+<br>
+The Wagnor Cemetery is in the northeast quarter<br>
+of the township.  Many people buried here belonged<br>
+to families that settled the area soon after 1812,<br>
+when the federal government offered the 8,000<br>
+acres in the township's northern half to all comers<br>
+at $2 an acre.  Rebecca Frampton's tombstone<br>
+recalls hazards the pioneers faced as they<br>
+transformed the wilderness.  Her three infant<br>
+daughters died on April 30, 1827; 29-year-old<br>
+Rebecca died on June 5.  Other tombstones recall<br>
+past wars.  zimri Hills and Christian Horlocker<br>
+served in the War of 1812.  Alvin Evans and Peter<br>
+Bevelhymer were veterans of the Civil War.<br>
+Sales in 1860 and 1881 reduced the property to<br>
+its present size.</blockquote>
+</center>
+
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!--
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option>
+<option value="symbol.html">Gravestone Symbolism</option>
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option>
+<option value="sources.html">Sources</option>
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>
+</table>
+</body>
+</html>

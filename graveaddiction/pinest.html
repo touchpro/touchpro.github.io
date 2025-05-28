@@ -1,0 +1,227 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Pine Street Cemetery, Gallipolis, Ohio">
+<meta name="keywords" content="Pine, Street, old, cemetery, haunted, Gallipolis, Ohio, graveyard, spooky">
+<title>Pine Street Cemetery</title>
+
+<style type="text/css">
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Pine Street Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Gallipolis, Ohio</font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+
+<b>Click on any of the titles in the option box below to view the picture:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="10" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./pinest/pinest11.jpg" selected>Cemetery sign</option>
+<option value="./pinest/pinest13.jpg">Citizens of Gallipolis</option>  
+<option value="./pinest/pinest15.jpg">Vinton Historical Marker</option>   
+<option value="./pinest/pinest14.jpg">Samuel Vinton</option>   
+<option value="./pinest/pinest21.jpg">Angel statue</option>   
+<option value="./pinest/pinest12.jpg">Gravestone under tree</option>   
+<option value="./pinest/pinest2.jpg">Two children</option>   
+<option value="./pinest/pinest1.jpg">Interesting epitaph on childrens' grave</option>   
+<option value="./pinest/pinest8.jpg">Revolutionary War veteran</option>   
+<option value="./pinest/pinest9.jpg">Plaque on Revolutionary War veteran's grave</option>   
+<option value="./pinest/pinest7.jpg">Interesting carving</option>   
+<option value="./pinest/pinest5.jpg">Civil War veteran</option>   
+<option value="./pinest/pinest6.jpg">Rows of old gravestones at back of cemetery</option>   
+<option value="./pinest/pinest19.jpg">Unknown US Soldier</option>   
+<option value="./pinest/pinest10.jpg">Interesting epitaph</option>   
+<option value="./pinest/pinest16.jpg">Lots of old gravestones</option>   
+<option value="./pinest/pinest17.jpg">Broken, weathered gravestone</option>   
+<option value="./pinest/pinest18.jpg">Large gravestone with cross</option>   
+<option value="./pinest/pinest20.jpg">Veterans' graves</option>   
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- © Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""  
+description[12]="" 
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Pine Street Cemetery is located on Pine Street (OH-160) in  Gallipolis, Ohio (Gallipolis Township, Gallia County). 
+<br><br>
+Pine Street Cemetery is still an active cemetery, and it's extremely well taken care of.  The older sections of the cemetery are much larger than the newer section, so there are plenty of interesting gravestones to look at.  There are also several historically notable people buried here, including:
+<ul>
+<li><b>Samuel Finley Vinton</b> - A laywer who served as a Congressman for twenty-two years, chairman of the House Ways and Means Committee during the Mexican War, and the founding father of the U.S. Department of the Interior.  Vinton County in Ohio is named after him.<br><br>
+<li><b>Peter Francis Augustin LeClerq, Eulalie Colombe Marret LeClercq, and Rosalie LeClercq Doszedardski</b> - first people from France to move to Gallipolis with the first settlers in 1790.<br><br>
+<li><b>Mary Louise Cadot LeClercq</b> - First person born in Gallipolis - 1791.
+</ul>
+<br>
+I'm sure there are probably more notable people in this cemetery...as I get names, I'll be sure to list them on the site!
+<br><br>
+The Pine Street Colored cemetery is located across the street - <a href="pinestcol.html">click here</a> to see my photos.
+<br><br> 
+In October 2005 I received an e-mail from Everett King with some interesting information about this cemetery:
+<br><br>             
+<blockquote>&quot;The cemetery has a really shady history.  It seems our town needed room for a new high school, so the cemetery was moved... well most of it! They moved all the headstones, but there are still several graves under the high school. I never felt safe in there after regular hours, such as when I had practice or detention.  I have several books on the graveyards in Gallia County, but in the front of the one that covers Pine Street Cemetery it tells of the graves that were not moved.&quot;</blockquote>
+<br>
+A big thanks to my friend Mark for telling me about this cemetery, and for visiting it with me!
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option> 
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

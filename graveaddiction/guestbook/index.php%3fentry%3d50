@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Guestbook</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="guestbook, php, script, mySQL, free, advance">
+<style type="text/css">
+<!--
+.font1 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333333 }
+.font2 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333333 }
+.font3 { font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt; color: #333333; font-weight: bold}
+.select {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt}
+.input {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt}
+-->
+</style>
+<script language="JavaScript">
+<!--
+function gb_picture(Image,imgWidth,imgHeight) {
+    var border = 24;
+    var img = Image;
+    var features;
+    var w;
+    var h;
+    winWidth = (imgWidth<100) ? 100 : imgWidth+border;
+    winHeight = (imgHeight<100) ? 100 : imgHeight+border;
+    if (imgWidth+border > screen.width) {
+        winWidth = screen.width-10;
+        w = (screen.width - winWidth)/2;
+        features = "scrollbars=yes";      
+    } else {
+        w = (screen.width - (imgWidth+border))/2;
+    }
+    if (imgHeight+border > screen.height) {
+        winHeight = screen.height-60;
+        h = 0;
+        features = "scrollbars=yes";      
+    } else {
+        h = (screen.height - (imgHeight+border))/2 - 20;
+    }
+    winName = (img.indexOf("t_") == -1) ? img.substr(4,(img.length-8)) : img.substr(6,(img.length-10));
+    features = features+',toolbar=no,width='+winWidth+',height='+winHeight+',top='+h+',left='+w;
+    theURL = 'http://www.graveaddiction.com/picture.php?img='+Image;
+    popup = window.open(theURL,winName,features);
+    popup.focus();  
+}
+//-->
+</script>
+</head>
+<body bgcolor="#000000" link="#990000" vlink="#990000">
+<form method="post" action="index.php">
+ <table border="0" cellspacing="0" cellpadding="2" align="center" width="95%">
+  <tr>
+    <td width="56%"><b><font color="#FFFFFF">Welcome to Grave Addiction's Guestbook!<br><a href="http://www.graveaddiction.com/index.html">Click here to return to Grave Addiction</a></font></td>
+    <td width="44%" align="right" class="font2"><a href="http://www.graveaddiction.com/guestbook/addentry.php">Click HERE to sign the guestbook!</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+    </td>
+   </tr>
+   <tr>
+     <td width="56%" class="font2">Thursday, December 23, 2004 12:14<br>Thank you for stopping by my site. Here you can leave your mark.</td>
+     <td width="44%" valign="bottom" align="right">
+
+<!--Start JumpMenu -->
+
+<select name="entry" class="select">
+<option value="0" selected>Guestbook</option>
+</select>
+<input type="submit" value="Go" class="input">
+
+<!--End JumpMenu -->
+
+      </td>
+    </tr>
+  </table>
+  
+<!--Start Top Navigation -->
+
+  <table width="95%" border="0" cellspacing="0" cellpadding="2" align="center">
+    <tr valign="bottom">
+      <td class="font2"><img src="http://www.graveaddiction.com/img/point3.gif" width="9" height="9">Total Records:
+       <b><font color="#DD0000">1</font></b>&nbsp;&nbsp;&nbsp;Records Viewed Per Page: <b><font color="#DD0000">25</font></b></td>
+      <td align="right" class="font2">&nbsp;   <img src="http://www.graveaddiction.com/img/back.gif" width="16" height="14"><a href="index.php?entry=25">Previous Page</a>
+
+      </td>
+   </tr>
+  </table>
+
+<!--End Top Navigation -->
+
+
+  <table border="0" cellspacing="1" cellpadding="5" align="center" width="95%" bgcolor="#000000">
+    <tr bgcolor="#333333">
+      <td width="32%"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FFFFFF"><b>Name</b></font></td>
+      <td width="68%"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FFFFFF"><b>Comments</b></font></td>
+    </tr>
+
+<!--Start Guestbook Entries -->
+
+
+
+<!--End Guestbook Entries -->
+
+ </table>
+
+<!--Start Bottom Navigation -->
+
+ <table width="95%" border="0" cellspacing="0" cellpadding="2" align="center">
+  <tr valign="top">
+   <td class="font2"><img src="http://www.graveaddiction.com/img/point2.gif" width="9" height="9">HTML code is disabled </td>
+   <td align="right" class="font2">&nbsp;   <img src="http://www.graveaddiction.com/img/back.gif" width="16" height="14"><a href="index.php?entry=25">Previous Page</a>
+</td>
+  </tr>
+ </table>
+</form> 
+<!--End Bottom Navigation -->
+
+<center><b><font face="Arial, Helvetica, sans-serif" color="#CCCCCC" size="1">Powered by <a href="http://www.proxy2.de" target="_blank"><font color="#CCCCCC" size="1">Advanced Guestbook 2.3.1</font></a></font></b></center>
+</body>
+</html>

@@ -1,0 +1,277 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Omar Cemetery in Attica, Ohio">
+<meta name="keywords" content="Omar, Church, Cemetery, Siam, Attica, Seneca, County, Reed, Township, haunted, Ohio, graveyard, spooky, desolate, gravestone, headstone, footstone, monument, zinc, white, bronze, metal, blue, gray, grey, symbol, symbolism, carver, carvings, sandstone, obelisk, underground, railroad, slave, African, American">
+<title>Omar Cemetery</title>
+
+<style type="text/css">
+body {
+scrollbar-arrow-color: #999999;
+scrollbar-base-color: #000000;
+scrollbar-dark-shadow-color: #000000;
+scrollbar-track-color: #000000;
+scrollbar-face-color: #000000;
+scrollbar-shadow-color: #000000;
+scrollbar-highlight-color: #999999;
+scrollbar-3d-light-color: #000000;
+}
+
+a:link {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:active {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight:
+
+none; color: #333333; }
+
+</style>
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center">
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Omar Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Attica, Ohio</font>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">
+<p align="left"><font size="2" face="verdana"><br><br>
+
+<b>Click on any of the titles in the option box below to view the photo:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="23" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./omar/omar31.jpg" selected>Rows of gravestones</option>
+<option value="./omar/omar27.jpg">Tall zinc gravestone</option>
+<option value="./omar/omar29.jpg">Looking towards church</option>
+<option value="./omar/omar32.jpg">Interesting carvings</option>
+<option value="./omar/omar33.jpg">Closer shot of carvings</option>
+<option value="./omar/omar34.jpg">Willow and stars</option>
+<option value="./omar/omar35.jpg">Closer shot of carvings</option>
+<option value="./omar/omar36.jpg">Broken bud carving</option>
+<option value="./omar/omar37.jpg">Leaning gravestone</option>
+<option value="./omar/omar38.jpg">Willows and urn</option>
+<option value="./omar/omar39.jpg">Interesting willow</option>
+<option value="./omar/omar40.jpg">Tall gravestone</option>
+<option value="./omar/omar41.jpg">Lamb carving</option>
+<option value="./omar/omar42.jpg">Gravestone near field</option>
+<option value="./omar/omar43.jpg">Willow and gravestone</option>
+<option value="./omar/omar45.jpg">Hand holding rose</option>
+<option value="./omar/omar47.jpg">Willow carving</option>
+<option value="./omar/omar1.jpg">Zinc gravestone by fence</option>
+<option value="./omar/omar2.jpg">Zinc footstone</option>
+<option value="./omar/omar3.jpg">Interesting epitaph</option>
+<option value="./omar/omar4.jpg">Chapman gravestone</option>
+<option value="./omar/omar5.jpg">I Fear Not Death</option>
+<option value="./omar/omar6.jpg">Tall zinc gravestone</option>
+<option value="./omar/omar7.jpg">Moore gravestone</option>
+<option value="./omar/omar8.jpg">Interesting epitaph</option>
+<option value="./omar/omar9.jpg">Another zinc gravestone</option>
+<option value="./omar/omar10.jpg">Soldier on horse</option>
+<option value="./omar/omar11.jpg">Interesting epitaph</option>
+<option value="./omar/omar12.jpg">Willow carving</option>
+<option value="./omar/omar13.jpg">Another willow carving</option>
+<option value="./omar/omar14.jpg">Gambee gravestone</option>
+<option value="./omar/omar15.jpg">Tall gravestones</option>
+<option value="./omar/omar16.jpg">Looking towards road</option>
+<option value="./omar/omar17.jpg">Price gravestone</option>
+<option value="./omar/omar18.jpg">Anchor on gravestone</option>
+<option value="./omar/omar19.jpg">Interesting epitaph</option>
+<option value="./omar/omar20.jpg">Wise gravestone</option>
+<option value="./omar/omar21.jpg">Carpenter gravestone</option>
+<option value="./omar/omar22.jpg">Hand holding flowers</option>
+<option value="./omar/omar23.jpg">Rose carving</option>
+<option value="./omar/omar24.jpg">Decker gravestone</option>
+<option value="./omar/omar25.jpg">Willow carving</option>
+<option value="./omar/omar26.jpg">Lamb carving</option>
+<option value="./omar/omar28.jpg">Broken bud carving</option>
+<option value="./omar/omar30.jpg">Masonic symbol</option>
+<option value="./omar/omar44.jpg">Pointing to heaven</option>
+<option value="./omar/omar48.jpg">Arch shaped gravestone</option>
+<option value="./omar/omar46.jpg">Pointing to heaven</option>
+<option value="./omar/omar49.jpg">Veteran's gravestone</option>
+<option value="./omar/omar50.jpg">Pointing to heaven</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+description[26]=""
+description[27]=""
+description[28]=""
+description[29]=""
+description[30]=""
+description[31]=""
+description[32]=""
+description[33]=""
+description[34]=""
+description[35]=""
+description[36]=""
+description[37]=""
+description[38]=""
+description[39]=""
+description[40]=""
+description[41]=""
+description[42]=""
+description[43]=""
+description[44]=""
+description[45]=""
+description[46]=""
+description[47]=""
+description[48]=""
+description[49]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Omar Cemetery is located on the west side of OH-4 outside Attica, Ohio (Reed Township, Seneca County).  The coordinates are 41&deg; 7' 8&quot; N, 82&deg; 51' 46.05&quot; W.
+<br><br>
+Omar Cemetery sits beside the old church, which was a safe haven for fugitive slaves escaping via the Underground Railroad.  The cemetery is still active.  There are many gravestones, including an unusually high number of white bronze monuments.  These monuments are made of zinc, and were sold by salesmen.  There must have been a very good salesman in this area!  In addition to all of the white bronze, there are also many marble and sandstone monuments with interesting carvings.  The cemetery is very well maintained.
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!--
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option>
+<option value="symbol.html">Gravestone Symbolism</option>
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option>
+<option value="sources.html">Sources</option>
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>
+</table>
+</body>
+</html>

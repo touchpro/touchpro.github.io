@@ -1,0 +1,287 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Marion Cemetery in Marion, Ohio">
+<meta name="keywords" content="Marion, Cemetery, old, haunted, Marion, Ohio, graveyard, spooky">
+<title>Marion Cemetery</title>
+
+<style type="text/css">
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Marion Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Marion, Ohio</font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+
+<b>Click on any of the titles in the option box below to view the photo:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="20" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./marion/marion11.jpg" selected>Merchant Ball</option>
+<option value="./marion/marion10.jpg">Closer photo of Merchant Ball</option>   
+<option value="./marion/marion9.jpg">Even closer shot of ball</option>
+<option value="./marion/marion29.jpg">Harding's holding vault</option>  
+<option value="./marion/marion26.jpg">Plaque on vault</option>
+<option value="./marion/marion27.jpg">Another plaque on vault</option>
+<option value="./marion/marion42.jpg">Woman statue</option>
+<option value="./marion/marion41.jpg">Looking up hill</option>
+<option value="./marion/marion38.jpg">Freemason's grave</option>
+<option value="./marion/marion37.jpg">Closer shot of carvings</option>
+<option value="./marion/marion39.jpg">Rows of gravestones</option>
+<option value="./marion/marion40.jpg">Gravestones by stump</option>
+<option value="./marion/marion35.jpg">Tall gravestone with eagle</option>
+<option value="./marion/marion34.jpg">Closer shot of eagle</option>
+<option value="./marion/marion36.jpg">Three young children</option>
+<option value="./marion/marion33.jpg">Detailed carvings</option>
+<option value="./marion/marion3.jpg">Woman holding flowers</option>
+<option value="./marion/marion4.jpg">Closeup of statue</option>
+<option value="./marion/marion15.jpg">Looking west</option>
+<option value="./marion/marion17.jpg">Old, bare tree</option>  
+<option value="./marion/marion32.jpg">Weeping woman statue</option>  
+<option value="./marion/marion31.jpg">Closeup of statue</option>  
+<option value="./marion/marion30.jpg">Woman holding cross</option>
+<option value="./marion/marion7.jpg">Infant's grave</option>  
+<option value="./marion/marion8.jpg">Gravestones around fallen tree</option>   
+<option value="./marion/marion2.jpg">Veteran's memorial</option>  
+<option value="./marion/marion1.jpg">Statue on veteran's memorial</option> 
+<option value="./marion/marion24.jpg">Plaque on veteran's memorial</option>  
+<option value="./marion/marion25.jpg">Cannons on memorial</option>   
+<option value="./marion/marion20.jpg">Rows of numbered footstones</option>  
+<option value="./marion/marion21.jpg">Urn shaped gravestone</option>
+<option value="./marion/marion22.jpg">Elk on gravestone</option>
+<option value="./marion/marion6.jpg">Section of old graves</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""   
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+description[26]=""
+description[27]=""
+description[28]=""
+description[29]=""
+description[30]=""
+description[31]=""
+description[32]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Marion Cemetery is located at the northeast corner of Vernon Heights Boulevard and OH-423 in Marion, Ohio (Marion Township, Marion County).   The coordinates are 40&deg; 34' 31&quot; N, 83&deg; 7' 17&quot; W.
+<br><br>
+The Marion Cemetery is huge!  The oldest section is located on the north side of Vernon Heights Boulevard while the newer section is located on the south side, closest to the <a href="hardingmem.html">Harding Memorial</a>.  The cemetery is extremely well taken care of, only a few old gravestones have been broken over time.
+<br><br>
+Marion Cemetery is also supposedly haunted.  Some believe it is haunted by Cleo, a gypsy queen.  However, her gravestone is actually located across the street in <a href="smmari.html">Saint Mary's Cemetery</a>.  But don't be disappointed, there is yet another, more well known, haunting at this cemetery!
+<br><br>
+Marion Cemetery is home to the &quot;Merchant Ball&quot;.  This gravestone has received quite a bit of attention.  The &quot;Merchant Ball&quot; is the gravestone for the Charles Merchant family.  It has a large, granite sphere on top of it.  The sphere is quite heavy, but it mysteriously rotates...about two inches every year.  Some believe a restless spirit is moving it, while others try to find more rational explanations.  However, no one really knows why it moves.  It could be the result of changing temperatures causing the base of the gravestone to expand and contract, but what's so weird about it is that there are no deep scratches in the sphere.  You'd think if it was moving, the stone-on-stone action would scratch the surface of the ball.  Interesting stuff to think about!  
+<br><br>
+Dan Rupert, a website visitor, sent me an interesting explanation of the ball's movement:
+<br><br>
+<blockquote><i>I saw your article on the moving ball - I assumed that you knew why it moved? It's due to the coriolis effect.  If you read Galileo, he used a moving church bell rope to prove that the earth rotated on its axis.  You will see the parallel here.  Actually, the moving ball in the cemetery lends itself to a unique proof that the earth rotates on its axis - the ball moves at right angles to the rotation of the earth.  If the ball didn't move, the early Catholic church would have been right and the earth would be the center of the  universe</i></blockquote>
+<br>
+Another interesting thing to check out at the Marion Cemetery is President Harding's temporary holding vault.  It's an old mausoleum that a boy scout, Michael A. Schertzer, cleaned up for his Eagle Scout project in 1996.  The vault has been placed on the National Record of Historic Places.
+<br><br>
+In August 2006 I received an e-mail from Harold McCall about his experience at the cemetery:
+<br><br>
+<blockquote><i>I noticed you have been to the cemeteries in Marion, OH and would like to pass along a personal event that my wife and I experenced in the new section of Marion Cemetery. We had seen an article in a local paper about the Merchant ball, and were in the vicinity and decided to check it out about two years ago. We found the ball and some of the interesting tombstones shown in your pictures. We then continued across the street to the new section. I marveled at the new styles with etched pictures of the owner, and even prized possessions such as corvettes (perhaps their last ride?). My wife came accross a tombstone with life-like pictures on it of older parents and their son in the military. She told me to come stand in front of it to see if I noticed anything. At first I didn't notice anything.....then I noticed fresh cut grass on the pictures so I bent over and brushed it off. A strong odor of flowers (Roses?) hit me right in the face. There were no flowers in the area that could explain the odor.
+<br><br>
+Also, at the east end of that cemetery, I noticed a tombstone from a distance.....it looked like it had a picture of a grim reaper on it, but when approached it was really the Virgin Mary.</i></blockquote>
+<br>
+In December 2006 I received an e-mail from Dodi regarding the Merchant Ball in Marion Cemetery:
+<br><br>
+<blockquote><i>I just visited your website and read about the Merchant Ball. Just a FYI - no one knows why the Ball moves the way it does. It was set back on it's base (the unpolished spot) about 2 years after the monument was set. It has since been left alone to move freely. It has nothing to do with Coriolis Effect as the &quot;spot&quot; moves erratically and not in a straight line at a right angle to the Earth's movement. It has been tested by scientists from around the world with no conclusive results. Also, there is a second maker similar to the Merchant Ball in the LaRue Cemetery. It is smaller and made of red marble, but still moves in the same erratic way.</i></blockquote>
+<br>
+In November 2008 I received an e-mail from Leslie McDonald, Sr. regarding the Merchant Ball:
+<br><br>
+<blockquote><i>I saw the article about the Marion ball in a book called &quot;Ohio Oddities,&quot; and I finally got pictures of it. My wife and I take grave picture requests for FINDAGRAVE.COM, and we were staying in Marion overnight. We travelled to La Rue the same day to take some photo requests and saw the red ball. I thought I was the only person who noticed the ball was moving and got excited.  I was telling Marion people about it, and was surprised to hear that they knew nothing about the La Rue ball.
+<br><br>
+Of course, after seeing your graveaddiction page I learned differently. My only point is this:  there may be more of these moving monuments along this same Latitude. I talked to another custodian about a similar movment at Claridon, Ohio. He said it was on the opposite side of the cemetery from a large bear on the stone of Timothy Oldfield.  We saw no ball, but did see a huge rock, not unlike a meteor, with the name AYE on it. Without knowing what to look for, we left.
+<br><br>
+But check this out...
+<br><br>
+Claridon Cemetery<br>
+Latitude: 40.5825<br>
+<br>
+Marion Cemetery<br>
+Latitude: 40.575277<br>
+<br>
+LaRue Cemetery<br>
+Latitude: 40.5992<br>
+<br>
+ Notice the similar Latitudes...if the Claridon one is true, there would be more than a coincidence that this may be happening in graveyards all along this Latitude...don't you think?
+<br><br>
+I sent these thoughts to a siesmology site and await their response.
+<br><br>
+For many years I worked in a sparkplug factory and was enthralled by a parts mover called a &quot;VIBRATORY FEEDER BOWL.&quot; It was pulled down by an electromagnet, and released at the cycle-off period from a 60 cycle surge which is produced at the generating plant. This quick down and up movement actually slid parts in a direction opposite the incline of the springs.  If the earth generates a micromovement like this and is magnfied at that Latitude, 40.5, then that could possibly move heavy objects all around the earth.  We need more investigation of cemeteries at this Latitude to prove it.</i></blockquote>
+<br>
+
+
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

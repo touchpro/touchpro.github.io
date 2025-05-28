@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Grave Addiction Calendar: Noteworthy Events</title>
+<link rel="stylesheet" href="css/oc-main.css" type="text/css" />
+<link rel="stylesheet" href="css/oc-month.css" type="text/css" />
+<script type="text/javascript" src="js/overlib400/overlib.js"></script>
+</head>
+<body>
+<!-- div for overLib -->
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+<div class="center title">Grave Addiction Calendar by OrgCal v0.1</div>
+
+<div class="center">
+<table class="month border" cellspacing="0" cellpadding="0">
+<tr> <td class="monthHeader"><a href="/orgcal/view.php?date=20041101" class="previous">&lt;</a></td><td colspan="5" class="monthHeader">December 2004</td><td class="monthHeader"><a href="/orgcal/view.php?date=20050101" class="next">&gt;</a></td> </tr><tr><td class="colHeader">Sun</td><td class="colHeader">Mon</td><td class="colHeader">Tue</td><td class="colHeader">Wed</td><td class="colHeader">Thu</td><td class="colHeader">Fri</td><td class="colHeader">Sat</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041201" class="dayNum">1</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041202" class="dayNum">2</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041203" class="dayNum">3</a></td> </tr> </table></td>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041204" class="dayNum">4</a></td> </tr> </table><a href="view.php?view=event&amp;id=2&amp;date=20041204" class="event" onmouseover="return overlib('<table> <tr> <td><i>(11:00am - 1:00pm)</i></td> </tr><tr> <td>Topic: &quot;Message from the Pulpit- Local Clergy&quot;.
+Meet at Main Chapel</td> </tr> </table>',CAPTION,'Green Lawn Cemetery First Saturday Event',WRAP,CSSCLASS,TEXTFONTCLASS,'olContent',FGCLASS,'olInnerBorder',BGCLASS,'olOuterBorder',CAPTIONFONTCLASS,'olCaption');" onmouseout="return nd();">(11:00am) Green Lawn Cemetery First Saturday Event</a><br /></td>
+</tr>
+<tr>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"><a href="view.php?view=week&amp;date=20041205" class="weekNum">(week 49)</a></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041205" class="dayNum">5</a></td> </tr> </table><a href="view.php?view=event&amp;id=3&amp;date=20041205" class="event" onmouseover="return overlib('<table> <tr> <td><i>(6:30pm - 8:30pm)</i></td> </tr><tr> <td>Presented by the <a href=&quot;http://www.columbuslandmarks.org&quot; target=&quot;_blank&quot;>Columbus Landmarks Foundation</a>.
+<br><br>  Candle-lit guided tour of 3 downtown churches.
+<br><br>
+Visit <a href=&quot;http://www.columbuslandmarks.org&quot; target=&quot;_blank&quot;>www.columbuslandmarks.org</a> for more info and ticket ordering info.  
+
+Price: $15 in advance ($13 for members) or $20 at the door. You may purchase them online at www.columbuslandmarks.org or by calling 614.221.4508.</td> </tr> </table>',CAPTION,'Great Hallelujah Holiday Tour of Churches',WRAP,CSSCLASS,TEXTFONTCLASS,'olContent',FGCLASS,'olInnerBorder',BGCLASS,'olOuterBorder',CAPTIONFONTCLASS,'olCaption');" onmouseout="return nd();">(6:30pm) Great Hallelujah Holiday Tour of Churches</a><br /></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041206" class="dayNum">6</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041207" class="dayNum">7</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041208" class="dayNum">8</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041209" class="dayNum">9</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041210" class="dayNum">10</a></td> </tr> </table></td>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041211" class="dayNum">11</a></td> </tr> </table><a href="view.php?view=event&amp;id=4&amp;date=20041211" class="event" onmouseover="return overlib('<table> <tr> <td><i>(6:00pm - 10:00pm)</i></td> </tr><tr> <td>Presented by the <a href=&quot;http://www.fairfieldheritage.org/candlelight.html&quot; target=&quot;_blank&quot;>Fairfield Heritage Association</a>.
+<br><br>
+Christmas Tour of Downtown Lancaster, Ohio Churches. 
+<br><br>
+&quot;Guided walking tour of eight of the area\'s churches with a short Christmas program at each. Your tour ticket will admit you to the Georgian, Sherman House, and Decorative Arts Center of Ohio, the day of the tour between 1:00 - 5:00 p.m.&quot;
+<br><br>
+Presale tickets for the tour will be available at The Georgian Museum, The Sherman House Museum, Kroger East and West in Lancaster and at each of the churches on the tour. Presale through December 5th at $7.00, Children under 12 - $2.00.
+Call 740-654-9923 for more information or out-of-town ordering info.</td> </tr> </table>',CAPTION,'&quot;Journey to the Manger&quot; Candlelight Walking Tour',WRAP,CSSCLASS,TEXTFONTCLASS,'olContent',FGCLASS,'olInnerBorder',BGCLASS,'olOuterBorder',CAPTIONFONTCLASS,'olCaption');" onmouseout="return nd();">(6:00pm) "Journey to the Manger" Candlelight Walking Tour</a><br /></td>
+</tr>
+<tr>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"><a href="view.php?view=week&amp;date=20041212" class="weekNum">(week 50)</a></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041212" class="dayNum">12</a></td> </tr> </table></td>
+<td class="month normalDay curDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041213" class="dayNum">13</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041214" class="dayNum">14</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041215" class="dayNum">15</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041216" class="dayNum">16</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041217" class="dayNum">17</a></td> </tr> </table></td>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041218" class="dayNum">18</a></td> </tr> </table></td>
+</tr>
+<tr>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"><a href="view.php?view=week&amp;date=20041219" class="weekNum">(week 51)</a></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041219" class="dayNum">19</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041220" class="dayNum">20</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041221" class="dayNum">21</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041222" class="dayNum">22</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041223" class="dayNum">23</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041224" class="dayNum">24</a></td> </tr> </table></td>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041225" class="dayNum">25</a></td> </tr> </table></td>
+</tr>
+<tr>
+<td class="month normalDay weekend"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"><a href="view.php?view=week&amp;date=20041226" class="weekNum">(week 52)</a></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041226" class="dayNum">26</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041227" class="dayNum">27</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041228" class="dayNum">28</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041229" class="dayNum">29</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041230" class="dayNum">30</a></td> </tr> </table></td>
+<td class="month normalDay"><table cellpadding="0" cellspacing="0" style="width: 100%"> <tr> <td class="left dayModLink"></td> <td class="right dayNum"><a href="view.php?view=day&amp;date=20041231" class="dayNum">31</a></td> </tr> </table></td>
+<td>&nbsp;</td>
+</tr>
+</table> </div><br />
+<div class='center'> <form name='navForm' action='/orgcal/view.php' method='get' style='margin:0px'> <table class='form border2'> <tr>
+<input type='hidden' name='view' value='' />
+<input type='hidden' name='date' value='20041213' /><td class='inputTitle'>Month:</td> <td><select name="mPick"><option value="20040313">Mar - 2004</option><option value="20040413">Apr - 2004</option><option value="20040513">May - 2004</option><option value="20040613">Jun - 2004</option><option value="20040713">Jul - 2004</option><option value="20040813">Aug - 2004</option><option value="20040913">Sep - 2004</option><option value="20041013">Oct - 2004</option><option value="20041113">Nov - 2004</option><option value="20041213" selected="selected">Dec - 2004</option><option value="20050113">Jan - 2005</option><option value="20050213">Feb - 2005</option><option value="20050313">Mar - 2005</option><option value="20050413">Apr - 2005</option><option value="20050513">May - 2005</option><option value="20050613">Jun - 2005</option><option value="20050713">Jul - 2005</option><option value="20050813">Aug - 2005</option><option value="20050913">Sep - 2005</option><option value="20051013">Oct - 2005</option><option value="20051113">Nov - 2005</option><option value="20051213">Dec - 2005</option><option value="20060113">Jan - 2006</option><option value="20060213">Feb - 2006</option><option value="20060313">Mar - 2006</option><option value="20060413">Apr - 2006</option><option value="20060513">May - 2006</option><option value="20060613">Jun - 2006</option></select> <input type='button' value='go' onclick="document.navForm.view.value='month'; document.navForm.date.value=document.navForm.mPick.options[document.navForm.mPick.selectedIndex].value; document.navForm.submit();" /></td><td class='inputTitle'>Week:</td> <td><select name="wPick"><option value="20041114">Nov 14 - Nov 20</option><option value="20041121">Nov 21 - Nov 27</option><option value="20041128">Nov 28 - Dec 04</option><option value="20041205">Dec 05 - Dec 11</option><option value="20041212" selected="selected">Dec 12 - Dec 18</option><option value="20041219">Dec 19 - Dec 25</option><option value="20041226">Dec 26 - Jan 01</option><option value="20050102">Jan 02 - Jan 08</option><option value="20050109">Jan 09 - Jan 15</option><option value="20050116">Jan 16 - Jan 22</option><option value="20050123">Jan 23 - Jan 29</option><option value="20050130">Jan 30 - Feb 05</option><option value="20050206">Feb 06 - Feb 12</option></select> <input type='button' value='go' onclick="document.navForm.view.value='week'; document.navForm.date.value=document.navForm.wPick.options[document.navForm.wPick.selectedIndex].value; document.navForm.submit();" /></td></tr> </table> </form> </div><br />
+<div class='center'> <table class='user border2'>
+<tr> <td id='userBoxTitle'>User Actions:</td>
+<td class='center'><a href='user.php?action=login'>Login</a></td></tr> </table> </div>
+
+
+<div class='center'><table><tr> <td style='font-family: Verdana, Arial, sans-serif; font-size: 10px;'><a href='http://kevin.tridubdesign.com' target='_blank' style='color: blue; text-decoration:underline;'>OrgCal</a> &copy; 2004 <a href='http://kevin.tridubdesign.com' target='_blank' style='color: blue; text-decoration:underline;'>Kevin Southworth</a></td> </tr> </table> </div>
+</body>
+</html>

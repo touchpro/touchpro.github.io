@@ -1,0 +1,1022 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="en-gb" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2002-2006 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Grave Addiction Message Board &bull; Search</title>
+
+<link rel="stylesheet" href="./styles/subsilver2/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+<!--
+
+function popup(url, width, height)
+{
+   window.open(url.replace(/&amp;/g, '&'), '_popup', 'HEIGHT=' + height + ',resizable=yes,scrollbars=yes, WIDTH=' + width);
+   return false;
+}
+
+function jumpto()
+{
+   var page = prompt('Enter the page number you wish to go to.:', '1');
+   var perpage = '25';
+   var base_url = './search.php?st=0&amp;sk=t&amp;sd=d&amp;author_id=48';
+
+   if (page !== null && !isNaN(page) && page > 0)
+   {
+      document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+   }
+}
+
+/**
+* Find a member
+*/
+function find_username()
+{
+      return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+   var parent = document.getElementById(id);
+   if (!parent)
+   {
+      eval('parent = document.' + id);
+   }
+
+   if (!parent)
+   {
+      return;
+   }
+
+   var rb = parent.getElementsByTagName('input');
+   
+   for (var r = 0; r < rb.length; r++)
+   {
+      if (rb[r].name.substr(0, name.length) == name)
+      {
+         rb[r].checked = state;
+      }
+   }
+}
+
+
+//-->
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+   <div id="logodesc">
+      <table width="100%" cellspacing="0">
+      <tr>
+         <td width="100%"><a href="./index.php"><img src="./styles/subsilver2/imageset/site_logo2.jpg" alt="" title="" /></a></td>
+      </tr>
+      </table>
+   </div>
+
+   <div id="menubar">
+      <table width="100%" cellspacing="0">
+      <tr>
+         <td class="genmed">
+                     </td>
+         <td class="genmed" align="right">
+            <a href="./faq.php"><img src="./styles/subsilver2/theme/images/icon_mini_faq.gif" width="12" height="13" alt="*" /> FAQ</a>
+            &nbsp; &nbsp;<a href="./search.php"><img src="./styles/subsilver2/theme/images/icon_mini_search.gif" width="12" height="13" alt="*" /> Search</a>         </td>
+      </tr>
+      </table>
+   </div>
+
+   <div id="datebar">
+      <table width="100%" cellspacing="0">
+      <tr>
+         <td class="gensmall">Last visit was: Sat Jul 07, 2007 8:01 am</td>
+         <td class="gensmall" align="right">It is currently Sat Jul 07, 2007 8:01 am<br /></td>
+      </tr>
+      </table>
+   </div>
+
+</div>
+
+<div id="wrapcentre">
+
+      <p class="searchbar">
+      <span style="float: left;"><a href="./search.php?search_id=unanswered">View unanswered posts</a> | <a href="./search.php?search_id=active_topics">View active topics</a></span>
+            <span style="float: right;"><a href="./search.php?search_id=newposts">View new posts</a> | <a href="./search.php?search_id=egosearch">View your posts</a></span>
+         </p>
+   
+   <br style="clear: both;" />
+
+   <table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Board index</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</table>
+   <br />
+<form method="post" action="./search.php?st=0&amp;sk=t&amp;sd=d&amp;author_id=48">
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td colspan="2"><span class="titles">Search found 1466 matches</span><br /></td>
+</tr>
+<tr>
+	<td class="genmed"></td>
+	<td align="right"><span class="genmed">Search these results: </span><input type="text" name="add_keywords" value="" /> <input class="btnlite" type="submit" name="submit" value="Go" /></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<th width="150" nowrap="nowrap">Author</th>
+		<th width="100%" nowrap="nowrap">Message</th>
+	</tr>
+
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p17176" id="p17176"></a>&nbsp;Forum: <a href="./viewforum.php?f=2">General Discussion</a> &nbsp; Topic: <a href="./viewtopic.php?f=2&amp;t=1614&amp;hilit=">Coshocton County Cemetery Tour 2007</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=2&amp;t=1614&amp;p=17176&amp;hilit=#p17176">Coshocton County Cemetery Tour 2007</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Sat Jul 07, 2007 1:13 am&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>0</b><br />Views: <b>6</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Saturday July 28th in Coshocton (Ohio). Grimshawl and I have mapped out a route and I might throw in some &quot;rumored to be huanted&quot; places along the way. There will be a cookout afterwards at ...</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p17175" id="p17175"></a>&nbsp;Forum: <a href="./viewforum.php?f=2">General Discussion</a> &nbsp; Topic: <a href="./viewtopic.php?f=2&amp;t=1607&amp;hilit=">Anyone seen a headstone like this one before?</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=2&amp;t=1607&amp;p=17175&amp;hilit=#p17175">Re: Anyone seen a headstone like this one before?</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Sat Jul 07, 2007 1:07 am&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>5</b><br />Views: <b>47</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">That's cool.</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p17174" id="p17174"></a>&nbsp;Forum: <a href="./viewforum.php?f=2">General Discussion</a> &nbsp; Topic: <a href="./viewtopic.php?f=2&amp;t=1611&amp;hilit=">Do people think we're nuts?</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=2&amp;t=1611&amp;p=17174&amp;hilit=#p17174">Re: Do people think we're nuts?</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Sat Jul 07, 2007 1:05 am&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>5</b><br />Views: <b>44</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">People think I'm crazy for wanting to run a business and not work for someone else. I think no matter what you prefer to do with your time there will always be a group of people who will think it's st...</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p17111" id="p17111"></a>&nbsp;Forum: <a href="./viewforum.php?f=9">Haunted Places</a> &nbsp; Topic: <a href="./viewtopic.php?f=9&amp;t=516&amp;hilit=">Satanic Cults</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=9&amp;t=516&amp;p=17111&amp;hilit=#p17111">Re: Satanic Cults</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Tue Jul 03, 2007 3:18 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>51</b><br />Views: <b>4929</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">I think people will be surprised to find out later on that country is actually the devils music  <!-- s:D --><img src="./images/smilies/icon_biggrin.gif" alt=":D" title="Very Happy" /><!-- s:D --></td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p17110" id="p17110"></a>&nbsp;Forum: <a href="./viewforum.php?f=19">Anything Goes!</a> &nbsp; Topic: <a href="./viewtopic.php?f=19&amp;t=1602&amp;hilit=">Baby Raccoons at Moose Acres!</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=19&amp;t=1602&amp;p=17110&amp;hilit=#p17110">Re: Baby Raccoons at Moose Acres!</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Tue Jul 03, 2007 3:16 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>5</b><br />Views: <b>57</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">We have a family of raccoons living near the entrance to our development. I see them daily messing around on the brick entrance sign.</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p17109" id="p17109"></a>&nbsp;Forum: <a href="./viewforum.php?f=1">New To The Message Board?</a> &nbsp; Topic: <a href="./viewtopic.php?f=1&amp;t=1603&amp;hilit=">Hi, new here!</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=1&amp;t=1603&amp;p=17109&amp;hilit=#p17109">Re: Hi, new here!</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Tue Jul 03, 2007 3:12 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>5</b><br />Views: <b>39</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Welcome to the forums.</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p17097" id="p17097"></a>&nbsp;Forum: <a href="./viewforum.php?f=1">New To The Message Board?</a> &nbsp; Topic: <a href="./viewtopic.php?f=1&amp;t=1601&amp;hilit=">Hiya</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=1&amp;t=1601&amp;p=17097&amp;hilit=#p17097">Re: Hiya</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Mon Jul 02, 2007 2:12 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>8</b><br />Views: <b>63</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Welcome to the forums.</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p17026" id="p17026"></a>&nbsp;Forum: <a href="./viewforum.php?f=12">General Discussion</a> &nbsp; Topic: <a href="./viewtopic.php?f=12&amp;t=1591&amp;hilit=">Abandonded houses, buildings and diners</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=12&amp;t=1591&amp;p=17026&amp;hilit=#p17026">Re: Abandonded houses, buildings and diners</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Mon Jun 25, 2007 12:57 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>7</b><br />Views: <b>109</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody"><div class="quotetitle">WVOz1970 Wrote:</div><div class="quotecontent">For me, it's the &quot;if walls could talk&quot; history of the place.  I love walking through an old house wondering what life would have been like there.</div><br /><br />For me it's the same thing.</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p17025" id="p17025"></a>&nbsp;Forum: <a href="./viewforum.php?f=1">New To The Message Board?</a> &nbsp; Topic: <a href="./viewtopic.php?f=1&amp;t=1592&amp;hilit=">Hello from Columbus!</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=1&amp;t=1592&amp;p=17025&amp;hilit=#p17025">Re: Hello from Columbus!</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Mon Jun 25, 2007 12:52 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>9</b><br />Views: <b>96</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Welcome to the forums.</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p17024" id="p17024"></a>&nbsp;Forum: <a href="./viewforum.php?f=9">Haunted Places</a> &nbsp; Topic: <a href="./viewtopic.php?f=9&amp;t=1470&amp;hilit=">Roseville Prison is going on the Auction Block</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=9&amp;t=1470&amp;p=17024&amp;hilit=#p17024">Re: Roseville Prison is going on the Auction Block</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Mon Jun 25, 2007 12:52 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>10</b><br />Views: <b>295</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">It sold for a little over $89,000....<br /><br /><!-- m --><a class="postlink" href="http://www.coshoctontribune.com/apps/pbcs.dll/article?AID=/20070625/UPDATES01/70625009">http://www.coshoctontribune.com/apps/pb ... 1/70625009</a><!-- m --></td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p17016" id="p17016"></a>&nbsp;Forum: <a href="./viewforum.php?f=6">General Discussion</a> &nbsp; Topic: <a href="./viewtopic.php?f=6&amp;t=1590&amp;hilit=">Dimes</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=6&amp;t=1590&amp;p=17016&amp;hilit=#p17016">Re: Dimes</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Sun Jun 24, 2007 11:52 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>8</b><br />Views: <b>93</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">I don't have any problems with ghosts leaving money around the house but I think I could deal with it if I did (hint to all ghosts).</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p16987" id="p16987"></a>&nbsp;Forum: <a href="./viewforum.php?f=19">Anything Goes!</a> &nbsp; Topic: <a href="./viewtopic.php?f=19&amp;t=1581&amp;hilit=">Deer In The Neighborhood</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=19&amp;t=1581&amp;p=16987&amp;hilit=#p16987">Re: Deer In The Neighborhood</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Thu Jun 21, 2007 8:09 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>4</b><br />Views: <b>78</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">That's the perfect pose for my new &quot;Deer Jordan&quot; line of clothes and basketball shoes...</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p16986" id="p16986"></a>&nbsp;Forum: <a href="./viewforum.php?f=1">New To The Message Board?</a> &nbsp; Topic: <a href="./viewtopic.php?f=1&amp;t=66&amp;hilit=">Gossip: Message Board Members T-Shirts</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=1&amp;t=66&amp;p=16986&amp;hilit=#p16986">Re: Gossip: Message Board Members T-Shirts</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Thu Jun 21, 2007 8:06 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>240</b><br />Views: <b>14139</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">I have artistic talent...shoot me an IM about what you'd like to have.</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p16969" id="p16969"></a>&nbsp;Forum: <a href="./viewforum.php?f=1">New To The Message Board?</a> &nbsp; Topic: <a href="./viewtopic.php?f=1&amp;t=1578&amp;hilit=">Howdy</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=1&amp;t=1578&amp;p=16969&amp;hilit=#p16969">Re: Howdy</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Wed Jun 20, 2007 3:02 am&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>10</b><br />Views: <b>116</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Welcome to the site.</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p16960" id="p16960"></a>&nbsp;Forum: <a href="./viewforum.php?f=19">Anything Goes!</a> &nbsp; Topic: <a href="./viewtopic.php?f=19&amp;t=1577&amp;hilit=">Funny Mailboxes</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=19&amp;t=1577&amp;p=16960&amp;hilit=#p16960">Re: Funny Mailboxes</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Tue Jun 19, 2007 2:23 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>5</b><br />Views: <b>95</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Some of those are cool. No way any of them would fly out here in New Albany.</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p16948" id="p16948"></a>&nbsp;Forum: <a href="./viewforum.php?f=1">New To The Message Board?</a> &nbsp; Topic: <a href="./viewtopic.php?f=1&amp;t=1573&amp;hilit=">Hey</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=1&amp;t=1573&amp;p=16948&amp;hilit=#p16948">Re: Hey</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Mon Jun 18, 2007 4:35 am&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>8</b><br />Views: <b>134</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Welcome back.</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p16947" id="p16947"></a>&nbsp;Forum: <a href="./viewforum.php?f=1">New To The Message Board?</a> &nbsp; Topic: <a href="./viewtopic.php?f=1&amp;t=1576&amp;hilit=">hello e1</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=1&amp;t=1576&amp;p=16947&amp;hilit=#p16947">Re: hello e1</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Mon Jun 18, 2007 4:34 am&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>8</b><br />Views: <b>120</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Welcome to the forums.</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p16920" id="p16920"></a>&nbsp;Forum: <a href="./viewforum.php?f=2">General Discussion</a> &nbsp; Topic: <a href="./viewtopic.php?f=2&amp;t=1570&amp;hilit=">Cemetery being restored</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=2&amp;t=1570&amp;p=16920&amp;hilit=#p16920">Re: Cemetery being restored</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Tue Jun 12, 2007 4:25 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>4</b><br />Views: <b>123</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">&quot;really good shape&quot; isn't &quot;really good shape&quot; by Granville standards  <!-- s:D --><img src="./images/smilies/icon_biggrin.gif" alt=":D" title="Very Happy" /><!-- s:D --></td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p16919" id="p16919"></a>&nbsp;Forum: <a href="./viewforum.php?f=19">Anything Goes!</a> &nbsp; Topic: <a href="./viewtopic.php?f=19&amp;t=1549&amp;hilit=">To Vista or not to Vista...</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=19&amp;t=1549&amp;p=16919&amp;hilit=#p16919">Re: To Vista or not to Vista...</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Tue Jun 12, 2007 4:21 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>10</b><br />Views: <b>170</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">I hate bloatware....<br /><br /><img src="http&#58;//bluebuddies&#46;com/gallery/Color_Smurfs_Pictures/jpg/Smurfs_Color_Pictures_Grouchy_Smurf&#46;jpg" alt="Image" /></td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p16897" id="p16897"></a>&nbsp;Forum: <a href="./viewforum.php?f=19">Anything Goes!</a> &nbsp; Topic: <a href="./viewtopic.php?f=19&amp;t=1515&amp;hilit=">We should plan another forum board memeber outing.</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=19&amp;t=1515&amp;p=16897&amp;hilit=#p16897">Re: We should plan another forum board memeber outing.</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Mon Jun 11, 2007 6:23 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>41</b><br />Views: <b>567</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Great! I'll try to figure out the details and get them posted ASAP.   I started my own business a couple months ago thus making me CEO, salesman, IT guy, and janitor which makes for one aweful schedul...</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p16888" id="p16888"></a>&nbsp;Forum: <a href="./viewforum.php?f=19">Anything Goes!</a> &nbsp; Topic: <a href="./viewtopic.php?f=19&amp;t=1515&amp;hilit=">We should plan another forum board memeber outing.</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=19&amp;t=1515&amp;p=16888&amp;hilit=#p16888">Re: We should plan another forum board memeber outing.</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Mon Jun 11, 2007 3:04 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>41</b><br />Views: <b>567</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">excellent</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p16887" id="p16887"></a>&nbsp;Forum: <a href="./viewforum.php?f=1">New To The Message Board?</a> &nbsp; Topic: <a href="./viewtopic.php?f=1&amp;t=1568&amp;hilit=">Hello from WV</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=1&amp;t=1568&amp;p=16887&amp;hilit=#p16887">Re: Hello from WV</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Mon Jun 11, 2007 3:03 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>7</b><br />Views: <b>112</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Welcome to the site.</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p16881" id="p16881"></a>&nbsp;Forum: <a href="./viewforum.php?f=19">Anything Goes!</a> &nbsp; Topic: <a href="./viewtopic.php?f=19&amp;t=1515&amp;hilit=">We should plan another forum board memeber outing.</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=19&amp;t=1515&amp;p=16881&amp;hilit=#p16881">Re: We should plan another forum board memeber outing.</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Mon Jun 11, 2007 2:57 am&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>41</b><br />Views: <b>567</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Without a copy of sharepoint I don't think we'll be able to meet everyone's scheduling needs.  :D But since I'm planning it it will at least have to meet mine (and of course Grimshawls).   I'm going t...</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p16867" id="p16867"></a>&nbsp;Forum: <a href="./viewforum.php?f=19">Anything Goes!</a> &nbsp; Topic: <a href="./viewtopic.php?f=19&amp;t=1515&amp;hilit=">We should plan another forum board memeber outing.</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=19&amp;t=1515&amp;p=16867&amp;hilit=#p16867">Re: We should plan another forum board memeber outing.</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Fri Jun 08, 2007 11:42 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>41</b><br />Views: <b>567</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Our &quot;get together&quot; with my wife's family was just changed today from July 7th and 8th to June 30th so we now have a conflict on that date. The wife's brother is coming up from South Carolina...</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p16864" id="p16864"></a>&nbsp;Forum: <a href="./viewforum.php?f=19">Anything Goes!</a> &nbsp; Topic: <a href="./viewtopic.php?f=19&amp;t=1515&amp;hilit=">We should plan another forum board memeber outing.</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="./memberlist.php?mode=viewprofile&amp;u=48" style="color: #AA0000;" class="username-coloured">N-A</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Post subject:</b> <a href="./viewtopic.php?f=19&amp;t=1515&amp;p=16864&amp;hilit=#p16864">Re: We should plan another forum board memeber outing.</a> 
+														</div>
+							<div style="float: right;"><b>Posted:</b> Fri Jun 08, 2007 5:15 pm&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br /><span class="postdetails">Replies: <b>41</b><br />Views: <b>567</b></span><br /><br /></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">If grimshawl and I can't get things set up for the 30th we'll try for something in July. What weekends are bad for everyone in July.   With July 4th falling on a Wednesday it's creating some obstacles...</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="images/spacer.gif" height="1" alt="" /></td>
+		</tr>
+		<tr>
+		<td class="cat" colspan="2" align="center"><span class="gensmall">Sort by:</span> <select name="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="f">Forum</option><option value="i">Topic title</option><option value="s">Post subject</option></select> <select name="sd"><option value="a">Ascending</option><option value="d" selected="selected">Descending</option></select>&nbsp;<input class="btnlite" type="submit" name="sort" value="Go" /></td>
+	</tr>
+	</table>
+
+</form>
+
+<div class="gensmall" style="float: left;"><span class="nav">Page <strong>1</strong> of <strong>59</strong></span> [ Search found 1466 matches ]</div>
+<div class="nav" style="float: right;"><b><a href="#" onclick="jumpto(); return false;" title="Click to jump to page…">Go to page</a> <strong>1</strong><span class="page-sep">, </span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;author_id=48&amp;start=25">2</a><span class="page-sep">, </span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;author_id=48&amp;start=50">3</a><span class="page-sep">, </span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;author_id=48&amp;start=75">4</a><span class="page-sep">, </span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;author_id=48&amp;start=100">5</a> ... <a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;author_id=48&amp;start=1450">59</a> &nbsp;<a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;author_id=48&amp;start=25">Next</a></b></div>
+
+<br clear="all" /><br />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Board index</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</table>
+<br clear="all" />
+
+<div align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Jump to:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }">
+
+					<option value="-1">Select a forum</option>
+					<option value="28">Introductions</option>
+		<option value="-1">------------------</option>			<option value="1">&nbsp; &nbsp;New To The Message Board?</option>
+					<option value="29">Cemetery Photography</option>
+					<option value="2">&nbsp; &nbsp;General Discussion</option>
+					<option value="3">&nbsp; &nbsp;Favorite Season For Photography</option>
+					<option value="4">&nbsp; &nbsp;Camera Types</option>
+					<option value="5">&nbsp; &nbsp;Interesting Cemeteries To Visit</option>
+					<option value="30">Ghost Hunting</option>
+					<option value="6">&nbsp; &nbsp;General Discussion</option>
+					<option value="7">&nbsp; &nbsp;Advice</option>
+					<option value="8">&nbsp; &nbsp;Your Stories</option>
+					<option value="9">&nbsp; &nbsp;Haunted Places</option>
+					<option value="10">&nbsp; &nbsp;Organized Ghost Hunts</option>
+					<option value="11">&nbsp; &nbsp;Recommended Books And Movies</option>
+					<option value="27">&nbsp; &nbsp;Recommended Video Games</option>
+					<option value="31">Urban Exploration</option>
+					<option value="12">&nbsp; &nbsp;General Discussion</option>
+					<option value="13">&nbsp; &nbsp;Tips And Tricks</option>
+					<option value="14">&nbsp; &nbsp;Interesting Locations To Visit</option>
+					<option value="32">Ouija Boards</option>
+					<option value="15">&nbsp; &nbsp;Questions?</option>
+					<option value="16">&nbsp; &nbsp;Your Stories</option>
+					<option value="20">&nbsp; &nbsp;Ouija Meet Ups</option>
+					<option value="24">&nbsp; &nbsp;General Discussion</option>
+					<option value="33">Genealogy Requests</option>
+					<option value="17">&nbsp; &nbsp;Gravestone Photo Request</option>
+					<option value="18">&nbsp; &nbsp;Cemetery Locations</option>
+					<option value="26">&nbsp; &nbsp;General Discussion</option>
+					<option value="34">States/Countries Other Than Ohio</option>
+					<option value="21">&nbsp; &nbsp;Cemeteries In Other States/Countries</option>
+					<option value="22">&nbsp; &nbsp;UE Locations In Other States/Countries</option>
+					<option value="23">&nbsp; &nbsp;Haunted Places In Other States/Countries</option>
+					<option value="35">Myths and Legends</option>
+					<option value="25">&nbsp; &nbsp;General Discussion</option>
+					<option value="36">Open Discussion</option>
+					<option value="19">&nbsp; &nbsp;Anything Goes!</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Go" /></td>
+	</tr>
+	</table>
+
+	</form>
+</div>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+		<span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	</span>
+</div>
+
+</body>
+</html>

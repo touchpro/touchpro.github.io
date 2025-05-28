@@ -1,0 +1,16 @@
+<br>
+<b>Warning</b>:  Too many connections in <b>/var/www/domains/graveaddiction.com/guestbook/lib/mysql.class.php</b> on line <b>30</b><br>
+<br>
+<b>Warning</b>:  MySQL Connection Failed: Too many connections
+ in <b>/var/www/domains/graveaddiction.com/guestbook/lib/mysql.class.php</b> on line <b>30</b><br>
+<b><font size=4 face=Arial>Connection Error</font></b><hr><pre>MySQL Error : Connection Error
+Error Number: 1040 Too many connections
+Date        : Sat, May 3, 2003 09:18:07
+IP          : 209.237.238.174
+Browser     : ia_archiver
+Referer     : 
+PHP Version : 4.1.2
+OS          : Linux
+Server      : Apache/1.3.27 (Unix)  (Red-Hat/Linux) mod_ssl/2.8.12 OpenSSL/0.9.6b PHP/4.1.2 mod_perl/1.26 FrontPage/5.0.2
+Server Name : graveaddiction.com
+</pre>

@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+		<link rel="stylesheet" href="css/calendar.css" type="text/css">
+
+		<script type="text/javascript">
+		
+		function deleteEvent(eid, m, y) {
+			var msg = "Are you sure you want to delete this event?";
+
+			if (confirm(msg)) {
+				document.location = "browse_events.php?delete=" + eid + "&month=" + m + "&year=" + y + "&from=cal";
+			} else {
+				return;
+			}
+		}
+
+		function popup(gg, x, y) {
+			flyout=window.open(gg, "flyout", "resizable=no, scrollbars=yes,width="+x+", height="+y+", top=100, left=150")
+		}
+		
+		</script>
+
+		<title>GraveAddiction.com Calendar Of Events</title>
+</head>
+<body>
+<table class="b_table" width="100%">
+	<tr>
+		<td colspan="2" class="box_title">
+			<b>Civil War Encampment</b>
+		</td>
+	</tr>
+	<tr>
+		<td class="box" width="20%">
+			Date:
+		</td>
+		<td class="box_value">
+			10-7-2006
+		</td>
+	</tr>
+	<tr>
+		<td class="box">
+			Time:
+		</td>
+		<td class="box_value">
+			09:00-05:00
+		</td>
+	</tr>
+	<tr>
+		<td class="box">
+			Location:
+		</td>
+		<td class="box_value">
+			Hayes Presidential Center - Fremont, Ohio
+		</td>
+	</tr>
+	<tr>
+		<td class="box">
+			Contact:
+		</td>
+		<td class="box_value">
+			Ohio Historical Society <a href="mailto: For reservations call 419.332.2081 or 800.998.7737">(For reservations call 419.332.2081 or 800.998.7737)</a>
+		</td>
+	</tr>
+	<tr>
+		<td class="box">
+			Link:
+		</td>
+		<td class="box_value">
+			<a href="http://www.ohiohistory.org">http://www.ohiohistory.org</a>
+		</td>
+	</tr>
+</table>
+
+<table border="0" width="100%">
+	<tr>
+		<td class="box_value">
+			The estate of 19th U.S. President Rutherford B. Hayes becomes the campsite of more than 700 Union and Confederate reenactors. In the course of re-creating Civil War history, visitors will be treated to battle skirmishes involving infantry, artillery and cavalry units, as well as period music, food, entertainment and more. Admission: $3/person. 
+		</td>
+	</tr>
+</table>
+
+<br>
+
+<table border="0" width="100%">
+	<tr>
+		<td class="box_value" align="right">
+			[<a href="javascript:window.print()">Print</a>] - [<a href="javascript:self.close()">Close window</a>]
+		</td>
+	</tr>
+</table>
+
+<br><br>
+
+<center class="copyright">
+	Powered by <a class="cp" href="http://indom.sourceforge.net">Datenator v0.2.4</a>
+</center>
+
+</body>
+</html>

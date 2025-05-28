@@ -1,0 +1,46 @@
+/*
+* Day View Styles
+*
+* Here we define specific styles for the day view,
+* as well as override any default styles (oc-main.css) as needed.
+*
+* Styles listed here with empty brackets {} should be left as placeholders
+* for styles that may be of interest to override in this view.
+*/
+
+table.day
+{
+	border-collapse: collapse;
+	background-color: #efefef;
+}
+
+.dayHeader {
+	font-weight: bold;	
+	text-align: center;
+	background-color: #ffffff;	
+	font-size: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.colHeader {}
+
+/* the time in the left column */
+td.time {
+	font-style: italic;
+	padding: 6px;
+}
+/* the event name & description in the right column */
+td.event {
+	padding: 6px;
+}
+/* the event name */
+span.name {
+	font-weight: bold;
+	padding: 0px;
+}
+
+/* event link, normally the event name/time is used for the link text */
+a.event {}
+a.event:hover {}
+a.next, a.previous {}
+a.next:hover, a.previous:hover {}

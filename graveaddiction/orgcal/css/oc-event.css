@@ -1,0 +1,46 @@
+/*
+* Event View Styles
+*
+* Here we define specific styles for the event view,
+* as well as override any default styles (oc-main.css) as needed.
+*
+* Styles listed here with empty brackets {} should be left as placeholders
+* for styles that may be of interest to override in this view.
+*/
+
+table.event {
+	border-collapse: collapse;
+	background-color: #efefef;
+}
+
+.eventHeader {
+	font-weight: bold;	
+	text-align: center;
+	background-color: #6699cc;	
+	font-size: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.colHeader {}
+
+td.title {
+	color: black;
+	font-size: 12px;
+	text-align: right;
+	font-weight: bold;
+	padding: 4px;
+	padding-left: 8px;
+}
+td.field {
+	padding: 4px;
+	padding-right: 8px;
+}
+
+a.event {}
+a.event:hover {}
+a.next, a.previous {}
+a.next:hover, a.previous:hover {}
+
+a {
+	color: maroon;
+}

@@ -1,0 +1,875 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Mount Union-Pleasant Valley Cemetery (Elisabeth's Grave), Chillicothe, Ohio">
+<meta name="keywords" content="Elisabeth, Elisabeth's, Elizabeth, grave, mount, union, pleasant, valley, cemetery, Chillicothe, haunted, Ohio, graveyard, spooky, gravestone, headstone, monument, footstone, slate, sandstone, marble, vandalism, symbol, symbolism, old">
+<title>Mount Union-Pleasant Valley Cemetery (Elisabeth's Grave)</title>
+
+<style type="text/css">
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="150"><font size="6" face="verdana" color="#CCCCCC">
+<u>Mount Union-Pleasant Valley Cemetery</u><br>(Elisabeth's Grave)<br></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Chillicothe, Ohio</font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+
+<b>Click on any of the titles in the option box below to view the photo:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="23" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./egrave/egrave37.jpg" selected>Pile of broken gravestones at back</option>
+<option value="./egrave/egrave39.jpg">Another photo of broken gravestones</option>
+<option value="./egrave/egrave38.jpg">Elisabeth</option>
+<option value="./egrave/egrave40.jpg">Orb by tree</option>
+<option value="./egrave/egrave28.jpg">Repaired gravestone</option>
+<option value="./egrave/egrave35.jpg">Rows of gravestones</option>
+<option value="./egrave/egrave30.jpg">Slate gravestone</option>
+<option value="./egrave/egrave32.jpg">More broken gravestones</option>
+<option value="./egrave/egrave22.jpg">Sunken gravestone</option>
+<option value="./egrave/egrave23.jpg">Large marble gravestone</option>
+<option value="./egrave/egrave25.jpg">Ogden family graves</option>
+<option value="./egrave/egrave26.jpg">Broken obelisk</option>
+<option value="./egrave/egrave27.jpg">Broken gravestone</option>
+<option value="./egrave/egrave29.jpg">More broken gravestones</option>
+<option value="./egrave/egrave31.jpg">Stack of gravestones</option>
+<option value="./egrave/egrave33.jpg">Gravestone pushed off base</option>
+<option value="./egrave/egrave34.jpg">Very broken gravestones</option>
+<option value="./egrave/egrave36.jpg">Finger pointing to heaven</option>
+<option value="./egrave/egrave41.jpg">Gravestones under tree</option>
+<option value="./egrave/egrave42.jpg">Spray painted gravestone</option>
+<option value="./egrave/egrave43.jpg">Elizabeth</option>
+<option value="./egrave/egrave44.jpg">Another spray painted gravestone</option>
+<option value="./egrave/egrave45.jpg">Broken marble gravestone</option>
+<option value="./egrave/egrave46.jpg">Broken obelisk</option>
+<option value="./egrave/egrave47.jpg">Gravestone in hole</option>
+<option value="./egrave/egrave48.jpg">Row of gravestones</option>
+<option value="./egrave/egrave49.jpg">Hand holding flowers</option>
+<option value="./egrave/egrave51.jpg">Closed books</option>
+<option value="./egrave/egrave52.jpg">Broken gravestones</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+description[26]=""
+description[27]=""
+description[28]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Mount Union-Pleasant Valley Cemetery, better known as Elisabeth's Grave, is located on an unmarked road off Union Lane, not far from Egypt Pike, outside Chillicothe, Ohio (Union Township, Ross County).  The coordinates are 39° 23' 25.1&quot; N, 83° 3' 8.11&quot; W.  However, I have heard from one person who had trouble finding the cemetery with these coordinates.  She recommended using these coordinates for the road to the cemetery instead:  N 39.24.102, W 083.03.373.  
+<br><br>
+Mount Union-Pleasant Valley Cemetery is supposedly haunted by Elisabeth's ghost.  There are a couple versions of the story.  In one story Elisabeth hangs herself from a tree in the back of the cemetery. In another version she was beheaded by the tree in the back of the cemetery by a group of men who were very angry about her inheriting her deceased husband's land. In both versions of the story Elisabeth's body was buried at the front of the cemetery, but her headstone always moves to the back of the cemetery where she died.    
+<br><br>I thought the most interesting thing about this cemetery was the pile of broken headstones in the back corner by the woods.  There are a ton of them!  It's kind of sad to see them piled up like that, it makes it look like they're just junk.  Another sad thing is the vandalized graves.  Several of the graves have initials spray painted on them. 
+<br><br>
+The worst part of this cemetery is the road you have to drive on to get to it.  It is filled with potholes, they just seem to jump out in front of you.  So remember to drive slow! 
+<br><br>A lot of people have experienced strange things at this cemetery.  A lot of those strange things involved car problems - like flat tires (which were probably from hitting a pothole too fast!), new cars not starting, etc.  I guess I kind of experienced something odd too when I was there during the daytime in February 2003.  I hate car problems, so I was driving back from the cemetery VERY slow as to avoid any flat tires, etc.  All of a sudden the truck started to speed up, even though my foot was on the brake!  The road is pretty flat, it's not downhill or anything.  And it didn't speed up just a couple miles per hour...I was driving about 10mph and it sped up to about 35mph!  Then it just started to slow down on it's own.  I thought that was extremely strange since my foot was on the brake (yes, I'm sure it wasn't on the accelerator!).  It didn't make any strange sounds or anything either.
+<br><br>
+When I visited the cemetery for the second time with my friend Mike H. on a cold December night in 2004 I experienced some weird camera problems.  The camera had been working fine all day.  I was snapping a few photos on the way back to the car.  I took one photo, it turned out fine.  The next three turned out pitch black even though the flash did go off.  I was starting to get irritated.  I took another photo, and it showed up totally white on the viewfinder.  I was starting to worry that my camera was broken, but I took another photo and it turned out fine.  I haven't experienced any problems with it since!  But back to the photo that showed up totally white...when I downloaded the photo it didn't show up totally white...here's what I saw:
+<br><br>
+<center><img src="./egrave/egrave24.jpg" alt="strange photo"></center>
+<br><br>
+I can't explain that photo...it looks like a tear or a mark from being folded.  It's definitely weird!
+<br><br>
+Lisa A., a website visitor, noticed more in that picture though:
+<br><br>
+<blockquote><i>There is the image of a face in the bottom right hand corner. I saw it as soon as I first looked at the photo. I assumed you would say about the face, lol, and I was surprised to see you only said it looked like a tear or a mark from being folding. Then I started to read the email others had sent u on there experiences at Elisabeth's Grave and the story from Nick Bickel.  One part of his story seems to describe what I am seeing in this photo: &quot;I saw a face...the mist from my breath didn't move, it just hovered there and there was a clear outline of a face in it....both eyes were open wide and the mouth appeared open as well.&quot;</i></blockquote>
+<br>
+In June 2006, I received an e-mail from Colin regarding my strange photo:
+<br><br>
+<blockquote><i>I have a special program that I use for my work (i work at a photolab) that restores bad photos. Just for fun, I ran your photo through it.
+<br><br>
+There was not much data on the photo, but the tear looks like ground to me and something like a tree on the right. Not a very shocking result. The &quot;face&quot; was more interesting. You make your own judgement on what you see there. The second frame is the same image but only inverted.</i></blockquote>
+<br>
+You can see the photo below (I'd love to know what you think of it - feel free to <a href="mailto:removedforprivacy">e-mail me</a>!)
+<br><br>
+<center><img src="./egrave/egrave24a.jpg" alt="modified photo"></center>
+<br><br>
+I didn't notice it until I received an e-mail, but Brian noticed what appears to be a face in another photo from the cemetery (the face has been circled):
+<br><br>
+<center><img src="./egrave/egrave30b.jpg" alt="Ghostly Face"></center>
+<br><br>
+On my third trip to the cemetery (on October 31, 2006), we encountered something strange in the woods.  It wasn't paranormal related...looks like someone had some extra insulation supplies and decided to create this:
+<br><br>
+<center><img src="./egrave/egrave50.jpg" alt="insulation creature"></center>
+<br>
+In September 2007 I received an e-mail from Eric K. about this &quot;creature.&quot;
+<br><br>
+<blockquote><i>Ok...you know how you have the picture of the bloody monster missing an arm in the woods? Well, I don't know if you have already been informed, but that is a project of a local high school. All the seniors split into groups and recreate a fictional monster called Grendel (he is the monster from the epic Beowulf). I graduated the year after that particular Grendel was made. I make pretty frequent visits out to Elizabeth's grave, but we never ran into Grendel lol.</i></blockquote>
+<br>
+It was a tiny bit startling to shine your flashlight into the woods and see something like that though!
+<br><br>
+I'm definitely not the only person who has experienced weird things at Mount Union-Pleasant Valley Cemetery...check out the following stories!
+<br><br>
+Josh S., a website visitor, e-mailed me about a creepy experience he had at Elisabeth's Grave:
+<br><br>
+<blockquote><i>I have a little story of my own about Elizabeth's Grave that you might be intrested in hearing.  A few days ago, me and 4 of my friends went to Elizabeth's Grave around midnight, and we went back to the tree that she hung herself from.  It was extremely cold back there, but it felt fine at the front of the Cemetery.  We started to head back, but decided to scan the area with our flashlights.  We saw some black figures moving around and stuff, but we could have been seeing things.  But we were standing in the front of the cemetery, and my friend looked to his right, because he thought he saw one of my other friends standing next to him.  When he looked to his right, he saw the large dark figure
+slowly disappear.  We all felt like someone was standing next to us the whole time.  Then, we turned out our flashlights and I happened to take a glimpse at the tree in the back.  When I looked at the tree, my friends and I saw her hanging from the tree.  She was in a faded white dress.
+It was the freakiest thing I have ever seen in my life.  We left right after that.</i></blockquote>
+<br>
+Nick B., one of the friends who visited the cemetery with Josh, also e-mailed me about his experience at Elisabeth's Grave that same night:
+<br><br>
+<blockquote><i>I visited Elizabeth's Grave with some of my friends (including Josh S.) because me and a group of my friends drive all over the place exploring these places and the only apparition I have ever seen occurred here. We were attempting to place one of the broken Elizabeth tombstones back together (out of respect) and it was too heavy for us, we got it as close as we could and leaned it aginst the base....just as we set it down I took a deep breath and in my breath (it was cold) I saw a face...the mist from my breath didn't move, it just hovered there and there was a clear outline of a face in it....both eyes were open wide and the mouth appeared open as well.  It was very strange and it left me speechless. Other then that I have had no other encounters with ghosts. I would love to again though.</i></blockquote>
+<br>
+And here's another story about Elisabeth's Grave, sent to me by Samantha, another website visitor:
+<br><br>
+<blockquote><i>Just wanted to let you know that I went to the cemetery for the first time last weekend.  I was disgusted at the way the cemetery has been treated.  I can't believe people are so disrespectful and cruel.  I felt as though something was around us at all times.  I took several pics on our digital camera, as well as got a reading once on my emf.  However, I never really got any 'scared' feelings.  Well, I take that back.  I went with my sister and daughter, and yes I was scared for our safety.  Not from any supernatural dangers, but from the
+awful people who obviously have made this cemetery their party headquarters.  So we did our work quickly and left.  It was dusk and I didn't feel safe.  So we anxiously went to get the pics developed.  Most turned out completely BLACK.  Pics that showed up perfectly fine on the digital display.  Pics of the tree, tombstones, etc. were all black.  The pics of us in the cemetery were printable.  However, one of my daughters by herself was frightening.   One of her eyes was shut, and looked like her face had been disfigured like a burn patient.  I was mortified, as was my sis and daughter (she's ten).  But upon printing the pic, she looked fine, BOTH EYES WERE OPEN.  We'll be going
+back for sure.</i></blockquote>
+<br>
+And if you've read this far, I know you love hearing stories about Elisabeth's Grave as much as I do :)  Here's another interesting story sent to me by Angie:
+<br><br>
+<blockquote><i>In 1985 I was 15 years old. My friend and I went to Elisabeth's Grave in the evening,I think it must of been around 10 pm. We drove down to the grave for a so called birthday party for a friend of ours. We all heard sounds coming from the field and saw smoke. We got some flashlights from our cars and went to check out what was going on in the field. We were scared stiff.....we saw people in dark robes around a circle of fire. We ran like a herd of deer back to our cars and NEVER returned to Elisabeth's Grave ever again!!!
+<br><br>
+Thought I would share this story with people so they would know that there seems to be more than just Elisabeth lurking about at the graves!!!</i></blockquote>
+<br><br>
+Cole T., who is also a website visitor, sent me his interesting story about a trip to Elisabeth's Grave:
+<br><br>
+<blockquote><i>Hi, I'm Cole and I am writing to you tell you about my Elizabeth's Grave experience.
+<br><br>Well, it took us three tries to find Union Road.  Then we went down Union and I told my friend Jason to turn a little left onto the unmarked road.  But instead he goes straight into some private driveway and tries to turn around but gets stuck.  We went up to all those houses on Union Road and got no help so we started walking down the old unmarked road. Jason whined the whole way saying nothing is back there.  Finally we got to the spot where I said if we don't find anything we will turn around.  So we got to the spot and for some reason Jason thought it was a house. I'm thinking is he nuts, who would have a house way out here on a wildlife perserve?   We got closer to find out it was the graveyard.  So I told him we will go find help and come back later that night.
+<br><br>So we walked up Egypt Pike and this nice man with a tractor said he would help us out.  And for some strange reason he asked us if it was on the road the graveyard is on, like he was expecting it to be broke down there.  But anyway, he got us out.  And we came back around 8:00 or so and we got out and Jason started taking pics.  He kept saying he would see orbs all over when the flash went off.  I'm not saying he really did see them because I wasn't really paying attention.  I was just thinking to myself &quot;what's the real story with this girl?&quot;. I asked him to go to the corner to get pics of those gravestones in the back.  I couldn't get him any closer than 15 feet because he started freaking out and saying he could smell rotten flesh.  He is a little scaredy cat but I just got this eerie feeling about the place.</i></blockquote>
+<br><br>
+In July 2004 I received another story about an encounter at Elisabeth's Grave, from website visitor Ashley L.:
+<br><br>
+<blockquote><i>I went to Elizabeth's grave for my very first time ever on July 20th, 2004. My boyfriend Michael and I went to Elizabeth's grave around 11:30pm and we were walking back there really slow, and I said &quot;hey Michael, isn't there a pile of stones somewhere in a corner?&quot; He's like &quot;yeah, it's over there but we're not going there tonight.&quot;  Right when he said that WE HEARD THE MOST PAINFUL WOMAN'S SCREAM EVER.....we ran so fast I fell...I have gravel in my hand....and the wind picked up real strong and right when we got to the car we found out the car wouldn't start and no lights would come on! Finally it started. Then on the way home he seemed worried about her (because he goes there all the time and has never heard that scream before). I said &quot;Michael c'mon...she's friggin DEAD!&quot;  Right when I said that a raccoon ran right in front of the car and he had to put on his breaks and we stopped to see if we hit it.  You know what we found instead? A bat on the front of his car!!  I swear I always thought &quot;oh whatever...it's not haunted, I don't believe in those things.&quot;  Now I do believe and no one could ever pay me, not even a million dollars, to go back. Not even during the day. When she screamed you could tell in the tone of her voice that she was very much in pain. The scream came from the direction where the stones were. I guess a few weeks ago someone was back there vandalizing the stones......and right when we said something about the stones she screamed!!!! I have never heard that kind of scream before...not even in movies. I suggest no one ever go back there.. I mean something really bad could happen!</i></blockquote>
+<br><br> 
+In August 2004 I received yet another interesting story about the legend of Elisabeth's Grave, submitted by website visitor Josie L.:
+<br><br>
+<blockquote><i>A couple of years ago a friend of mine told me a story that he heard in high school. This happened somewhere in the late 80's, early 90's.
+<br><br> 
+Some friends of his bragged about a night of drinking they had had and how they decided to visit Elizabeth's grave. They got there in their pickup truck and drank beers and waited around for Elizabeth. She never showed, so they started talking and came up with an plan to try and dig where her grave was. They did so with the shovel in the back of the pickup truck and actually dug &quot;her&quot; up. Not sure if it was really her, but this was before her gravestone had been moved, so it most likely was. 
+<br><br> 
+They decided to move it, maybe bury it somewhere else. They put it in the back of the pickup truck and drove. They ended up putting her somewhere in Franklin county according to my friend. Don't know if it's true or not, he has a lot of creepy stories, so it's interesting nonetheless.</i></blockquote>
+<br><br>
+Here's another Elisabeth's Grave story that I received from Sandra N. in August 2004:
+<br><br>
+<blockquote><i>Me and four of my researchers went to the graveyard to see if this legend was true like many others we have tested. We reached the graveyard - flashlights, cameras and voice recorders at hand. We could smell a stench from the dead grass. I got about 15 feet from the tree when something held me in the place I was standing. I then saw a blood covered woman in a ragged dress with one shoe,  hands stretched as though to say help. All of a sudden the force holding me there disappeared and I could move. I then started to make my way back with the rest of the group to the car. I was waiting to get in the car when I felt a strong shove in my back that made me hit the car, I turned around to my shock of no one in sight. We then proceeded to leave all of us shaken up over the experience.</i></blockquote>
+<br>
+In October 2004 I received an interesting e-mail from Jamie L. with another version of the Elisabeth's Grave legend:
+<br><br>
+<blockquote><i>I've been there a few times, but never late enough nor long enough for anything too scary to happen. My brother on the otherhand went with some friends of his back in high school. I'm not sure what they were doing there, probably some of them were up to no good - but as they were goofing off and such they started to hear things like voices, screams, etc out of the woods. They were coming closer so my brother took off running as fast as he could to his car. He ended up hitting his head somewhere on his car and left a big gash on his forehead since he was in such a hurry. That part was pretty comical!
+<br><br> 
+I'm not exactly sure why Elizabeth was killed.. but I heard this little version somewhere that may actually be the way she died. I saw her tombstone and at the time of death she was pretty old...if I'm not mistaken she was in her 60's, or even 70's. She had a husband who died before her, and he was somewhere up in age too. After her husband died some guys had come and wanted to buy her husband's farmland, they tried more than once to persuade her into selling them the land... but she always refused. The men, furious,decided the only way to get it was to kill her. So they broke into her house and dragged her out, beat her up, and hung her from a tree.</i></blockquote>
+<br>
+On October 22, 2004 I received an e-mail from Courtney S. about her spooky experience at Elisabeth's Grave:
+<br><br>
+<blockquote><i>I have been to Elizabeth's Grave several of times, and almost everytime we are out there something happens! But I have two really freaked out stories. One of them is like Angie's story: my friends and I went out there and we all got out of our cars and started walking toward Elizabeth's Grave. One of my friends smelled fire smoke and we looked over into the woods and saw smoke.  All of a sudden like 10 men came running out of the woods chasing after us! We all hurried and got into our cars and took off.  We looked back and the men were chasing us with their trucks. They were right on our butts until we left the graveyard...I was never so scared in my life!
+<br><br>
+We all went back the next day and found dead animal fur in like a fire pit made out of stones.  I've never been back there since that night!  Another (previous) time we went out there, my mom was driving and it was like the first time we ever went there. Nobody got out of the car, we were too chicken! We only stayed there like 10 minutes. When we got back home we looked at the van and there were hand prints all over the car.  My friend said she saw a ghostly figure in front of the car the same night, so we dont know how the hand prints got there!</i></blockquote>
+<br><br>
+In December 2004 I received another story about Elisabeth's Grave from Amber B.:
+<br><br>
+<blockquote><i>As long as I can remember Ive been fascinated with that graveyard. My aunt and uncle live off of Egypt Pike and they would take me out there all the time.  Well...last year sometime my uncle and I went. Instead of stopping at the graveyard we drove past it and went back to the woods. We decided to get out and look around. We walked back a little ways and came upon a basement. At least thats what I thought it was. It was like a big square made with bricks but it went down a good 3 or 4 ft. I was hoping that would be Elizabeth's old house and I would finally get to see her! Well I jumped in and just started looking around. My uncle took off a little ways (it was daylight) and he yelled my name. I went to go find him and he found a well, like a water well. It was full of leaves and mud and beer bottles and teeth...animal teeth. My uncle came to the conclusion that there must be a group of ppl that come out there and do animal sacrifices and other stuff. Well I told him I wanted to go to the graveyard. We drove back over and we got out of the car. We walked back to the pile of gravestones. I walked a little ways back into the woods and we found more teeth and even bones. Kinda freaky. I still haven't been lucky enough to see any apparations or anything.</i></blockquote>
+<br><br>
+In February 2005, I received an e-mail from Erica about her scary (and painful!) trip to Elisabeth's Grave:
+<br><br>
+<blockquote><i>On my 14th birthday I went to the graveyard for the first time ever! I went with me, my mom, her friend, and my best friend, Rudy!  Well, at first we went out to look at the grave and we all got scared because the bushes started to shake!! We got in the car and my mom's friend dared me to get out of the car and go by myself.  When I wouldn't she got out with me! We got all the way to the back of the graveyard and I looked to my left and saw people walking in the woods!  I started freakin out and I ran away! The next thing I know, I'm on the ground bleeding all over the place! I had been running so fast that I tripped over a tombstone and broke my face on another! I started screaming SO loud (it was like a scary movie or something)and my mom came to take me to the car! We left and Rudy was trying to get me to calm down because it felt like I had lost my eye! When we got to the hospital we stayed there until 4 in the morning.  The doctor said that I fractured my cheek bone and broke my nose! I had a concussion from it and I had a cut right beneath my eye! It was horrible birthday!! I'm sure I'd go back but I'm still a little afraid to!!! We'll see!!</i></blockquote>
+<br><br>
+On February 25, 2005 I received an extremely interesting story about Elisabeth's gravestone from Darla B.:
+<br><br>
+<blockquote><i>My interest in Elizabeth's grave was sparked in 1986 as a teenager.  I was exploring the broken stones in
+the far left corner, and I found one small piece that said Elizabeth died June 6.  I took it home and put it on my headboard under a black light.  It was cool.
+<br><br>
+After months of my researching Elizabeth's plight, my girlfriend called a radio station, and they asked if I would meet them out there on Halloween.  So I took my piece of Elizabeth's headstone back to the graveyard, reluctantly I gave my piece of stone to a psychic that the radio station had brought out there.  We all followed the psychic around the graveyard until we came to a tree. Not the big tree in back, but the one in the middle.  About 30 of us were there, and we were broadcasting a seance live on the air. I was trying to keep an open mind about the proceedings as we were all holding hands around that tree and some broken tombstones. There was a full moon and dead silence. There was no wind at all, but as the psychic was coaching us to direct our well wishes for Elizabeth's release from earthly bondage up into the middle of our circle, a large branch fell into the middle of our circle.  It was so freaky, because the was no wind, and it dropped just as our chanting had hit its pinnacle. I never got my piece of headstone back from the psychic.  I looked for it again in the summer of 2004, but it was long gone.  There were 14 Elizabeths buried in that graveyard.</i></blockquote>
+<br><br>
+In March 2005 I received an e-mail from Julia C. about her spooky experience at Elisabeth's Grave:
+<br><br>
+<blockquote><i>My best friend and I were just talking about Elizabeth's Grave, a place I have been several times as a teenager, in the early 80's and late 70's. I decided to look on the computer for Ohio hauntings and I saw your website and Elizabeth's Grave. I have talked about it for years because of the things we saw and heard the last time I went there. We could actually see her hanging from the tree, we being me and my friend Heidi. I have never went back since and was actually there several times until that night. We had heard that a cat was with her at the time she was hung (well hung herself is what we were told). The story was told that she hung herself when the love of her life had died. Anyway, there was also a cat under the tree at the same time we saw her &quot;ghost&quot; hanging there. Very spooky!</i></blockquote>
+<br>
+I also received a story from an anonymous site visitor in April 2005:
+<br><br>
+<blockquote><i>I have been to the grave many times but have never gotten out of the car. Now I am a strong practitioner of Wicca, which is based on witchcraft and spirits. I know that when I go back to her grave I can sense that someone is there of course, but also I seem to sense a strong force of witchcraft. I have been back there many times by myself and meditated back there and seemed to have felt her for some reason, I'm not sure why, but I have this feeling that she is a sad spirit. Now I have never witnessed anything strange or scary all the times I have been back there but I do know there is a story there to be found, and when it is found and told her spirit might be set free.</i></blockquote>
+<br><br>
+In May 2005 I received this interesting story from Becky F., a website visitor:
+<br><br> 
+<blockquote><i>I have been out to the cemetery many times, but not to go ghost hunting (if you know what I mean). But one night in February 2002 me and three of my freinds decided to get some flashlights and go find this girl's grave that someone told me about. So we bought brand new batteries and went out there.  Well, we got out of the car and turned on the flashlights and set off.  About one minute later the flashlights started to go dim, then died on us.  I started freaking out.  Then it felt like something was pushing us away from the graves, so we did what any sane people would...we ran like hell!  When we got to the car the doors were locked!  I made it a point to make sure that if any thing happened the doors were unlocked. To this day we do not know how the car was locked and what made our flashlights go dead.  But I know it was something.  Oh, and right after we left the flashlights started working again!
+<br><br> 
+I also have a story about Elizabeth's grave. It might just be a myth, but the story that was told to me is that she was born into a wealthy family. When she was 19 her parents arranged her to marry this man, but she was in love with this boy that was just nothing to her parents because he was from a poor family. So on the day she was supposed to marry this man she went into the woods and killed herself.  She was buried right in the same spot where she breathed her last breath. She was also buried in her wedding dress because I guess that she killed herself wearing it. That could be why she looked like she was wearing white. I don't know if this is true or not, but that is what I believe.</i></blockquote>
+<br><br>
+I received another interesting Elisabeth's Grave story from Maggie on June 3, 2005:
+<br><br>
+<blockquote><i>In June of 2004 I went to Elizabeth's Grave with my kids' father and two friends, Teddy and Laura.  We were told not to go there until 12:00 AM, but we got there early. Laura and I were too scared to get out of the car, but Teddy and Robert did.  They made it to the row before Elizabeth's grave and we saw a guy hunched over a tombstone in the row we were in.  He just sat there.  After they got a little closer, the guy started coming towards them.  He was dressed in black.  They ran back to the car...we left!  We came back a few minutes after 12:00 and Teddy and Robert got out again.  This time they just made it to the front edge of the graveyard and they saw the black figure of a guy again coming at them.  They ran back to the car.  We started the car to leave, and as we were driving down the road Teddy said he saw a figure running after the car.  Robert was sitting beside me in the back seat and what I felt was weird. I knew he was sitting there, but it felt like he wasn't...it felt like a cold empty space beside me, like something invisible, harmful, and cold as ice took his place.  I was freezing cold.  After we got to the stop sign and turned off the dirt road that leads to the cemetery and got back on Egypt Pike it was gone. It was no longer cold, and I could now feel Robert sitting next to me.</i></blockquote>
+<br><br>
+I received some thoughts regarding Elisabeth's Grave from Cheryl on June 7, 2005:
+<br><br>
+<blockquote><i>My name is Cheryl, and I went to Elizabeth's Grave a couple of days ago.  I really, really wish something would have happened, but nothing did. Really, everything I wanted to see was already there.  There were so many grave stones destroyed! I went to the back of the cemetery where people say she was hung, and that was where I got really mad...Some stupid teenagers had dumped like 10-15 tombstones right there! It was enough to make a person sick! Then when I went to a gravestone that said Elizabeth on it, I noticed a hole...a BIG hole by the stone!  I figured that some pople thought that it would be cool to find a casket and to open it up. Well, just a little news flash - no, it wouldn't be too cool! Well, not even 5 minutes later I found a dead cat right in the middle of the graveyard...It looked to me as if a lot of funny business had been going on, but nothing was funny at all! I'm almost 13 and I would NEVER do anything to anyone's final resting places. I thought I was immature but no...not now!    Not compared to some of those morons who had done those things!</i></blockquote>
+<br><br> 
+On June 15, 2005 I recieved the following story from Lisa, a website visitor:
+<br><br>
+<blockquote><i>I went to Elisabeth's Grave and I found two strange men there putting roses on her grave. I had my camera with me so I took it out and got a picture of them, but when I got the photos back there was nobody there.</i></blockquote>
+<br><br>
+On June 19, 2005 I received two e-mails about a trip to Elisabeth's Grave - one from Daniel C., and one from Rayne.  Here's Daniel's story:
+<br><br>
+<blockquote><i>Me and seven of my friends went to Elizabeth's Grave on June 18th, 2005.  We got there around 8:22 PM. We were walking around...We decided to turn the gravestone of Elizabeth to see if the stories are true.  Soon after we turned it, we found a trail on the right side of the cemetery and choose to walk it to see where it went.  After about 45 minutes of walking, we made it down the trail and back.  And to our suprise the tombstone turned back around!  We then left and came back later, around 10:30 PM.  We started walking through the cemetery, and it was nice out, but in certain spots it got freezing cold.  We then walked back to the pile of stones in the lefthand corner of the graveyard. As we got there I was standing with my flashlight looking at the stones, when I felt this hand rub across my back...this hand felt as if it was a foot long, if not longer!  So I chose to walk back to the van.  When we were sitting in the van you could see different objects running in and out of the woods.  I kept staring at the the tree that she was hung from, and you could see like a white light that was moving in the same direction as you would be if you were hung on that limb of the tree.  At that time I got back out and was looking at the tree.  All of a sudden I closed my eyes for some reason, and when I opened them again I saw her hanging there...it was as if she was staring right back at me!  Soon after that we all got in the van and took off.  As we were leaveing, one of my buddies tells us to look back...when we stopped to look back, we saw a dark figure standing behind Elizabeth's Grave and waving us goodbye!  Then we took off and came home</i></blockquote>
+<br>
+And here's Rayne's story:
+<br><br>
+<blockquote><i>Me, my boyfriend, and a few other friends went to Elizabeth's Grave on June 18, 2005. The first time we went there it was around 8:30ish. We were looking through the graveyard just to see what was going on. Then we saw a big hole by one of the tombstones - it was crazy! We were just sitting there when all of a sudden I happened to look over at the tree.  I saw this white figure fly by it!  By that time I was ready to go and it was still daylight. Well, then we decided that we were gonna go down the trail, so before we went down it my boyfriend and a friend decided they were gonna turn the other Elizabeth's tombstone around to actually see if it would turn by itself. So we start walking down the path till we get to the end, but I didn't stick around down there to find out what was there. So we started walking back up the path, it took us about forty-five minutes to get from the top to the bottom and back up. When we finally got to the top we went back into the cemetery and noticed that the tombstone was turned back to how it was at first. That did it for me, I was ready to go home! It was 9 PM and we had to go meet up with some other friends that wanted to go back with us. We got back there around 10 PM and walked back to where her tombstone was.  By this time I was seeing all kinds of shit. I happened to look at the tree again when I saw the woman - she was in a raggedy white dress and was swinging back and forth from the tree. Around 11:45 me, my brother, and three of my friends were ready to go.  We didn't want to stick around and see what happens at midnight, although my boyfriend and his two friends stayed. They said that they saw some freaky shit going on after we left. It was really freaky, and yes it was freaky enough to make me not want to go back.  One of these nights I may change my mind, but for right now I don't see that happening!!</i></blockquote>
+<br><br>    
+In July 2005 I received the following story from Brent M., Matt G., and Derrick B. about their trip to Elisabeth's Grave:
+<br><br>
+<blockquote><i>On Sunday, July 3rd a few buddies of mine and I went to see Elizabeth's grave for our first time.  We have always heard stories about her grave and wanted to see if it was true.  We arrived at the graveyard around 11:00p.m.  First we just sat in my friend's truck with the lights off and watched out the windows for any activity.  Then we decided to get out and walk around.  We didn't really see much activity, but we caught a orb in one picture by a grave.  We plan on going back sometime soon to further our research on Elizabeth.</i></blockquote>
+<br><br>
+On July 6, 2005 I received the following story from Amber K. about her trip to the cemetery:
+<br><br>
+<blockquote><i>On June 17, 2004 my friends and I went to Elizabeth's Grave to hopefully see something. At about 7:20pm we all felt like something was there with us, it was really creepy. Then my friend (Anna) said she saw something over by the tree that Elizabeth was hanged from, so we all grabbed our flashlights and went over to check it out. When we got over there, all of our flashlights wouldn't work, and we had four. I started to get scared, so I closed my eyes and started counting. The second I opened my eyes I saw the outline of a lady in a faded white dress...slowly the body started filling in like she was walking into a light. I looked around to see if I could see anyone or anything in the dark. But I couldn't, all I could see was the lady! She pointed at me, and I saw forming next to her two men in black. Then she screamed, it was like a scream I have never heard before...and you could tell by that scream that she was in alot of pain. I started to run and after I got away from the tree the screaming stopped and my flashlight started working again. I shined my flashlight at the tree and nobody was there, just a bloody rope hanging there. When I got back to the car, my friends already had it running and I realized that I was out there alone through that whole thing! The only thing my friends saw or heard was the screaming. They had run back when the flashlights went out!!!  Now nobody can talk me into (or pay me) to go back there...EVER!!!!</i></blockquote>
+<br><br>
+In August 2005 I received an e-mail from Kerry W. about her interesting experience at Elisabeth's Grave:
+<br><br>
+<blockquote><i>I went to Elisabeth's grave 3 weeks ago at about 10:30 pm. While I was there, I only heard movement and saw the odd flicker at the corner of my eyes. As I explored, I saw gravestones smashed or cracked. Out of pure respect, I said &quot;I'm sorry about how you're broken. I wish I could fix you.&quot; I turned to Elisabeth's grave and I whispered &quot;and I'm so sorry about your sad story.&quot;
+<br><br>
+I went home and I tapped on to this website. My mirror is placed so that when I get up, I am facing right at it. While I was reading the stories, I decided I needed the loo. I got up and turned to the mirror, to see the figure of Elisabeth staring straight at me! When I looked at the reflection, she was smiling, but when I looked at where she should have been, there was no one there. I was frozen to the spot. After a couple of seconds of smiling, she frowned and pointed at me. I was so scared, my legs gave way beneath me and so I couldn't see the mirror. I got up again and stared at the mirror, but there was no one there.  
+<br><br>
+Since that encounter with her ghost, I have never returned to her grave.</i></blockquote>
+<br><br>
+On August 16, 2005 I received an e-mail from Ken E. with some information about the cemetery:
+<br><br>
+<blockquote><i>The road was recently improved, graded and gravel added. It was a very smooth ride back to the cemetery!</i></blockquote>
+<br>
+Maybe now people can rule out the horrible road as an explanation for all of the reported car problems!
+<br><br>
+I also received an e-mail from Isaac G. on August 16, 2005 about his creepy trip to the cemetery:
+<br><br>
+<blockquote><i>Ok readers, believe this if you would want, but the truth lies in mine and my cousins eyes.
+<br><br> 
+My name is Isaac, and my cousin's name is Ricky. We went out to Elisabeth's Grave at 8:00A.M. on August 16th of 2005. We had never been out there before so we decided to go have a look. When we first got out of the car, we felt a little cold chill, but we didn't think much about it considering it was a little cool from the rain. We started walking around looking at the graves, and then we made our way back towards the big tree in the back. As we were walking towards the tree it seemed to get a little colder, then all of the sudden, Ricky swung at something in the air, at the same time, I felt something thrust against my right shoulder, causing me to stumble back a little. When I got pushed it sounded like a baseball bat was swung right by my head, but Ricky swung his fist in the opposite direction of me. He said he felt like something was behind him. After we left, we came back a little later around 12:00P.M. with a camera, wanting to take some pictures of the graves. It continued feeling cold as we took pictures but it really didn't mean much. When we started to get in the car I heard a rustle in the bushes next to the car and looked over, noticing them shaking a little. We pulled away, and as I looked in my mirror, I saw what appeared to be a black figure walking out in the middle of the road and stopping, just staring at us as we left. Neither my cousin nor I have ever had something like that happen to us before. I do wish to say to everyone to be very cautious about going out there.</i></blockquote>
+<br><br>
+On August 18, 2005 I received an e-mail from Joy, a website visitor, with her Elisabeth's Grave story:
+<br><br>
+<blockquote><i>A few years ago, my niece and her friend took me out to the cemetery. I didn't know the story behind it until now, after reading everyone else's experiences. Well anyway, I wanted to go to a cemetery to take pictures to see if I could capture anything. It was after midnight and nothing seemed strange or out of the ordinary. I took a lot of pictures and felt really drawn to the tree. So we walked back there and took several pictures of the tree, and then out of the bushes we heard this god awful screaming...Of course we all got the hell out of there quick like, lol!  Anyways, we got home and I put the disk in the computer to see if anything would show up on the pictures.  I didn't find anything until we got to the last ones of the tree. The picture is of a big orb right above the limb. I know orb pictures kind of suck, but this one is pretty good I think.</i></blockquote>
+<br>
+In September 2005 I received an e-mail from Billie Q. about her trip to the cemetery:
+<br><br>
+<blockquote><i>My family and I took a relative from California to see what Elizabeth's Grave was about.  It was only like 9 or 10 PM.   The picture with the side of a van has something that appears to be fairy like.  That was when we were leaving...I had just decided to flash a picture out the window impulsively, towards the edge of the graveyard.  The other picture shows where somebody had been digging at the site.  But it looked fresh with the wetness in the hole.  When I downloaded the pictures to my computer, that's when I noticed the orbs.</i></blockquote>
+<br>
+In October 2005 I received an e-mail from Laura M. about her trip to the cemetery:
+<br><br>
+<blockquote><i>My husband and I took our children to the cemetery for some Halloween hauntings.  It was just getting dark and we were not expecting to really capture anything but a chill or two.  But when we came home and unloaded the camera, we noticed the orbs right away. It wasn't until several days later that I noticed something even stranger. In the dark tree picture there seems to be a white figure &quot;standing&quot; to the right of the tree trunk. This is one of the large trees in the front of the cemetery by the road.   It was taken from behind while we were standing beside the woods by the stone pile</i></blockquote>
+<br>
+In November 2005 I received an e-mail from Aaron Adams about his creepy experience at the cemetery:
+<br><br>
+<blockquote><i>I have lived in Chillicothe for 28 years...The other night me and my sister went to Elizabeth's grave around 11:15 P.M. this past friday.  She brought her digital camera with us.  She just took a picture of the tree, and as soon as she did we heard a noise right behind the gate which is on the right side of Elizabeth's grave.  When we looked at the picture, we saw the exact same orb by the tree on the right side (in the back) that those other people saw.  We also saw the weirdist looking eyes where we heard that noise come from.  This is really freaky...right after we turned back on the road to go home, we saw the exact same eyes on the right side of the road, like it could move as fast as a fighter jet.  It had glowing eyes, and it was not a deer because deer can not move that freaking fast....
+<br><br>
+I will never go back to that grave ever again.</i></blockquote>
+<br>
+In February 2006 I received an e-mail from Larry V. about Elisabeth's Grave:
+<br><br>
+<blockquote><i>One of my friends says there is a house behind the cemetery, but somebody burned it down a long time ago.  However, the basement is still there.  Now, I've been there three times searching for the house. I don't know if it's really the house Elisabeth lived in, but you never know. A long time ago, when I was 17 years old, I was at the cemetery.  One of my friends drove us out there. We were scared....our cars stopped and they would not start up.</i></blockquote>
+<br>
+In April 2006 I received an e-mail from Creamer about the cemetery:
+<br><br>
+<blockquote><i>I have been to the cemetery a few times and have not seen or heard anything...but as a teenager I do recall a couple of boys getting into trouble for digging up one of the graves!!  It would have been about 1986 or 1987.  I remember the story being published in one of the major papers, I think possibly USA Today.  I just want to say one thing: VANDALIZING GRAVEYARDS IS A HORRIBLE THING TO DO! RESPECT THE LIVING AND THE DEAD - THEY WERE ALL SOMEONE'S LOVED ONE!!</i></blockquote>
+<br>
+Also in April 2006, I received an e-mail from Alicia R. about her experiences at the cemetery:
+<br><br>
+<blockquote><i>On April 14th 2006 me, my sister, my niece, and my best friend all went to visit Elizabeth's Grave. We drove back to the graveyard, and as soon as my sister opened the door she quickly shut it.  She said she got a weird feeling when she had opened the car door to get out. They had their doubts about getting out, but when my sister and friend finally did get out they proceeded to walk through the graveyard looking at stones.  They started walking towards the back, near the woods, and I had my video camera recording them the whole time. They finally got out of my sight, and about 5 minutes later they came running full speed at the car and jumped in. After they caught their breath, they told me that all of a sudden both of their flashlights hit the same spot at the same time and they saw a white figure standing in front of them. We started to leave and I happened to look over at the graveyard.  I saw a dark grey figure running through it. I was so scared that I started crying, and I took off out of there pretty quickly. As we were headed towards the paved part of the road we saw car lights coming at us.  As soon as we popped over the little hill in the road there was nothing there. There is no way that a car would have had time to turn around and head out of there before we got to it. It was a very scary experience, but we will definitely be going back soon.</i></blockquote>
+<br>
+I also received an e-mail from Ty N. in April 2006.  He noticed the following in one of my photos from the cemetery:
+<br><br>
+<blockquote><i>If you look between the leftmost gravestone base and the gravestone that is lying flat in the center, you can see a slight outline of a face on the ground, the eyes and mouth are open.  I have attached a copy of the photo with the face circled</i></blockquote>
+<br>
+<center><img src="./egrave/tyegrave32.jpg" alt="Face in photo"></center>
+<br><br>
+At the end of April 2006, I received another e-mail from Alicia R. about the cemetery:
+<br><br>
+<blockquote><i>On April 21st I went back to Elizabeth's Grave with my sister and friend. We got back there around 8:00 PM so we could walk through the woods and still have some daylight.  We tried to find the house that is supposed to be back there, but all we found were broken gravestones. We walked through the graveyard and looked at every single stone, and we came upon an Elizabeth that somebody had tried to dig up. The hole was about 2 feet deep, and it was really creepy.  But to our surprise, the dirt from the hole was nowhere to be found. We walked towards the left of the cemetery and found a little cement box that looked like it had held a baby. Of course, we didn't mess with it. We left and came back around 10:00 PM, and it was completely dark.  This time I got out of the car and listened.  The things we heard and saw can't be explained. We had 3 brand new flashlights with brand new batteries, and as we shined them through the graveyard they dimmmed out in certain spots. We made our way back to the car and heard rustling in the woods right beside us, where the signs are.  It sounded like tree branches breaking and cracking.  We even started yelling to see if it was an animal, but if it was it would have run in the opposite direction from us...it started to get closer and closer. We then heard an awful sound that was like somebody gasping for air, it really creeped us out!  So we headed out of there and saw the same car lights headed for us that we saw last time we were there.  As soon as we got to the turn around it was gone. We have seen the same lights two weekends in a row, and they have disappeared. We are definitely going to be every weekend visitors now to Elizabeth's Grave, what a rush!!!!!</i></blockquote>
+<br>
+On May 4, 2006 I received an e-mail from <a href="http://www.paranormal-insight.com" target="_blank">Alice</a> about her experience at Elisabeth's Grave:
+<br><br>
+<blockquote><i>Every Wednesday night, my friend and I go exploring looking for any old Cemetery or interesting site around us.  This past Wednesday we decided to hit the Mount Union-Pleasant Valley Cemetery.
+<br><br>
+A few interesting things happened: my headset was knocked off my head, and my friend was smacked in the face so hard that her glasses flew off.  We both heard what sounded like a woman sobbing near the back area where the grave stones are all broken up, and we saw some odd shadowed figures.  We had an interesting time to say the least! 
+<br><br>
+I started with fully charged batteries, and sometime in the middle of the trip I started getting battery low warnings on my camera.  By the time I got home it was fine agian.
+<br><br>
+I also got some kinda gouge mark on my arm, and I didn't notice until much later that my arm had dried blood all over it. Don't know how it got there.
+<br><br>
+It's a place that warrants more investigation for sure!</i></blockquote>
+<br>
+On May 6, 2006 I received an e-mail from Lindsey S. about her creepy experience at the cemetery:
+<br><br>
+<blockquote><i>A few friends and I went to Elizabeth's Grave last night.  On the way there we were fine, and only one of us (not me) was scared.  When we got there we saw car lights.  Once we had gotten to where the graves were, the lights were gone. Even though nothing had actually happened we all started screaming, and one of my friend's little sister started crying. We didn't even have any reason to be scared.  Something must have come over us.  But anyways, Sidney (the little sister), got really scared so she said she wanted to leave.  We all agreed and decided that was that.
+<br><br>
+As we turned around, Katelyn's dad saw a figure in white sort of glide across the steet behind us. Then as we were leaving, just before the graves left our side, our car shut down...almost as if whoever was there didn't want us to leave.  When her dad tried to restart the car, it wouldn't start.  He tried two more times, and finally the third time it worked.
+<br><br>
+On our way home, I saw a big flash.  I asked Lauren if she saw it too, and she said yes. Then my friend Jordan asked, &quot;Did you hear that?&quot;  None of us had heard it.  Katelyn said, &quot;Well, since you guys saw that flash I'm going to keep looking outside to see if I see anything.&quot;  We didn't really pay attention (or at least I didn't - haha!).  There was nothing on the window or anything, so she went to change the song that was playing.  When she looked back she started screaming.  We all started yelling, asking her why she screamed.  She said there was a hand print on her window! When we all looked at the window we saw it too! It was weird because it only had four fingers. Also, the fingers were really long and skinny. Then I started getting really hot, almost feverish, which is weird because when ghosts are around you're supposed to get cold. I thought i was about to throw up, but then I felt cold air on my legs while the rest of me was hot.  I was about to start crying, but I didn't want to scare the rest of the gang too much. So I asked her dad if the air conditioner was on, and his reply was, &quot;Why?  Do you want me to turn it on for you?&quot; For some reason his comment really scared me.  I said no thank you, and told all of them about my cold legs.
+<br><br>
+When we got out of the car, I was really dizzy but that was the end of my experience for the night.  But that wasn't the case for Katelyn.  While she was sleeping, she kept waking up because she heard a girl's voice.  She also said she heard a cat, and the only pet her dad has is a donkey.  I doubt that could sound like either of those.  If you would have asked me last night right when it was all happening if I would ever go back, I would have said no!  But now I really want to go back and see if anything more happens!</i></blockquote>
+<br>
+On May 9, 2006 I received a follow-up e-mail from Alice:
+<br><br>
+<blockquote><i>I was reading what was posted underneath where you posted my visit at the cemetery.
+<br><br>
+There where a few things about the visit I kept to myself and only told my friend Lynne/Mouse (She's on your message baord, opps, so am I. LOL)
+<br><br>
+As I said, I had told my friend, but no one else because I didn't know if it was a trick of the light or not in the car.
+<br><br>
+As we where driving home and I turned onto US-35, I happened to glance out of my car window (I was driving) when I saw what looked like long, skinny, black, pointed shadow fingers kinda crawling up my car.
+<br><br>
+I was a little miffed, but I 'left them behind' and I didn't say anything to my friend until days later because A) I didn't want to freak her out and B) I thought maybe the light had tricked my eyes and it was really nothing.
+<br><br>
+This last story made me stop and wonder if it really was something.
+<br><br>
+Something about this site has stuck with me, it's entered somewhere in my soul. I dunno, Im not afraid, but I don't want anything following me home either.
+<br><br>
+I also think this area has alot of forgotten Indian past that's not been looked into. Here is an EVP I picked up which reminds me of chanting/singing in the background. (<a href="./egrave/Singing.mp3">click here to listen to it</a>)
+<br><br>
+On one side, I want to go back, but on the other side I'm pretty sure this area could possibly be dangerous. A warning to anyone that decides to visit this place, Please, please know what you're doing. Remain calm and don't let their pranks scare you. If you believe in a god, any god, bring that strong faith with you. Protect yourself while you're there and while you leave.
+<br><br>
+I honestly don't know what kind of damage whatever lurks there could do, but just be forwarned and have whatever kind of protection you believe in with you.
+<br><br>
+When I go back, I'll be sure to double up.</i></blockquote>
+<br>
+I also received an e-mail from Lynne, Alice's friend:
+<br><br>
+<blockquote><i>My friend Ali and I heard of Elisabeth's grave in Ross County and went last Wednesday night to investigate. The only thing we knew was where to find Elisabeth's grave and didn't read anything further about the
+place. It is so sad at how much is in ruins there.  Spray painted graves, broken graves and especially all that are just thrown in that back wooded area is really upsetting.
+<br><br>
+We had some very odd experiences there. Back in the wooded area where the grave of Elisabeth and her husband is thrown, we heard a woman sobbing several times, we heard whispering and some music too. We were the only ones there. Something was playing with my hair back there and my friend was getting a lot of pains in her back.
+<br><br>
+We did a lot of EVP work and photos, and my friend's camera started going haywire.  Several pictures turned out very oddly, as well as her batteries draining that were fully charged back to normal after we left.
+<br><br>
+I saw a black shadow in that wooded area when I was doing EVP's and taking pictures, then again as we were leaving and walking out of the cemetery. My friend turned around to say something to me, and something hit me in the back of the head.  My head flung around and my glasses were tossed to the ground. It was totally weird. It definitely felt like something was toying with us because we weren't leaving or being scared during the investigation.
+<br><br>
+We get into the car and I saw the black shadow in front of the car on the right by the grave, and at the same time my friend was telling me that she is seeing a black shadow on the left side of the road in front of the car, then it flew past the car. We left and as we were driving home, she went to light a cigarette and saw something on her arm so we pulled over. She flipped the light on and her arm was bleeding. She didn't feel anything at all and she wasn't digging
+around in the bushes or trees or anything. When I got home, I noticed a lump and a big welt on my neck and shoulder that were NOT there before we left. They certainly weren't bug bites either.
+<br><br>
+She is still going through the rest of the EVP's she took that night but she has a few that are telling us to &quot;Get Out&quot; and someone saying our names.
+<br><br>
+My friend told me a few nights after we visted the cemetery that she saw handprints on the car right after she saw that black shadow in front of her car.
+<br><br>
+We'll be going back to do another investigation soon but we are taking more people with us next time. It was definitely an experience. Good thing we are used to these types of experiences so they didn't scare us and won't keep us from going back.</i></blockquote>
+<br>
+In June 2006 I received an e-mail from Rebecca A., the sister of someone who previously contributed a story about this cemetery:
+<br><br>
+<blockquote><i>I am Aaron A's sister and this is the whole story of our trip to Elizabeth's grave...
+<br><br>
+My brother and I were out one night around Halloween (of course), looking at some reported haunted places. We knew that we were going to go to the grave, but we wanted to save the best for last. I took along my digital camera and was snapping pics everywhere we went. To our disappointment, nothing showed up on the pics and we had no strange happenings...until we went to Elizabeth's grave, that is!
+<br><br>
+As we drove down the lane, we both began to feel as if we were being watched and we just had an eerie feeling. We stopped the car and rolled down the windows so I could snap a pic before we got out of the car. I took a pic of the tree that is supposedly the one that Elizabeth hung herself from. Just as the flash went off, we heard something running full speed at the car! It was coming from the field on the opposite side of the road from the cemetery. We started the car and began screaming like little kids, because when we looked behind us there were weird yellow eyes just standing at the end of the road!
+<br><br>
+After I got calmed down enough to look at my camera, I checked the picture of the grave site.  There in the tree was a small single orb of light. We have not been back and we don't talk about it much. It was the scariest experience I have ever had with an entity, and I have had several. Elizabeth is only telling people that she has been to the depths of hell and now she just wants to be left alone. I suggest that if you go there, be prepared for the scare of a lifetime!
+<br><br>
+I also have heard the story of Elizabeth being in love with someone that her parents did not think was appropriate for her family. She hung herself on her wedding day because she couldn't bear to live with someone that she didn't love.</i></blockquote>
+<br>
+In July 2006 I received an e-mail from Nikki about her experience at the cemetery:
+<br><br>
+<blockquote><i>I too have had an experience with Elizabeth. A few years ago my girlfriends from high school, my mom, and I saw her! Seriously, I wish now I had pictures like the others on your site.
+<br><br>
+It was of course around Halloween at midnight when we all decided to brave up and go try to see Elizabeth. The drive down that freaky trail is spooky enough that my friends almost chickened out. We got to the end of the drive, circled around in the cul-de-sac, and parked in front of the cemetery. We left the car running, the lights on, and the doors open. We all paired up and each group had a flashlight. As we started in, my friend Karen almost fell into an open grave. We all stopped and looked at it. It was completely dug up and it had a 2x2 sticking out of it. Freaky!
+<br><br>
+We started back towards the big tree that stands in the back middle of the cemetery. We all stood facing the back of the cemetery, looking around the edge of the woods. We of course called out to Elizabeth and said that we meant no harm. Nothing happened. Just as we were about to give up, I turned back around and in the far left side of the woods was a delicate white glow. Everyone there that night saw it. As we stood there it became clearer. We could all make out a floating white gown with light hair. You couldn't see a face or any other features, but we all knew it was her. We were no longer frightened, it was really peaceful so we thought we had better go before we pissed her off. On the way out of the drive a white orb (just like the ones in the others' pictures) could be seen from the back car window.
+<br><br>
+We couldn't believe we got to see her! The next day my dad wanted to check it out so my family and I went out during the day. The open grave from the night before looked like it had never been touched. The ground was level and solid with leaves all around. The 2x2 was laying next to the grave but was sinking in the dirt untouched. We found the same Elizabeths' graves that you photographed. That grave was opened the night before because my friend had a bruised ankle for a week because of her fall, and the next day we found no other holes like that in that cemetery.
+<br><br>
+I know one thing for sure, she does not like men! When a boyfriend and I attempted to go to the grave site one night we never even made it out of the car. When we circled around in the drive we were instantly followed by this creepy set of yellow eyes that chased us halfway up the drive. Needless to say, he never went back to the cemetery with me.
+<br><br>
+Have you ever heard of anyone talking about rabbits there? Another time when some friends and I went, the drive, from entrance to end, was full of rabbits. I mean a lot of them! At least a hundred were all over the gravel road. It was really freaky!!
+<br><br>
+I am so glad I got to tell someone else my experience. I will never forget it. And no matter what anyone thinks, I know what I saw!!</i></blockquote>
+<br>
+I also received an e-mail from Andy W. in July 2006:
+<br><br>
+<blockquote><i>My friends Kevin and David and I went to Elizabeth's Grave on July 7, 2006. It was my first time and I didn't know what to expect. I was happy with what I encountered. When we first walked up to a the largest McCoy Grave, I felt it, and felt a warm sensation on my hands. I walked around the grave and the entire marble structure was warm to the touch. I felt one of the smaller graves, and they were cool. I stood in front of the large grave again and read the carvings. I felt the warmth coming off the tombstone. It was the coolest thing I've encountered...so far. I'm going back again tomorrow with a camera and camcorder. Also, I saw an orb or light hovering by the tree she killed herself from. And the last thing was a strange howling/talking noise that only lasted a few moments.
+<br><br>
+And if I could take the time...TO ANYONE WHO IS THINKING ABOUT DEFILING GRAVES:
+<br><br>
+Don't be an asshole. Leave the place as you found it. Other people enjoy the sights and sounds but you may ruin it for everyone if you vandalize the grave sites!</i></blockquote>
+<br>
+In August 2006 I received an e-mail from Bonnie F. about her experiences at the cemetery:
+<br><br>
+<blockquote><i>I have been to the grave many times over the years - it was a place that my friends and I hung out at in the early 80's. Much of the time there wasn't anything strange happening. But one day a friend of mine went to grave, it was the middle of the day in the summer. We decided to walk around to see if we could find the grave of Elisabeth. As we walked to the left of the graveyard, we came to a fence and on the other side of the fence was what appeared to be another graveyard...an older one.  We started to walk on back through the trees, and all a sudden the wind started blowing so hard  that the branches were breaking and hitting the ground.  We both took off running back toward my car.
+<br><br>
+We we got to the car and it wouldn't start. We just sat there shaking, trying to think of what to do next.  We noticed that by the time we had reached the car the wind had stopped and things seemed to get back to normal.  Finally, I tried to start my car again and it started...and no, I wasn't driving an old car with problems.  It was running fine before and after that. But I will tell you this - that was very scary and I have never been back to the graveyard since. I might also add we had ridden horses back to the graveyard many times before that day and nothing ever happened. But I'm also shocked that the graveyard is in the shape it is in now.  There used to be some very huge headstones in the graveyard - very pretty ones. I no longer live in Ohio, but have often thought about that day and wondered if we did indeed get to close to her grave.  Thanks for letting share my story,  Elisabeth's grave is a part of my high school memories.</i></blockquote>
+<br>
+In February 2007 I received an e-mail from an anonymous website visitor regarding the strange things that happen at the cemetery:
+<br><br>
+<blockquote><i>I haven't really talked much about the times I have visited the grave site due to my family being incredibly religious and me still being in high school. I didn't want to stir the waters, so to speak.  Nevertheless, my friends from high school went several times and we finally quit going after I did some really in depth research. I'm at my college (also in Columbus lol) right now so i don't have the numbers in front of me (such as exact dates) but I do have the general outcome of the research.
+<br><br>
+Elisabeth was a part of a family that moved into Ross county when the cities there were first being formed.  As one would imagine, the religious factors of the time played a huge factor into the happenings. The house in the woods (well, more or less the foundation of a house) is real, and that was her house.  She was very young at the time of her death, but it was not due to the arrangement of an unhappy marriage turned suicidal. To be completely honest, I was never one (and remain) to not be one that delves too far into the spiritual side of &quot;Ghost Hunting&quot; or any of the related activities.  The only reason we would visit the site was because we were all stupid high school kids looking for cheap thrills...lol. I read a comment just today about a man who parked his car, not even exiting the vehicle and noting that there was a high presence  of witchcraft in the area. I believe this man practices Wicca.  As far as I can research with as little of speculation on my behalf, Elisabeth was an early practitioner of  witchcraft delving in animal sacrifice.   Her  suicide  hardly happened; this was  murder.  The young city of Chillicothe wanted nothing to do with this, and lynched her from the very tree so many people say she hung herself from.  I know this story is less romantic but I see this as much more plausible.
+<br><br>
+As for all of the spooky happenings at the grave site... yeah they're for real.  There is a very close following of this witchcraft that was very active throughout the the 80's and into the early 90's with very regulated and elaborate ceremonies (I'm sure these ceremonies still go on, but probably not to the degree they once did).  These  ceremonies  also focused on animal sacrifice.  The proof in the sacrifice can be found throughout the woods. PLEASE - this is not a challenge to find these items, this is dangerous, but there are jars of what I hope to be animal teeth.  Some are obviously dogs and cats, but there are also larger teeth such as grinding molars that could most likely be found in livestock such as hogs and cattle.   These  followers take what they do very seriously.  I promise that if one is to research the topic further and actually find someone that went out there one evening (during the dusk hours while a ceremony was taking place) they will profess that there was much more than a cheap thrill to be found.  The followers used the farmers field opposite to the graveyard for their exercises in their faith, not the woods behind the graveyard or around the tree.  People this is real, and something not to be messed with.  The cult (at the time of the late 80's) wore brown robes with large hoods, much like what a Buddhist monk would wear.  These people are dangerous, and for the people that visited and were injured only in a minor way, consider yourselves lucky. There was one comment about a couple of people that drove back the road and something came running at them full speed from the field. No, that wasn't a spirit, that was for sure a human being, something to be feared much more than a spirit that hasn't been witnessed doing physical harm to anyone...yet.  As for a reason of the scattered jarfuls of teeth throughout the woods I can't give you an answer, but I'm sure there is some sort of cultist's meaning behind it.  The large men that are dressed in dark attire and the girl that every once and a while is seen floating about are 100% there for real.  One thing is for sure...that these people and the grave site has quite a history, and SHOULDN'T be something to play with.  The spooky happenings are simply the cult protecting the area for their rituals, but it seems that the spook factor is turning more violent, so please proceed with caution.
+<br><br>
+I will say that cult or no cult, the graveyard has been disrespected like no other.  It is embarrassing to think that people would attempt to dig up graves (yes I've seen the dug up grave in person), move tombstones, and just fool around in a place of final resting.  Leave the area as you left it along with your respects for the dead.
+<br><br>
+I would like to offer a message of WARNING to anyone interested in investigating the area in person.  There are many dangers to encounter and some may just wind you up in the ER at the local hospital (as well as some legal trouble for trespassing). Remember that these people know that individuals go there seeking excitement and a scary good time.  The mind will cause things to look a different way, but I will tell you there is a very real force there, and presents quite a danger to anyone wanting to experiment with it.</i></blockquote>
+<br>
+In March 2007 I received the following e-mail from Adam:
+<br><br>
+<blockquote><i>I live in Chillicothe and read the newest submission to the Elizabeth's grave page. The author warns of a lot of things, almost like he is just doing so just to keep the 'sight-seerer' population down. But I thought you might pass it along that Elizabeth's grave is in, or right beside, a wildlife area and you could probably camp in the field by the cemetery if you wanted. There are no signs and nothing illegal about being back *by* the cemetery, however it is trespassing to be in any graveyard after dark. Thought you might want to clear that up, and as much as I hate seeing a 'hot' spot being flooded with high school kids ruining it, I don't think it's necessary to try and scare off others that just want to check it out and respect it like any other graveyard.</i></blockquote>
+<br>
+I also received an e-mail from Sarah S. in March 2007:
+<br><br>
+<blockquote><i>I was in Chillicothe visiting my boyfriend today and nothing out of the ordinary really happened at the cemetery.  I just felt extreme sadness for all of the people there when we got out of the car.  There were a lot of children that were buried there. I am very interested in the Elisabeth story and about how she died.  From all of the stories that I have read, I think she just wants everyone to leave her alone.  I think it is very sad though that someone would go there and break her tombstone. That is horrible.</i></blockquote>
+<br>
+I also received an e-mail from Chip A. in March 2007:
+<br><br>
+<blockquote><i>I was the morning show host for a radio station in Chillicothe, Ohio from 1986-1992.  I forget the year, but one Halloween Night we did a live broadcast from the cemetery in an attempt to finally put Elisabeth to rest as we, too, had heard of her legendary escapades.  We publicized the event on our morning show for several days.  On Halloween afternoon, I received a phone call from an angry Thom Hammond, the Ross Country Sheriff at the time, who told me cars were lined up for several hundred yards waiting to enter the cemetery for the evening's broadcast.  He turned the cars away and posted officers at the cemetery entrance so that the evening's events would not be turned into a circus-like affair.  We hired a spiritual medium and asked a preacher to attend as we attempted to reach the spirit of Elisabeth in an effort to calm her and lay her to eternal rest.  We had programmed some fairly scary music for the evening and it was playing underneath the voice of the medium as she attempted to communicate with Elisabeth and could be heard by the listening audience, but not by the medium.  I had no idea what to expect and the music was, in no way, &quot;choreographed&quot; to coincide with the medium's attempt to reach out to Elisabeth.  At the very moment the medium announced she had reached Elisabeth, that she felt her presence, the lyrics &quot;Break on through to the other side&quot; from The Doors were on the air.  It was very cosmic and eerie.  The medium conferred with the preacher and they both agreed Elisabeth's spirit had been calmed, but after reading some of these accounts, the calming effect was, apparently, short lived.</i></blockquote>
+<br>
+In April 2007 I received the following e-mail from Tony S.:
+<br><br>
+<blockquote><i>On March 31st 2007, four of my friends and I ventured to Elizabeth's grave looking for a cure to our boredom. We arrived at the cemetery at a little after midnight, which was much later than intended, but we had some bogus directions from another website. After arriving, three of my friends were having second thoughts about our plans and reluctantly got out of the car. It was a warm, relatively calm night, not a cloud in the sky and the moon was more than enough light to light our path. As we made our way into the cemetery the same three trailed behind as me and my friend Luke made our way deeper and deeper into the graveyard. We wandered around the place trying hard not to step on the graves as to show respect to the dead, looking for anything out of the ordinary. After about ten minutes we quickly became bored of the cemetery, and the three timid friends insisted that we leave immediately. The five of us slowly made our way back to the car disappointed when suddenly something happened. We were about 10 yards from the road and about 20 yards from the car when we were stopped dead in our tracks by a large cold spot. For anyone who doesn't know, cold spots are associated with a spirit or a ghost. After a few seconds the cold spot was gone and we were all a little creeped out. We quickly made our way back to the car and we were on our way. After traveling less than 100 yards, one friend said he saw a fire in the woods to our immediate left, but when we turned to look it wasn't visible. He said he was sure he saw it so we went to the end of the road and made our way back to where he had claimed to have seen it (the road was too narrow to turn around and we traveled too far to reverse all that way back.) After about five minuets of driving we had made it to the end of the road and made a U-turn and headed back towards the cemetery. As we got closer and closer to the spot where he had saw the fire, everyone became uneasy. Suddenly someone yelled &quot;stop!&quot; and there it was. Approximately 50 yards from the road was a small fire, but that is all that we could make out. We were more than a mile from the nearest house and we couldn't figure out who would make a fire so far out of the way. After sitting for awhile, hoping to see someone near or around the fire, we decided that it was time to head home.
+<br><br>
+We didn't see a ghost or any cult members, but we definitely all saw a fire in an area that one would normally assume was vacant, and the fire obviously didn't start itself. So for anyone who decides to go to Mount Union-Pleasant Valley Cemetery, know that you might not be the only one in the area and be careful!</i></blockquote>
+<br>
+I also received an e-mail from Matt B. in April 2007:
+<br><br>
+<blockquote><i>I'm friends with Tony S. who contributed a story earlier in April.  Well last night April 12th, 2007 we returned to Mount Union-Pleasant Valley Cemetery. There were six of us in total: Me, Tony, Luke, Hayley, Erica, and
+Courtney. When we first arrived it was already dark out and it was about 9:30. Only four of us got out: me, Tony, Luke, and Courtney. Courtney was taking pictures and got a picture of the tree with an orb on it. Much like the picture you already have in the gallery above. When we approached the tree, Luke asked me and Tony if we were going to touch the tree and we both declined, not really wanting to stir up any trouble with Elizabeth. Luke said that he was going to however. As he went to take a step towards the tree, the wind picked up fiercely and started blowing very heavily. So the four of us took off back to the car and got in.
+<br><br>
+When we got back to the end of the road, I told Tony that we should go back.  So he turned the car around and went back to the graveyard. This time around Tony and Luke did not want to get out of the car. So me, Hayley, and Courtney got out and started to walk back towards the tree again. When we got back close to the tree again, the same thing happened as soon as we started getting close - the wind picked up and started blowing very fiercely. Lucky for us, Hayley had a camera phone and
+recorded our little trip and what we discovered on the phone was very interesting.
+<br><br>
+The phone was limited to taking only 40 second videos, however, when we were recording the walk through the video lasts one minute and fifteen seconds...and Hayley could not get the phone to stop recording until we were completely out of the graveyard. After that we tried to record again, and videos would once again only last 40 seconds. On the video, when I spliced the audio off and listened, as soon as we cross the small ditch and enter the graveyard we picked up an EVP. It's not very long but it is definitely not me or anyone with us. It is very deep, raspy breathing, or it may be saying something that we can't quite make out. Here's a link to the EVP:  <a href="http://s103.photobucket.com/albums/m152/awesomebill9/?action=view&current=egevp.flv" target="_blank">Elisabeth's Grave EVP</a>.
+<br><br>
+The actual video is kind of weird as well. We first thought there was a quick moving orb in the video, however we debunked it and figured out that it was the flashlight. However, in the video we made to debunk it, the light stays the same color. In the video from the graveyard the light changes colors and often to splits into a second circle that looks very much like an orb. We were using a very bright spotlight, which emits a lot of heat so it's very possible that if it were a spirit, that it was drawing energy from the light and that could explain the orb-like object in the video. I definitely want to return to Elizabeth's Grave, but with a camcorder and better audio equipment.  I hope to keep you updated on anything else we might come across.</i></blockquote>
+<br>
+I also received an interesting story from Jacki L. in April 2007:
+<br><br>
+<blockquote><i>I have been checking out lots of sites lately relating to hauntings and the like (I get a bit bored at work sometimes) and came across this website via the Forgotten Ohio website. I find this stuff really interesting, but haven't found myself so intrigued until I started reading about Elisabeth's grave and then all the entries you've posted here over the last couple of years. I got a bit freaked out by all the stories and became quite engrossed by them, whilst I was reading them, my computer screen starting moving (scrolling) up and down by itself quite erratically and for some period of time (on and off for 30 seconds or more). I know that sometimes an electronic interference can cause this to happen but it doesn't normally last that long and it's only ever happened when my mobile phone is receiving a text message or a call, neither had occurred at the time.</i></blockquote>
+<br>
+I received the following e-mail from an anonymous website visitor in June 2007:
+<br><br>
+<blockquote><i>I have been looking at your website for almost four years. Everytime I show it to one of my friends, we laugh at the fact that you think Elizabeth's headstone is still there. I live less than a mile from the grave and am very interested in it, so I tend to research it a lot. I finally decided that I would let you know that Elizabeth's headstone WAS broken off, but it is NOT in the graveyard. Or even near it for that matter. A few friends of my mom's took the gravestone. One of them has it in his attic. Well maybe, I am not quite sure if he still does. But I thought it might help with your wondering about which of the Elizabeth headstones was her's.</i></blockquote>
+<br>
+I received the following e-mail from Kayla in August 2007:
+<br><br>
+<blockquote><i>I had came across your website looking up haunted places in Ohio. A few months ago, around May or June of 2007, some of my friends and I went to Elizabeth's Grave. What happened to us was quite freaky. A few people have sent you emails about seeing fire in the woods and whatnot. Well, we didn't see any of that. We got there around midnight, and we had been there for about 20 minutes or so and didn't see or hear anything. Well, we were getting ready to take some final shots and stuff when another group of teenagers pulled up, drunker than I don't know what. Well, one of my friends was furious to see that Elizabeth's Grave had been a party site and started to tell one of the kids that they all needed to leave. One of the boys started yelling &quot;Elizabeth is a dumb fake b***h. You want to kill me b***h? Here I am. Come kill me like I killed you and your family...&quot;  He kept screaming these things, and then told us that it was all fake things people make up. Well about that time...WE SAW IT! A dark black figure ran towards us, but was looking past us. He kept running and the boy fell to the ground and was screaming in pain. Then we hear the LOUDEST painstaking scream ever. It was coming from a girl. Almost sounded like an old lady in the worst pain of her life. Then the teenager's car CAUGHT ON FIRE! Flames were really high, really fast, and the black figure stood across the boy, appearing to hit him with his fists. Well, we were starting to leave at this time to call 911 for the car fire when we saw Elizabeth herself. Or what we think was her anyway. She was standing there, rope in hand sobbing. And she looked at the man in black and pointed toward us. After that we pulled away and saw Elizaeth in FRONT of our car. She was still sobbing like she wanted us to stop and help her. We were too scared so we kept going. We called 911, and the investigators could NOT FIND A CAUSE OF FIRE! Freaky!!!! But we will probably try to go back SOON.</i></blockquote>
+<br>
+I also received an e-mail from Sonya regarding this cemetery:
+<br><br>
+<blockquote><i>I was just reviewing the Mount Union-Pleasant Valley Cemetery (Elisabeth's grave) page. I was veiwing the pics that were redone by Colin de Vries.  I had to ask my husband and my friend if they saw the same thing that I saw.  If you look at the pic on the right that is kinda black and blue, I see what appears to be a head, but in the eye sockets I see faces.  When you're looking at the &quot;face&quot; in the right eye, I see what could be either a young girl or child.  In the left eye I can see another face that appears to possibly be an older male.  The head in the right eye is tilted to the left and looking kinda to the left.  The head in the left is tilted to the right, and looking to the right.</i></blockquote>
+<br>
+In September 2007 I received the following e-mail from Mary J.:
+<br><br>
+<blockquote><i>My assistant and I (Ohioburials is a company that does cemetery transcription and genealogy) had gone to Mount Union-Pleasant Valley Cemetery to do some research and transcription for the McCoy family, many of whom are buried in this cemetery.  We were there during the day, and although we did not see any &quot;spirits&quot; we did experience the rustling in the bushes and such, but it did not bother us.  We just continued on with our work.  One of the people we were researching who is connected to this family was named Elizabeth and died at an early age in 1826 and is buried at this cemetery.  However, we could not locate her stone.  This was not surprising considering the amount of destruction by others that has gone on.  When we were there April 12, 2005 it was obvious this cemetery was used as party and drinking central.  These young people don't even have enough respect to pick up their beer cans and bottles.  COME ON PEOPLE!!!  You don't own this land, actually, the families of the people buried there do since they had to pay for the plots to bury them there.  Since I was there during the day, I am including some photos of the general area.  Just a couple as most of my photos are centered on the stone that I am photographing the time.  I was not aware there was another section to this cemetery, so I just may have to go back to see what stones are in that section.  Please people, if you do go there or any other cemetery for that matter, have some respect for the deceased.  They were living, breathing human beings and deserve the same respect as the rest of us.</i></blockquote>
+<br>
+In October 2007 I received the following e-mail from Beth B.:
+<br><br>
+<blockquote><i>I was reading the story that Sandra Nininger sent to you, and I have to say I had the exact same experience.
+One night me and a girl friend and two guy friends of mine decided to go check out this place. Let me first say, before this experience I barely believed in the paranormal, but this experience changed my perception A LOT.
+<br><br>
+When we first arrived, we made sure to turn the lights off and get everything we needed out of the car. We left it unlocked in case we needed to make a swift getaway. It was a little breezy, but it wasn't cold at all. We had heard about the tree where she supposedly hung herself, and while my guy friends were exploring the cemetery checking out all the knocked over stones, me and my girl friend Ashley decided to walk to the back of the cemetery to it. When we got to the tree, Ashley and I noticed a strong, really awful smell. I've never smelled a burning human body before, but I've accidentally singed my hair, and I hear that the smells are similar. Well, it was like that. When we approached the tree closer, I was completely overtaken by this eerie invisible force holding me in place. I don't know how to describe it, but my feet wouldn't move!  You know when you have a dream where you're trying to run, but for some reason your feet feel stuck in place? It was exactly like that. Then not even two seconds later I felt this really icy breath on the back of my neck and felt a hand on my shoulder. It wasn't like a human hand, but it was the hand of a really masculine, almost monster-like THING. We heard the sound of a woman yelling &quot;NO NO NO!!!!&quot; and all of a sudden the force that was holding me in place and the hand on my shoulder lifted. Then we heard these really loud, tromping footsteps in the grass away from us into the woods. Ashley and I IMMEDIATELY booked it back toward the car and called the guys (who were just wandering around like idiots) too.
+<br><br>
+If you think that's where it ends, you're wrong. I strictly remember us leaving the car doors unlocked, because I had this gut feeling we'd need to get in real fast. When we ran up to the car, all the doors were locked tight and the dome light was on, but flickering. Finally we unlocked the doors, and jumped in, only to find the car wouldn't start. The engine wouldn't even turn over, it just clicked like the battery was dead. Finally after panicking for a solid five minutes, we tried again, and the car turned on. We turned around in this patch of grass and sped out of there like bats out of hell. You couldn't pay me a million dollars to go back there, even in the daytime.</i></blockquote>
+<br>
+In November 2007 I received the following e-mail from James B.:
+<br><br>
+<blockquote><i>I have been to Elisabeth's grave several times, and usually always had an experience. My most rescent involved a disembodied woman's voice humming over by the tree. I too have seen the two men others have talked about, and I find it interesting that I am not the only one. I thought maybe I was seeing shadows from trees moving or something at first before I saw them, black trench coats and top hats and all. I am glad to hear I wasn't the only one who saw them.  Like one of the other stories, my friends and I have had experiences of one of them being next to the car in the &quot;caldisac&quot; at the end of the gravel road.
+<br><br>
+I have a few pictures of my own experience to share. The first is a really cool picture, and while these may look like orbs, I assure you they are not. They are transparent, where as orbs are their own light source.  This is a bunch of dirt and dust kicked up from walking around.
+<br><br>
+The second one, however, was taken right next to the old walnut tree at the back of the cemetery. Not only did I physically see it out of the corner of my eye and cursed my camera's flash for messing up, I happened to catch it in the camera. By sending it to a couple paranormal investigators for theories about it, I learned that not only could they not explain it, but they informed me that it appears to be hovering in a circular motion. I thought this was so cool and scary at the same time. I do not know who it could be.</i></blockquote>
+<br>
+In December 2007 I received an e-mail from Kevin K. regarding his experience at Elizabeth's Grave:
+<br><br>
+<blockquote><i>My friends and I had an interest in Elizabeth's grave when we were in high school in the early nineties. Those broken head stones have been there in that condition since at least 1990 or so. I'm sure there are more in that back corner now, but there were quite a few back there then, as well. Also, there are other interesting stones in the cemetery.  If I recall correctly, there are two brothers and a sister with head and foot stones all in a row, who died within a year or so of each other. We found some information about them, and they all died in the cholera epidemic in the 1840's (?).
+<br><br>
+As for the house a lot of people have found, I want to say that there was actually a church in one corner of the plot of land. This isn't too out of the ordinary, as many churches kept their cemeteries on site. The foundation that is there, I think, was actually for the church.</i></blockquote>
+<br>
+In December 2007 I also received an e-mail from Sam H. with some thoughts about the hauntings at Elizabeth's Grave:
+<br><br>
+<blockquote><i>I just read the stories about Elisabeth's grave and wanted to toss in a couple of opinions, if that's okay.  Some of my friends and I have been wanting to visit Elisabeth's grave and hopefully come back with our own story to tell.
+<br><br>
+First, I agree with one of the submitters that there is something else other than the paranormal going on there.  The two men who seem to accompany &quot;Elisabeth&quot; at times  as her &quot;goons&quot; --- are those who saw them certain that they were not living, breathing people just trying to scare off visitors?  Some of the stories seem to lead to the conclusion that real people are out there possibly performing rituals.  Maybe the visitors are run-off to keep them from seeing things not to be seen.  If that is the case then I agree that extreme caution should be taken by all who visit there.  There is a legend of devil worshipping in an area where I used to live that people didn't take seriously.  I found out it wasn't a legend after all, and that these people really would kill if need be in order to keep their secret.  My source had the utmost credibility.   The living should be feared more than the dead.
+<br><br>
+Also, about the screams.  Has anyone ever heard the wail of a bobcat?  It can sound like a woman in terrible pain, and can curdle your blood especially if it's close by.  Even more so in a dark, creepy place.  This could also account for the yellow eyes seen by some.  If it has a litter, it could be just a protective mother.   Some have reported rabbits around there and they are one of the bobcat's prey.  A good, quiet home for a mother bobcat with plenty of food available and no humans living nearby.
+<br><br>
+The handprints:  Well, when we touch things we leave an imprint from sweat and oil that can't always be seen right then and there.  The road to the gravesite is mostly dirt and dust which will stick to the car making these handprints &quot;show up out of nowhere.&quot;  Not to mention we all have an unconscious inclination to touch our car as we walk around it, especially when in a hurry, or nervous and needing something to lean on.  That could be a possible explanation for the handprints.
+<br><br>
+I'm not trying to say there's nothing going on at Elisabeth's grave.  I do believe in ghosts.  I've had my own personal experiences and I grew up in an area infamous for paranormal events.  I'm only offering alternative explanations.  All of which can hopefully be proven otherwise.  And all of which have probably been brought to light already.  :O)</i></blockquote>
+<br>
+I received another e-mail from Sam H. just a few days later:
+<br><br>
+<blockquote><i>I recently thought of something that escaped my mind the last time I emailed you about Elisabeth's Grave - which I hope wasn't taken in offense.  The subject I'm writing about is Elisabeth's story.  The witch suggestion namely.  I think it can be logically eliminated because:
+<br><br>
+A) If she was accused of being a witch and hanged, she wouldn't be buried in a cemetery beside &quot;good Christian folk.&quot;  Most likey her body would have been burned and the ashes scattered, or simply dumped in an unmarked grave.
+<br><br>
+B) She wouldn't have had a headstone.  She wouldn't have been memorialized in any fashion.  Just forgotten.
+<br><br>
+And I was just wondering if anyone has suggested the possiblity of that area to be an electromagnetic anomoly?  Akin to the Bermuda Triangle and the original site of the Coral Castle, etc?  This could possibly explain the random car, camera, weather, and flashlight problems, not to mention the paranormal.  Just an idea, farfetched as it may be.  :O)  A fun thought though.</i></blockquote>
+<br>
+In February 2008 I received an e-mail from Alice regarding the paranormal activity at the cemetery:
+<br><br>
+<blockquote><i>I've been thinking hard about the E's Grave thing and what and why it all happens.
+<br><br>
+Now not even a hop, skip, and a jump from the gravesite are the Hopewell Mounds. I think the rich Indian history of this area plays a major role in the energy of the entire area.
+<br><br>
+<a href="http://www.ohiohistorycentral.org/entry.php?rec=2216" target="_blank">http://www.ohiohistorycentral.org/entry.php?rec=2216</a>
+<br><br>
+This is an extreme amount of concentrated energy. When Lynne and I visited the Mounds, I got a very solid EVP which sounded like an Indian name &quot;zenethe.&quot; I also saw alot of 'others' while I was there. I just think that the early Indian practices effected the energy in the area in some profound ways.
+<br><br>
+The dark floating cloaked figures everyone has seen there, the ones that hang out with Elizabeth. I have a theory that these where never human and are more or less concentrated energy that has taken human form over time.
+<br><br>
+Furthermore, not only do you have rich Indian culture and history there, but you also have Camp Sherman! Not only did they build the camp, but they built it on the mounds. I'm reading now that 1200 people died in that area from the Spanish influenza.
+<br><br>
+<a href="http://www.ohiohistorycentral.org/entry.php?rec=670&nm=Camp-Sherman" target="_blank">http://www.ohiohistorycentral.org/entry.php?rec=670&nm=Camp-Sherman</a>
+<br><br>
+Read the link. The entire land surrounding the gravesite is so full of historical wonders. No wonder the area is as strong as it is.
+<br><br>
+If anyone is interested in the mounds I strongly suggest you all go and walk the old Camp Sherman paths around the area. You can just feel the same kind of energy, but at a slightly different wavelength. If you're an investigator, DO take your voice recorder because the EVP's are pretty profound through the area and lots of luck!</i></blockquote>
+<br>
+In June 2008, I received the following e-mail from ccr55:
+<br><br>
+<blockquote><i>I just wanted to update you a little on this grave site. I visited last evening, and I don't believe that I have ever seen a cemetery so disgraced as this one.  I know that everyone wants to have that &quot;special experience,&quot; but I also wonder at what price?  The only standing, intact stone that I found was McCoy. There was even a very large hole dug out in front of the grave of Elizabeth...but as taught my my grandmother (Native American), I went straight to Elizabeth's grave, left an offering of tobacco and some pennies, and I feel was &quot;rewarded&quot; for being respectful of this area. I only had two experiences...hair standing on end, and one completely black photo.  But the other pics...I was tickled with what I was given.</i></blockquote>
+<br>
+Also in June 2008, I received the following e-mail from Chelsie D.:
+<br><br>
+<blockquote><i>Myself, my boyfriend, and three of my siblings went out to visit Elizabeth's Grave. We brought a video camera, a digital camera, and my phone with us. First off, we noticed a lot of potholes in the road leading back. Some of them even looked man made! When we first arrived, we didn't see much of anything and kinda wandered around. However, within 5 minutes after me constantly flashing the camera around my brother, Justin and I discovered a very odd looking mark in the picture. However, we didn't stop to look back at it at that moment. We heard a lot of noise and tried to &quot;contact&quot; Elizabeth and get some EVP, but nothing much except a few odd clicking noises...Until we looked back at the video recording.  We heard (TWICE!) some heavy breathing really close to the video camera. It couldn't have been Justin (our designated camera man) since he'd been talking during the time it happened, and no one else was close enough to make a noise that loud. But the biggest scare came when I snapped a picture of the tree Elizabeth supposedly was hanged from or hanged herself from. I didn't see it because I was looking at the camera screen (which was dark) but my brother, Wyatt, and my boyfriend, Josh, immediately flipped out demanding I snapped another picture claiming to see something on the right side of it. The other pictures didn't have anything amazing... The first one has something white on the bottom right side of the tree. We'll definitely be going back. A few pictures I snapped of the woods right before the graveyard also had something swirly in it. But there was some reflection from the window.</i></blockquote>
+<br>
+I received a follow-up e-mail from Chelsie D. in July 2008:
+<br><br>
+<blockquote><i>Just to add to our story...We went back the next night. We kept seeing things in the woods, and we actually found a homemade trap in them!! So then two of the guys went to look around and came running back. We all got into the car, turned the lights on, drove in reverse into the place where you can do a U-turn, and shined our car lights on the giant tree in the back. There was actually a man in dark robe attire watching us, and as soon as the lights hit him he moved real quickly. Real creepy! We haven't gone back since.</i></blockquote>
+<br>
+I also received an e-mail from Tom of the <a href="http://www.ohioghosthelp.com" target="_blank">T.O.P.S.</a> team in July 2008:
+<br><br>
+<blockquote><i>On June 21 our team did a scientific paranormal investigation of Elisabeth's Grave.  When we first arrived around 8:00 PM, three of us walked around to check out the graveyard in the daylight.  On our way back to the cars to call the other team members that had not arrived yet, we heard footsteps walking behind us.  We turned and looked, but nothing was there.  I got my camera out of the car and started taking some pictures.  When we reviewed the pictures the next day, there was a face in the middle of the graveyard and it is posted on our website at <a href="http://www.ohioghosthelp.com" target="_blank">www.ohioghosthelp.com</a>...it's the last photo on our evidence page.  We captured about four really good EVPs that evening.  All together, there were about 20 EVPs that we captured that night.
+<br><br>
+All these people showing pictures of orbs forget that most of them are bugs or moisture in the air...you can't count any of them as paranormal.People say at 3:00 AM you will hear a scream.  We listened and didn't hear anything, but at 3:15 AM we heard a scream from the cornor of the graveyard, and at that same exact time a thick fog rolled through the graveyard.  You want to talk about an erie feeling!  A couple team members split off from the group, and walked over to the large tree in the back of the cemetery.  Then they yelled for us to come over there.   They told us they had seen a shadowy figure looking around the tree at them, then it took off across the cemetery and disappeared halfway across.  As soon as they told us about this, the thick fog disappeared, which was really strange.
+<br><br>
+Just a word of advice: we always seek permission before doing any investigation, and we made sure that the Ross County Sheriff's Department gave it to us before we stayed out there for the evening.  They told us that they have some officers who won't even go back there because they have experienced some crazy things back there late at night.  All and all it was a successful investigation, and we will be back in the future to try and debunk are findings before we can say that this place is haunted. We also had a police officer stay out there with us because you never know who can roll up on you out there late at night.  We did have a group of young kids come up and try to act bad until they saw we had an officer there with us.  They must have decided it would be best if they just left.  They were also drinking, so I do not recommend anyone to stay out there that late without having good planning for these types of situations.</i></blockquote>
+<br>
+One more e-mail about Elisabeth's Grave in July 2008...this one was from SJ:
+<br><br>
+<blockquote><i>My son and a friend went to the graveyard in June 2008 for the first time. They decided to stay there for hours. They saw some light orbs in the pictures on my son's friend's digital camera. They took some other pictures, and nothing on them. Prior going to the graveyard, they went to Cry Baby Tunnel where they experienced nothing, but at Elizabeth's Grave they experienced plenty. The last photo they took had a orb in it also.  They didn't see it with their eyes, but it appeared on the camera.  So they looked back at the tree when they heard a woman scream, and needless to say they left. Since that day, my son went back but didn't take a camera.  Also, he did not experience
+anything. They went back another time, and people were there investigating so they left. I've had coworkers who have went out there and have experienced things at Cry Baby Tunnel and the graveyard. They also had a pic with an orb, and experienced a growling noise at the tree. They also have gone back.
+<br><br>
+So I decided to go out during the day to see what everone is talking about. I have lived in Pike County all of my life, and had never heard of Elisabeth's grave until June 2008.  My husband has also lived here since his teenage years, and he never heard of this cemetery. I was curious about everything, so we went yesterday during the day.  Of course, nothing happened. I did feel a little eerie around the white tombstone that is slanted by the tree and woods, but that could be because I've seen my sons photos of the orbs there. My biggest fear is all of these kids going out there and something is going to happen to them...you don't know who is lurking out there. I've heard they do cults and partying there. If you go, it is best to go in big numbers and watch over each other and be careful. You don't know if people are dressed up, and scaring people for the fun of it.  But it could get out of hand. I'm more worried about the living people who go there. SO PLEASE BE CAREFUL AND PROTECT EACH OTHER!!!!!! Also, it;s so wrong to go there and disrespect the dead and vandalize the property...How would you feel if that was your family buried there, and people breaking your family tombstones and digging them up? My question is too: why hasn't anyone ever filled the hole back up? I do believe this place is haunted with the orbs (spirits), but it is also haunted by the living people as well. You'll never know what you might run into or see out there.
+<br><br>
+BE CAREFUL AND SAFE!!!!!!!!!!!!!!!!!!!!!!!!!</i></blockquote>
+<br>
+I received an e-mail from Aaron A. in September 2008.  Looks like someone is finally keeping an eye on the cemetery!
+<br><br>
+<blockquote><i>OK, update about Elisabeth's Grave:  You are unable to go back there unless you go during the day!  I was stopped by a deputy sheriff a couple of months ago during the night!!  It is now private property, unless you go back there during the day or unless you are very sneaky going back there at night time with the lights off.  But that isn't a good idea, because I did that once, and when I turned the lights on I saw something run in front of my car!!  Not sure what it was, but it was nothing I wanted to come in contact with!  So just be very careful, and make sure you play it cool if you have friends go with you during the day or night!</i></blockquote>
+<br>
+I received an e-mail from Thom K. about Elisabeth's Grave in July 2009:
+<br><br>
+<blockquote><i>I have grown up and currently live only a mile or so away from Elizabeth's Grave.  As a teenager, my friends and I routinely camped out and rode motorcycles in the Pleasant Valley Game Preserve (as well as spent some time with the opposite sex there).
+<br><br>
+I grew up in an old farmhouse at the entrance of the Pleasant Valley Game Preserve which, according to my father and grandfather, was originally two houses.  The one house resided at the entrance we lived at and the other was constructed closer to the other end of the preserve by the cemetery.  Sometime in the early 1900s the house nearest the cemetery was moved and both were joined closer to the other entrance.  At this time, a family by the last name of Eibis (not sure of spelling) inhabited the house and farmed the land.  My grandfather was close friends with Elmer Eibis and eventually purchased all of the property and house from Mr. Eibis or his surviving heirs.  Growing up in the house, my mother and father both reported unusual experiences, such as the house being pretty cool in the winter (as most old houses are) except for my bedroom which was always nice and warm.  We also had two Schnauzer dogs that would never enter the room and would only stand at the door and bark.  My mother said they never moved me out of the room as an infant because whatever it was that felt odd didn't feel threatening.  Once I was about 11 or 12, my mom said these odd things just strangely disappeared one day.  I sometimes wonder if the part of the house which was connected had something residual from the cemetery as (again, according to my father and grandfather) it was moved from a location fairly near the cemetery.  On a side note, Mr. Eibis used to love to see my father as a child and had given him a sled that he had as a child.  My father then gave it to me and I am passing it on to my son, although not letting him ride it as it is an antique.
+<br><br>
+I also was neighbors with an elderly couple (Mr. and Mrs. Riley) who had lived there since the turn of the century and before.  Mr. Riehle (Oscar) had been born and grew up in the farmhouse that he and his wife (Velma) lived in at the time I was growing up.  Mr. Riehle used to tell me stories of watching the soldiers from Camp Sherman (largest WWI training camp in the U.S.) marching in to and out of the woods.  One of the pictures on one of the sites of a concrete marker with U.S. on it was not a marker of the preserve, but a marker of Camp Sherman and there are many others located throughout the preserve.
+<br><br>
+As far as the cemetery itself, I have been in and around it since I was a young child (I am now in my 40s) and have never seen or heard anything odd.  I have been there at night, in the morning, while camping, riding motorcycles, hiking, etc.  I will admit that I do get an odd &quot;vibe&quot; when I'm in it, but this could be attributed to all of the stories I have heard since I was a child.  The oddest experience I can remember was when I was about 12 yrs old.  The night after Halloween, I was riding a horse through the cemetery and noticed candles (votive and the fake skull sort) on top of the tombstones.  This was probably from some older kid's party the night before, but it did feel a bit ominous and I left quickly.
+<br><br>
+There very well could be something more there then meets the eye and I guess I would like people to keep posting their stories and pics and I'll try to send some more pics myself soon.</i></blockquote>
+<br>
+I also received an e-mail from Justin R. about Elisabeth's Grave in July 2009:
+<br><br>
+<blockquote><i>I've heard the frightening stories, and have been wondering about the 101.  So some friends and I got bored one night and decided that it would be a good idea to go up there and check it out.  I've known the area all my live - I've hunted on it, rode 4 wheelers around it, and fished in the ponds.  Therefore, I thought nothing would happen.  It was about 7:00 when we left the house.  We used the farm road by the second turnaround, down by the trailer park.  We got up there at about 9:00.  We started taking pictures from the road, then walked towards the big tree and shined our flash light at it.  All of a sudden my friend went nuts and started running towards the right hand side towards the dirt road.  At that moment, not wanting to lose him, we ran after him not knowing that he was running.  We chased him through the thorn bushes and trees and all that stuff until we got back to my house.  We finally got him calmed down, and we asked him what happened.  He said, &quot;You guys didn't see them?&quot;  I asked him what he saw, and he continued &quot;The black figures - there were three of them.  They pointed at us, and they were walking towards us.&quot; I couldn't believe it, so after the run through the woods I started to fix my scrapes and cuts.  When I got to my arm, I wiped it down and looked at it.  Then I saw it - a 101 was scratched into my arm.  I looked at my shirt, and there were no up and down scratches on it - just longways.  It scared me.  I now have a 101 scar on my arm.  It's weird - it comes and goes when I get closer to the graveyard, and I get pain in that arm when I get close to the tree or the pile of gravestones in the back.</i></blockquote>
+<br>
+I received an e-mail from Nic J. about the cemetery in October 2009:
+<br><br>
+<blockquote><i>I had an experience at the cemetery when i was about 14 (21 now). I went out with my aunt, uncle, cousins, and a couple friends around Halloween time. Not exactly sure what time it was when we were out there, but it was definitely very late and very dark. I myself never got out of the car because I was first creeped out by the road that led to the cemetery. If you have ever been down it in the dark, you know what I mean. It looked like something out of a woods set slasher movie. When we got to the cemetery, I had this eerie feeling that something was watching us the entire time, which was ultimately why I never got out of the car. My uncle, one of my cousins, and one of my friends got out and walked around for maybe 10-15 minutes. When they got back in the car my uncle said that we needed to get out of there, and I could tell he was scared about something. When he tried to start the car it wouldn't start right away. When the car finally started, we took off down the road pretty fast. One of my cousins turned around to look back and started to freak out, saying that something was chasing after us. I never really saw anything myself, but all in all I was pretty freaked out and I've never been back there since.
+<br><br>
+The most common story about her death that I've heard is the one about her being accused of witchcraft and a mob of townsfolk going out there and dragging her to cemetery and hanging her. This could attest for the people dressed black dancing around fires and all the animal remains found in the area. Many satanic and witchcraft rituals use fire, ceremonial dancing, and ritualistic animal sacrifice. And as to the theory that the townsfolk wouldn't bury her there next to &quot;good christian people&quot; is sort of far fetched. I know that I certainly would not want to transport her remains somewhere else, especially with the big thing about witchcraft around the supposed time of her death, which is also around the same time as the Salem witch trials, supposedly!! I also have a theory about the 101 thing. From what I've read and heard about, the most popular time for her death is around 1:00 AM. So my theory is that the mysterious 101 could be Elizabeth attempting to reveal something about her death. Maybe saying that her time of death is 1:01 AM. It's just a theory, but it sorta makes sense.</i></blockquote>
+<br>
+In November 2009 I received the following e-mail from Katie S. about her trip to the cemetery:
+<br><br>
+<blockquote><i>My friend and I went to Elisabeth's Grave last night.  It was quite creepy. It was nothing like the other stories I read on your site, but we didn't stay long enough for anything terrible to happen.
+<br><br>
+By the time we got up there it was dark and way creepy.
+<br><br>
+We wanted to take pictures, but I didn't want to get out unless we had more people with us.  So I roll down the window to take pictures, and odd enough I hear this distorted sounded voice? I stopped and asked her if she heard it. She said she didn't hear it, and I couldn't really tell where it was even coming from.  Then she decided to get out and wander around.
+<br><br>
+By that time hearing things had freaked me out enough to know I should stay inside my car.  As she got out, I locked the doors.  As soon as I pushed the lock buton the doors either locked again or unlocked because the button was pushed right afterwords. I asked if she unlocked the doors or something? Even though she was standing outside the doors. She said NO.  I honestly didn't know what to think.
+<br><br>
+She got out with the camera and attempted to take pictures. She came running back to the car nearly a minute later. She said she heard &quot;wet footsteps&quot; and got freaked out.  We were scared a bit, but we thought maybe we imagined it.  But now to think about it, I don't think we did. I know that I heard a weird voice, and I know the doors locked/unlocked by themselves. I don't even have auto locks in my cars, so there is no way they could lock themselves.  I know if we would have gotten out and walked around, stranger things would have happened. I figured two seventeen year old girls should not be out in the middle of nowhere alone in the dark.  We didn't get to explore, but we're going back with a ton of people and flashlights!</i></blockquote>
+<br>
+In December 2009 I received the following e-mail from Jamey about his trip to the cemetery:
+<br><br>
+<blockquote><i>My name is Jamey, and I wanted to pass along my first account of Elizabeth's grave area. I went yesterday. I started out at the end of Rilhe road, right where the deer hunters park at the hunting area near the trailer park there. I followed a path upwards the hill about 2 hundred yards and came upon a foundation blocks of a small house (20 x 10 feet) and a well or most likely an underground storage chamber for canned goods. It's covering had been slid away. Right after I arrived, I was thinking this was Elizabeth's house. I attempted to start taking photos, but every time I turned the camera on, it'd go right off and die before I could take a photo. I just charged the batteries before leaving. It did this repeatedly, I kept having to sidestep the area to finally be able to take photos of it. The area right around the well began to chill. In the span of 3 minutes, my digital thermometer fell a full 4 degrees. Something was there, an energy. I spotted the tent those kids slept in from a previous post. The pile of bricks too (most likely part of a fireplace.) On my trip out when I passed the house foundation, there were no camera problems nor temperature fluctuations.
+<br><br>
+This location was about 400 yards from the actual cemetery. I walked around its perimeter in the woods and also within the cemetery. I didn't get no eerie feelings or anything, being daytime. I walked to her death tree and said hello to her. The other tree right in the middle had been severed by lightning halfway up it. Very odd.
+<br><br>
+There were deerhunters in the forest very close to it, sitting in their hunting clothers waiting. I guess when the warm weather goes, maybe the occultist forego some of their outdoor activities. Didn't see anyone.</i></blockquote>
+<br>
+I received an e-mail from Nicole N. in February 2010 about her trip to the cemetery:
+<br><br>
+<blockquote><i>I wanted you to know that yes, I have heard about people out there practicing witchcraft and sacrificing animals.  It's all very scary, and how awful it is to see the stones broken and grafitti on them?  People need to learn some respect! My parents live on Egypt Pike, and right down from Union Lane my mom and I have seen on a concrete slab the remains of a baby calf. It was in the middle of the reserve, and we saw it as we were driving by and went back and checked.
+<br><br>
+I have been out there a couple of times m- dates and times I can't remember. I have seen the infamous black shadows, and have heard many things from the rustling bushes and such, but alas, I didn't get to see her.
+<br><br>
+On one occassion I went with my friend Tiffany and her mom.  It was winter time. There was snow everywhere.  We got out of the car and got right back in because we heard sounds and could see things moving around.  Tiff's mom's car wouldn't start, and it was pretty scary. The car finally started after about 3 minutes or so, and when we were leaving, behind us you could see a dark figure in the middle of the road watching us as we drove away.
+<br><br>
+Another time my mom and I drove down during the daylight so I could show her the cemetery.  On our way down, to the left of the car in the woods there was a noose. It was twined together out of twigs and limbs, and it was very real. We both saw it and thought how weird.  On our way back from the cemetery, the noose should have been on my side, but it was gone...I'm telling you, it wasn't a rope.  I know what a rope looks like...it was twigs and limbs!
+<br><br>
+There was a guy who mentioned the scream could be a bobcat.  Well, a little history about Egypt Pike - there are bobcats out there.  We have seen them at my parents' house.  We have also seen a black panther-like creature, and so have our neighbors.  There are at least 3 of them we know of. So please remember if you go out there, that right beside it is a game reserve.  There are lots of animals running around out there.</i></blockquote>
+<br>
+I received an e-mail from Justin R. in March 2010 with some information:
+<br><br>
+<blockquote><i>Jamey's photo is not a photo of her house, but it is one of the many foundations that are back there. West Riehle used to go all the way up to Union Lane.  Back in the day there were 3 or 4 houses back there.</i></blockquote>
+<br>
+In June 2010 I received an e-mail from Devon:
+<br><br>
+<blockquote><i>I went to Elizabeth's grave at midnight, and we got screaming.  After I said,  &quot;If anyone's there, please feel free to speak&quot; you can clearly hear a little kid or something saying hi.  Then, at the end, you can clearly hear Elizabeth yelling stop.  It was pure silence when we were recording.  You have to turn up your volume on the speakers and video for better quality -  I promise you that you will be amazed as was: <a href="http://www.youtube.com/watch?v=w7xX0fgyrkE" target="_blank">http://www.youtube.com/watch?v=w7xX0fgyrkE</a></i></blockquote>
+<br>
+In August 2010 I received another e-mail from Aaron A:
+<br><br>
+<blockquote><i>I just found out that YOU CAN go back to Elisabeth's Grave at night time!  Because my cousins and I, awhile back, went around 10:30 P.M. and didn't leave until after midnight.  There were no cars coming back there, and we didn't get caught by the law.  It is now public property, but anyone who reads this besides the owner of this website and the one that posts this: please, if you go out there do not damage those gravestones worse then what they already are.  In fact, do not mess with them at all because I want to keep going out there, and too many people messing with those will mess it up for the rest of us.  Thank you!  But we did get one picture where there was a picture of *SOMETHING* and it was none of us...it had red eyes and was standing next to my cousin.  He didn't know it, and neither did the rest of us until we saw the picture and my cousin freaked out!!</i></blockquote>
+<br>
+In September 2010 I received a new update from Jamey:
+<br><br>
+<blockquote><i>I've been going back to Elizabeths's grave this summer. There's invariably other people there even at late late hours. Seems that references to it on this site and social networks may have mainstreamed the place, relatively speaking.
+<br><br>
+This place is haunted *some* of the time, but is usually inactive. Some find that discouraging. Odds are, alot of trips are needed if you will get creeped out by an experience. I had an interesting trip there recently. The house foundation in the woods from my previous post, it's now cordined off by a length of thick ribbon in a triangle, secured to nearby trees, around it to protect hunters from falling in that well. Triangulated, about 25 feet per side. One of those lengths of ribbon was trembling constantly. Just one side, the other 2 sides were still the whole time (15 minutes). All were firmly held in place equally. No wind at ALL.  But this one side ( facing graveyard, wouldn't you know) had this non-stop visible trembling, vibrating as with some kind of energy. I held it taught in my hand and it stopped, but then I began to feel the energy welling up, undulating in my hand ,coming from the ribbon itself. Just vibrating with some unseen energy. So, so weird. I'm at a loss to explain what I saw it do (or why).
+<br><br>
+Still have no idea if this truly was her house (GPS coordinates 39.38504,-83.052349)
+<br><br>
+Recently on one late night trip I also recorded screams when no one else was there that I didn't hear in real time. They sounded similar to Devon's youtube link from that previous post, but less audible than his and they didn't form words. But they sounded so similar it was almost like we were there on the same night. The traumatized shrieks in both sound like the same entity is making them. They almost sound as if coming from the other end of a long tunnel - that type of sound. I once speculated that maybe his voices in the link came from  his companions in his parked car. Now I know better, his were true EVPs.
+<br><br>
+During the trip, I could not stop shivering from the cold that moved in, even with a sweater. The same time I got pictures with tons of orbs in them, and they look eerily similar to ones paranormal insight posted on their message board from july 2007 investigation. I usually don't pay orbs any mind, but I hadn't seen orbs like these in my photos before:</i>
+<br><br>
+<a href="http://img823.imageshack.us/i/illuminatedorb.jpg/" target="_blank">Image 1</a><br>
+<a href="http://img713.imageshack.us/i/illuminatedorb2.jpg/" target="_blank">Image 2</a><br>
+<a href="http://img26.imageshack.us/i/lightshow.jpg/" target="_blank">Image 3</a><br>
+<a href="http://img85.imageshack.us/i/oddorbeyes.jpg/" target="_blank">Image 4</a><br>
+<br>
+<i>I've been reading about the tree she was supposedly hung from. It's a black walnut tree, and many web references site these can live beyond 300 years, thus dispelling my first belief that it couldn't possibly be old enough for an early-1800's hanging.
+<br><br>
+People have speculated about bobcats making misleading, scary noises near there. This link shows you exactly what bobcats sound like:</i> <a href="http://www.pictures-of-cats.org/Bobcat-Sounds.html" target="_blank">http://www.pictures-of-cats.org/Bobcat-Sounds.html</a>.
+<br><br>
+<i>And as for the missing Elizabeth's Grave headstone? Look:</i>
+<br><br>
+<a href="http://www.facebook.com/home.php?#!/photo.php?pid=200827&fbid=131976113514265&id=129549373756939" target="_blank">Haunted Chillicothe- Facebook Page</a>.
+<br><br>
+<i>I hope Elizabeth can remain at peace now that we've &quot;outsourced&quot; her to the world.</i></blockquote>
+<br>
+
+In October 2010 I received a another update from Jamey:
+<br><br>
+<blockquote><i>I went to the Mckell library of Ross County Historical Museum to inquire about possible origins of the Elizabeth's Grave legend. Possible association to the Salem Witch trials are definitely out, those occurred in the late 1600's and the first white settlers in the Chillicothe area didn't come until the late 1700's.
+<br><br>
+There was a very old lady historian who assisted in record searches there, and she could quote verbatum, local historical information and information dealing with Union Presbyterian Church (site of Elizabeth's Grave). Oddly, when I asked her if she remembered any &quot;calamities involving the Union Presbyterian Church having to deal with practitioners of witchcraft,&quot; she drew a total blank.
+<br><br>
+She produced a ledger book from the 1830's that was kept and maintained by the early founders of Union Presbyterian Church!  It looked so old I thought it would fall apart if I touched it. Within it were several handwritten pages of record-keeping, mostly the minutes of that days business and the names of all in attendance. The handwriting was VERY immaculate and fancy, and nearly illegible.  It had a drawing of the seating arrangements inside the church, names assigned to their respective numbers. The written records were very succinct and brief.
+<br><br>
+She produced a newspaper from 1950 that was calling attention to the neglect and antiquity of the place. In 1950! The only neglect being from the ravages of nature itself.
+<br><br>
+<center><img src="./egrave/jhegraveart.jpg" alt="article"></center>
+<br><br>
+For anyone wishing to see that ledger book, it is available for viewing at the Ross County Historical Museum Mckell Library for a 2 dollar admission fee and 20 cents for any copied page.</i></blockquote>
+<br>
+In May 2011 I received an e-mail from Nicole M. about her trip to the cemetery:
+<br><br>
+<blockquote><i>I'm not sure how to begin this email, so I suppose I'll just start with why I went to Elizabeth's Grave.
+<br><br>
+Originally, I'd decided to go to Crybaby Tunnel. This was weeks ago when I had first learned of its existence. There was a crybaby bridge in the town I'd grown up in and I wanted to see if Crybaby Tunnel (which oddly had the same story as -my- bridge) had some of the same occurrences happen there as Crybaby Bridge.
+<br><br>
+I made my wishes known yesterday to my friend and neighbour, Tonya, and some older neighbourhood children. One of them told me that he knew where Elizabeth's Grave was and I expressed interest, so he told me, giving me explicit directions, but since I am new to the Chillicothe area, having only lived here since I married my husband in August, I was hesitant to go there on my own.
+<br><br>
+I should probably take a few seconds out to say that we went last night. It's 3:26 AM right now, May 14, 2011. I went to Elizabeth's Grave on Friday, May 13, 2011 at 10:30 pm. Yes, I visited Elizabeth's Grave on Friday the 13th.
+<br><br>
+Back to my story: After talking to Tonya and a few other neighbours, we decided that three carloads of us would visit Crybaby Tunnel. However, another neighbour told us that Crybaby Tunnel was boring, with nothing happening there, and that Elizabeth's Grave was a better place to visit. So we all collectively decided that we would go there instead.
+<br><br>
+This neighbour knew the way and he drove, leading my friend Tonya and I there. There were ten of us, four adults and six children, aged 10 to 12. We all had flashlights and three of us had cameras; one digital camera, an iPod camera, and a cell phone with a camera. The flashlights wouldn't work despite fresh batteries, the camera kept malfunctioning, and the iPod kept turning itself off for absolutely no reason.
+<br><br>
+It was 70 degrees outside, but the instant we walked into the cemetery it felt as if the temperature had dipped to 40 or 50 degrees. We found a candle on one of the tombstones and I lit it. The moment I lit it we could all see our breath in the air, it became that much colder. It was noticably colder the entire time we were there, which was for about one and one-half hours.
+<br><br>
+I took many pictures, most of which came out completely black, despite my camera having a flash. The ones that weren't black *looked* normal, at first. Until I just got them home and uploaded them onto my computer. A few of them have orbs. Two however have something more in them. We'd found a partially-excavated grave filled with the remains of broken tombstones and I took quite a few pictures of it. In one of the pictures it looks as if there's a light rising up from the debris and stones that littered the grave!
+<br><br>
+The other picture is of Elisabeth's Gravestone, the one which can be found at the back of the cemetery in the corner where all of the discarded tombstones are. I took three pictures of this tombstone, but in one of them it seems as if there's a flashlight shining on it. I can assure you it is no flashlight; none of our flashlights would work, despite their having fresh batteries in them. Also, in one corner of that particular picture, there is a white misty figure that is pointing to the tombstone bearing Elisabeth Eagleson's name. When I was there, that particular tombstone was no longer reflective as it is in pictures you have on your site. It was weathered and rough and had graffiti on it from recent vandals. In previous and subsequent pictures, that light was not there.
+<br><br>
+There is also one photo in which I and two of the children who'd accompanied me had gone to the tree in which Elizabeth had purportedly hanged herself. We all touched the tree before I snapped these photos. I snapped many photos of this tree, in particular the branch that I had been told she'd hanged herself from. In that picture, there is an orb just beneath that branch. In subsequent photos there are no orbs at all.
+<br><br>
+I don't know what to make of it.
+<br><br>
+Then there was the screaming. Only myself and one of the children - the last to leave the cemetery as we were preparing to return home - heard it. It stopped me in my tracks and I turned to stare at that back corner, where the tombstones had been discarded, because it had sounded as if the scream had come from that corner. It was very faint, as if from far away, and it may not have been a scream at all, but a voice talking loudly or yelling. I'm uncertain as I only heard it for that brief moment in time and it was when we were preparing to leave.
+<br><br>
+At one point in time, I should also mention, I had sat down on one of the broken bases near the front of the cemetery, turning off my digital camera and setting it on the base beside me. I know I turned it off, because I did not want the battery to die. My particular type of camera can also record short snippets of video, without sound of course. It takes pushing a particular button four times to turn on the recording. While it was sitting there next to me and was off, it was turned on and was set to record. It recorded 40 seconds of pitch blackness.
+<br><br>
+I simply do not understand any of those occurrences, other than to say that Elizabeth's Grave is real. I believe.</i></blockquote>
+<br>
+In October 2011 I received an e-mail from Walt R. about his experiences at the cemetery:
+<br><br>
+<blockquote><i>My wife, daughter, and myself have investigated this location several times in the last couple of weeks.
+<br><br>
+Our first visit, 10/22/11 from 8:00 PM - 10:00 PM, we had encountered the same issues as others (ie, cameras acting funny, pictures coming out completely black, batteries draining, etc).  The first visit we walked around getting what photos we could. Lots of orbs of many different colors. I felt as though we were being watched the whole time there. At one point I was looking around the large walnut tree in the back of the cemetery.  My wife and daughter were 20 feet away in the open low lying area between the gravestones and tree when they watched the grass around them move as though people were circling them. They stated they heard people talking. My wife's pictures all had this mist on the right hand side of the pics. After downloading them to the computer and standing back from the screen you can tell that the mist is a face that seems to be following her throughout the cemetery all night. One photo captured a figure standing with its hand resting on top of a tombstone.
+<br><br>
+Our second visit, 10/28/11 from 10:00 PM - 10:45PM, we experienced the same camera malfuctions and battery drainage. This visit I went to the stack of misplaced headstones in the back left corner of the cemetery. I could feel a temperature change on my back, and my daughter took a couple shots of my shoulder with an orb on it.  In the next frame it was gone. Our investigation was cut short when some teenagers came and gathered around a tombstone and lit candles as though they were getting ready to perform a seance or something (stupid kids messing with something they should not, one of the girls said it was her grandfather's grave...that would would make one of her parents at least 150 years old. Don't think so).
+<br><br>
+Our third visit, 10/29/11 1:00 PM - 2:00 PM, was during the day.  Nothing out of the ordinary, cameras worked, and I wanted to investigate where Union Lane led. To my surprise it came to a deadend, which was surprising because on the two visits before there were cars and trucks that came from that direction.  That made me believe that it ran out to another road.
+<br><br>
+On our last visit to Mount Union-Pleasant Cemetery we tried out a voice recorder to see if we could get any EVP's. We captured a voice after my wife asked if there was anything anyone wanted to say about Elizabeth or what happened.  The voice (male or female) says &quot;only Chet knows.&quot; We searched for any Chet buried there and did not come up with any, there was a Chet Augusta from the area but I have found no more information on him. It would be interesting to see if there is a Chet that was related.</i></blockquote>
+<br>
+In January 2012 I received an e-mail from Jamie H. about his experiences at the cemetery:
+<br><br>
+<blockquote><i>I had a strange visit to the graveyard this fall. I had arrived just after dark, and I didn't even think it was late enough for there to be spirits. Nonetheless, I attempted to do communication by asking to turn my flashlight on or off to answer after I had sit it on a log next to the broken stones. I kept seeing them do this on Ghost Adventures.  I got no kinds of activity with that. Some moments after, I was asking questions to get evps. I walked over to the huge tree, about 20 feet away from it, and asked, &quot;Elizabeth, are you going to make an appearance tonight?&quot; Upon reviewing it on my camera's audio, I could detect a nearly imperceptible voice. Using Audacity free editing program, I tweaked the settings and was amazed that I got a clear answer to that question: &quot;...maybe.&quot; Oddly, the digital recorder I was using simultaneously as my camera picked up nothing of the least. What an odd evp answer it gave me. Back to the flashlight.
+<br><br>
+As I was about to wrap up there, I walked down the chained-off dirt road in the woods. As the road became an impassible series of mud puddles to which I could barely get myself out of there, I thought to myself, &quot;I'd hate to have to walk through here without a flashlight.&quot; Just then, as if on cue, my flashlight, that I had briefly tucked in my coat pocket, came on. I took it out, and right away it went OFF. For no reason whatsoever. I could never get it to work again after that. I have never before seen a flashlight stop working for no reason without being jolted or dropped.
+<br><br>
+I remember Zach from the show saying that ghosts don't like to respond to you on cue, and only grant requests on their time. Now I see what he meant. I think the ghost there was giving me a sign of it's power, and that it is the one in control, not me.</i></blockquote>
+<br>
+
+If you have a story about Elisabeth's Grave, feel free to <a href="mailto:removedforprivacy">e-mail me</a> and I'll include it on the site!
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

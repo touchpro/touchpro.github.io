@@ -1,0 +1,244 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Gettysburg National Battlefield, Gettysburg, Pennsylvania">
+<meta name="keywords" content="Gettysburg, monuments, haunted, ghosts, Pennsylvania, spooky">
+<title>Gettysburg National Battlefield Monuments</title>
+
+<style type="text/css"> 
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Gettysburg National Battlefield Monuments</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Gettysburg, Pennsylvania</font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+<b>Click on any of the titles in the option box below to view the picture:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="12" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./getbmon/getbmon13.jpg" selected>Cannon by monument</option>
+<option value="./getbmon/getbmon6.jpg">Statue of General on horse</option>  
+<option value="./getbmon/getbmon7.jpg">Another view of the statue</option>
+<option value="./getbmon/getbmon8.jpg">Yet another view of the statue</option>
+<option value="./getbmon/getbmon5.jpg">Cannons</option>
+<option value="./getbmon/getbmon30.jpg">151st P.V.</option>
+<option value="./getbmon/getbmon11.jpg">Cannon statue</option>
+<option value="./getbmon/getbmon1.jpg">Carroll's Brigade</option>    
+<option value="./getbmon/getbmon3.jpg">Ohio's Tribute</option> 
+<option value="./getbmon/getbmon2.jpg">Closer photo of Ohio's tribute</option>
+<option value="./getbmon/getbmon4.jpg">RF Rickett's Battery</option>
+<option value="./getbmon/getbmon9.jpg">Small monument</option>
+<option value="./getbmon/getbmon10.jpg">Another cannon monument</option>
+<option value="./getbmon/getbmon12.jpg">Monument under tree</option>
+<option value="./getbmon/getbmon14.jpg">Pennsylvania monument</option>
+<option value="./getbmon/getbmon22.jpg">NY Infantry monument</option>
+<option value="./getbmon/getbmon21.jpg">Another photo of monument</option>
+<option value="./getbmon/getbmon20.jpg">Tower on monument</option>
+<option value="./getbmon/getbmon19.jpg">Entrance to monument</option>
+<option value="./getbmon/getbmon18.jpg">Plaques on walls</option>
+<option value="./getbmon/getbmon16.jpg">Staircase in monument</option>
+<option value="./getbmon/getbmon15.jpg">Looking down staircase</option>
+<option value="./getbmon/getbmon17.jpg">Monument on rock</option>
+<option value="./getbmon/getbmon23.jpg">Col. Patrick O'Rorke</option>
+<option value="./getbmon/getbmon24.jpg">More monuments on rocks</option>
+<option value="./getbmon/getbmon25.jpg">Statue</option>
+<option value="./getbmon/getbmon27.jpg">Closer shot of statue</option>
+<option value="./getbmon/getbmon26.jpg">Cannon</option>
+<option value="./getbmon/getbmon28.jpg">New York monument</option>
+<option value="./getbmon/getbmon29.jpg">NY Doubleday monument</option>
+<option value="./getbmon/getbmon31.jpg">Major General John F. Reynolds</option>
+<option value="./getbmon/getbmon32.jpg">Monument with cannon carving</option>
+<option value="./getbmon/getbmon33.jpg">Barn</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]="" 
+description[2]=""   
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+description[26]=""
+description[27]=""
+description[28]=""
+description[29]=""
+description[30]=""
+description[31]=""
+description[32]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">For more information about Gettysburg National Battlefield, please see the following links:
+<br><br>
+<ul> 
+<li><a href="http://www.gettysburg.com/" target="_blank">Gettysburg.com</a>
+<li><a href="http://www.nps.gov/gett/" target="_blank">National Park Service - Gettysburg</a>
+</ul>
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+  <select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option> 
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

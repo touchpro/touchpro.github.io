@@ -1,0 +1,236 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to the Sorrel Weed House in Savannah, Georgia">
+<meta name="keywords" content="Sorrel, Weed, House, Mansion, historic, haunted, ghosts, Savannah, Georgia, spooky">
+<title>Sorrel Weed House</title>
+
+<style type="text/css"> 
+body {
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Sorrel Weed House</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Savannah, Georgia</font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+<b>Click on any of the titles in the option box below to view the photo:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="20" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./sorrweed/sorrweed1.jpg" selected>View from Madison Square</option>
+<option value="./sorrweed/sorrweed2.jpg">Front door</option>
+<option value="./sorrweed/sorrweed3.jpg">Upper windows</option>
+<option value="./sorrweed/sorrweed4.jpg">Historical marker</option>
+<option value="./sorrweed/sorrweed5.jpg">Another view of upper windows</option>
+<option value="./sorrweed/sorrweed6.jpg">Corner of house</option>
+<option value="./sorrweed/sorrweed7.jpg">Gardens</option>
+<option value="./sorrweed/sorrweed8.jpg">Carriage house chimney</option>
+<option value="./sorrweed/sorrweed24.jpg">Large mirror</option>
+<option value="./sorrweed/sorrweed23.jpg">Looking through doorway</option>
+<option value="./sorrweed/sorrweed22.jpg">Fireplace</option>
+<option value="./sorrweed/sorrweed21.jpg">Living room</option>
+<option value="./sorrweed/sorrweed20.jpg">Downstairs hallway</option>
+<option value="./sorrweed/sorrweed19.jpg">Stairs to second floor</option>
+<option value="./sorrweed/sorrweed18.jpg">Front window</option>
+<option value="./sorrweed/sorrweed17.jpg">Portrait over fireplace</option>
+<option value="./sorrweed/sorrweed16.jpg">Garden from porch</option>
+<option value="./sorrweed/sorrweed15.jpg">Porch</option>
+<option value="./sorrweed/sorrweed14.jpg">Carriage house from porch</option>
+<option value="./sorrweed/sorrweed13.jpg">Another view of carriage house</option>
+<option value="./sorrweed/sorrweed12.jpg">Basement</option>
+<option value="./sorrweed/sorrweed11.jpg">Slave entrance</option>
+<option value="./sorrweed/sorrweed10.jpg">Basement</option>
+<option value="./sorrweed/sorrweed9.jpg">Basement doorway</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">The Sorrel Weed House is located at 6 West Harris Street in Savannah, Georgia.
+<br><br>   
+The Sorrel Weed House was built in 1840 by Charles B. Cluskey, a well known architect in Savannah.  The house is a great example of Greek revival architecture.  It was designated as a state landmark in 1953, and it is also a National Trust Historic Landmark.  It was home to General Gilbert Moxley Sorrel, the youngest General in the Confederate States of America.  It was also visited by General Robert E. Lee (1862) and General William T. Sherman (1864).
+<br><br>
+Not only does the house have an impressive history, but it is also supposedly haunted.  In October 2005 the home was featured on the TV show <i>Ghost Hunters</i>, on the Sci-Fi channel.  Their investigation was a success; they captured enough evidence to convince them that the house is indeed haunted.  One of the best things they caught at the house was an EVP recording of a woman screaming &quot;Get out, Get out...Help me, my God, my God.&quot;  While no one is exactly sure who haunts the house, it is believed the spirits could be a former slave who died at the house, or Francis Sorrel's wife who killed herself by jumping from the second floor porch.
+<br><br>
+In October 2007 I received an e-mail from Ruby Lawson with an observation regarding one of my photos:
+<br><br>
+<blockquote><i>In the picture of of the portrait of Mr. Sorrel; if you look to the right of his picture, you can see another soldier - you can see the face and the buttons on the uniform. Also, if you look at his right hand (left side of the picture) you can see another man, a possible soldier, with his back turned to you. I don't know if you noticed these or not.</i></blockquote>
+<br>
+In August 2009 I received an e-mail from Beth Gilmore about an experience at the Sorrel Weed House:
+<br><br>
+<blockquote><i>First of all, it's important to understand that my mother is not the type of person to have an overactive imagination.  During a visit to Savannah in 2007, my mother, brother, and his fiance visited the Sorrel Weed House.  During the tour, the group ventured upstairs.  For medical reasons, my mother could not walk up the shaky staircase that led from the basement to the upstairs rooms, so she told my brother, his fiance, and me to go ahead upstairs and finish the tour.  When we came back, she said that while she was down there, she saw a dark shape on the wall that resembled a human cowering and another shape that appeared to be striking the first.  To this day, she believes that she saw the ghost of a slave being whipped by the ghost of a slave master.</i></blockquote>
+<br>
+If you're ever in Savannah, I definitely recommend touring the house.  For more information, please visit the official site: <a href="http://www.sorrelweedhouse.com" target="_blank">Sorrel Weed House</a>.
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+  <select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option> 
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

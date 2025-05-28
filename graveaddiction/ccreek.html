@@ -1,0 +1,224 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Crooked Creek Cemetery, New Concord, Ohio">
+<meta name="keywords" content="Crooked, creek, cemetery, New, Concord, Ohio, graveyard, spooky, old, desolate">
+<title>Crooked Creek Cemetery</title>
+
+<style type="text/css"> 
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Crooked Creek Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>New Concord, Ohio</font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+<b>Click on any of the titles in the option box below to view the picture:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="15" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./ccreek/ccreek1.jpg" selected>Old section of cemetery</option>
+<option value="./ccreek/ccreek34.jpg">Looking down the hill</option>
+<option value="./ccreek/ccreek2.jpg">Sad inscription</option>
+<option value="./ccreek/ccreek3.jpg">Segregated gravestone</option>
+<option value="./ccreek/ccreek4.jpg">Section at top of hill</option>
+<option value="./ccreek/ccreek9.jpg">Revolutionary War veteran</option>
+<option value="./ccreek/ccreek10.jpg">Double headstone</option>
+<option value="./ccreek/ccreek16.jpg">Graves at top of hill</option>
+<option value="./ccreek/ccreek17.jpg">Broken gravestones</option>
+<option value="./ccreek/ccreek28.jpg">Looking towards back</option>
+<option value="./ccreek/ccreek29.jpg">Small sandstone headstone</option>
+<option value="./ccreek/ccreek30.jpg">Graves under tree</option>
+<option value="./ccreek/ccreek31.jpg">Revolutionary War veteran</option>
+<option value="./ccreek/ccreek32.jpg">Graves at edge of cemetery</option>
+<option value="./ccreek/ccreek36.jpg">Fairly recent gravestone from 1992</option>
+<option value="./ccreek/ccreek38.jpg">Graves at top of hill</option>
+<option value="./ccreek/ccreek42.jpg">Rows of old gravestones</option>
+
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Crooked Creek Cemetery is located on Rix Mills Road, about &frac12; mile south of US-40, outside New Concord, Ohio (Union Township, Muskingum County).  The coordinates are 39&deg; 59' 2.43&quot; N, 81&deg; 44' 42.64&quot; W.   
+<br><br>
+Crooked Creek Cemetery is one of the most interesting cemeteries I've ever visited!  It's very old, and it's pretty big.  You drive up a grassy hill through a woods to get to it.  When you get to the top of the hill there are two sections of more recent (the newest I saw was 1992) graves to the left and right.  When you look down the hill you'll see the main part of the cemetery at the bottom.  Since it has been raining so much this year, I walked down the hill instead of driving...and I'm glad I did!  The road was really muddy at the bottom of the hill, and I probably would have gotten stuck!
+<br><br>
+Anyway, there are lots of Revolutionary War veterans buried here.  And there are also a lot of really interesting inscriptions to read.  One of the saddest gravestones I read was for a thirty-one year old woman.  Her grave had <i>And of four babes that sleep close on her left</i> carved on it.  I looked to the left of her grave and there were four small markers. 
+<br><br>
+Wendell Chestnut e-mailed me an interesting story about one of the Revolutionary War veterans buried at this cemetery.  He and his cousin, Patrick Mitchell, gave me permission to post the story here on the site:
+<br><br>
+<blockquote><i>I'll try to be brief but want to tell about Mathew's modern stone. My 4th cousin, Patrick Mitchell, and I were concerned that his old stone did not indicate his Revolutionary service and he did not receive recognition with a flag at Memorial Day.
+<br><br>
+On September 11, 2001, Pat Mitchell was grounded in Philadelphia, but he and his partner had a rental car and said let's drive west. At Pittsburgh they still could not fly, so they drove on to New Concord where he discovered that the whole face had flaked off of gggg-grandfather's stone. So he went right out and ordered the new one that you have in the picture!</i></blockquote>
+<br>
+In October 2005 I received an e-mail from Robert Dickson about a restoration project that took place in the mid 1970's:
+<br><br>
+<blockquote><i>In the mid 1970s, I was one of about six Boy Scouts who restored and fixed up the cemetery...it was the Eagle Scout project of Jim Russell, whose farm is across the road on top of the hill.  I'm not sure if he or his family still live there, but I believe the church up the road continues to maintain the cemetery.  When we started the project, I can't say it was haunted, but it almost seemed &quot;they&quot; were helping us fix things up.  It was overgrown and many stones were broken/overturned.  I was never scared, and I never saw anything I couldn't explain...but we did have tools come up missing/moved.  Perhaps that wwas that just the irresponsibility/imagination of a bunch of teenage boys though!</i></blockquote>
+<br>
+A BIG thank you to Kari Brown for telling me about this cemetery and sending me fantastic directions...I would have never found this cemetery without her help!!  Also, a big thanks to Wendell Chestnut and Patrick Mitchell for sharing their story about Mathew Mitchell's grave, and to Robert Dickson for sharing information about the Eagle Scout Project!
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+  <select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option> 
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option>
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

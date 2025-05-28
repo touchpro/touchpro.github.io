@@ -1,0 +1,234 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to the Toledo Mental Health Center Cemetery in Toledo, Ohio">
+<meta name="keywords" content="Toledo, Mental, Health, Center, State, Hospital, Cemetery, Lucas, County, Township, haunted, Ohio, graveyard, spooky, desolate, old, gravestone, tombstone, headstone, monument, footstone, carving, symbol, symbolism">
+<title>Toledo Mental Health Center Cemetery</title>
+
+<style type="text/css">
+body {
+scrollbar-arrow-color: #999999;
+scrollbar-base-color: #000000;
+scrollbar-dark-shadow-color: #000000;
+scrollbar-track-color: #000000;
+scrollbar-face-color: #000000;
+scrollbar-shadow-color: #000000;
+scrollbar-highlight-color: #999999;
+scrollbar-3d-light-color: #000000;
+}
+
+a:link {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:active {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight:
+
+none; color: #333333; }
+
+</style>
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center">
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Toledo Mental Health Center Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Toledo, Ohio</font>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">
+<p align="left"><font size="2" face="verdana"><br><br>
+
+<b>Click on any of the titles in the option box below to view the photo:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="28" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./toledomhc/toledomhc3.jpg" selected>Cemetery from the road</option>
+<option value="./toledomhc/toledomhc1.jpg">Historical marker</option>
+<option value="./toledomhc/toledomhc2.jpg">Back of the historical marker</option>
+<option value="./toledomhc/toledomhc4.jpg">Patient 1446</option>
+<option value="./toledomhc/toledomhc9.jpg">Marker with metal plate</option>
+<option value="./toledomhc/toledomhc13.jpg">Corrected number</option>
+<option value="./toledomhc/toledomhc21.jpg">Yellow paint on metal</option>
+<option value="./toledomhc/toledomhc23.jpg">Patient 1920</option>
+<option value="./toledomhc/toledomhc24.jpg">Rows of gravestones</option>
+<option value="./toledomhc/toledomhc5.jpg">Patient 1469</option>
+<option value="./toledomhc/toledomhc6.jpg">Weathered gravestone</option>
+<option value="./toledomhc/toledomhc7.jpg">Patient 1516</option>
+<option value="./toledomhc/toledomhc8.jpg">Small markers</option>
+<option value="./toledomhc/toledomhc10.jpg">Patient 1820</option>
+<option value="./toledomhc/toledomhc11.jpg">Cemetery</option>
+<option value="./toledomhc/toledomhc12.jpg">Rows of markers</option>
+<option value="./toledomhc/toledomhc14.jpg">Patient 1979</option>
+<option value="./toledomhc/toledomhc15.jpg">Faded number</option>
+<option value="./toledomhc/toledomhc16.jpg">Rows of gravestones</option>
+<option value="./toledomhc/toledomhc17.jpg">Missing number</option>
+<option value="./toledomhc/toledomhc18.jpg">Copper plate</option>
+<option value="./toledomhc/toledomhc19.jpg">Patient 1970</option>
+<option value="./toledomhc/toledomhc20.jpg">Patient 1812</option>
+<option value="./toledomhc/toledomhc22.jpg">Patient 1965</option>
+<option value="./toledomhc/toledomhc25.jpg">Looking towards back</option>
+<option value="./toledomhc/toledomhc26.jpg">Marker by tree</option>
+<option value="./toledomhc/toledomhc27.jpg">Patient 999</option>
+<option value="./toledomhc/toledomhc28.jpg">Rows of gravestones</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+description[26]=""
+description[27]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">The Toledo Mental Health Center Cemetery is located on East Campus Drive, near the intersection with Glendale Avenue, in Toledo, Ohio (Lucas County).
+<br><br>
+The Toledo Mental Health Center Cemetery (as it is called in the <i>Ohio Cemeteries</i> book published by the Ohio Genealogical Society) is the final resting place for many patients who passed away at the Toledo State Hospital.  This cemetery is the more recent of two used by the hospital; there are 1,994 patients buried in the two cemeteries.  You can see photos from the other cemetery by <a href="toledosh.html">clicking here</a>. The graves are marked with small concrete blocks that contain only a patient number.
+<br><br>
+The Toledo State Hospital cemeteries were forgotten and neglected for years.  However, in 2005, a wonderful group of people formed the Toledo State Hospital Cemetery Reclamation Committee (TSHCRC).  They have been working along with the University of Toledo, who owns both properties, to restore the cemeteries.  For more information, please visit the <a href="http://www.toledostatehospitalcemetery.org/" target="_blank">The Toledo State Hospital Cemetery Reclamation Project</a> website.
+
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!--
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="symbol.html">Gravestone Symbolism</option>
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option>
+<option value="sources.html">Sources</option>
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>
+</table>
+</body>
+</html>

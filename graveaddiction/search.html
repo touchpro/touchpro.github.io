@@ -1,0 +1,183 @@
+<html>
+
+<head>
+<meta name="description" content="Grave Addiction search page">
+<meta name="keywords" content="grave, addiction, cemetery, search">
+<title>Search Grave Addiction</title>
+
+<style type="text/css"> 
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Search GraveAddiction.com</u></font><font size="2"><br><br><img src="divide.jpg"></font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana">
+<br><br>
+Enter your search criteria below:
+<br><br>
+
+<!-- Atomz Advanced Search HTML for Grave Addiction -->
+<form method="get" action="http://search.atomz.com/search/">
+<table cellspacing=0 cellpadding=1 border=0>
+<tr>
+<td colspan="2">
+<b>Search For:</b><br>
+<input size=35 name="sp-q">
+<!-- The "Search" button -->
+<input type=submit value="Search">
+<input type=hidden name="sp-a" value="sp100267fa">
+</td></tr>
+<input type=hidden name="sp-advanced" value=1>
+<!-- Allow "any," "all," or "phrase" -->
+<tr>
+<td valign=top>
+<b>Match:&nbsp;</b>
+</td>
+<td>
+<input type=radio name="sp-p" value="any" checked>Any&nbsp;word
+<input type=radio name="sp-p" value="all">All&nbsp;words
+<input type=radio name="sp-p" value="phrase">Exact&nbsp;phrase<br>
+<!-- Checkbox enables sound-alike matching -->
+<input type=hidden name="sp-w-control" value=1>
+<input type=checkbox name="sp-w" value="alike" checked>
+Sound-alike&nbsp;matching
+</td></tr>
+
+<!-- List box selects the search field -->
+<tr>
+<td valign=top>
+<b>Within:&nbsp;</b>
+</td>
+<td><select name="sp-x" size=1>
+<option value="any" selected>Anywhere</option>
+<option value="title">Title</option>
+<option value="desc">Description</option>
+<option value="keys">Keywords</option>
+<option value="body">Body</option>
+<option value="alt">Alternate text</option>
+<option value="url">URL</option>
+<option value="target">Target</option>
+</select>
+</td></tr>
+<!-- List box selects number of results to show per page -->
+<tr><td valign=top>
+<b>Show:&nbsp;</b>
+</td><td><select name="sp-c" size=1>
+<option value=5>5</option>
+<option value=10 selected>10</option>
+<option value=25>25</option>
+<option value=50>50</option>
+<option value=100>100</option>
+</select>&nbsp;results&nbsp;
+<!-- Show or hide summaries in search results -->
+
+<select name="sp-m" size=1>
+<option value=1 selected>with</option>
+<option value=0>without</option>
+</select>&nbsp;summaries<br>
+</td></tr>
+</table>
+<input type=hidden name="sp-f" value="ISO-8859-1">
+</form>
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+  <select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option> 
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="explore.html">Group Exploration</option> 
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

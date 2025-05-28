@@ -1,0 +1,261 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Otterbein Cemetery in Somerset, Ohio">
+<meta name="keywords" content="Otterbein, cemetery, Somerset, Perry, County, Reading, Township, Mary, Henry, Angle, bloody, horseshoe, Ohio, graveyard, spooky, gravestone, headstone, footstone, monument, symbol, symbolism, carving">
+<title>Otterbein Cemetery</title>
+
+<style type="text/css">
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Otterbein Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Somerset, Ohio</font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+<b>Click on any of the titles in the option box below to view the photo:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="20" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./otterbein/ott8.jpg" selected>Looking southwest</option>
+<option value="./otterbein/ott13.jpg">Horseshoe Grave</option>
+<option value="./otterbein/ott14.jpg">Horseshoe print</option>
+<option value="./otterbein/ott15.jpg">Front of Mary's gravestone</option>
+<option value="./otterbein/ott16.jpg">Approaching the Horseshoe Grave</option>
+<option value="./otterbein/ott2.jpg">Front of Mary's gravestone</option>
+<option value="./otterbein/ott3.jpg">Back of Mary's gravestone</option>
+<option value="./otterbein/ott4.jpg">Another picture of the horseshoe</option>
+<option value="./otterbein/ott5.jpg">Closeup of horseshoe</option>
+<option value="./otterbein/ott9.jpg">Broken gravestones</option>
+<option value="./otterbein/ott11.jpg">Flowers on graves</option>
+<option value="./otterbein/ott12.jpg">Wildflowers around gravestone</option>
+<option value="./otterbein/ott18.jpg">Small ornate gravestone</option>
+<option value="./otterbein/ott20.jpg">Gravestone at back of cemetery</option>
+<option value="./otterbein/ott23.jpg">Gravestone with carved flower</option>
+<option value="./otterbein/ott25.jpg">Gravestone behind branches</option>
+<option value="./otterbein/ott27.jpg">Interesting epitaph</option>
+<option value="./otterbein/ott29.jpg">Gravestone leaning on building</option>
+<option value="./otterbein/ott22.jpg">Partially buried gravestone</option>
+<option value="./otterbein/ott26.jpg">Broken gravestones</option>
+<option value="./otterbein/ott1.jpg">View of cemetery from church</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Otterbein Cemetery is located on Otterbein Road, about a &frac12; mile south of US-22, just outside  Somerset, Ohio.  The coordinates are 39&deg; 46' 19.18&quot; N, 82&deg; 21' 48.03&quot; W.  
+<br><br>
+Otterbein Cemetery sits on the south side of the Otterbein United Methodist Church.  You'll want to park in the church parking lot if you visit.  There are many old gravestones, and it is very well taken care of by the church. 
+<br><br>
+Otterbein Cemetery is famous for the &quot;Horseshoe Grave&quot; of Mary Angle Henry.  On the back of her gravestone you can see the print of a &quot;bloody&quot; horseshoe.  There are several stories about how the horseshoe got there. The one I have heard the most says that Mary died giving birth to her child. Her husband got remarried a few years later to a girl that he was dating at the same time he was dating Mary.  Before they were married they visited her grave every day, but after they were married they had better things to do.  This must have angered Mary, because seven days after they were married the gravedigger came to the house in a panic and told John and his new wife Rachel that they better come and look at Mary's grave.  When they got to the graveyard they found the print of a bloody horseshoe on the back of her gravestone!  The next day John went out to the barn while Rachel worked inside.  Hours went by without John leaving the barn, so Rachel went out to check on him.  She found his dead body with a horseshoe imprint on his face.  The imprint looked just like the one on Mary's grave!  While she held his dead body, Bob, the horse John gave Mary after they were married, stomped around his stall and snorted.
+<br><br>
+Jim, AKA &quot;Solomon King&quot;, who lives close to Somerset, told me that some of the town's older residents claim Mary's gravestone has been replaced several times, but the horseshoe always comes back in the same place!  
+<br><br>
+Jim also e-mailed me an interesting story about one of the other gravestones at Otterbein Cemetery:
+<br><br>
+<blockquote><i>Not long ago my friends and I were at Otterbein Cemetery.  Of all the times I've been there I never noticed the stone for Hanna Westall; that's the one you have listed as a stone with a flower carved
+on it.  I'm just wondering if you know anything about the woman that is buried there, because there is something strange about her and that stone.
+<br><br>
+I'd like to think that I'm a sane man, but I swear that stone has a pulse.  My friends felt it too, I also know that flowers symbolize resurrection.  So I'm wondering if you have any info on the person that
+lies there, this is one grave that has gotten to me.</i></blockquote>
+<br>
+In October 2005 I was contacted by Lynn Johnson.  She provided some interesting historical information about the Horseshoe Grave:
+<br><br>
+<blockquote><i>Mary Angle Henry was the first wife of my ggguncle James K. Henry. I have seen the horseshoe marker several times, the most recent last year. Mom took me and my brothers and sisters there for the first time over fourty years ago. We all were fascinated by story when grandpa told it to us when we were young. There are at least two articles which were in Columbus newspapers. I have both of them. However, as with most legends, some of the details are wrong. James K. Henry did not die until 1859 and I don't know that he had a mark of a horseshoe on his face when he did. He raised a second family with Rachel Hodge and his children are documented on census records. I've always loved ghost stories and to have one in your own family is really great. The pictures you have a really good. My sister took some more last year. The stone is the original one and it has been broken over the last 160 years several times. I guess the local folks thought if they broke the marker the horseshoe would go away. I could never explain how the horseshoe got there either, but it's always been in the same spot on the marker. In my opinion it's too small to be the mark of a real horseshoe and I don't think a branding iron could have done the trick. After all these years the mark should have faded, but it hasn't. It's a great story and I'm glad it's part of my family history.</i></blockquote>
+<br>
+In June 2007 I received an e-mail from David about his creepy experience at the cemetery:
+<br><br>
+<blockquote><i>My friends and I just got back from Otterbein Cemetery. We were driving by really slow, and saw a blue orb hovering over one of the graves. I looked back in the corner where Mary Henry's grave is and saw blue light emitting from it or something else. We stopped the car and looked at the little blue orb, and it disappeared, then re-appeared. My friends got out of the car and started to walk to it, and as they got closer it got bigger and then they realized there were 2 orbs. They got about ten feet away from it, and then the orb disappeared. We got in the car and started to drive away, and we looked back, and the orb was there again.
+<br><br>
+Really freaky.</i></blockquote>
+<br>
+I received the following e-mail from an anonymous website visitor in September 2008:
+<br><br>
+<blockquote><i>James Kennedy Henry was my great-great-grandfather.  I, too, have heard the story of the horseshoe on the grave marker from childhood.  It is true that he died after he and his second wife, Rachel, had four children, some years after his first wife's death.  The story in our family is that when he and Mary, his first wife, were married, the parents of the young couple each gave a horse in order that they would have a team with which to farm.  After Mary's death, James did not return the horse given by Mary's parents and there were hard feelings.  That horse was the one who kicked him in the head and killed him.</i></blockquote>
+<br>
+I also received an e-mail from Thomas S. in September 2008:
+<br><br>
+<blockquote><i>As for the Horseshoe, if the stone is concrete, it could be that a horseshoe was embedded into the wet concrete just beneath the surface and iron oxide is leaching out to the surface of the concrete.  This happens with rebar in concrete if set too close to the surface.  If the slab was stone, this could not be the cause.</i></blockquote>
+<br>
+I received the following e-mail from Ashlee P. in October 2008:
+<br><br>
+<blockquote><i>A few friends and I went up the grave (after going to the Haunted Hoochie).  It sounded like it would be cool, being that we were into the scary stuff tonight.  Well, we went up to the grave and we saw the horseshoe print, but it was not glowing. So we stood around for a few minutes, but didn't see or hear anything.  However, when we were getting ready to walk out of the cemetery, we heard the faint sound of horse hooves at a very far distance.  We stopped, but it was still very far away so we kept walking.  We didn't think it would be to cool to just hear the sounds and not see the glowing, but as we where walking by the church, we could have sworn someone, or something(!), was walking right behind us.  We all stopped and looked back, but nothing was there.</i></blockquote>
+<br>
+I also received an e-mail from W. Ed Corns in October 2008 regarding his trip to the cemetery:
+<br><br>
+<blockquote><i>My wife and I visited your site for the first time today (10/31/08). We enjoyed your site very much. We are both avid paranormal enthusiasts. My wife has always wanted to do a ghost hunt and she finally got her wish this evening. We just returned from the Otterbein Cemetery where Mary Henry's grave is located. We spent about two hours there, where we took video, photos and digital audio. My wife heard several noises that we could not explain, and I witnessed a shadow about 5' tall move across the cemetery shortly after arriving. It seemed to disappear into thin air. I used my flashlight when it disappeared, but never found anything. I am sure that we were the only ones there.
+<br><br>
+I just finished reviewing all of our recordings and photos, and we only had one photo that seems to show a red orb that seems to be at the back of the cemetery. The photo was taken looking west from the southeast corner of the church. We did not see the light while we were there; only after downloading it onto the computer did we see it. We also went to the gravestone that has the flowers carved into it that reportedly has a pulse. We both touched it and felt nothing. We did extensive EVP work, but got nothing.</i></blockquote>
+<br>
+
+If you have any information about this grave, or any stories about Otterbein Cemetery, please <a href="mailto:removedforprivacy">send me an e-mail</a> and I'll add the information to the site!
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option> 
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

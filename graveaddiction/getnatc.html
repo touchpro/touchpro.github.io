@@ -1,0 +1,248 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Gettysburg National Cemetery, Gettysburg, Pennsylvania">
+<meta name="keywords" content="National, Cemetery, old, haunted, Gettysburg, Pennsylvania, graveyard, spooky">
+<title>Gettysburg National Cemetery</title>
+
+<style type="text/css">
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Gettysburg National Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Gettysburg, Pennsylvania</font>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+
+<b>Click on any of the titles in the option box below to view the picture:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="12" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./getnatc/getnatc10.jpg" selected>Soldier's Memorial</option> 
+<option value="./getnatc/getnatc13.jpg">July 1,2,3 1863</option>  
+<option value="./getnatc/getnatc11.jpg">Statue on Soldier's Memorial</option>   
+<option value="./getnatc/getnatc12.jpg">Soldier statue</option>  
+<option value="./getnatc/getnatc2.jpg">Another statue on memorial</option>  
+<option value="./getnatc/getnatc14.jpg">Statue on top of memorial</option>  
+<option value="./getnatc/getnatc19.jpg">These Dead Shall Not Have Died In Vain</option>  
+<option value="./getnatc/getnatc27.jpg">Ohio - 131 Bodies</option>  
+<option value="./getnatc/getnatc29.jpg">Pennsylvania - 534 Bodies</option>  
+<option value="./getnatc/getnatc23.jpg">US Regulars - 138 Bodies</option>  
+<option value="./getnatc/getnatc32.jpg">Unknown Sergeant</option>  
+<option value="./getnatc/getnatc31.jpg">Major General Collis</option>  
+<option value="./getnatc/getnatc30.jpg">Bust on gravestone</option>    
+<option value="./getnatc/getnatc7.jpg">Illinois soldier</option>   
+<option value="./getnatc/getnatc20.jpg">Minnesota monument</option>   
+<option value="./getnatc/getnatc24.jpg">Unknown - 425 Bodies</option>  
+<option value="./getnatc/getnatc25.jpg">Unknown graves</option>  
+<option value="./getnatc/getnatc34.jpg">New York monument</option>  
+<option value="./getnatc/getnatc1.jpg">Pennies on Gettysburg Address plaque</option>  
+<option value="./getnatc/getnatc3.jpg">Rows of unknown graves</option>  
+<option value="./getnatc/getnatc4.jpg">Unknown - 411 Bodies</option>  
+<option value="./getnatc/getnatc5.jpg">Maine - 104 Bodies</option>  
+<option value="./getnatc/getnatc6.jpg">Michigan - 171 Bodies</option>  
+<option value="./getnatc/getnatc8.jpg">Illinois - 6 Bodies</option>  
+<option value="./getnatc/getnatc9.jpg">West Virginia - 11 Bodies</option>  
+<option value="./getnatc/getnatc15.jpg">Vermont - 61 Bodies</option>    
+<option value="./getnatc/getnatc16.jpg">New Jersey - 78 Bodies</option>     
+<option value="./getnatc/getnatc17.jpg">Wisconsin - 73 Bodies</option>    
+<option value="./getnatc/getnatc18.jpg">Connecticut - 22 Bodies</option>      
+<option value="./getnatc/getnatc21.jpg">Minnesota - 52 Bodies</option>  
+<option value="./getnatc/getnatc22.jpg">Maryland - 22 Bodies</option>    
+<option value="./getnatc/getnatc26.jpg">Indiana - 80 Bodies</option>     
+<option value="./getnatc/getnatc28.jpg">Massachusetts - 159 Bodies</option>    
+<option value="./getnatc/getnatc33.jpg">Cross shaped gravestone</option>  
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]="" 
+description[6]=""
+description[7]=""  
+description[8]=""
+description[9]="" 
+description[10]=""
+description[11]=""
+description[12]="" 
+description[13]=""  
+description[14]="" 
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""   
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+description[26]=""
+description[27]=""
+description[28]=""
+description[29]=""
+description[30]=""
+description[31]=""
+description[32]=""
+description[33]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Gettysburg National Cemetery is located on Baltimore Street in Gettysburg, Pennsylvania (Adams County).
+<br><br>  
+Gettysburg National Cemetery is part of the National Battlefield, and it is maintained by the National Parks Service.  It is in excellent shape, and the grounds are always well taken care of. There aren't just Civil War graves at the cemetery, there are also veterans from several other wars.  There are over 3500 Civil War graves; over 7000 graves total.  There are no new burials though since it is no longer active. 
+<br><br>
+The cemetery was established during the war as a place to properly bury Union soldiers.  President Lincoln gave the Gettysburg Address at the location on November 19, 1863.  The state owned the cemetery until it was completed in 1872, then it was turned over to the Federal Government.  
+<br><br>
+Gettysburg National Cemetery is also supposedly haunted.  Many people claim to see ghostly soldiers roaming the grounds at night.  One of the most common sitings is that of three Confederate soldiers who died on the grounds.  People see the soldiers approach them, then they suddenly fall to the ground as if they were shot.  Strange lights and mysterious sounds are also reported.
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option> 
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

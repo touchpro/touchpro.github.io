@@ -1,0 +1,243 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to Fort Meigs, Perrysburg, Ohio">
+<meta name="keywords" content="Fort, Meigs, Northwest, Teritory, War, 1812, Cemetery, haunted, Perrysburg, Ohio, graveyard, spooky">
+<title>Fort Meigs</title>
+
+<style type="text/css">
+body {
+scrollbar-arrow-color: #999999;
+scrollbar-base-color: #000000;
+scrollbar-dark-shadow-color: #000000;
+scrollbar-track-color: #000000;
+scrollbar-face-color: #000000;
+scrollbar-shadow-color: #000000;
+scrollbar-highlight-color: #999999;
+scrollbar-3d-light-color: #000000;
+}
+
+a:link {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:active {font-family: verdana; text-decoration:none; font-weight:
+
+none; color: #990000; }
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight:
+
+none; color: #333333; }
+
+</style>
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center">
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Fort Meigs</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Perrysburg, Ohio</font>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">
+<p align="left"><font size="2" face="verdana"><br><br>
+
+<b>Click on any of the titles in the option box below to view the picture:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="20" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./ftmeigs/ftmeigs42.jpg" selected>Fort from sidewalk</option>
+<option value="./ftmeigs/ftmeigs47.jpg">Army Lodge 24 Historical Marker</option>
+<option value="./ftmeigs/ftmeigs46.jpg">Amos Spafford Historical Marker</option>
+<option value="./ftmeigs/ftmeigs45.jpg">Perrysburg Historical Marker</option>
+<option value="./ftmeigs/ftmeigs44.jpg">17th Infantry Historical Marker</option>
+<option value="./ftmeigs/ftmeigs43.jpg">Back of 17th Infantry Marker</option>
+<option value="./ftmeigs/ftmeigs31.jpg">Flag flying by blockhouse</option>
+<option value="./ftmeigs/ftmeigs30.jpg">Blockhouse from outside fort</option>
+<option value="./ftmeigs/ftmeigs29.jpg">Front of blockhouse</option>
+<option value="./ftmeigs/ftmeigs28.jpg">Cannon</option>
+<option value="./ftmeigs/ftmeigs27.jpg">Blockhouses from inside</option>
+<option value="./ftmeigs/ftmeigs26.jpg">Blockhouse from outside fort</option>
+<option value="./ftmeigs/ftmeigs25.jpg">Large gate</option>
+<option value="./ftmeigs/ftmeigs24.jpg">Blockhouse</option>
+<option value="./ftmeigs/ftmeigs17.jpg">Maumee River in background</option>
+<option value="./ftmeigs/ftmeigs16.jpg">Behind mound</option>
+<option value="./ftmeigs/ftmeigs15.jpg">Tents behind building</option>
+<option value="./ftmeigs/ftmeigs10.jpg">Reenactors</option>
+<option value="./ftmeigs/ftmeigs11.jpg">Bayonet demo</option>
+<option value="./ftmeigs/ftmeigs13.jpg">Firing muskets</option>
+<option value="./ftmeigs/ftmeigs8.jpg">Reenactors marching</option>
+<option value="./ftmeigs/ftmeigs1.jpg">Construction model</option>
+<option value="./ftmeigs/ftmeigs3.jpg">5.5 inch Howitzer shell</option>
+<option value="./ftmeigs/ftmeigs4.jpg">12 pound grape shot</option>
+<option value="./ftmeigs/ftmeigs5.jpg">12 pound and 6 pound canister shot</option>
+<option value="./ftmeigs/ftmeigs18.jpg">Hospital display</option>
+<option value="./ftmeigs/ftmeigs19.jpg">Food display</option>
+<option value="./ftmeigs/ftmeigs20.jpg">Officers' tent</option>
+<option value="./ftmeigs/ftmeigs21.jpg">Ammunition crates</option>
+<option value="./ftmeigs/ftmeigs23.jpg">Soldiers' tent</option>
+<option value="./ftmeigs/ftmeigs22.jpg">Inside soldiers' tent</option>
+<option value="./ftmeigs/ftmeigs32.jpg">Original cannon balls</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+description[24]=""
+description[25]=""
+description[26]=""
+description[27]=""
+description[28]=""
+description[29]=""
+description[30]=""
+description[31]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Fort Meigs is located on OH-65, in Perrysburg, Ohio (Perrysburg Township, Wood County).
+<br><br>
+Fort Meigs was ordered to be built along the Maumee River by William Henry Harrison in 1813.  It was needed to protect northwest Ohio and Indiana from British invasion during the War of 1812. It was (and still is) the largest log fort in America.  It encloses ten acres and contains seven blockhouses and five emplacements.  At one time more than 2,000 soldiers lived in tents within the fort's wall.  British and Canadian troops, along with Native Americans under the command of Tecumseh, attacked the fort twice; once in May of 1813 and the once in July of 1813. The Americans won both of the attacks, and the British retreated.
+<br><br>
+There are also three unmarked cemeteries at the Fort.  <a href="fmeigscem.html">Click here to see them</a>.
+<br><br>
+Many people have claimed to see ghosts at Fort Meigs.  It makes sense, there was a lot of bloodshed during the battles at the fort.  Visitors, volunteers, and reenactors have seen the apparitions of both American soldiers and Native American warriors.  Strange lights, the sound of muskets and cannons firing, and the sound of drums and fifes have also been reported.
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!--
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+<select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option>
+<option value="symbol.html">Gravestone Symbolism</option>
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option>
+<option value="sources.html">Sources</option>
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>
+</table>
+</body>
+</html>

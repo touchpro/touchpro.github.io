@@ -1,0 +1,221 @@
+<html>
+<head>
+
+<meta name="description" content="Beth's trip to the Friendship Hill, Point Marion, Pennsylvania">
+<meta name="keywords" content="Friendship, Hill, Albert, Gallatin, National, park, historic, site, Point, Marion, Pennsylvania, ghosts, haunted, spooky, historical">
+<title>Friendship Hill</title>
+
+<style type="text/css"> 
+body { 
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Friendship Hill</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Point Marion, Pennsylvania</font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+<b>Click on any of the titles in the option box below to view the picture:</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="12" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./fhill/fhill27.jpg" selected>Front of house</option>
+<option value="./fhill/fhill26.jpg">Well in front of house</option>
+<option value="./fhill/fhill28.jpg">Path to house</option>
+<option value="./fhill/fhill29.jpg">Barn</option>
+<option value="./fhill/fhill30.jpg">Gallatin statue</option>
+<option value="./fhill/fhill1.jpg">Back of house</option>
+<option value="./fhill/fhill2.jpg">Back porches</option>
+<option value="./fhill/fhill3.jpg">Sophia's grave</option>
+<option value="./fhill/fhill5.jpg">Monongahela River</option>
+<option value="./fhill/fhill6.jpg">Gazebo</option>
+<option value="./fhill/fhill7.jpg">West side of house</option>
+<option value="./fhill/fhill10.jpg">Brick fireplace</option>
+<option value="./fhill/fhill11.jpg">Lewis and Clark artifacts</option>
+<option value="./fhill/fhill12.jpg">Wives' belongings</option>
+<option value="./fhill/fhill13.jpg">More of the wives' belongings</option>
+<option value="./fhill/fhill15.jpg">Staircase</option>
+<option value="./fhill/fhill17.jpg">Looking out back window</option>
+<option value="./fhill/fhill20.jpg">Sitting room</option>
+<option value="./fhill/fhill21.jpg">Glass door</option>
+<option value="./fhill/fhill22.jpg">Looking up to 2nd floor</option>
+<option value="./fhill/fhill23.jpg">Stairs to 2nd floor</option>
+<option value="./fhill/fhill24.jpg">National Road marker</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- © Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+<p align="left"><font size="2" face="verdana">Friendship Hill National Historic Site is located off State Route 166 in Point Marion, Pennsylvania.
+<br><br>
+Friendship Hill was Albert Gallatin's wilderness house.  Albert Gallatin was a very influential politician, he served as Secretary of the Treasury from 1801 - 1814 for President Thomas Jefferson and President James Madison.  He arranged the financing for both the Louisiana Purchase and the Lewis and Clark expeditions.  To learn more about Albert Gallatin, see the official <a href="http://www.nps.gov/frhi" target="_blank">Friendship Hill website</a>.
+<br><br>
+Friendship Hill is supposedly haunted by Albert Gallatin's first wife, Sophia.  They got married in May of 1789, but she died suddenly in October of 1789.  She is buried somewhere on the property.  Supposedly people who lived in the house after Gallatin unearthed the remains and moved them from a knoll along the Monongahela River to the new grave that is pictured above.  However, there is no official evidence of this, so it is just speculation that Sophia's remains are in the grave surrounded by the stone wall.  Anyway, today park rangers and visitors claim to hear Sophia walking around the house, especially the upper floors where visitors aren't allowed to go. 
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>  
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+  <select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option> 
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option> 
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>  
+</table>
+</body>
+</html>

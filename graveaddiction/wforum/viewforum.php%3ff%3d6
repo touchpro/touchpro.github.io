@@ -1,0 +1,1032 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="en-gb" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Grave Addiction Message Board &bull; View forum - General Discussion</title>
+
+<link rel="stylesheet" href="./styles/subsilver2/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+   if (!name)
+   {
+      name = '_popup';
+   }
+
+   window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+   return false;
+}
+
+function jumpto()
+{
+   var page = prompt('Enter the page number you wish to go to:', '1');
+   var perpage = '50';
+   var base_url = './viewforum.php?f=6';
+
+   if (page !== null && !isNaN(page) && page > 0)
+   {
+      document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+   }
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+   popup(url, 760, 570, '_usersearch');
+   return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+   var parent = document.getElementById(id);
+   if (!parent)
+   {
+      eval('parent = document.' + id);
+   }
+
+   if (!parent)
+   {
+      return;
+   }
+
+   var rb = parent.getElementsByTagName('input');
+   
+   for (var r = 0; r < rb.length; r++)
+   {
+      if (rb[r].name.substr(0, name.length) == name)
+      {
+         rb[r].checked = state;
+      }
+   }
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+   <div id="logodesc">
+      <table width="100%" cellspacing="0">
+      <tr>
+         <td><a href="./index.php"><img src="./styles/subsilver2/imageset/site_logo2.jpg" alt="" title="" /></a><br><br><span class="gen">A place for fellow taphophiles and ghost hunters to chat!</span></td>
+
+      </tr>
+      </table>
+   </div>
+
+   <div id="menubar">
+      <table width="100%" cellspacing="0">
+      <tr>
+         <td class="genmed">
+                     </td>
+         <td class="genmed" align="right">
+            <a href="./faq.php"><img src="./styles/subsilver2/theme/images/icon_mini_faq.gif" width="12" height="13" alt="*" /> FAQ</a>
+                     </td>
+      </tr>
+      </table>
+   </div>
+
+   <div id="datebar">
+      <table width="100%" cellspacing="0">
+      <tr>
+         <td class="gensmall">Last visit was: Sun Dec 04, 2011 9:37 am</td>
+         <td class="gensmall" align="right">It is currently Sun Dec 04, 2011 9:37 am<br /></td>
+      </tr>
+      </table>
+   </div>
+
+</div>
+
+<div id="wrapcentre">
+
+   
+   <br style="clear: both;" />
+
+   <table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Board index</a> &#187; <a href="./viewforum.php?f=30">Ghost Hunting</a> &#187; <a href="./viewforum.php?f=6">General Discussion</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</table>
+   <br />	<div id="pageheader">
+		<h2><a class="titles" href="./viewforum.php?f=6&amp;start=0">General Discussion</a></h2>
+
+					<p class="moderators">Moderators: <span style="color: #AA0000;" class="username-coloured">graveaddiction</span>, <span style="color: #AA0000;" class="username-coloured">N-A</span>, Mynx</p>
+			</div>
+
+	<br clear="all" /><br />
+
+<div id="pagecontent">
+
+		<table width="100%" cellspacing="1">
+		<tr>
+							<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> of <strong>3</strong><br /></td>
+				<td class="gensmall" nowrap="nowrap">&nbsp;[ 146 topics ]&nbsp;</td>
+				<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Click to jump to page…">Go to page</a> <strong>1</strong><span class="page-sep">, </span><a href="./viewforum.php?f=6&amp;start=50">2</a><span class="page-sep">, </span><a href="./viewforum.php?f=6&amp;start=100">3</a> &nbsp;<a href="./viewforum.php?f=6&amp;start=50">Next</a></b></td>
+					</tr>
+		</table>
+			<table class="tablebg" width="100%" cellspacing="1">
+		<tr>
+			<td class="cat" colspan="6">
+				<table width="100%" cellspacing="0">
+				<tr class="nav">
+					<td valign="middle">&nbsp;</td>
+					<td align="right" valign="middle">&nbsp;</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+							<th colspan="2">&nbsp;Topics&nbsp;</th>
+						<th>&nbsp;Author&nbsp;</th>
+			<th>&nbsp;Replies&nbsp;</th>
+			<th>&nbsp;Views&nbsp;</th>
+			<th>&nbsp;Last post&nbsp;</th>
+		</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Wed Nov 30, 2011 3:03 am" href="./viewtopic.php?f=6&amp;t=2571" class="topictitle">SWTOR Credits&amp;Buy SWTOR Credits</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">rgrdhyrt</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">7</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed Nov 30, 2011 3:03 am</p>
+					<p class="topicdetails">rgrdhyrt											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Tue Apr 14, 2009 12:29 pm" href="./viewtopic.php?f=6&amp;t=2272" class="topictitle">Lima TB Hospital</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">MCallan1984</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">9</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">687</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sat Oct 08, 2011 3:02 am</p>
+					<p class="topicdetails">Buckeyegirl											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Sep 16, 2011 2:30 am" href="./viewtopic.php?f=6&amp;t=2551" class="topictitle">Do you think the US Open is really haunted?</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Simon_Helmsley</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">1</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">40</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Sep 30, 2011 4:07 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">N-A</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Aug 01, 2011 10:24 am" href="./viewtopic.php?f=6&amp;t=2542" class="topictitle">I would like your opinion.</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Hellhound</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">5</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">66</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Aug 11, 2011 4:33 pm</p>
+					<p class="topicdetails">Hellhound											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Jul 18, 2011 7:20 pm" href="./viewtopic.php?f=6&amp;t=2526" class="topictitle">What is the most haunted place in W.V?</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Hellhound</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">6</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">71</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Aug 05, 2011 11:27 am</p>
+					<p class="topicdetails">Hellhound											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Aug 01, 2011 10:34 am" href="./viewtopic.php?f=6&amp;t=2543" class="topictitle">Ammityville Horror</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Hellhound</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">26</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Mon Aug 01, 2011 10:34 am</p>
+					<p class="topicdetails">Hellhound											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Jul 25, 2011 4:32 pm" href="./viewtopic.php?f=6&amp;t=2532" class="topictitle">Looking for new members for the united Paranormal Project</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">28</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Mon Jul 25, 2011 4:32 pm</p>
+					<p class="topicdetails">grimshawl											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Thu Oct 23, 2008 2:31 pm" href="./viewtopic.php?f=6&amp;t=2122" class="topictitle">Thank you, Beth</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">jmarie1210</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">3</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">412</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Mon Jul 18, 2011 7:31 pm</p>
+					<p class="topicdetails">Hellhound											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sat Jun 18, 2011 6:50 am" href="./viewtopic.php?f=6&amp;t=2522" class="topictitle">Tunnel pic/Western State Hospital</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">squad546</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">5</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">119</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sat Jul 16, 2011 4:00 am</p>
+					<p class="topicdetails">squad546											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Thu Apr 05, 2007 12:20 am" href="./viewtopic.php?f=6&amp;t=1421" class="topictitle">Anyone experienced strange &quot;Heavy breathing&quot; ?</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">milkdrops</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">10</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1561</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sun May 29, 2011 9:53 am</p>
+					<p class="topicdetails">96gilbert											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Nov 06, 2006 7:45 pm" href="./viewtopic.php?f=6&amp;t=1074" class="topictitle">Breakthroughs...why do they never seem to happen?</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Itlives</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">12</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">2308</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sat Apr 30, 2011 2:06 pm</p>
+					<p class="topicdetails">Ace45											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sat May 05, 2007 9:01 pm" href="./viewtopic.php?f=6&amp;t=1493" class="topictitle">Ouija Boards + Cemetery = Trouble?</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Misery</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">4</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">966</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sat Apr 30, 2011 1:59 pm</p>
+					<p class="topicdetails">Ace45											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sun May 03, 2009 5:43 pm" href="./viewtopic.php?f=6&amp;t=2288" class="topictitle">Haunted Egypt Valley?</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">lovemetal666</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">270</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sat Jan 29, 2011 7:46 am</p>
+					<p class="topicdetails">Justin											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sun Nov 07, 2010 2:09 pm" href="./viewtopic.php?f=6&amp;t=2481" class="topictitle">orb?? at the monks sitting at the cloisters ny</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">moonstar59</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">6</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">258</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Dec 24, 2010 3:27 am</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">N-A</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sat Dec 04, 2010 3:01 pm" href="./viewtopic.php?f=6&amp;t=2488" class="topictitle">Some question...(Sorry for this Sub.)</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">AlphaAurora</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">114</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Tue Dec 07, 2010 5:51 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">N-A</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Jan 22, 2007 3:50 pm" href="./viewtopic.php?f=6&amp;t=1251" class="topictitle">Sidwell House Gone</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><span style="color: #AA0000;" class="username-coloured">N-A</span></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">20</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">2922</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed Nov 03, 2010 9:38 am</p>
+					<p class="topicdetails">tracyk859											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Tue Mar 02, 2010 10:35 am" href="./viewtopic.php?f=6&amp;t=2422" class="topictitle">For Your Entertainment...</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">OhioMoose</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">5</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">286</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed Oct 20, 2010 8:48 pm</p>
+					<p class="topicdetails">OhioMoose											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Tue Oct 17, 2006 3:56 pm" href="./viewtopic.php?f=6&amp;t=1010" class="topictitle">Moonville OH,'The devils teacup'?</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Itlives</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">3</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1030</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed Oct 13, 2010 10:32 pm</p>
+					<p class="topicdetails">wez											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Tue Oct 27, 2009 10:38 pm" href="./viewtopic.php?f=6&amp;t=2384" class="topictitle">What Ghosts See...</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">OhioMoose</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">3</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">234</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Mon Oct 11, 2010 3:45 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">N-A</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sun Jun 24, 2007 6:47 pm" href="./viewtopic.php?f=6&amp;t=1590" class="topictitle">Dimes</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Carson</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">22</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">3378</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sat Jul 31, 2010 7:32 pm</p>
+					<p class="topicdetails">Bulliesghost											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sat Jul 24, 2010 12:37 pm" href="./viewtopic.php?f=6&amp;t=2453" class="topictitle">Ghost Hunting Gear to Get Rid of</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">bsphi</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">127</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sat Jul 24, 2010 12:37 pm</p>
+					<p class="topicdetails">bsphi											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Wed Jul 21, 2010 11:47 pm" href="./viewtopic.php?f=6&amp;t=2449" class="topictitle">Elizabeth's grave evp</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">dellgriff</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">113</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed Jul 21, 2010 11:47 pm</p>
+					<p class="topicdetails">dellgriff											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Oct 19, 2007 10:26 pm" href="./viewtopic.php?f=6&amp;t=1812" class="topictitle">Ghosts &amp; Home Sales</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><span style="color: #AA0000;" class="username-coloured">N-A</span></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">10</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1768</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Tue Jul 20, 2010 10:43 pm</p>
+					<p class="topicdetails">Medi											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Thu Aug 24, 2006 3:03 am" href="./viewtopic.php?f=6&amp;t=833" class="topictitle">Worthington Girl Shot While &quot;Hunting for ghosts&quot;</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><span style="color: #AA0000;" class="username-coloured">N-A</span></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">20</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">4080</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Tue Jul 06, 2010 4:57 am</p>
+					<p class="topicdetails">Genesis											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sun Jan 03, 2010 4:53 am" href="./viewtopic.php?f=6&amp;t=2404" class="topictitle">An orb? What do you think?</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Iwant2believe</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">5</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">289</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed May 05, 2010 5:45 pm</p>
+					<p class="topicdetails">BloodRed											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read_hot.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Wed Sep 20, 2006 1:54 pm" href="./viewtopic.php?f=6&amp;t=929" class="topictitle">Haydenville</a>
+											<p class="gensmall"> [ <img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Go to page" title="Go to page" />Go to page: <a href="./viewtopic.php?f=6&amp;t=929&amp;start=0">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=6&amp;t=929&amp;start=25">2</a> ] </p>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">lovemetal666</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">28</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">4587</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Apr 08, 2010 2:20 am</p>
+					<p class="topicdetails">cvanhorn											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon May 18, 2009 8:29 pm" href="./viewtopic.php?f=6&amp;t=2299" class="topictitle">Going to Waverly Hills thurdays night!</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">9</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">522</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Mar 05, 2010 2:02 am</p>
+					<p class="topicdetails">zoemedium											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Wed Dec 30, 2009 5:33 am" href="./viewtopic.php?f=6&amp;t=2401" class="topictitle">Evening pictures in a cemetery.</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Kevin</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">205</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sun Jan 10, 2010 6:54 am</p>
+					<p class="topicdetails">Kevin											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Jan 08, 2010 3:08 pm" href="./viewtopic.php?f=6&amp;t=2408" class="topictitle">Looking for New Member of Tech Crew for paranormal Team</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">124</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Jan 08, 2010 3:08 pm</p>
+					<p class="topicdetails">grimshawl											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Thu Oct 01, 2009 1:38 pm" href="./viewtopic.php?f=6&amp;t=2361" class="topictitle">Stay away from this comapny,  eye-dia</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">4</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">236</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Dec 04, 2009 3:38 am</p>
+					<p class="topicdetails">Asylum_souljah											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Oct 30, 2009 3:24 pm" href="./viewtopic.php?f=6&amp;t=2385" class="topictitle">Elevator on High Street</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">dagr8tim</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">4</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">193</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Tue Nov 03, 2009 7:40 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">WVOz1970</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Oct 16, 2009 7:42 pm" href="./viewtopic.php?f=6&amp;t=2367" class="topictitle">When things go bump in the night:  Solon ghost hunter!</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Sky Pilot</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">120</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Oct 16, 2009 7:42 pm</p>
+					<p class="topicdetails">Sky Pilot											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Tue Oct 06, 2009 4:09 pm" href="./viewtopic.php?f=6&amp;t=2362" class="topictitle">Floor Collapses During Ohio Ghost Tour</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><span style="color: #AA0000;" class="username-coloured">N-A</span></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">1</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">151</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Tue Oct 06, 2009 4:34 pm</p>
+					<p class="topicdetails">BloodRed											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sun Sep 20, 2009 9:55 pm" href="./viewtopic.php?f=6&amp;t=2355" class="topictitle">Ghost Hunting Trip</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">eliztheangelkid</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">8</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">265</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Sep 25, 2009 9:05 pm</p>
+					<p class="topicdetails">eliztheangelkid											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon Sep 21, 2009 12:58 am" href="./viewtopic.php?f=6&amp;t=2356" class="topictitle">Bucyrus, Ohio</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">blucobra</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">137</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Mon Sep 21, 2009 12:58 am</p>
+					<p class="topicdetails">blucobra											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sat Sep 19, 2009 2:50 am" href="./viewtopic.php?f=6&amp;t=2354" class="topictitle">Oregon ghost hunting</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">favregk4</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">128</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sat Sep 19, 2009 2:50 am</p>
+					<p class="topicdetails">favregk4											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Tue Sep 08, 2009 2:44 pm" href="./viewtopic.php?f=6&amp;t=2351" class="topictitle">Headed to Moundsville Prision tomorow night</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">4</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">221</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Tue Sep 15, 2009 2:24 pm</p>
+					<p class="topicdetails">grimshawl											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Thu Jul 23, 2009 2:36 am" href="./viewtopic.php?f=6&amp;t=2327" class="topictitle">Looking For New Places To Investigate And Film At</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">JasonMG2003</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">140</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Jul 23, 2009 2:36 am</p>
+					<p class="topicdetails">JasonMG2003											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Jul 03, 2009 2:40 am" href="./viewtopic.php?f=6&amp;t=2320" class="topictitle">Mountain State Spirit Seekers Society (TV Show)</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">JasonMG2003</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">151</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Jul 03, 2009 2:40 am</p>
+					<p class="topicdetails">JasonMG2003											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Mar 20, 2009 2:48 pm" href="./viewtopic.php?f=6&amp;t=2243" class="topictitle">Andy from Forgotten Ohio got sued?</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">dagr8tim</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">15</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">848</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Apr 10, 2009 11:40 am</p>
+					<p class="topicdetails">joshfromwv											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Tue Mar 17, 2009 9:47 am" href="./viewtopic.php?f=6&amp;t=2235" class="topictitle">Wife Swap</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">bsphi</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">8</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">471</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Apr 10, 2009 11:33 am</p>
+					<p class="topicdetails">joshfromwv											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Jan 30, 2009 6:26 pm" href="./viewtopic.php?f=6&amp;t=2191" class="topictitle">Haunted Hospital In UK Calls In Exorcist</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><span style="color: #AA0000;" class="username-coloured">N-A</span></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">231</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Fri Jan 30, 2009 6:26 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">N-A</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Thu Dec 04, 2008 5:52 pm" href="./viewtopic.php?f=6&amp;t=2152" class="topictitle">Cryptozoology......</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">lovemetal666</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">8</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">690</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Tue Dec 30, 2008 6:03 pm</p>
+					<p class="topicdetails">lovemetal666											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sun Dec 14, 2008 4:27 am" href="./viewtopic.php?f=6&amp;t=2158" class="topictitle">Another site being razed</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Sky Pilot</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">358</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Sat Dec 20, 2008 7:40 pm</p>
+					<p class="topicdetails">aliceC'syellowporche											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sat Dec 13, 2008 3:49 am" href="./viewtopic.php?f=6&amp;t=2157" class="topictitle">Twin City Opera House in McConnelsville Ohio</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">grimshawl</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">448</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Wed Dec 17, 2008 1:41 am</p>
+					<p class="topicdetails">grimshawl											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Wed Apr 16, 2008 2:03 pm" href="./viewtopic.php?f=6&amp;t=1970" class="topictitle">Gettsyburg</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">blucobra</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">6</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">969</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Tue Nov 18, 2008 11:34 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Sun Sep 14, 2008 1:31 am" href="./viewtopic.php?f=6&amp;t=2091" class="topictitle">Frightening moment in a cemetery!</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">Sky Pilot</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">463</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Nov 13, 2008 3:11 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Mon May 07, 2007 5:10 pm" href="./viewtopic.php?f=6&amp;t=1500" class="topictitle">Cost of a 1932 Burial</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">bsphi</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">8</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1322</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Nov 13, 2008 3:08 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Sep 19, 2008 8:01 pm" href="./viewtopic.php?f=6&amp;t=2096" class="topictitle">Class A EVPs - two of the best I've heard</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">pinkcrab37</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">4</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">567</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Nov 13, 2008 3:04 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="./styles/subsilver2/imageset/topic_read.gif" width="19" height="18" alt="No new posts" title="No new posts" /></td>
+								<td class="row1">
+										 <a title="Posted: Fri Oct 03, 2008 8:52 pm" href="./viewtopic.php?f=6&amp;t=2101" class="topictitle">The Cardiff poltergeist boy....</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor">milkdrops</p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">1</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">310</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">Thu Nov 13, 2008 3:03 pm</p>
+					<p class="topicdetails"><span style="color: #AA0000;" class="username-coloured">graveaddiction</span>											</p>
+				</td>
+			</tr>
+
+				</table>
+			<table width="100%" cellspacing="1">
+		<tr>
+							<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> of <strong>3</strong><br /></td>
+				<td class="gensmall" nowrap="nowrap">&nbsp;[ 146 topics ]&nbsp;</td>
+				<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Click to jump to page…">Go to page</a> <strong>1</strong><span class="page-sep">, </span><a href="./viewforum.php?f=6&amp;start=50">2</a><span class="page-sep">, </span><a href="./viewforum.php?f=6&amp;start=100">3</a> &nbsp;<a href="./viewforum.php?f=6&amp;start=50">Next</a></b></td>
+					</tr>
+		</table>
+	
+		<br clear="all" />
+</div>
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Board index</a> &#187; <a href="./viewforum.php?f=30">Ghost Hunting</a> &#187; <a href="./viewforum.php?f=6">General Discussion</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Who is online</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Users browsing this forum: <span style="color: #9E8DA7;" class="username-coloured">Alexa [Bot]</span> and 0 guests</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Jump to:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Select a forum</option>
+		<option value="-1">------------------</option>			<option value="28">Introductions</option>
+					<option value="1">&nbsp; &nbsp;New To The Message Board?</option>
+					<option value="29">Cemetery Photography and Discussion</option>
+					<option value="2">&nbsp; &nbsp;General Discussion</option>
+					<option value="3">&nbsp; &nbsp;Favorite Season For Photography</option>
+					<option value="4">&nbsp; &nbsp;Camera Types</option>
+					<option value="5">&nbsp; &nbsp;Interesting Cemeteries To Visit</option>
+					<option value="37">&nbsp; &nbsp;Cemetery Restoration</option>
+					<option value="30">Ghost Hunting</option>
+					<option value="6" selected="selected">&nbsp; &nbsp;General Discussion</option>
+					<option value="7">&nbsp; &nbsp;Advice</option>
+					<option value="8">&nbsp; &nbsp;Your Stories</option>
+					<option value="9">&nbsp; &nbsp;Haunted Places</option>
+					<option value="10">&nbsp; &nbsp;Organized Ghost Hunts</option>
+					<option value="11">&nbsp; &nbsp;Recommended Books And Movies</option>
+					<option value="27">&nbsp; &nbsp;Recommended Video Games</option>
+					<option value="31">Urban Exploration</option>
+					<option value="12">&nbsp; &nbsp;General Discussion</option>
+					<option value="13">&nbsp; &nbsp;Tips And Tricks</option>
+					<option value="14">&nbsp; &nbsp;Interesting Locations To Visit</option>
+					<option value="32">Ouija Boards</option>
+					<option value="15">&nbsp; &nbsp;Questions?</option>
+					<option value="16">&nbsp; &nbsp;Your Stories</option>
+					<option value="20">&nbsp; &nbsp;Ouija Meet Ups</option>
+					<option value="24">&nbsp; &nbsp;General Discussion</option>
+					<option value="33">Genealogy Requests</option>
+					<option value="17">&nbsp; &nbsp;Gravestone Photo Request</option>
+					<option value="18">&nbsp; &nbsp;Cemetery Locations</option>
+					<option value="26">&nbsp; &nbsp;General Discussion</option>
+					<option value="34">States/Countries Other Than Ohio</option>
+					<option value="21">&nbsp; &nbsp;Cemeteries In Other States/Countries</option>
+					<option value="22">&nbsp; &nbsp;UE Locations In Other States/Countries</option>
+					<option value="23">&nbsp; &nbsp;Haunted Places In Other States/Countries</option>
+					<option value="35">Myths and Legends</option>
+					<option value="25">&nbsp; &nbsp;General Discussion</option>
+					<option value="36">Open Discussion</option>
+					<option value="19">&nbsp; &nbsp;Anything Goes!</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Go" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+		<span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	</span>
+</div>
+
+</body>
+</html>

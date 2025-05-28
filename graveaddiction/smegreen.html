@@ -1,0 +1,231 @@
+<html>
+<head>
+
+<meta name="description" content="Steve Martinez's submitted photos of Evergreen in Oakland, California">
+<meta name="keywords" content="Evergreen, Burying, Burial, Ground, cemetery, old, haunted, Oakland, California, Jonestown, Massacre, Guyana, graveyard, spooky, Steve, Martinez">
+<title>Evergreen Cemetery - Submitted by Steve Martinez</title>
+
+<style type="text/css"> 
+body {
+scrollbar-arrow-color: #999999; 
+scrollbar-base-color: #000000; 
+scrollbar-dark-shadow-color: #000000; 
+scrollbar-track-color: #000000; 
+scrollbar-face-color: #000000; 
+scrollbar-shadow-color: #000000; 
+scrollbar-highlight-color: #999999; 
+scrollbar-3d-light-color: #000000; 
+}         
+
+a:link {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }
+
+a:visited {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }   
+
+a:active {font-family: verdana; text-decoration:none; font-weight: 
+
+none; color: #990000; }    
+
+a:hover {font-family: verdana; text-decoration:underline; font-weight: 
+
+none; color: #333333; }         
+
+</style> 
+
+</head>
+
+<body bgcolor="#000000" text="#333333" link="#990000" alink="#990000" vlink="#990000">
+<table width="97%" border="0" cellspacing="8" cellpadding="6" bgcolor="#000000" align="center"> 
+<tr>
+<td bgcolor="#333333" align="center" valign="center" height="100"><font size="6" face="verdana" color="#CCCCCC">
+<u>Evergreen Cemetery</u></font><font size="4" face="verdana" color="#CCCCCC"><br><br>Oakland, California</font>
+</td>
+</tr> 
+<tr>
+<td align="left" valign="top" bgcolor="#CCCCCC">  
+<p align="left"><font size="2" face="verdana"><br><br>
+<b>Click on any of the titles in the option box below to view the photo:<br><br>Photos taken by Steve Martinez.</b><br></font></p>
+
+<form name="dynamicselector">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" height="178">
+<tr>
+<td width="35%" valign="top" align="left">
+<select name="dynamicselector2" size="23" onChange="generateimage(this.options[this.selectedIndex].value)">
+
+<option value="./submissions10/smegreen1.jpg" selected>Cemetery gates</option>
+<option value="./submissions10/smegreen2.jpg">Don't Go In Here At Night</option>
+<option value="./submissions10/smegreen3.jpg">Rows of gravestones</option>
+<option value="./submissions10/smegreen4.jpg">Asleep In Jesus</option>
+<option value="./submissions10/smegreen5.jpg">Main entrance of mausoleum</option>
+<option value="./submissions10/smegreen6.jpg">Chapel entrance</option>
+<option value="./submissions10/smegreen7.jpg">Main chapel</option>
+<option value="./submissions10/smegreen8.jpg">Stained glass in chapel</option>
+<option value="./submissions10/smegreen9.jpg">Mausoleum skylight</option>
+<option value="./submissions10/smegreen10.jpg">Empty crypt</option>
+<option value="./submissions10/smegreen11.jpg">Another empty crypt</option>
+<option value="./submissions10/smegreen12.jpg">Stained glass and niches</option>
+<option value="./submissions10/smegreen13.jpg">Approaching mass gravesite</option>
+<option value="./submissions10/smegreen14.jpg">Another view of mass gravesite</option>
+<option value="./submissions10/smegreen15.jpg">Guyana Memorial</option>
+<option value="./submissions10/smegreen16.jpg">Another view of memorial</option>
+<option value="./submissions10/smegreen17.jpg">Victim's memorial</option>
+<option value="./submissions10/smegreen18.jpg">God Bless This Garden</option>
+<option value="./submissions10/smegree2.jpg">Rows of gravestones</option>
+<option value="./submissions10/smegree3.jpg">Hand and flowers</option>
+<option value="./submissions10/smegree4.jpg">Hells Angels</option>
+<option value="./submissions10/smegree5.jpg">Rows of Hells Angels gravestones</option>
+<option value="./submissions10/smegree6.jpg">Receiving vault</option>
+<option value="./submissions10/smegree7.jpg">Another shot of the receiving vault</option>
+
+</select>
+</td>
+<td width="65%" valign="top" align="left"><ilayer id="dynamic1" width=100% height=100%><layer id="dynamic2" width=100% height=100%><div id="dynamic3"></div></layer></ilayer></td>
+</tr>
+</table>
+</form>
+
+<script>
+
+//Dynamic Image selector Script- (c) Dynamic Drive (www.dynamicdrive.com)
+//For full source code, installation instructions,
+//100's more DHTML scripts, visit dynamicdrive.com
+
+//enter image descriptions ("" for blank)
+var description=new Array()
+description[0]=""
+description[1]=""
+description[2]=""
+description[3]=""
+description[4]=""
+description[5]=""
+description[6]=""
+description[7]=""
+description[8]=""
+description[9]=""
+description[10]=""
+description[11]=""
+description[12]=""
+description[13]=""
+description[14]=""
+description[15]=""
+description[16]=""
+description[17]=""
+description[18]=""
+description[19]=""
+description[20]=""
+description[21]=""
+description[22]=""
+description[23]=""
+
+var ie4=document.all
+var ns6=document.getElementById
+var tempobj=document.dynamicselector.dynamicselector2
+if (ie4||ns6)
+var contentobj=document.getElementById? document.getElementById("dynamic3"): document.all.dynamic3
+function generateimage(which){
+if (ie4||ns6){
+contentobj.innerHTML='<center>Loading image...</center>'
+contentobj.innerHTML='<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>'
+}
+else if (document.layers){
+document.dynamic1.document.dynamic2.document.write('<center><img src="'+which+'"><br><br>'+description[tempobj.options.selectedIndex]+'</center>')
+document.dynamic1.document.dynamic2.document.close()
+}
+else
+alert('You need NS 4+ or IE 4+ to view the images!')
+}
+
+function generatedefault(){
+generateimage(tempobj.options[tempobj.options.selectedIndex].value)
+}
+
+if (ie4||ns6||document.layers){
+if (tempobj.options.selectedIndex!=-1){
+if (ns6)
+generatedefault()
+else
+window.onload=generatedefault
+}
+}
+
+</script>
+
+
+<p align="left"><font size="2" face="verdana">Steve Martinez sent me the following information about Evergreen Cemetery:
+<br><br>
+<blockquote><i>Evergreen Cemetery was started in 1903 in Oakland, California, and is still in use today. It is well taken care of, however it is in a very bad neighborhood. I'm not sure if it's haunted or not.
+<br><br>
+This cemetery became well known after November 18th, 1978. It is the burial site for 409 unclaimed or unidentified Jonestown victims – including many children (some 227 children, including babies all buried together in a mass grave on the far side of the cemetery). Aside from the main marker stone for the grave, there is also one more flat stone marker, a family member of one of the victims placed there.
+<br><br>
+The mausoleum is two levels, and the first level (which is inaccessible to the second level) is one hall of crypts. The second is the main chapel and various halls, which can be accessed on the other side of the building. In the chapel, a large stained glass window is where the main entrance used to be.
+<br><br>
+Regardless of the neighborhood, it is a quiet place and no tombstone I can tell was vandalized.</i></blockquote>
+
+</font></p>
+
+<p align="center"><font size="2" face="verdana">
+
+<br><br>
+
+<b>Where do you want to go?  Select your destination:</b><br><br>
+<!--
+**************************************************************
+This allows you to do drop-down menu navigation. Simply
+replace the links in the 'option select' area.
+
+(C) http://www.wyka-warzecha.com
+Please leave this copyright notice in
+**************************************************************
+//-->
+
+<script language="JavaScript">
+
+<!-- 
+function goToURL(form)
+  {
+
+    var myindex=form.dropdownmenu.selectedIndex
+    if(!myindex=="")
+      {
+        window.location.href=form.dropdownmenu.options[myindex].value;
+
+        // This is an alternative method you can use
+        // var frameTarget = "_new";
+        // window.open(form.dropdownmenu.options[myindex].value,frameTarget,"");
+      }
+}
+//-->
+
+</script>
+
+<center>
+<form name="dropDownForm">
+
+  <select name="dropdownmenu" size=1 onChange="goToURL(this.form)">
+<option value="&nbsp;">Select...</option>
+<option value="index.htm">Home</option>
+<option value="cemindex.html">Cemeteries</option>
+<option value="hpindexst.html">Haunted Places</option>
+<option value="abindex.html">Abandoned Buildings</option>
+<option value="mothman.html">Mothman</option>
+<option value="parkindex.html">Historical Parks</option>
+<option value="musindex.html">Museums</option>
+<option value="ouija.html">Ouija Stories</option>
+<option value="presentation.html">Ghost Hunting Tips</option>
+<option value="symbol.html">Gravestone Symbolism</option> 
+<option value="newstuff.html">Updates</option>
+<option value="search.html">Search</option>
+<option value="links.html">Links</option>
+<option value="credits.html">Thanks To...</option> 
+<option value="sources.html">Sources</option>
+<option value="me.html">About Me</option>
+  </select>
+</form>
+<br><br></font></p>
+</td></tr>
+</table>
+</body>
+</html>
