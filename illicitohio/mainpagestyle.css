@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* PAGE STYLE  */
+
+/*   __________ START UNIVERSAL PAGE DIVS _____________  */
+
+/* These appear on all of the pages no matter what content */
+
+
+
+
+
+/* BODY */
+
+body {
+	margin: 4pt;
+	font-family: "Courier New", Courier, monospace; 
+	color: rgb(12,12,12);
+	font-size: 14pt;
+	background-color: rgb(0,0,0);
+	text-align: left;
+}
+
+a:link {
+	text-decoration: none;
+	color: rgb(255,0,0);
+	font-size: 14pt;
+}
+
+a:visited {
+	text-decoration: none;
+	color: rgb(225,0,0);
+	font-size: 14pt;
+}
+
+a:active {
+	text-decoration: none;
+	color: rgb(255,0,0);
+	font-size: 14pt;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: rgb(255,40,40);
+	font-size: 14pt;
+}
+
+#container {
+	display: block;
+	width: 90% !important; /* mozilla */
+	width: 90%;
+	float: left;
+	text-align: left;
+	border-style: solid;
+	border-width: 3px 3px 3px 3px;
+	border-color: rgb(255,255,255);
+	background-color: rgb(240,240,240);
+}
+
+#header {
+	width: 99.8% !important; /* mozilla */
+	width: 99.8%;
+	float: left;
+	background-color: rgb(0,0,0);
+}
+
+#title {
+	width: 45% !important; /* mozilla */
+	width: 45%;
+	float: left;
+	padding-left: 12px;
+}
+
+#content {
+	width: 95% !important; /* mozilla */
+	width: 95%;
+	float: left;
+	padding-left: 12px;
+}
+
+
+#imageright {
+	width: 40% !important; /* mozilla */
+	width: 40%;
+	text-align: center;
+	float: right;
+	margin: 10px;
+	padding: 5px 0px 0px 0px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: rgb(0,0,0);
+}
+
+
+#imageleft {
+	width: 40% !important; /* mozilla */
+	width: 40%;
+	text-align: center;
+	float: left;
+	margin: 10px;
+	padding: 5px 0px 5px 0px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: rgb(0,0,0);
+}
+
+#captionbox {
+	width: 100% !important; /* mozilla */
+	width: 100%;
+	color: rgb(51,51,51);
+	font-size: 8pt;
+	text-align: center;
+	float: left;
+	padding: 5px 0px 0px 0px;
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: rgb(0,0,0);
+}
+
+/* TABLE */
+
+table.buttons {
+	width:99.8%;
+	background-color: rgb(80,80,80);
+}
+
+table.buttons td.lit{background-color:rgb(80,80,80);}
+table.buttons td.dim{background-color:rgb(51,51,51);}
+
+
+a.buttons:link {
+	text-decoration: none;
+	color: rgb(255,255,255);
+	font-size: 11pt;
+}
+
+a.buttons:visited {
+	text-decoration: none;
+	color: rgb(225,240,240);
+	font-size: 11pt;
+}
+
+a.buttons:active {
+	text-decoration: none;
+	color: rgb(225,240,240);
+	font-size: 11pt;
+}
+
+a.buttons:hover {
+	text-decoration: none;
+	color: rgb(200,200,200);
+	font-size: 11pt;
+}
+
+
+
+/* FONTS */
+
+h1 {
+	color:rgb(128,128,128);
+	font-size:36px;
+	font-weight:200;
+}
+
+h2 {
+	color:rgb(128,128,128);
+	font-size:24px;
+	font-weight:normal;
+}
+
+
+
+.question {
+	color:rgb(200,0,0);
+	font-size:18px;
+}
+
+.answer {
+	color:rgb(100,100,100);
+	font-size:18px;
+}
+
+
+img.title {
+	width:100%;
+	border-style:solid;
+	border-width:1px;
+	border-color:rgb(0,0,0);
+}
